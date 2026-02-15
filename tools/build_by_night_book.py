@@ -19,6 +19,7 @@ OUT_MAP_SVG = OUT_DIR / "mapa_macro_faccoes.svg"
 OUT_HTML = OUT_DIR / "index.html"
 OUT_CSS = OUT_DIR / "book.css"
 OUT_JS = OUT_DIR / "book.js"
+SITE_CFG = ROOT / "tools" / "site_config.json"
 
 
 def die(msg: str) -> None:
@@ -112,6 +113,15 @@ def md_to_html(md: str) -> str:
 
 def as_list(v: Any) -> list:
     return v if isinstance(v, list) else []
+
+
+def read_site_config() -> dict[str, Any]:
+    if not SITE_CFG.exists():
+        return {}
+    try:
+        return json.loads(read_text(SITE_CFG))
+    except Exception:
+        return {}
 
 
 def macro_key(v: str) -> str:
@@ -1108,6 +1118,12 @@ main().catch(err => {
     # Guard against accidentally closing the script tag.
     inline_json = json.dumps(data2, ensure_ascii=False).replace("</", "<\\/")
 
+    site_cfg = read_site_config()
+    repo_url = (site_cfg.get("github_repo_url") or "").strip()
+    if not repo_url:
+        repo_url = "https://github.com/SEU_USUARIO/SEU_REPO"
+    repo_url_html = html_escape(repo_url)
+
     html = f"""<!doctype html>
 <html lang="pt-br">
 <head>
@@ -1136,6 +1152,13 @@ main().catch(err => {
           <a id="lnkTeia" href="#">Teia de conexoes (interativa)</a>
         </div>
         <div class="small">Dica: no mapa, ative "Cainitas (pins)" para ver todos. Clique num pin para abrir o retrato e detalhes.</div>
+      </div>
+      <div class="sec">
+        <h2>Projeto</h2>
+        <div class="embedRow">
+          <a id="lnkRepo" href="{repo_url_html}" target="_blank" rel="noopener">GitHub (repo)</a>
+          <a id="lnkReadme" href="../README.md" target="_blank" rel="noopener">README</a>
+        </div>
       </div>
       <div class="sec">
         <h2>NPCs (filtros)</h2>

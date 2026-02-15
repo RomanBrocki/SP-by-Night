@@ -64,6 +64,11 @@ def main() -> int:
     for png in (ROOT / "05_ASSETS" / "portraits").glob("*.png"):
         shutil.copyfile(png, DOCS / "assets" / "portraits" / png.name)
 
+    # Publish README for in-site linking (book links to ../README.md)
+    src_readme = ROOT / "README.md"
+    if src_readme.exists():
+        shutil.copyfile(src_readme, DOCS / "README.md")
+
     # No Jekyll (avoid underscore issues)
     write(DOCS / ".nojekyll", "")
 
