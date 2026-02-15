@@ -1,0 +1,7 @@
+Nome: Damiao "Portaria"
+Tipo: ghoul
+Vinculo: Camarilla
+Papel: Retentor (seguranca e acesso em condominios)
+Area: Morumbi/Campo Belo
+Coteries/associacoes:
+- Chaves do Morumbi (Ventrue)

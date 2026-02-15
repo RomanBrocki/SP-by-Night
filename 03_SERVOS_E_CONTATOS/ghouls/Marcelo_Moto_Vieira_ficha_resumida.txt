@@ -1,0 +1,7 @@
+Nome: Marcelo "Moto" Vieira
+Tipo: ghoul
+Vinculo: Anarch
+Papel: Courier (entregas e fuga)
+Area: Baronato Sul (Capao/Grajau)
+Coteries/associacoes:
+- Matilha do Sul (Capao/Grajau)

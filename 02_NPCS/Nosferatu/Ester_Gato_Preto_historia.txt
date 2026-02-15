@@ -1,0 +1,45 @@
+Ester "Gato-Preto"
+
+Perfil:
+- Cla: Nosferatu | Seita: Anarch | Funcao: Courier de dados
+- Dominio: Zonas mistas (entregas) | Idade aparente: 24
+- Abraco: 2024 | Sire: nosferatu_nico_sombra | Acima do sire: -
+- Disciplinas (top 3): ['Obfuscate 2', 'Animalism 1', 'Potence 1']
+- Assinatura/estilo: moto, mochila, silencio
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Correios do Subsolo (rede Nosferatu)
+- Coterie Ferrugem (Mooca/Tatuape)
+
+Tom (para narrar):
+Ester "Gato-Preto" opera por infraestrutura e informacao. Em cena: uma camera cai por 90 segundos, um portao lateral esta destrancado, um caminho pelo subsolo evita blitz, e uma porta de servico vira passagem porque alguem 'ja combinou'. O custo aparece depois, como cobranca de informacao ou favor.
+
+Historia (costurada, sem resumo seco):
+Ester "Gato-Preto" nasceu em 2000. O Abraco veio em 2024 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Ser livre do controle de Nico. O medo e igualmente pratico: Que a Camarilla a capture para pressionar Nico.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
+- sumicos logisticos (entregas, galpoes, portoes, horarios).
+- Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+
+Segredo (objetivamente jogavel):
+- Ela viu um operador mortal com simbolos da SI.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e um Caitiff infiltrado.
+- Verdade (perigosa): Ela sabe um refugio usado por Sabbat.
+
+Conexoes (com motivo e custo):
+- Nico "Sombra" (kindred; Corretor de informacao) [childe]: relacao de controle e protecao
+- Renata Ferraz (kindred; Baronesa da Mooca) [ally]: Anarchs a protegem por utilidade
+- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [friend]: rede de sumico digital
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Cenas prontas (para jogar hoje):
+- Cena: Zonas mistas (entregas). Leva um pacote errado aos PJ.
+- Cena: Zonas mistas (entregas). Pede ajuda para escapar de uma cacada.
+- Cena: Zonas mistas (entregas). Vira ponte entre Camarilla e Anarchs por acidente.

@@ -1,0 +1,24 @@
+Nome / Alcunha: Bianca Saramago / Arquivista de campo
+Cla: Tremere | Seita: Camarilla
+Idade aparente: 29 | Abraco: 2012 | Potencia do Sangue 2
+Dominio / area principal: Pinheiros/Centro
+Disciplinas (top 3): ['Auspex 2', 'Blood Sorcery 2', 'Dominate 1']
+Assinatura / estilo: anotacoes demais; gentileza como isca
+Coteries/associacoes (grupo e rede):
+- Torre da USP (Tremere)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao destrua provas'.
+- Touchstone: uma professora mortal que a formou.
+Ganchos de cena:
+- Entrega aos PJ um mapa de simbolos do Buraco do Centro.
+- Pede escolta para uma coleta em cemiterio.
+- Vira alvo de um cultista Ministry.
+Atuacao mortal (explicita):
+- Academia e laboratorios (pesquisa, bolsas, comites de etica como escudo).
+- Ocultismo de vitrine (livrarias, palestras, grupos de estudo).
+- Arquivos e burocracia (quem controla o registro controla a versao).
+Servos/contatos notaveis (entrada rapida):
+- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [childe]: lealdade e medo
+- Soraia Nunes (kindred; Interprete de ecos (mediunica)) [client]: paga por silencio de mortos
+- Helena Vasconcelos (kindred; Guardia de Elysium (curadora)) [ally]: acesso a eventos e bibliotecas privadas

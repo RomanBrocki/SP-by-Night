@@ -1,0 +1,29 @@
+Nome / Alcunha: Luiza Salles / Senescal e Harpia principal
+Cla: Toreador | Seita: Camarilla
+Idade aparente: 33 | Abraco: 1987 | Potencia do Sangue 4
+Dominio / area principal: Pinheiros/Vila Madalena
+Disciplinas (top 3): ['Presence 4', 'Auspex 3', 'Celerity 2']
+Assinatura / estilo: elogio que corta, sorriso que condena
+Coteries/associacoes (grupo e rede):
+- Corte do Elysium (Camarilla)
+- Salao de Pinheiros (Toreador)
+Ghouls/servos diretos: 3
+- Camila "Flash" Siqueira (Fotografa de evento (imagem, corte, prova))
+- Carla Nogueira (Assistente de curadoria (Elysium))
+- Silvia Kajiki (Recepcao e lista (Elysium de Pinheiros))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'A verdade e uma performance'.
+- Touchstone: uma curadora mortal que ela protege.
+Ganchos de cena:
+- Oferece status aos PJ em troca de um segredo.
+- Faz um PJ virar assunto para medir reacoes.
+- Entrega um boon pequeno que vira algema.
+Atuacao mortal (explicita):
+- Arte e midia (curadoria, eventos, reputacao e narrativas).
+- Cenas noturnas (clubes, galerias, circulos VIP).
+- Intermediacao social (listas, convites, portas que abrem e fecham).
+- Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
+Servos/contatos notaveis (entrada rapida):
+- Artur Macedo (kindred; Principe de Sao Paulo) [boon_owed]: Major; ele comprou o silencio
+- Nico "Sombra" (kindred; Corretor de informacao) [rival]: odeia depender de informacao feia
+- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [uneasy]: culto tentando seduzir sua corte

@@ -1,0 +1,45 @@
+Paulo "O Vidente"
+
+Perfil:
+- Cla: Malkavian | Seita: Autarquicos | Funcao: Oraculo de tunel
+- Dominio: Galerias e estacoes (rumores) | Idade aparente: 37
+- Abraco: 1993 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Auspex 4', 'Obfuscate 2', 'Dominate 1']
+- Assinatura/estilo: pressagio como conversa; verdade como piada
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Os Ouvidores (Malkavian)
+
+Tom (para narrar):
+Paulo "O Vidente" e percepcao que incomoda. Em cena: padroes aparecem onde ninguem queria ver, e uma frase fora de lugar desmonta a mascara de uma sala inteira.
+
+Historia (costurada, sem resumo seco):
+Paulo "O Vidente" nasceu em 1960. O Abraco veio em 1993 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Ver o que esta por tras do apagao perfeito. O medo e igualmente pratico: Que o Buraco coma vozes e deixe so silencio.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rumor e previsao (padroes sociais, coincidencias, mensagens).
+- intervencoes pequenas com impacto grande (um telefonema muda tudo).
+
+Segredo (objetivamente jogavel):
+- Ele conhece um nome que faz ecos do Buraco obedecerem. [CANON-ADJACENT / HOME BREW]
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele e um Nosferatu usando mascara.
+- Verdade (perigosa): Ele ja levou a SI ate um refugio para provar um ponto.
+
+Conexoes (com motivo e custo):
+- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [ally]: troca pressagios por rotas
+- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: avisos e rotas
+- Irene da Luz (kindred; Curandeira escondida) [friend]: cura e visao se reconhecem
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- malkavian_cecilia_linha_dois
+
+Cenas prontas (para jogar hoje):
+- Cena: Galerias e estacoes (rumores). Diz aos PJ um nome que muda tudo (sem explicar).
+- Cena: Galerias e estacoes (rumores). Entrega um mapa de sonho do Buraco do Centro.
+- Cena: Galerias e estacoes (rumores). Se recusa a falar ate receber um boon simbolico.

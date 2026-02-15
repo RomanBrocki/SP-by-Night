@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "note": "Mapeamento HOME BREW: dominios (ids do sp_map_config.json) -> distritos oficiais (ds_nome do GeoJSON). Vila Madalena e 'bairro', mas cai dentro do distrito PINHEIROS; Berrini e eixo corporativo dentro de ITAIM BIBI/CAMPO BELO/SANTO AMARO."
+  },
+  "domain_districts": {
+    "barra_funda_lapa": [
+      "BARRA FUNDA",
+      "LAPA",
+      "VILA LEOPOLDINA",
+      "JAGUARE",
+      "JAGUARA"
+    ],
+    "bela_vista_bixiga": [
+      "BELA VISTA"
+    ],
+    "bordas_verdes": [
+      "PARELHEIROS",
+      "MARSILAC"
+    ],
+    "bras_pari": [
+      "BRAS",
+      "PARI"
+    ],
+    "butanta_usp": [
+      "BUTANTA"
+    ],
+    "cemiterios_centro": [
+      "CONSOLACAO"
+    ],
+    "centro_velho": [
+      "SE",
+      "REPUBLICA"
+    ],
+    "consolacao_higienopolis": [
+      "CONSOLACAO",
+      "SANTA CECILIA"
+    ],
+    "ipiranga_cursino": [
+      "IPIRANGA",
+      "CURSINO"
+    ],
+    "itaim_berrini": [
+      "ITAIM BIBI",
+      "CAMPO BELO",
+      "SANTO AMARO"
+    ],
+    "liberdade": [
+      "LIBERDADE"
+    ],
+    "moema_vila_mariana": [
+      "MOEMA",
+      "VILA MARIANA"
+    ],
+    "mooca_tatuape": [
+      "MOOCA",
+      "TATUAPE"
+    ],
+    "morumbi_campo_belo": [
+      "MORUMBI",
+      "CAMPO BELO"
+    ],
+    "paulista_jardins": [
+      "CONSOLACAO",
+      "JARDIM PAULISTA",
+      "BELA VISTA"
+    ],
+    "perdizes_barra_funda": [
+      "PERDIZES",
+      "BARRA FUNDA"
+    ],
+    "pinheiros_vila_madalena": [
+      "PINHEIROS",
+      "ALTO DE PINHEIROS"
+    ],
+    "rodoanel_rotas": [],
+    "santana_tucuruvi": [
+      "SANTANA",
+      "TUCURUVI"
+    ]
+  }
+}

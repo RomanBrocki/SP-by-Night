@@ -1,0 +1,25 @@
+Nome / Alcunha: Maru "Vento" / Scout de baronia
+Cla: Ravnos | Seita: Anarch
+Idade aparente: 23 | Abraco: 2027 | Potencia do Sangue 2
+Dominio / area principal: Leste (rotas)
+Disciplinas (top 3): ['Obfuscate 1', 'Presence 1', 'Animalism 1']
+Assinatura / estilo: sempre leve; nunca fica
+Coteries/associacoes (grupo e rede):
+- Leste de Aco (Itaquera/Extremo Leste)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao entregue ninguem a cacadores'.
+- Touchstone: uma amiga mortal que ela tira de perigo.
+Ganchos de cena:
+- Serve de guia para um encontro perigoso.
+- Rouba algo dos PJ e depois devolve com explicacao.
+- Some com uma prova que podia estourar a Mascara.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+Servos/contatos notaveis (entrada rapida):
+- Ravi "Truque" (kindred; Ilusionista de esquina) [childe]: amor e irritacao
+- Renata Ferraz (kindred; Baronesa da Mooca) [ally]: trabalha para a baronia
+- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [friend]: rotas e respeito

@@ -1,0 +1,24 @@
+Nome / Alcunha: Nina "Costura" / Cirurgia e favores (carne e segredos)
+Cla: Tzimisce | Seita: Autarquicos
+Idade aparente: 40 | Abraco: 1959 | Potencia do Sangue 3
+Dominio / area principal: Centro/clinicas clandestinas
+Disciplinas (top 3): ['Protean 3', 'Dominate 2', 'Animalism 1']
+Assinatura / estilo: gentileza clinica; horror artesanal
+Coteries/associacoes (grupo e rede):
+- (Sem grupo formal registrado)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Tudo tem forma'.
+- Touchstone: um caderno de anatomia com nomes riscados.
+Ganchos de cena:
+- Pode consertar alguem (com custo).
+- Pede aos PJ um corpo sem perguntas.
+- Oferece disfarce corporal para fugir da SI.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+Servos/contatos notaveis (entrada rapida):
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: mortos e carne se odeiam
+- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [rival]: magia vs forma
+- Camila "Noite-Funda" (kindred; Dissidente (ex-Camarilla)) [client]: disfarces por boons

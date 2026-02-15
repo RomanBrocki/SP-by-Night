@@ -1,0 +1,46 @@
+Yusuf Rahman
+
+Perfil:
+- Cla: Banu Haqim | Seita: Independentes | Funcao: Juiz itinerante
+- Dominio: Rotas (aeroporto/rodovias) | Idade aparente: 60
+- Abraco: 1918 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Blood Sorcery 3', 'Obfuscate 2', 'Celerity 2']
+- Assinatura/estilo: aparece uma vez, muda destinos, desaparece
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Corredores de Sombra (conselho de corretores)
+
+Tom (para narrar):
+Yusuf Rahman faz a conversa virar procedimento. Em cena: perguntas parecem casuais, mas montam um quadro; contradicoes viram chantagem; e a punicao vem como 'precedente' (multa, restricao, aviso do Xerifado). Nao e teatral: e disciplina e rastreio.
+
+Historia (costurada, sem resumo seco):
+Yusuf Rahman nasceu em 1869. O Abraco veio em 1918 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Manter a linhagem longe de politicas pequenas. O medo e igualmente pratico: Que Samira se torne ferramenta da Camarilla.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede juridica e de investigacao (advocacia, auditoria, pressao oficial).
+- seguranca e resposta (pessoas que chegam rapido demais).
+- Controle de risco e rastros (apagar evidencia, reescrever narrativa).
+
+Segredo (objetivamente jogavel):
+- Ele ja julgou um anciao de outro cla e sobreviveu.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele e um agente da SI.
+- Verdade (perigosa): Ele sabe um refugio antigo abaixo do Centro velho.
+
+Conexoes (com motivo e custo):
+- Samira al-Haddad (kindred; Xerife) [sire]: puxa as cordas quando quer
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: detesta negocio com mortos
+- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [ally]: acordo de nao-interferencia
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- banuhaqim_samira_al_haddad
+
+Cenas prontas (para jogar hoje):
+- Cena: Rotas (aeroporto/rodovias). Chega para arbitrar uma disputa que vira guerra.
+- Cena: Rotas (aeroporto/rodovias). Oferece uma sentenca: perdao em troca de sangue.
+- Cena: Rotas (aeroporto/rodovias). Tem informacoes sobre a SI em outras cidades.

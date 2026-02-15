@@ -1,0 +1,47 @@
+Bia "Matilha"
+
+Perfil:
+- Cla: Gangrel | Seita: Anarch | Funcao: Patrulheira de fronteira (cinturao)
+- Dominio: Oeste/Sul (bordas verdes) | Idade aparente: 30
+- Abraco: 2008 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Protean 3', 'Animalism 2', 'Fortitude 2']
+- Assinatura/estilo: cheiro de chuva; olhos de caca
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Matilha do Sul (Capao/Grajau)
+
+Tom (para narrar):
+Bia "Matilha" e fronteira viva. Em cena: rotas, bordas e lugares que a cidade finge que nao existem ganham dono por presenca fisica. Aqui promessa vale menos que demonstracao.
+
+Historia (costurada, sem resumo seco):
+Bia "Matilha" nasceu em 1981. O Abraco veio em 2008 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Manter uma tregua funcional com lobisomens. O medo e igualmente pratico: Que a politica urbana arraste a periferia para guerra total.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rotas de carga, trilhas e fronteiras (batedores, escoltas, sumicos).
+- protecao de borda (onde a cidade vira mata, alguem manda).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+
+Segredo (objetivamente jogavel):
+- Ela tem um pacto de nao-caca com uma matilha de lobisomens. [CANON-ADJACENT / HOME BREW]
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e leal ao Principe.
+- Verdade (perigosa): Ela ja matou um vampiro por quebrar a tregua.
+
+Conexoes (com motivo e custo):
+- Renata Ferraz (kindred; Baronesa da Mooca) [ally]: fronteira protegida
+- Hector "Rodoanel" (kindred; Batedor de rotas (cargas)) [sire]: ensina sobrevivencia dura
+- Luan "Patch" (kindred; Medico de rua (limpa estrago)) [ally]: ajuda medica nas bordas
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Marcelo "Moto" Vieira: Courier (entregas e fuga) (area: Baronato Sul (Capao/Grajau))
+- Wesley "Corredor" Dias: Motoqueiro de rota (sangue, arma, gente) (area: Baronato Sul (Capao/Grajau))
+
+Linhagem (quem carrega seu sangue e seu problema):
+- gangrel_hector_rodoanel
+
+Cenas prontas (para jogar hoje):
+- Cena: Oeste/Sul (bordas verdes). Leva os PJ para fora da cidade por uma tarefa urgente.
+- Cena: Oeste/Sul (bordas verdes). Avisa sobre lobisomens e cobra respeito.
+- Cena: Oeste/Sul (bordas verdes). Oferece abrigo rural temporario.

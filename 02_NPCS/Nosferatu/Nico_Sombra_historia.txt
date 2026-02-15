@@ -1,0 +1,48 @@
+Nico "Sombra"
+
+Perfil:
+- Cla: Nosferatu | Seita: Camarilla | Funcao: Corretor de informacao
+- Dominio: Bras/Pari + Corredores logisticos (Barra Funda/Lapa) | Idade aparente: 30
+- Abraco: 2001 | Sire: nosferatu_vovo_zilda | Acima do sire: -
+- Disciplinas (top 3): ['Obfuscate 4', 'Animalism 2', 'Potence 2']
+- Assinatura/estilo: voz em audio, encontro em lugar errado
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Correios do Subsolo (rede Nosferatu)
+- Corte do Elysium (Camarilla)
+
+Tom (para narrar):
+Nico "Sombra" opera por infraestrutura e informacao. Em cena: uma camera cai por 90 segundos, um portao lateral esta destrancado, um caminho pelo subsolo evita blitz, e uma porta de servico vira passagem porque alguem 'ja combinou'. O custo aparece depois, como cobranca de informacao ou favor.
+
+Historia (costurada, sem resumo seco):
+Nico "Sombra" nasceu em 1971. O Abraco veio em 2001 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Ser indispensavel para todos e leal a ninguem. O medo e igualmente pratico: Que a SI aprenda a cacar por padroes de dados.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
+- sumicos logisticos (entregas, galpoes, portoes, horarios).
+- Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
+
+Segredo (objetivamente jogavel):
+- Ele tem acesso a um espelho de cameras e logs: um servidor clandestino com backups e timestamps. Isso tem um local fisico, uma senha e um padrao de acesso. [CANON-ADJACENT / HOME BREW]
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele nao existe; e uma rede de varios Nosferatu.
+- Verdade (perigosa): Ele ja entregou um vampiro para a SI para salvar sua cria.
+
+Conexoes (com motivo e custo):
+- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: neutralidade comprada por informacao
+- Samira al-Haddad (kindred; Xerife) [boon_due]: Trivial; acesso a cameras
+- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: guerra de narrativa
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Jonas Santos: Correio (motoboy de rotas) (area: Corredores (Zona Cinza de carga e sumico))
+- Rui "Barata": Tecnico de campo (cabos e cameras) (area: Barra Funda/Lapa)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- nosferatu_ester_gato_preto
+
+Cenas prontas (para jogar hoje):
+- Cena: Bras/Pari + Corredores logisticos (Barra Funda/Lapa). Vende um dado crucial com preco moral.
+- Cena: Bras/Pari + Corredores logisticos (Barra Funda/Lapa). Ajuda os PJ a sumir por uma noite.
+- Cena: Bras/Pari + Corredores logisticos (Barra Funda/Lapa). Entrega prova de traicao e cria guerra.

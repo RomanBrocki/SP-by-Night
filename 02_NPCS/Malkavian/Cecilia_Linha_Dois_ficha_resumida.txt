@@ -1,0 +1,25 @@
+Nome / Alcunha: Cecilia "Linha-Dois" / Mensageira de pressagios
+Cla: Malkavian | Seita: Anarch
+Idade aparente: 22 | Abraco: 2026 | Potencia do Sangue 2
+Dominio / area principal: Tatuape/Centro (deslocamentos)
+Disciplinas (top 3): ['Auspex 2', 'Obfuscate 1', 'Dominate 1 (Dementation)']
+Assinatura / estilo: mensagens em audio; poesia como senha
+Coteries/associacoes (grupo e rede):
+- Os Ouvidores (Malkavian)
+- Coterie Ferrugem (Mooca/Tatuape)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao deixe ninguem sozinho no escuro'.
+- Touchstone: uma amiga mortal que ela nunca reencontra.
+Ganchos de cena:
+- Entrega aos PJ um aviso que salva (ou condena).
+- E cacada por ter ouvido algo da SI.
+- Leva os PJ a um lugar que nao existe no mapa.
+Atuacao mortal (explicita):
+- Rumor e previsao (padroes sociais, coincidencias, mensagens).
+- intervencoes pequenas com impacto grande (um telefonema muda tudo).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+Servos/contatos notaveis (entrada rapida):
+- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: protege suas rotas
+- Dante "Fumo" (kindred; Correio e sumico) [friend]: mensagens e sumicos
+- Hector "Rodoanel" (kindred; Batedor de rotas (cargas)) [uneasy]: ele segue rastros demais

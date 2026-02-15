@@ -1,0 +1,29 @@
+Nome / Alcunha: Artur Macedo / Principe de Sao Paulo
+Cla: Ventrue | Seita: Camarilla
+Idade aparente: 40 | Abraco: 1929 | Potencia do Sangue 4
+Dominio / area principal: Paulista/Jardins
+Disciplinas (top 3): ['Dominate 4', 'Presence 3', 'Fortitude 2']
+Assinatura / estilo: voz baixa, contratos curtos, violencia como ultima palavra
+Coteries/associacoes (grupo e rede):
+- Corte do Elysium (Camarilla)
+Ghouls/servos diretos: 3
+- Igor "Sombra" Camargo (Motorista (rota, placa, porta traseira))
+- Mariana Lobo (Chefe de gabinete (mortal))
+- Victor Pires (Seguranca e motorista (Corte do Elysium))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nenhuma divida sem lastro'.
+- Touchstone: uma neta mortal que ele nunca visita.
+Ganchos de cena:
+- Convida os PJ para 'um favor pequeno' que vira auditoria de boons.
+- Usa os PJ como mensageiros para testar lealdade de um Primogeno.
+- Oferece asilo temporario em troca de um nome.
+Atuacao mortal (explicita):
+- Financas e imobiliario (fundos, holdings, locacoes estrategicas).
+- Influencia em seguranca privada e compliance (controle de acesso, camadas de permissao).
+- Intermediacao via advogados, consultorias e fixers (apagamento de incidentes).
+- Relacoes com elites corporativas (eventos, conselhos, patrocinios).
+- Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
+Servos/contatos notaveis (entrada rapida):
+- Luiza Salles (kindred; Senescal e Harpia principal) [boon_due]: ela deve um Major pela crise de 2034
+- Samira al-Haddad (kindred; Xerife) [employer]: Xerife, tolerado por eficiencia
+- Nico "Sombra" (kindred; Corretor de informacao) [ally]: informacao em troca de neutralidade

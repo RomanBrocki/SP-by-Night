@@ -1,0 +1,25 @@
+Nome / Alcunha: Caua Martins / Executor da Baronesa (linha dura)
+Cla: Brujah | Seita: Anarch
+Idade aparente: 29 | Abraco: 2016 | Potencia do Sangue 2
+Dominio / area principal: Mooca (ruas)
+Disciplinas (top 3): ['Potence 2', 'Celerity 2', 'Presence 1']
+Assinatura / estilo: sorriso curto; punho rapido; lealdade feroz
+Coteries/associacoes (grupo e rede):
+- Coterie Ferrugem (Mooca/Tatuape)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao ataque quem nao escolheu a guerra'.
+- Touchstone: um irmao mortal que ele sustenta.
+Ganchos de cena:
+- Protege os PJ se eles provarem utilidade.
+- Ameaça os PJ por pisarem no territorio errado.
+- E acusado de um crime que nao cometeu.
+Atuacao mortal (explicita):
+- Movimento de rua e protecao informal (bairro, torcida, sindicato, igreja local).
+- Crime organizado de baixo perfil (cobranca, seguranca, 'taxa').
+- mediacao com liderancas comunitarias (favor por favor).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+Servos/contatos notaveis (entrada rapida):
+- Renata Ferraz (kindred; Baronesa da Mooca) [childe]: lealdade e ambicao
+- Elias "Sal" (kindred; Agitador de celula (cobrador)) [boon_owed]: favor sujo por dinheiro e culto
+- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [uneasy]: nao confia em 'animais' na politica

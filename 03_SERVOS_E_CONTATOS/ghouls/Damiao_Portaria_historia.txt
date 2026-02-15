@@ -1,0 +1,28 @@
+Damiao "Portaria"
+
+Perfil:
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Retentor (seguranca e acesso em condominios)
+- Area: Morumbi/Campo Belo
+
+Coteries/associacoes:
+- Chaves do Morumbi (Ventrue)
+
+Tom (para narrar):
+Damiao "Portaria" e porta e permissao. Em cena: ele(a) decide quem entra, quem espera, qual elevador funciona, e qual justificativa o predio aceita. Area operacional: Morumbi/Campo Belo.
+
+Historia (costurada, sem resumo seco):
+Damiao "Portaria" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Retentor (seguranca e acesso em condominios). A area operacional e Morumbi/Campo Belo. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+
+Segredo (objetivamente jogavel):
+- (Nao definido)
+
+Conexoes (com motivo e custo):
+- Henrique Valadares (kindred; Primogeno Ventrue (financas de guerra)) [servant]: acesso, vigilância, chaves-mestras
+
+Cenas prontas (para jogar hoje):
+- Cena: um contato some e vira alavanca politica.

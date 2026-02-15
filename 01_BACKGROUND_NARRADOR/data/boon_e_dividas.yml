@@ -1,0 +1,15 @@
+meta:
+  chronicle_year: 2035
+boons:
+  - from: "toreador_luiza_salles"
+    to: "ventrue_artur_macedo"
+    level: "Major"
+    reason: "silencio comprado apos incidente de Mascara em 2034"
+  - from: "banuhaqim_samira_al_haddad"
+    to: "nosferatu_nico_sombra"
+    level: "Trivial"
+    reason: "acesso a cameras e rotas de fuga"
+  - from: "tremere_dario_kron"
+    to: "hecata_donato_lazzari"
+    level: "Minor"
+    reason: "intermediacao com mortos para recuperar um item do chantry"

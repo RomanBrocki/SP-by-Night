@@ -1,0 +1,48 @@
+Padre Miguel Aranha
+
+Perfil:
+- Cla: Lasombra | Seita: Camarilla | Funcao: Guardiao de confissoes (Camarilla)
+- Dominio: Bela Vista/Bixiga (Confissao; salas privadas) | Idade aparente: 47
+- Abraco: 1948 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Oblivion 3', 'Dominate 3', 'Potence 2']
+- Assinatura/estilo: conselho como chantagem; sombra como assinatura
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- A Confissao Preta (Lasombra)
+- Corte do Elysium (Camarilla)
+
+Tom (para narrar):
+Padre Miguel Aranha usa culpa, segredo e protecao como moeda. Em cena: alguem oferece 'refugio' e pede confissao; um erro de Mascara vira 'pecado' a ser pago; e a protecao vem com obediencia e silencio.
+
+Historia (costurada, sem resumo seco):
+Padre Miguel Aranha nasceu em 1899. O Abraco veio em 1948 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Fixar os Lasombra como indispensaveis na Camarilla local. O medo e igualmente pratico: Que a Camarilla o trate como descartavel quando a SI apertar.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Igrejas, filantropia e bastidores (moral como ferramenta).
+- Acordos de silencio (testemunha vira devota, nao delatora).
+- Acesso a 'fundos escuros' (quem paga, some).
+
+Segredo (objetivamente jogavel):
+- Ele sabe quem apagou o rastro do Abraco ilegal do Principe: nome, metodo e local do arquivo adulterado. O problema e que ele tambem participou (mesmo que por omissao), e existe um registro que prova isso.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele ainda serve ao Sabbat.
+- Verdade (perigosa): Ele ja destruiu um anciao em Elysium sem testemunhas.
+
+Conexoes (com motivo e custo):
+- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [ally]: acordo de integracao
+- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [uneasy]: rivalidade silenciosa
+- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [rival]: guerra de fe e influencia
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Jonas "Coro": Coordenador de abrigo e coral (facilitador) (area: Centro)
+- Marcos "Sacristao" Vieira: Sacristao e logistica (chaves, horarios, sala dos fundos) (area: Bela Vista/Bixiga)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- lasombra_camila_noite_funda
+
+Cenas prontas (para jogar hoje):
+- Cena: Bela Vista/Bixiga (Confissao; salas privadas). Oferece absolucao em troca de um boon.
+- Cena: Bela Vista/Bixiga (Confissao; salas privadas). Pede que os PJ silenciem um culto que cresceu demais.
+- Cena: Bela Vista/Bixiga (Confissao; salas privadas). Entrega um alvo para o Xerife e pede que os PJ confirmem.

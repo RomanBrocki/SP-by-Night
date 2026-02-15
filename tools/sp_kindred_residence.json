@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "note": "Fonte de verdade para 'onde este Cainita habita' em termos de camadas macro/domínios expressivos do mapa. Ajuste manualmente se quiser."
+  },
+  "residence": {
+    "ventrue_artur_macedo": {
+      "name": "Artur Macedo",
+      "sect": "Camarilla",
+      "residence_id": "paulista_jardins",
+      "residence_label": "Paulista/Jardins",
+      "source": "override",
+      "domain_raw": "Paulista/Jardins"
+    },
+    "ventrue_isabel_amaral": {
+      "name": "Isabel do Amaral",
+      "sect": "Camarilla",
+      "residence_id": "itaim_berrini",
+      "residence_label": "Itaim/Berrini",
+      "source": "override",
+      "domain_raw": "Itaim/Berrini"
+    },
+    "ventrue_mateus_cordeiro": {
+      "name": "Mateus Cordeiro",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Paulista"
+    },
+    "toreador_luiza_salles": {
+      "name": "Luiza Salles",
+      "sect": "Camarilla",
+      "residence_id": "pinheiros_vila_madalena",
+      "residence_label": "Pinheiros/Vila Madalena",
+      "source": "override",
+      "domain_raw": "Pinheiros/Vila Madalena"
+    },
+    "toreador_helena_vasconcelos": {
+      "name": "Helena Vasconcelos",
+      "sect": "Camarilla",
+      "residence_id": "liberdade",
+      "residence_label": "Liberdade",
+      "source": "override",
+      "domain_raw": "Liberdade (Elysium satelite)"
+    },
+    "toreador_daniel_sato": {
+      "name": "Daniel Sato",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Liberdade/Paulista"
+    },
+    "banuhaqim_samira_al_haddad": {
+      "name": "Samira al-Haddad",
+      "sect": "Camarilla",
+      "residence_id": "santana_tucuruvi",
+      "residence_label": "Santana/Tucuruvi (Xerifado)",
+      "source": "override",
+      "domain_raw": "Santana/Tucuruvi (Xerifado; base de pressao e resposta)"
+    },
+    "banuhaqim_yusuf_rahman": {
+      "name": "Yusuf Rahman",
+      "sect": "Autarquico",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Rotas (aeroporto/rodovias)"
+    },
+    "nosferatu_nico_sombra": {
+      "name": "Nico \"Sombra\"",
+      "sect": "Camarilla",
+      "residence_id": "bras_pari",
+      "residence_label": "Bras/Pari (Mercado de Sombras)",
+      "source": "override",
+      "domain_raw": "Bras/Pari + Corredores logisticos (Barra Funda/Lapa)"
+    },
+    "nosferatu_vovo_zilda": {
+      "name": "Vovo Zilda",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Galerias do Centro"
+    },
+    "nosferatu_ester_gato_preto": {
+      "name": "Ester \"Gato-Preto\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "override",
+      "domain_raw": "Zonas mistas (entregas)"
+    },
+    "brujah_renata_ferraz": {
+      "name": "Renata Ferraz",
+      "sect": "Anarch",
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "override",
+      "domain_raw": "Tatuape/Mooca"
+    },
+    "brujah_joao_do_trem": {
+      "name": "Joao do Trem",
+      "sect": "Autarquico",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Corredores e estacoes (rumores)"
+    },
+    "brujah_caua_martins": {
+      "name": "Caua Martins",
+      "sect": "Anarch",
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "override",
+      "domain_raw": "Mooca (ruas)"
+    },
+    "ministry_talita_serpente": {
+      "name": "Talita \"Serpente\"",
+      "sect": "Autarquico",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Pinheiros/baixa Augusta (celulas)"
+    },
+    "ministry_elias_sal": {
+      "name": "Elias \"Sal\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "override",
+      "domain_raw": "Mooca e rotas"
+    },
+    "lasombra_padre_miguel_aranha": {
+      "name": "Padre Miguel Aranha",
+      "sect": "Camarilla",
+      "residence_id": "bela_vista_bixiga",
+      "residence_label": "Bela Vista/Bixiga (Confissao)",
+      "source": "override",
+      "domain_raw": "Bela Vista/Bixiga (Confissao; salas privadas)"
+    },
+    "tremere_dario_kron": {
+      "name": "Dario Kron",
+      "sect": "Camarilla",
+      "residence_id": "butanta_usp",
+      "residence_label": "Butanta/USP (Torre Tremere)",
+      "source": "override",
+      "domain_raw": "Butanta/USP (Torre Tremere; refugios dispersos)"
+    },
+    "tremere_bianca_saramago": {
+      "name": "Bianca Saramago",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Pinheiros/Centro"
+    },
+    "hecata_donato_lazzari": {
+      "name": "Donato Lazzari",
+      "sect": "Autarquico",
+      "residence_id": "indep_cemiterios",
+      "residence_label": "Independentes: Cemiterios/Funerarias (enclave)",
+      "source": "override",
+      "domain_raw": "Centro Velho / cemiterios"
+    },
+    "hecata_soraia_nunes": {
+      "name": "Soraia Nunes",
+      "sect": "Autarquico",
+      "residence_id": "indep_cemiterios",
+      "residence_label": "Independentes: Cemiterios/Funerarias (enclave)",
+      "source": "override",
+      "domain_raw": "Centro Velho (consultas)"
+    },
+    "hecata_iago_siqueira": {
+      "name": "Iago Siqueira",
+      "sect": "Autarquico",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "override",
+      "domain_raw": "Centro Expandido (reunioes discretas)"
+    },
+    "lasombra_camila_noite_funda": {
+      "name": "Camila \"Noite-Funda\"",
+      "sect": "Anarch",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Lapa/Barra Funda"
+    },
+    "malkavian_paulo_vidente": {
+      "name": "Paulo \"O Vidente\"",
+      "sect": "Autarquico",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "override",
+      "domain_raw": "Galerias e estacoes (rumores)"
+    },
+    "malkavian_cecilia_linha_dois": {
+      "name": "Cecilia \"Linha-Dois\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "override",
+      "domain_raw": "Tatuape/Centro (deslocamentos)"
+    },
+    "gangrel_bia_matilha": {
+      "name": "Bia \"Matilha\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_sul",
+      "residence_label": "Baronato Sul (Capao/Grajau)",
+      "source": "override",
+      "domain_raw": "Oeste/Sul (bordas verdes)"
+    },
+    "gangrel_hector_rodoanel": {
+      "name": "Hector \"Rodoanel\"",
+      "sect": "Autarquico",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Rodoanel e corredores"
+    },
+    "caitiff_rafa_ferro": {
+      "name": "Rafa \"Ferro\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "override",
+      "domain_raw": "Mooca e adjacencias"
+    },
+    "caitiff_livia_semnome": {
+      "name": "Livia \"Sem-Nome\"",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Centro Expandido (circula)"
+    },
+    "thinblood_ana_carbono": {
+      "name": "Ana \"Carbono\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_leste",
+      "residence_label": "Baronato Leste (Itaquera/Extremo Leste)",
+      "source": "override",
+      "domain_raw": "Pinheiros e rotas"
+    },
+    "thinblood_dante_fumo": {
+      "name": "Dante \"Fumo\"",
+      "sect": "Autarquico",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Corredores (entregas)"
+    },
+    "thinblood_katia_zero": {
+      "name": "Katia \"Zero\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "override",
+      "domain_raw": "Centro/Pinheiros (rede)"
+    },
+    "thinblood_luan_patch": {
+      "name": "Luan \"Patch\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_sul",
+      "residence_label": "Baronato Sul (Capao/Grajau)",
+      "source": "override",
+      "domain_raw": "Oeste/Sul (bordas)"
+    },
+    "ravnos_ravi_truque": {
+      "name": "Ravi \"Truque\"",
+      "sect": "Autarquico",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Centro/Barra Funda (itinerante)"
+    },
+    "ravnos_maru_vento": {
+      "name": "Maru \"Vento\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_leste",
+      "residence_label": "Baronato Leste (Itaquera/Extremo Leste)",
+      "source": "override",
+      "domain_raw": "Leste (rotas)"
+    },
+    "salubri_irene_da_luz": {
+      "name": "Irene da Luz",
+      "sect": "Autarquico",
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "override",
+      "domain_raw": "Oeste (refugio discreto)"
+    },
+    "tzimisce_nina_costura": {
+      "name": "Nina \"Costura\"",
+      "sect": "Autarquico",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "override",
+      "domain_raw": "Centro/clinicas clandestinas"
+    },
+    "tzimisce_vlado_itapecerica": {
+      "name": "Vlado de Itapecerica",
+      "sect": "Autarquico",
+      "residence_id": "baronato_sul",
+      "residence_label": "Baronato Sul (Capao/Grajau)",
+      "source": "override",
+      "domain_raw": "Sul (bordas e sitios)"
+    },
+    "malkavian_marcia_falcao": {
+      "name": "Marcia Falcao",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Consolacao/Higienopolis (consultorios, jornais e bastidores)"
+    },
+    "toreador_clara_montenegro": {
+      "name": "Clara Montenegro",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Moema/Paraiso (galerias, hospitais e patronato)"
+    },
+    "nosferatu_raimundo_rato_rei": {
+      "name": "Raimundo \"Rato-Rei\"",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Perdizes/Barra Funda (dutos e rotas de fuga)"
+    },
+    "banuhaqim_nadia_nasser": {
+      "name": "Nadia Nasser",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Ipiranga/Cursino (tribunais, cartorios e segredos)"
+    },
+    "ventrue_henrique_valadares": {
+      "name": "Henrique Valadares",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Morumbi/Campo Belo (fundos, seguranca e condominio)"
+    },
+    "brujah_diego_itaquera": {
+      "name": "Diego \"Itaquera\" Nascimento",
+      "sect": "Anarch",
+      "residence_id": "baronato_leste",
+      "residence_label": "Baronato Leste (Itaquera/Extremo Leste)",
+      "source": "override",
+      "domain_raw": "Baronato Leste (Itaquera/Extremo Leste)"
+    },
+    "hecata_celia_moura": {
+      "name": "Celia Moura",
+      "sect": "Autarquico",
+      "residence_id": "indep_cemiterios",
+      "residence_label": "Independentes: Cemiterios/Funerarias (enclave)",
+      "source": "override",
+      "domain_raw": "Consolacao (cemiterios, funerarias e chaves)"
+    },
+    "toreador_novo_01_aiko_tanaka": {
+      "name": "Aiko Tanaka",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Pinheiros/Vila Madalena"
+    },
+    "nosferatu_novo_02_leandro_batista": {
+      "name": "Leandro Batista",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Paulista/Jardins"
+    },
+    "tremere_novo_03_maira_koehler": {
+      "name": "Maira Koehler",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Butanta/USP"
+    },
+    "lasombra_novo_04_irma_beatriz_lemos": {
+      "name": "Irma Beatriz Lemos",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Bela Vista/Bixiga"
+    },
+    "ventrue_novo_05_eduardo_nogueira": {
+      "name": "Eduardo Nogueira",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Paulista"
+    },
+    "malkavian_novo_06_miriam_kwon": {
+      "name": "Miriam Kwon",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Itaim Bibi"
+    },
+    "gangrel_novo_07_bruno_arantes": {
+      "name": "Bruno Arantes",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Alto de Pinheiros/Butanta"
+    },
+    "ministry_novo_08_vivi_fenda_lacerda": {
+      "name": "Vivi \"Fenda\" Lacerda",
+      "sect": "Anarch",
+      "residence_id": "baronato_sul",
+      "residence_label": "Baronato Sul (Capao/Grajau)",
+      "source": "override",
+      "domain_raw": "Baronato Sul (Capao/Grajau)"
+    },
+    "gangrel_novo_09_jonas_capim": {
+      "name": "Jonas \"Capim\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_sul",
+      "residence_label": "Baronato Sul (Capao/Grajau)",
+      "source": "override",
+      "domain_raw": "Baronato Sul (Capao/Grajau)"
+    },
+    "thinblood_novo_10_bruna_sinais": {
+      "name": "Bruna \"Sinais\"",
+      "sect": "Anarch",
+      "residence_id": "baronato_sul",
+      "residence_label": "Baronato Sul (Capao/Grajau)",
+      "source": "override",
+      "domain_raw": "Baronato Sul (Capao/Grajau)"
+    },
+    "brujah_novo_11_sabrina_siqueira": {
+      "name": "Sabrina Siqueira",
+      "sect": "Anarch",
+      "residence_id": "baronato_sul",
+      "residence_label": "Baronato Sul (Capao/Grajau)",
+      "source": "override",
+      "domain_raw": "Baronato Sul (Capao/Grajau)"
+    },
+    "ventrue_novo_12_raul_marques": {
+      "name": "Raul Marques",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Santana/Tucuruvi"
+    },
+    "banuhaqim_novo_13_farid_alvim": {
+      "name": "Farid Alvim",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Ipiranga/Cursino"
+    },
+    "toreador_novo_14_renata_freire": {
+      "name": "Renata Freire",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Jardim Paulista"
+    },
+    "nosferatu_novo_15_taina_aruana": {
+      "name": "Taina Aruana",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Perdizes/Barra Funda"
+    },
+    "caitiff_novo_16_caio_papel": {
+      "name": "Caio \"Papel\"",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Centro Expandido"
+    },
+    "ventrue_novo_17_helio_barros_1": {
+      "name": "Helio Barros",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Morumbi/Campo Belo"
+    },
+    "toreador_novo_18_sofia_pires_2": {
+      "name": "Sofia Pires",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Liberdade"
+    },
+    "nosferatu_novo_19_nara_sato_3": {
+      "name": "Nara Sato",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Bras/Pari"
+    },
+    "tremere_novo_20_igor_menezes_4": {
+      "name": "Igor Menezes",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Butanta/USP"
+    },
+    "lasombra_novo_21_severino_carmo_5": {
+      "name": "Severino Carmo",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Bela Vista/Bixiga"
+    },
+    "malkavian_novo_22_celia_andrade_6": {
+      "name": "Celia Andrade",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Paulista"
+    },
+    "ventrue_novo_23_helio_barros_7": {
+      "name": "Otavio Braga",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Morumbi/Campo Belo"
+    },
+    "toreador_novo_24_sofia_pires_8": {
+      "name": "Beatriz Pires",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Liberdade"
+    },
+    "nosferatu_novo_25_nara_sato_9": {
+      "name": "Keiko Sato",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Bras/Pari"
+    },
+    "tremere_novo_26_igor_menezes_10": {
+      "name": "Rafael Menezes",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Butanta/USP"
+    },
+    "lasombra_novo_27_severino_carmo_11": {
+      "name": "Afonso Carmo",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Bela Vista/Bixiga"
+    },
+    "malkavian_novo_28_celia_andrade_12": {
+      "name": "Regina Andrade",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Paulista"
+    },
+    "ventrue_novo_29_helio_barros_13": {
+      "name": "Renato Vianna",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Morumbi/Campo Belo"
+    },
+    "toreador_novo_30_sofia_pires_14": {
+      "name": "Larissa Prado",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Liberdade"
+    },
+    "nosferatu_novo_31_nara_sato_15": {
+      "name": "Hiroko Sato",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Bras/Pari"
+    },
+    "tremere_novo_32_igor_menezes_16": {
+      "name": "Caio Menezes",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Butanta/USP"
+    },
+    "lasombra_novo_33_severino_carmo_17": {
+      "name": "Bento Carmo",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Bela Vista/Bixiga"
+    },
+    "malkavian_novo_34_celia_andrade_18": {
+      "name": "Patricia Andrade",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Paulista"
+    },
+    "ventrue_novo_35_helio_barros_19": {
+      "name": "Augusto Brito",
+      "sect": "Camarilla",
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (sem territorio expressivo)",
+      "source": "default",
+      "domain_raw": "Morumbi/Campo Belo"
+    }
+  }
+}

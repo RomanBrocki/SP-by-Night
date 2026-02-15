@@ -1,0 +1,9 @@
+Nome: Yuri "Curador" Sato
+Tipo: ghoul
+Vinculo: Camarilla
+Papel: Equipe de Elysium (cenografia, alcool, saida de emergencia)
+Area: Liberdade
+Assinatura / estilo: Camisa preta, pulseira fina, olhar de quem mede fluxo de gente.
+Coteries/associacoes:
+- Corte do Elysium (Camarilla)
+- Salao de Pinheiros (Toreador)

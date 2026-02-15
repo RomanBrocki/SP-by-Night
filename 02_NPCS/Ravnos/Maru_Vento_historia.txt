@@ -1,0 +1,44 @@
+Maru "Vento"
+
+Perfil:
+- Cla: Ravnos | Seita: Anarch | Funcao: Scout de baronia
+- Dominio: Leste (rotas) | Idade aparente: 23
+- Abraco: 2027 | Sire: ravnos_ravi_truque | Acima do sire: -
+- Disciplinas (top 3): ['Obfuscate 1', 'Presence 1', 'Animalism 1']
+- Assinatura/estilo: sempre leve; nunca fica
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Leste de Aco (Itaquera/Extremo Leste)
+
+Tom (para narrar):
+Maru "Vento" e deslocamento e golpe. Em cena: verdade vira truque, truque vira rota, e ninguem sabe quem esta levando quem.
+
+Historia (costurada, sem resumo seco):
+Maru "Vento" nasceu em 2002. O Abraco veio em 2027 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Ser mais do que sombra do sire. O medo e igualmente pratico: Que a baronia a use e descarte.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+
+Segredo (objetivamente jogavel):
+- Ela tem um mapa de rotas seguras que Nico quer.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e Caitiff.
+- Verdade (perigosa): Ela ja guiou um pack Sabbat por engano.
+
+Conexoes (com motivo e custo):
+- Ravi "Truque" (kindred; Ilusionista de esquina) [childe]: amor e irritacao
+- Renata Ferraz (kindred; Baronesa da Mooca) [ally]: trabalha para a baronia
+- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [friend]: rotas e respeito
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Cenas prontas (para jogar hoje):
+- Cena: Leste (rotas). Serve de guia para um encontro perigoso.
+- Cena: Leste (rotas). Rouba algo dos PJ e depois devolve com explicacao.
+- Cena: Leste (rotas). Some com uma prova que podia estourar a Mascara.

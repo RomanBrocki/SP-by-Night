@@ -1,0 +1,23 @@
+Nome / Alcunha: Paulo "O Vidente" / Oraculo de tunel
+Cla: Malkavian | Seita: Autarquicos
+Idade aparente: 37 | Abraco: 1993 | Potencia do Sangue 3
+Dominio / area principal: Galerias e estacoes (rumores)
+Disciplinas (top 3): ['Auspex 4', 'Obfuscate 2', 'Dominate 1']
+Assinatura / estilo: pressagio como conversa; verdade como piada
+Coteries/associacoes (grupo e rede):
+- Os Ouvidores (Malkavian)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Diga a verdade certa, no momento errado'.
+- Touchstone: um grafite antigo que ele nunca deixa apagar.
+Ganchos de cena:
+- Diz aos PJ um nome que muda tudo (sem explicar).
+- Entrega um mapa de sonho do Buraco do Centro.
+- Se recusa a falar ate receber um boon simbolico.
+Atuacao mortal (explicita):
+- Rumor e previsao (padroes sociais, coincidencias, mensagens).
+- intervencoes pequenas com impacto grande (um telefonema muda tudo).
+Servos/contatos notaveis (entrada rapida):
+- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [ally]: troca pressagios por rotas
+- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: avisos e rotas
+- Irene da Luz (kindred; Curandeira escondida) [friend]: cura e visao se reconhecem

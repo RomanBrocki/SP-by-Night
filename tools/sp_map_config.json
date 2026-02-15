@@ -1,0 +1,645 @@
+{
+  "meta": {
+    "note": "Seeds de geocoding (Nominatim) para gerar um mapa real (basemap OSM) com dominios e pontos de interesse. Ajuste livre.",
+    "city": "Sao Paulo, Brazil",
+    "chronicle_year": 2035
+  },
+  "geo_zones": [
+    {
+      "id": "zone_camarilla_vitrine",
+      "name": "Vitrine Camarilla (Centro Expandido)",
+      "faction": "Camarilla",
+      "center": {
+        "lat": -23.5560945,
+        "lon": -46.6622655
+      },
+      "radius_m": 6500,
+      "notes": "Regra: noticia vira caso. Caso vira padrao. Padrao chama Lumen. Etiqueta e arma e alibi.",
+      "search": "Avenida Paulista, Sao Paulo, Brazil"
+    },
+    {
+      "id": "zone_anarch_baronias_leste",
+      "name": "Baronias Anarch (Leste e rotas)",
+      "faction": "Anarch",
+      "center": {
+        "lat": -23.5606808,
+        "lon": -46.5971924
+      },
+      "radius_m": 8500,
+      "notes": "Regra: protecao tem custo. Se voce falha, a rua cobra antes do Estado. Infiltracao de culto e risco constante.",
+      "search": "Mooca, Sao Paulo, Brazil"
+    },
+    {
+      "id": "zone_autarquicos_centro_eco",
+      "name": "Zona Autarquica (Centro Velho e ecos)",
+      "faction": "Autarquicos",
+      "center": {
+        "lat": -23.5503898,
+        "lon": -46.633081
+      },
+      "radius_m": 5200,
+      "notes": "Regra do Centro Velho: nada entra e nada sai sem custo.\n\nPara jogadores: no Centro Velho, cada porta tem um vigia, cada corredor tem um dono e cada silencio tem preco. A sensacao e de caminhar num lugar onde a cidade antiga ainda manda.\n\nPara narrador: o pedagio pode ser dinheiro (raro), mas quase sempre e social: um favor futuro, um nome entregue, uma mentira sustentada em publico, ou um 'acordo' para que um erro de Mascara nao vire relatorio. O Buraco do Centro registra quem pediu passagem, quem negou, e quem mentiu.",
+      "search": "Praca da Se, Sao Paulo, Brazil"
+    },
+    {
+      "id": "zone_corredores_zona_cinza",
+      "name": "Corredores (Zona Cinza de carga e sumico)",
+      "faction": "Zona cinza",
+      "center": {
+        "lat": -23.5248959,
+        "lon": -46.6674133
+      },
+      "radius_m": 7000,
+      "notes": "Regra: tudo parece trabalho. Rotas mudam de dono por noite. Dados valem mais que sangue.",
+      "search": "Terminal Rodoviario Barra Funda, Sao Paulo, Brazil"
+    },
+    {
+      "id": "zone_bordas_lobisomens",
+      "name": "Bordas Verdes (territorio lobisomem, sem dominio cainita)",
+      "faction": "Lobisomens",
+      "center": {
+        "lat": -23.827312,
+        "lon": -46.7277941
+      },
+      "radius_m": 14000,
+      "notes": "Regra: nao cace aqui sem permissao. Permissao pode nao vir de vampiro. Predacao repetida vira guerra.",
+      "search": "Parelheiros, Sao Paulo, Brazil"
+    },
+    {
+      "id": "zone_sabbat_incursoes",
+      "name": "Incursao Sabbat (pulsos em logistica)",
+      "faction": "Sabbat",
+      "center": {
+        "lat": -23.536284,
+        "lon": -46.7376947
+      },
+      "radius_m": 5200,
+      "notes": "Regra: aparecem como tempestade. Ritual, mensagem, sumico. Use como pulso de terror e consequencia.",
+      "search": "CEAGESP, Sao Paulo, Brazil"
+    },
+    {
+      "id": "zone_si_pressao",
+      "name": "Pressao SI (Lumen) - trilhas e triagem",
+      "faction": "Segunda Inquisicao",
+      "center": {
+        "lat": -23.5453345,
+        "lon": -46.6422571
+      },
+      "radius_m": 9000,
+      "notes": "Regra: eles nao precisam acreditar. Precisam correlacionar. Cada incidente aumenta o relogio.",
+      "search": "Republica, Sao Paulo, Brazil"
+    }
+  ],
+  "domains": [
+    {
+      "id": "paulista_jardins",
+      "name": "Paulista/Jardins",
+      "center": {
+        "lat": -23.5560945,
+        "lon": -46.6622655
+      },
+      "radius_m": 2200,
+      "keywords": [
+        "paulista",
+        "jardins",
+        "paulista/jardins",
+        "paulista (elysium)",
+        "centro/paulista"
+      ],
+      "faction": "Camarilla",
+      "search": "Avenida Paulista, Sao Paulo, Brazil"
+    },
+    {
+      "id": "itaim_berrini",
+      "name": "Itaim/Berrini",
+      "center": {
+        "lat": -23.5843807,
+        "lon": -46.6784441
+      },
+      "radius_m": 2600,
+      "keywords": [
+        "itaim",
+        "berrini",
+        "itaim/berrini"
+      ],
+      "faction": "Camarilla",
+      "search": "Itaim Bibi, Sao Paulo, Brazil"
+    },
+    {
+      "id": "pinheiros_vila_madalena",
+      "name": "Pinheiros/Vila Madalena",
+      "center": {
+        "lat": -23.5672842,
+        "lon": -46.701939
+      },
+      "radius_m": 2600,
+      "keywords": [
+        "pinheiros",
+        "vila madalena",
+        "pinheiros/vila madalena",
+        "pinheiros/baixa augusta",
+        "pinheiros/centro",
+        "paulista/pinheiros",
+        "pinheiros e rotas"
+      ],
+      "faction": "Camarilla",
+      "search": "Pinheiros, Sao Paulo, Brazil"
+    },
+    {
+      "id": "moema_vila_mariana",
+      "name": "Moema/Vila Mariana",
+      "center": {
+        "lat": -23.597085,
+        "lon": -46.6628884
+      },
+      "radius_m": 2600,
+      "keywords": [
+        "moema",
+        "vila mariana",
+        "paraiso",
+        "moema/vila mariana",
+        "patronato",
+        "saude"
+      ],
+      "faction": "Camarilla",
+      "search": "Moema, Sao Paulo, Brazil"
+    },
+    {
+      "id": "morumbi_campo_belo",
+      "name": "Morumbi/Campo Belo",
+      "center": {
+        "lat": -23.5974288,
+        "lon": -46.7067746
+      },
+      "radius_m": 3000,
+      "keywords": [
+        "morumbi",
+        "campo belo",
+        "condominio",
+        "morumbi/campo belo",
+        "seguranca privada"
+      ],
+      "faction": "Camarilla",
+      "search": "Morumbi, Sao Paulo, Brazil"
+    },
+    {
+      "id": "perdizes_barra_funda",
+      "name": "Perdizes/Barra Funda",
+      "center": {
+        "lat": -23.5379295,
+        "lon": -46.6806705
+      },
+      "radius_m": 2600,
+      "keywords": [
+        "perdizes",
+        "barra funda",
+        "perdizes/barra funda",
+        "dutos",
+        "rotas de fuga"
+      ],
+      "faction": "Camarilla",
+      "search": "Perdizes, Sao Paulo, Brazil"
+    },
+    {
+      "id": "bela_vista_bixiga",
+      "name": "Bela Vista/Bixiga",
+      "center": {
+        "lat": -23.5577085,
+        "lon": -46.6468132
+      },
+      "radius_m": 1800,
+      "keywords": [
+        "bela vista",
+        "bixiga",
+        "bela vista/bixiga",
+        "confissao",
+        "paroquia",
+        "salas privadas"
+      ],
+      "faction": "Camarilla",
+      "search": "Bixiga, Sao Paulo, Brazil"
+    },
+    {
+      "id": "bras_pari",
+      "name": "Bras/Pari",
+      "center": {
+        "lat": -23.5453263,
+        "lon": -46.6164435
+      },
+      "radius_m": 2600,
+      "keywords": [
+        "bras",
+        "pari",
+        "bras/pari",
+        "galpoes",
+        "carga",
+        "mercado de sombras"
+      ],
+      "faction": "Camarilla",
+      "search": "Bras, Sao Paulo, Brazil"
+    },
+    {
+      "id": "butanta_usp",
+      "name": "Butanta/USP",
+      "center": {
+        "lat": -23.5652201,
+        "lon": -46.712583
+      },
+      "radius_m": 2200,
+      "keywords": [
+        "butanta",
+        "usp",
+        "cidade universitaria",
+        "butanta/usp",
+        "torre tremere",
+        "laboratorio"
+      ],
+      "faction": "Camarilla",
+      "search": "Universidade de Sao Paulo, Sao Paulo, Brazil"
+    },
+    {
+      "id": "consolacao_higienopolis",
+      "name": "Consolacao/Higienopolis",
+      "center": {
+        "lat": -23.5489592,
+        "lon": -46.6523049
+      },
+      "radius_m": 2200,
+      "keywords": [
+        "consolacao",
+        "higienopolis",
+        "consultorios",
+        "midia",
+        "bastidores"
+      ],
+      "faction": "Camarilla",
+      "search": "Higienopolis, Sao Paulo, Brazil"
+    },
+    {
+      "id": "ipiranga_cursino",
+      "name": "Ipiranga/Cursino",
+      "center": {
+        "lat": -23.5892726,
+        "lon": -46.6061621
+      },
+      "radius_m": 2200,
+      "keywords": [
+        "ipiranga",
+        "cursino",
+        "tribunais",
+        "cartorios",
+        "registro"
+      ],
+      "faction": "Camarilla",
+      "search": "Ipiranga, Sao Paulo, Brazil"
+    },
+    {
+      "id": "santana_tucuruvi",
+      "name": "Santana/Tucuruvi",
+      "center": {
+        "lat": -23.5025422,
+        "lon": -46.6249225
+      },
+      "radius_m": 2600,
+      "keywords": [
+        "santana",
+        "tucuruvi",
+        "xerifado",
+        "xerife",
+        "santana/tucuruvi"
+      ],
+      "faction": "Camarilla",
+      "search": "Estacao Santana, Sao Paulo, Brazil"
+    },
+    {
+      "id": "centro_velho",
+      "name": "Centro Velho (Se/Republica)",
+      "center": {
+        "lat": -23.5503898,
+        "lon": -46.633081
+      },
+      "radius_m": 2300,
+      "keywords": [
+        "centro velho",
+        "se/",
+        "republica",
+        "centro",
+        "centro expandido",
+        "galerias do centro",
+        "galerias e estacoes"
+      ],
+      "faction": "Autarquicos",
+      "search": "Praca da Se, Sao Paulo, Brazil"
+    },
+    {
+      "id": "cemiterios_centro",
+      "name": "Cemiterios (Centro/Oeste)",
+      "center": {
+        "lat": -23.550599,
+        "lon": -46.6572312
+      },
+      "radius_m": 1800,
+      "keywords": [
+        "cemiterios",
+        "centro velho / cemiterios",
+        "centro velho/cemiterios"
+      ],
+      "faction": "Autarquicos",
+      "search": "Cemiterio da Consolacao, Sao Paulo, Brazil"
+    },
+    {
+      "id": "mooca_tatuape",
+      "name": "Tatuape/Mooca",
+      "center": {
+        "lat": -23.5606808,
+        "lon": -46.5971924
+      },
+      "radius_m": 3200,
+      "keywords": [
+        "mooca",
+        "tatuape",
+        "tatuape/mooca",
+        "mooca (ruas)",
+        "mooca e adjacencias",
+        "mooca e rotas",
+        "tatuape/centro"
+      ],
+      "faction": "Anarch",
+      "search": "Mooca, Sao Paulo, Brazil"
+    },
+    {
+      "id": "barra_funda_lapa",
+      "name": "Corredores Logistico (Barra Funda/Lapa)",
+      "center": {
+        "lat": -23.5248959,
+        "lon": -46.6674133
+      },
+      "radius_m": 3400,
+      "keywords": [
+        "barra funda",
+        "lapa",
+        "lapa/barra funda",
+        "corredores logisticos",
+        "corredores logistico",
+        "corredores (entregas)"
+      ],
+      "faction": "Zona cinza",
+      "search": "Terminal Rodoviario Barra Funda, Sao Paulo, Brazil"
+    },
+    {
+      "id": "liberdade",
+      "name": "Liberdade",
+      "center": {
+        "lat": -23.2527457,
+        "lon": -47.3033338
+      },
+      "radius_m": 1600,
+      "keywords": [
+        "liberdade",
+        "liberdade/paulista"
+      ],
+      "faction": "Camarilla",
+      "search": "Bairro da Liberdade, Sao Paulo, Brazil"
+    },
+    {
+      "id": "bordas_verdes",
+      "name": "Bordas Verdes (Sul/Oeste)",
+      "center": {
+        "lat": -23.827312,
+        "lon": -46.7277941
+      },
+      "radius_m": 9000,
+      "keywords": [
+        "bordas",
+        "bordas verdes",
+        "oeste/sul",
+        "sul (bordas",
+        "sul (bordas e sitios)",
+        "oeste/sul (bordas verdes)",
+        "oeste/sul (bordas)"
+      ],
+      "faction": "Risco lupino",
+      "search": "Parelheiros, Sao Paulo, Brazil"
+    },
+    {
+      "id": "rodoanel_rotas",
+      "name": "Rodoanel e Rotas",
+      "center": {
+        "lat": -23.4137019,
+        "lon": -46.5437006
+      },
+      "radius_m": 12000,
+      "keywords": [
+        "rodoanel",
+        "rotas (aeroporto",
+        "rodovias",
+        "zonas mistas",
+        "rotas"
+      ],
+      "faction": "Sem dono",
+      "search": "Rodoanel Mario Covas, Sao Paulo, Brazil"
+    }
+  ],
+  "pois": [
+    {
+      "id": "elysium_paulista_masp",
+      "name": "Elysium (vitrine) - proximidades do MASP",
+      "lat": -23.5614961,
+      "lon": -46.6559677,
+      "domain_id": "paulista_jardins",
+      "kind": "elysium",
+      "notes": "Tipo: Elysium Camarilla (vitrine).\nControle (publico): Artur Macedo (Principe). Protocolo: Mateus Cordeiro. Etiqueta/harpias: Luiza Salles.\nO que acontece: audiencias, anuncios, cobranca de boons, punicoes sociais discretas.\nComo usar em cena: um convite vira moeda; uma palavra errada vira 'caso'.\nRiscos: cameras, staff, seguranca privada; qualquer escandalo puxa a atencao da Operacao Lumen.",
+      "search": "MASP, Sao Paulo, Brazil"
+    },
+    {
+      "id": "japan_house",
+      "name": "Japan House (isca social)",
+      "lat": -23.5707253,
+      "lon": -46.6445287,
+      "domain_id": "paulista_jardins",
+      "kind": "social",
+      "notes": "Tipo: ponto de encontro social (Camarilla).\nO que acontece: encontros 'casuais' com testemunhas mortais demais; troca de convites e favores.\nComo usar em cena: um PJ e apresentado a alguem que 'so queria conversar'.\nRiscos: cameras e imprensa; padroes de frequencia viram pista para a SI.",
+      "search": "Japan House Sao Paulo, Brazil"
+    },
+    {
+      "id": "beco_batman",
+      "name": "Beco do Batman (rumor e foto)",
+      "lat": -23.5568771,
+      "lon": -46.6861444,
+      "domain_id": "pinheiros_vila_madalena",
+      "kind": "rumor",
+      "notes": "Tipo: gerador de rumor (Pinheiros).\nO que acontece: gente filmando tudo; historias viram 'conteudo' antes de virar boato.\nComo usar em cena: alimentacao social com risco alto, ou encontro rapido com cobertura de multidao.\nRiscos: geotag, lives, reconhecimento facial.",
+      "search": "Beco do Batman, Sao Paulo, Brazil"
+    },
+    {
+      "id": "praca_da_se",
+      "name": "Praca da Se (subsolo e eco)",
+      "lat": -23.5503898,
+      "lon": -46.633081,
+      "domain_id": "centro_velho",
+      "kind": "occult",
+      "notes": "Tipo: entrada/saidas do Centro Velho (Autarquicos/Independentes).\nO que acontece: cobranca de passagem (dinheiro, favor, informacao) para atravessar rotas seguras.\nComo usar em cena: um PJ precisa cruzar rapido e descobre que 'sempre tem alguem' cobrando.\nRiscos: emboscada, chantagem social, sumico sem testemunha.",
+      "search": "Praca da Se, Sao Paulo, Brazil"
+    },
+    {
+      "id": "estacao_republica",
+      "name": "Estacao Republica (corredor de sumico)",
+      "lat": -23.5440945,
+      "lon": -46.642665,
+      "domain_id": "centro_velho",
+      "kind": "route",
+      "notes": "Tipo: rota de passagem (Centro).\nO que acontece: troca de pacote, recado, pessoa ou celular em janela de segundos.\nComo usar em cena: perseguição e fuga; encontro com 'correio' que nao pode ser visto.\nRiscos: cameras, PM, e a SI seguindo padrao de deslocamento.",
+      "search": "Estacao Republica, Sao Paulo, Brazil"
+    },
+    {
+      "id": "cemiterio_consolacao",
+      "name": "Cemiterio da Consolacao (pedagio Hecata)",
+      "lat": -23.550599,
+      "lon": -46.6572312,
+      "domain_id": "cemiterios_centro",
+      "kind": "hecata",
+      "notes": "Tipo: enclave funerario (Hecata).\nO que acontece: cobranca de passagem, guarda de itens, 'servicos' de corpo e registro.\nComo usar em cena: esconder um corpo, recuperar um item enterrado, comprar silencio.\nRiscos: toda divida aqui tem juros; quebra de acordo gera retaliação.",
+      "search": "Cemiterio da Consolacao, Sao Paulo, Brazil"
+    },
+    {
+      "id": "cemiterio_araca",
+      "name": "Cemiterio do Araca (consulta)",
+      "lat": -23.5526948,
+      "lon": -46.6707884,
+      "domain_id": "cemiterios_centro",
+      "kind": "hecata",
+      "notes": "Tipo: ponto de consulta (Hecata).\nO que acontece: informacao obtida por meios 'mortos' (rumor, arquivo, mediunidade declarada).\nComo usar em cena: obter um nome, uma data, um lugar; pagar com favor ou informacao.\nRiscos: respostas vem com custo; alguem sempre fica sabendo o que foi perguntado.",
+      "search": "Cemiterio do Araca, Sao Paulo, Brazil"
+    },
+    {
+      "id": "mooca_galpoes",
+      "name": "Galpoes da Mooca (politica de rua)",
+      "lat": -23.5606808,
+      "lon": -46.5971924,
+      "domain_id": "mooca_tatuape",
+      "kind": "anarch",
+      "notes": "Tipo: base de rua Anarch (Mooca/Tatuape).\nO que acontece: reuniao de baronato, distribuicao de recursos, resolucao de conflito.\nComo usar em cena: pedir protecao, comprar rota, negociar tregua.\nRiscos: confronto com Camarilla ou Autarquicos; testemunhas mortais demais.",
+      "search": "Mooca, Sao Paulo, Brazil"
+    },
+    {
+      "id": "terminal_barra_funda",
+      "name": "Terminal Barra Funda (corredor logistico)",
+      "lat": -23.5248959,
+      "lon": -46.6674133,
+      "domain_id": "barra_funda_lapa",
+      "kind": "route",
+      "notes": "Tipo: corredor de deslocamento e entrega (Zona Cinza).\nO que acontece: encontro de correios, troca de mala, pessoa e documento.\nComo usar em cena: chegar/partir sem chamar atencao; sumir na multidao.\nRiscos: cameras, padrao de viagem, SI cruzando placa/horario.",
+      "search": "Terminal Rodoviario Barra Funda, Sao Paulo, Brazil"
+    },
+    {
+      "id": "ceagesp",
+      "name": "CEAGESP (carga e madrugada)",
+      "lat": -23.536284,
+      "lon": -46.7376947,
+      "domain_id": "barra_funda_lapa",
+      "kind": "logistics",
+      "notes": "Tipo: logistica pesada (Zona Cinza / disputas).\nO que acontece: carga entra e sai; gente entra e sai; 'sumicos' podem ser organizados.\nComo usar em cena: rastrear uma carga, interceptar um correio, encontrar um contato.\nRiscos: vigilancia, milicia/seguranca, e 'visitantes' Sabbat em pulsos.",
+      "search": "CEAGESP, Sao Paulo, Brazil"
+    },
+    {
+      "id": "liberdade_praca",
+      "name": "Praca da Liberdade (campo de fofoca)",
+      "lat": -23.554974,
+      "lon": -46.6354952,
+      "domain_id": "liberdade",
+      "kind": "social",
+      "notes": "Tipo: ponto social (Liberdade).\nO que acontece: encontros curtos, troca de recados, observacao.\nComo usar em cena: marcar um encontro em local com movimento constante.\nRiscos: celulares, cameras, curiosos; um boato nasce facil aqui.",
+      "search": "Praca da Liberdade, Sao Paulo, Brazil"
+    },
+    {
+      "id": "parque_ibirapuera",
+      "name": "Parque Ibirapuera (borda de vitrine)",
+      "lat": -23.5877126,
+      "lon": -46.6585214,
+      "domain_id": "paulista_jardins",
+      "kind": "boundary",
+      "notes": "Tipo: area de transicao (vitrine Camarilla, perto demais da midia).\nO que acontece: encontros discretos ao ar livre, entrega rapida, observacao.\nComo usar em cena: um 'ponto neutro' para conversa; a seguranca mortal perto impede violencia aberta.\nRiscos: cameras, guardas, curiosos; qualquer incidente vira noticia e puxa a SI.",
+      "search": "Parque Ibirapuera, Sao Paulo, Brazil"
+    },
+    {
+      "id": "elysium_pinheiros_tomie_ohtake",
+      "name": "Elysium (salao) - Instituto Tomie Ohtake",
+      "lat": -23.5611298,
+      "lon": -46.6941404,
+      "domain_id": "pinheiros_vila_madalena",
+      "kind": "elysium",
+      "notes": "Tipo: Elysium Toreador (Pinheiros).\nControle (publico): Luiza Salles (Senescal/Harpia). Curadoria: Clara Montenegro.\nO que acontece: etiqueta, arte como arma, julgamento social em voz baixa.\nComo usar em cena: pedir audiencia com Harpia; comprar rumor com status.\nRiscos: influencers, fotos, e rivais plantando 'prova' em midia social.",
+      "search": "Instituto Tomie Ohtake, Sao Paulo, Brazil"
+    },
+    {
+      "id": "ccsp_elysium_satelite",
+      "name": "Elysium (satelite) - Centro Cultural Sao Paulo",
+      "lat": -23.5706417,
+      "lon": -46.6401984,
+      "domain_id": "liberdade",
+      "kind": "elysium",
+      "notes": "Tipo: Elysium satelite (Liberdade/Paraiso).\nControle (publico): Helena Vasconcelos (curadora/guarda de Elysium).\nO que acontece: encontros menores, audiencias discretas, acordos de bastidor.\nComo usar em cena: receber instrucoes sem se expor na Paulista.\nRiscos: seguranca publica, guardas, e padrao de presenca que vira pista.",
+      "search": "Centro Cultural Sao Paulo, Sao Paulo, Brazil"
+    },
+    {
+      "id": "hospital_das_clinicas",
+      "name": "Hospital das Clinicas (risco SI / sangue e prontuario)",
+      "lat": -21.1623028,
+      "lon": -47.8528009,
+      "domain_id": "paulista_jardins",
+      "kind": "risk",
+      "notes": "Tipo: ponto de risco (prontuario, camera, triagem).\nO que acontece: sangue e registro; quem aparece demais vira padrao.\nComo usar em cena: apagar um prontuario, extrair um ferido, comprar um laudo.\nRiscos: correlacao da SI; investigadores seguindo repeticao.",
+      "search": "Hospital das Clinicas Sao Paulo, Brazil"
+    },
+    {
+      "id": "estacao_tatuape",
+      "name": "Estacao Tatuape (fronteira de baronato)",
+      "lat": -23.5402887,
+      "lon": -46.5765188,
+      "domain_id": "mooca_tatuape",
+      "kind": "route",
+      "notes": "Tipo: fronteira Anarch (Mooca/Tatuape).\nO que acontece: cobranca local, escolta, troca de recado.\nComo usar em cena: entrar no baronato sem ser confundido com invasor.\nRiscos: briga, abordagem mortal, e retaliação por 'pisar errado'.",
+      "search": "Estacao Tatuape, Sao Paulo, Brazil"
+    },
+    {
+      "id": "parque_estadual_cantareira",
+      "name": "Parque Estadual da Cantareira (risco lupino)",
+      "lat": -23.401862,
+      "lon": -46.6024918,
+      "domain_id": "bordas_verdes",
+      "kind": "lupine_risk",
+      "notes": "Tipo: borda verde (alerta lupino).\nO que acontece: presenca de predadores fora da politica cainita; a area nao e 'dominio', e aviso.\nComo usar em cena: perseguicao termina na borda e voce decide recuar ou pagar o preco.\nRiscos: confronto com lobisomens; caçada repetida vira guerra.",
+      "search": "Parque Estadual da Cantareira, Sao Paulo, Brazil"
+    },
+    {
+      "id": "galeria_do_rock",
+      "name": "Galeria do Rock (rotas, boato e encontro)",
+      "lat": -23.5442685,
+      "lon": -46.6391134,
+      "domain_id": "centro_velho",
+      "kind": "social",
+      "notes": "Tipo: ponto de encontro no Centro (Autarquicos/Independentes, com trafego mortal constante).\nO que acontece: troca de recado, compra de item, encontro sem precisar marcar mesa.\nComo usar em cena: achar um contato pela descricao; seguir alguem sem parecer perseguicao.\nRiscos: cameras e policiais; qualquer briga vira video.",
+      "search": "Galeria do Rock, Sao Paulo, Brazil"
+    },
+    {
+      "id": "igreja_achiropita_bixiga",
+      "name": "Igreja Achiropita (Bixiga) - confissao e bastidor",
+      "lat": -23.5574191,
+      "lon": -46.646786,
+      "domain_id": "paulista_jardins",
+      "kind": "occult",
+      "notes": "Tipo: bastidor religioso (Lasombra e aliados).\nO que acontece: encontros discretos, coleta de segredos, 'aconselhamento' que vira divida.\nComo usar em cena: pedir abrigo por uma noite; negociar silencio sobre um incidente.\nRiscos: voce sai com um acordo que nao percebeu que fez.",
+      "search": "Nossa Senhora Achiropita, Sao Paulo, Brazil"
+    },
+    {
+      "id": "cartorio_praca_da_se",
+      "name": "Cartorio (Se) - registro, nome e rastro",
+      "lat": -20.5324892,
+      "lon": -47.3982939,
+      "domain_id": "centro_velho",
+      "kind": "risk",
+      "notes": "Tipo: porta burocratica (Centro Velho).\nO que acontece: documento vira arma; nome vira chantagem; registro vira rastro.\nComo usar em cena: apagar um registro, recuperar um documento, rastrear uma identidade.\nRiscos: tudo deixa recibo; alguem cobra pelo acesso.",
+      "search": "Cartorio Se, Sao Paulo, Brazil"
+    }
+  ]
+}

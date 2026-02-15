@@ -1,0 +1,24 @@
+Nome / Alcunha: Vlado de Itapecerica / Exilado (violencia contida)
+Cla: Tzimisce | Seita: Autarquicos
+Idade aparente: 29 | Abraco: 2017 | Potencia do Sangue 2
+Dominio / area principal: Sul (bordas e sitios)
+Disciplinas (top 3): ['Protean 2', 'Dominate 1', 'Animalism 1']
+Assinatura / estilo: silencio; olhos que avaliam carne
+Coteries/associacoes (grupo e rede):
+- Matilha do Sul (Capao/Grajau)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao seja ferramenta de ninguem'.
+- Touchstone: uma casa antiga que ele chama de solo.
+Ganchos de cena:
+- Vira adversario se os PJ invadirem seu territorio.
+- Pode ser aliado contra o Sabbat por odio antigo.
+- Carrega um segredo sobre um ritual em cargas.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+Servos/contatos notaveis (entrada rapida):
+- Nina "Costura" (kindred; Cirurgia e favores (carne e segredos)) [childe]: amor e repulsa
+- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [uneasy]: disputa de borda
+- Soraia Nunes (kindred; Interprete de ecos (mediunica)) [uneasy]: mortos sussurram seu nome

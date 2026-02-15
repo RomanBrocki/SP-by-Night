@@ -1,0 +1,6 @@
+Nome: Leonardo "Aprendiz"
+Tipo: ghoul
+Vinculo: Camarilla
+Papel: Assistente de laboratorio (retentor)
+Area: Centro Expandido
+Assinatura / estilo: olhos vermelhos de cansaco; fala em termos tecnicos

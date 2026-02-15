@@ -1,0 +1,8 @@
+Nome: Vitor Kallas
+Tipo: ghoul
+Vinculo: Camarilla
+Papel: Motorista e apoio tatico
+Area: Centro Expandido
+Assinatura / estilo: calmo; observa saidas; fala pouco
+Coteries/associacoes:
+- Corte do Elysium (Camarilla)

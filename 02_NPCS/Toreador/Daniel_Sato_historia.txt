@@ -1,0 +1,43 @@
+Daniel Sato
+
+Perfil:
+- Cla: Toreador | Seita: Camarilla | Funcao: Harpia junior (fofoca de campo)
+- Dominio: Liberdade/Paulista | Idade aparente: 26
+- Abraco: 2018 | Sire: toreador_luiza_salles | Acima do sire: -
+- Disciplinas (top 3): ['Auspex 2', 'Presence 2', 'Celerity 1']
+- Assinatura/estilo: gentil, rapido, sempre em eventos certos
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Salao de Pinheiros (Toreador)
+
+Tom (para narrar):
+Daniel Sato domina sala e narrativa. Em cena: um elogio vira rotulo, um boato vira pauta, e uma foto fora de contexto vira sentenca social. Se a mesa 'vira assunto', a consequencia vem como portas fechadas e convites cancelados.
+
+Historia (costurada, sem resumo seco):
+Daniel Sato nasceu em 1992. O Abraco veio em 2018 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Virar indispensavel para Luiza. O medo e igualmente pratico: Ser descartado quando souber demais.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Arte e midia (curadoria, eventos, reputacao e narrativas).
+- Cenas noturnas (clubes, galerias, circulos VIP).
+- Intermediacao social (listas, convites, portas que abrem e fecham).
+
+Segredo (objetivamente jogavel):
+- Ele guarda backups de conversas comprometedoras.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele e um thin-blood fingindo ser Toreador.
+- Verdade (perigosa): Ele ja apagou um video de alimentacao em troca de sangue.
+
+Conexoes (com motivo e custo):
+- Luiza Salles (kindred; Senescal e Harpia principal) [childe]: dependencia afetiva e politica
+- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [ally]: troca favores por anonimato digital
+- Nico "Sombra" (kindred; Corretor de informacao) [client]: compra boatos com boatos
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Cenas prontas (para jogar hoje):
+- Cena: Liberdade/Paulista. Vira informante dos PJ por simpatia.
+- Cena: Liberdade/Paulista. Entrega rumor verdadeiro mas cobra protecao.
+- Cena: Liberdade/Paulista. E usado como isca pela SI sem saber.

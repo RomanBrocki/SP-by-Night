@@ -1,0 +1,47 @@
+Helena Vasconcelos
+
+Perfil:
+- Cla: Toreador | Seita: Camarilla | Funcao: Guardia de Elysium (curadora)
+- Dominio: Liberdade (Elysium satelite) | Idade aparente: 45
+- Abraco: 1956 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Auspex 3', 'Presence 2', 'Celerity 2']
+- Assinatura/estilo: cultura como arma; silencio como castigo
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Salao de Pinheiros (Toreador)
+
+Tom (para narrar):
+Helena Vasconcelos domina sala e narrativa. Em cena: um elogio vira rotulo, um boato vira pauta, e uma foto fora de contexto vira sentenca social. Se a mesa 'vira assunto', a consequencia vem como portas fechadas e convites cancelados.
+
+Historia (costurada, sem resumo seco):
+Helena Vasconcelos nasceu em 1911. O Abraco veio em 1956 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Manter Elysium intacto, custe o que custar. O medo e igualmente pratico: Que o Elysium vire alvo da SI.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Arte e midia (curadoria, eventos, reputacao e narrativas).
+- Cenas noturnas (clubes, galerias, circulos VIP).
+- Intermediacao social (listas, convites, portas que abrem e fecham).
+
+Segredo (objetivamente jogavel):
+- Guarda uma sala escondida para interrogatorios sociais.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e uma simpatizante Anarch.
+- Verdade (perigosa): Ela ja entregou um vampiro para o Xerife dentro de Elysium.
+
+Conexoes (com motivo e custo):
+- Luiza Salles (kindred; Senescal e Harpia principal) [mentor]: sire e aliada
+- Samira al-Haddad (kindred; Xerife) [ally]: seguranca discreta em eventos
+- Artur Macedo (kindred; Principe de Sao Paulo) [client]: vende paz em troca de influencia
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Lara "Contencao" Tavares: Seguranca de Elysium (contencao sem sangue, camera sem prova) (area: Liberdade/Paulista)
+- Yuri "Curador" Sato: Equipe de Elysium (cenografia, alcool, saida de emergencia) (area: Liberdade)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- toreador_luiza_salles
+
+Cenas prontas (para jogar hoje):
+- Cena: Liberdade (Elysium satelite). Oferece refugio temporario em Elysium por um favor.
+- Cena: Liberdade (Elysium satelite). Pede que os PJ recuperem uma obra roubada.
+- Cena: Liberdade (Elysium satelite). Avista um vampiro proibido e testa a lealdade dos PJ.

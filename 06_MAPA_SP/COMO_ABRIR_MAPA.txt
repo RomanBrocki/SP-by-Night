@@ -1,0 +1,6 @@
+Abra `06_MAPA_SP/mapa_sp_dominios.html`.
+
+Se o basemap ou os distritos nao carregarem, inicie um servidor local na raiz do projeto:
+- `python -m http.server 8010`
+Depois abra no navegador: `http://localhost:8010/06_MAPA_SP/mapa_sp_dominios.html`
+(Precisa internet para carregar tiles do OpenStreetMap.)

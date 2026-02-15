@@ -1,0 +1,25 @@
+Nome / Alcunha: Elias "Sal" / Agitador de celula (cobrador)
+Cla: Ministry | Seita: Anarch
+Idade aparente: 27 | Abraco: 2021 | Potencia do Sangue 2
+Dominio / area principal: Mooca e rotas
+Disciplinas (top 3): ['Presence 2', 'Obfuscate 1', 'Protean 1']
+Assinatura / estilo: sorriso facil; ameaÃ§a implÃ­cita
+Coteries/associacoes (grupo e rede):
+- Coterie Ferrugem (Mooca/Tatuape)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Quem pede deve pagar'.
+- Touchstone: um bar mortal usado como base.
+Ganchos de cena:
+- Cobra de Caua um favor antigo.
+- Oferece aos PJ acesso a uma rede de documentos falsos.
+- Vira suspeito em um crime de Mascara.
+Atuacao mortal (explicita):
+- Cultos urbanos e recrutamento (influencia, vicio, promessa).
+- espacos de festa e culto (boate, after, estudio, 'retiro').
+- extorsao suave (a pessoa acha que escolheu).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+Servos/contatos notaveis (entrada rapida):
+- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [childe]: devocao e ressentimento
+- Caua Martins (kindred; Executor da Baronesa (linha dura)) [creditor]: favor sujo em aberto
+- Renata Ferraz (kindred; Baronesa da Mooca) [uneasy]: usa a baronia como zona cinza

@@ -1,0 +1,24 @@
+Nome / Alcunha: Talita "Serpente" / Pregadora do Vicio (culto urbano)
+Cla: Ministry | Seita: Independentes
+Idade aparente: 31 | Abraco: 2010 | Potencia do Sangue 3
+Dominio / area principal: Pinheiros/baixa Augusta (celulas)
+Disciplinas (top 3): ['Presence 3', 'Obfuscate 2', 'Protean 2']
+Assinatura / estilo: promessa de alivio; custo escondido
+Coteries/associacoes (grupo e rede):
+- Corredores de Sombra (conselho de corretores)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Liberdade e o unico sacramento'.
+- Touchstone: uma comunidade mortal 'recuperada'.
+Ganchos de cena:
+- Oferece aos PJ um abrigo contra SI (com preco).
+- Tenta seduzir um PJ para uma celula do culto.
+- Entrega um boato verdadeiro para causar caos no Elysium.
+Atuacao mortal (explicita):
+- Cultos urbanos e recrutamento (influencia, vicio, promessa).
+- espacos de festa e culto (boate, after, estudio, 'retiro').
+- extorsao suave (a pessoa acha que escolheu).
+Servos/contatos notaveis (entrada rapida):
+- Luiza Salles (kindred; Senescal e Harpia principal) [pressure]: tenta infiltrar a corte
+- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [rival]: guerra de fe e controle
+- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [supplier]: compra 'milagres' alquimicos

@@ -1,0 +1,25 @@
+Nome / Alcunha: Joao do Trem / Lenda de trilhos (ancao de periferia)
+Cla: Brujah | Seita: Independentes
+Idade aparente: 50 | Abraco: 1974 | Potencia do Sangue 3
+Dominio / area principal: Corredores e estacoes (rumores)
+Disciplinas (top 3): ['Celerity 3', 'Potence 3', 'Presence 1']
+Assinatura / estilo: aparece em lugares onde nao devia existir
+Coteries/associacoes (grupo e rede):
+- Corredores de Sombra (conselho de corretores)
+Ghouls/servos diretos: 1
+- Beto "Mecanico" (Mantenedor de rotas (garagem))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao vire carcereiro do povo'.
+- Touchstone: um maquinista mortal que ele observa de longe.
+Ganchos de cena:
+- Surge com um aviso sobre o Buraco do Centro.
+- Pede que os PJ encontrem um thin-blood desaparecido.
+- Entrega uma rota secreta para fugir da SI.
+Atuacao mortal (explicita):
+- Movimento de rua e protecao informal (bairro, torcida, sindicato, igreja local).
+- Crime organizado de baixo perfil (cobranca, seguranca, 'taxa').
+- mediacao com liderancas comunitarias (favor por favor).
+Servos/contatos notaveis (entrada rapida):
+- Renata Ferraz (kindred; Baronesa da Mooca) [sire]: orgulho e culpa
+- Cecilia "Linha-Dois" (kindred; Mensageira de pressagios) [ally]: pressagios em troca de protecao
+- Dante "Fumo" (kindred; Correio e sumico) [protector]: nao gosta de ver jovens queimados

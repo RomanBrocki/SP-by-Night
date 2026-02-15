@@ -1,0 +1,22 @@
+Como abrir a teia interativa (HTML)
+
+Se voce abrir o arquivo por preview (ex: OneDrive web, alguns leitores, alguns previews do editor),
+JavaScript pode ser bloqueado. Nesse caso, o menu lateral aparece, mas o mapa nao.
+
+Opcoes recomendadas:
+
+1) Abrir via servidor local (mais confiavel)
+- Rode: ABRIR_TEIA.ps1
+- Isso abre no navegador e garante que scripts/arquivos locais carreguem corretamente.
+
+2) Abrir diretamente no navegador (pode funcionar)
+- Abra: 01_BACKGROUND_NARRADOR/teia_de_conexoes_mapa.html
+- Use Edge/Chrome/Firefox (evite preview do OneDrive web).
+
+Indicadores na barra "Selecionado":
+- "JS ativo. Preparando teia..." -> JavaScript esta rodando.
+- "Teia carregada: X nodos, Y conexoes..." -> grafo interativo carregou.
+
+Fallback:
+- Se JS estiver bloqueado, a pagina mostra a imagem teia_de_conexoes_mapa.png.
+

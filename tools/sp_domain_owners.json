@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "note": "HOME BREW: quem e o 'dono visivel' (ou principal) de cada dominio territorial do mapa. Usa ids de tools/sp_by_night_source.json."
+  },
+  "owners": {
+    "barra_funda_lapa": {
+      "owner_entity_id": "nosferatu_nico_sombra",
+      "label": "Nico \"Sombra\" (Nosferatu, corretor de informacao)"
+    },
+    "bela_vista_bixiga": {
+      "owner_entity_id": "lasombra_padre_miguel_aranha",
+      "label": "Padre Miguel Aranha (Lasombra, confessor)"
+    },
+    "bordas_verdes": {
+      "owner_entity_id": "",
+      "label": "Risco lupino (zona evitada; nao e dominio)"
+    },
+    "bras_pari": {
+      "owner_entity_id": "nosferatu_nico_sombra",
+      "label": "Nico \"Sombra\" (Nosferatu)"
+    },
+    "butanta_usp": {
+      "owner_entity_id": "tremere_dario_kron",
+      "label": "Dario Kron (Primogeno Tremere)"
+    },
+    "cemiterios_centro": {
+      "owner_entity_id": "hecata_donato_lazzari",
+      "label": "Donato Lazzari (Hecata)"
+    },
+    "centro_velho": {
+      "owner_entity_id": "hecata_donato_lazzari",
+      "label": "Donato Lazzari (Hecata, coletor de pedagios)"
+    },
+    "consolacao_higienopolis": {
+      "owner_entity_id": "malkavian_marcia_falcao",
+      "label": "Marcia Falcao (Primogena Malkavian)"
+    },
+    "ipiranga_cursino": {
+      "owner_entity_id": "banuhaqim_nadia_nasser",
+      "label": "Nadia Nasser (Primogena Banu Haqim)"
+    },
+    "itaim_berrini": {
+      "owner_entity_id": "ventrue_isabel_amaral",
+      "label": "Isabel do Amaral (Primogena Ventrue)"
+    },
+    "liberdade": {
+      "owner_entity_id": "toreador_helena_vasconcelos",
+      "label": "Helena Vasconcelos (Guardiã de Elysium)"
+    },
+    "moema_vila_mariana": {
+      "owner_entity_id": "toreador_clara_montenegro",
+      "label": "Clara Montenegro (Primogena Toreador)"
+    },
+    "mooca_tatuape": {
+      "owner_entity_id": "brujah_renata_ferraz",
+      "label": "Renata Ferraz (Baronesa Anarch)"
+    },
+    "morumbi_campo_belo": {
+      "owner_entity_id": "ventrue_henrique_valadares",
+      "label": "Henrique Valadares (Primogeno Ventrue)"
+    },
+    "paulista_jardins": {
+      "owner_entity_id": "ventrue_artur_macedo",
+      "label": "Artur Macedo (Principe)"
+    },
+    "perdizes_barra_funda": {
+      "owner_entity_id": "nosferatu_raimundo_rato_rei",
+      "label": "Raimundo \"Rato-Rei\" (Primogeno Nosferatu)"
+    },
+    "pinheiros_vila_madalena": {
+      "owner_entity_id": "toreador_luiza_salles",
+      "label": "Luiza Salles (Senescal/Harpia)"
+    },
+    "rodoanel_rotas": {
+      "owner_entity_id": "",
+      "label": "Rotas mistas (sem dono fixo)"
+    },
+    "santana_tucuruvi": {
+      "owner_entity_id": "banuhaqim_samira_al_haddad",
+      "label": "Samira al-Haddad (Xerife)"
+    }
+  }
+}

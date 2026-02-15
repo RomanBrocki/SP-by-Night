@@ -1,0 +1,24 @@
+Nome / Alcunha: Vovo Zilda / Ancia subterranea (matriarca)
+Cla: Nosferatu | Seita: Camarilla
+Idade aparente: 70 | Abraco: 1943 | Potencia do Sangue 3
+Dominio / area principal: Galerias do Centro
+Disciplinas (top 3): ['Animalism 3', 'Obfuscate 3', 'Potence 2']
+Assinatura / estilo: conselho como maldicao; cuidado como controle
+Coteries/associacoes (grupo e rede):
+- Correios do Subsolo (rede Nosferatu)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Proteja os feios'.
+- Touchstone: um mapa desenhado a mao das galerias.
+Ganchos de cena:
+- Exige que os PJ devolvam algo ao subsolo.
+- Oferece um caminho seguro por um favor futuro.
+- Conta uma historia que e um aviso.
+Atuacao mortal (explicita):
+- Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
+- sumicos logisticos (entregas, galpoes, portoes, horarios).
+- Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
+Servos/contatos notaveis (entrada rapida):
+- Nico "Sombra" (kindred; Corretor de informacao) [sire]: controla por afeto e medo
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: pedagios e segredos se cruzam
+- Paulo "O Vidente" (kindred; Oraculo de tunel) [ally]: troca pressagios por rotas

@@ -1,0 +1,25 @@
+Nome / Alcunha: Luan "Patch" / Medico de rua (limpa estrago)
+Cla: Thin Blood | Seita: Anarch
+Idade aparente: 28 | Abraco: 2032 | Potencia do Sangue 0
+Dominio / area principal: Oeste/Sul (bordas)
+Disciplinas (top 3): ['Thin-blood Alchemy 2', 'Fortitude 1', 'Auspex 1']
+Assinatura / estilo: primeiros socorros; promessas quebradas
+Coteries/associacoes (grupo e rede):
+- Matilha do Sul (Capao/Grajau)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Salve quem pode ser salvo'.
+- Touchstone: uma clinica popular onde ele era voluntario.
+Ganchos de cena:
+- Pode tratar um PJ (ou um inimigo) sem perguntas.
+- E cobrado por um Hecata por usar material errado.
+- Pede protecao para uma rota de atendimento.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+Servos/contatos notaveis (entrada rapida):
+- Irene da Luz (kindred; Curandeira escondida) [mentor]: aprendeu etica de sangue
+- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [ally]: socorro nas bordas
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [client]: paga pedagio em servico

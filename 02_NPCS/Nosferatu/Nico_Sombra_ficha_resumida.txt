@@ -1,0 +1,27 @@
+Nome / Alcunha: Nico "Sombra" / Corretor de informacao
+Cla: Nosferatu | Seita: Camarilla
+Idade aparente: 30 | Abraco: 2001 | Potencia do Sangue 4
+Dominio / area principal: Bras/Pari + Corredores logisticos (Barra Funda/Lapa)
+Disciplinas (top 3): ['Obfuscate 4', 'Animalism 2', 'Potence 2']
+Assinatura / estilo: voz em audio, encontro em lugar errado
+Coteries/associacoes (grupo e rede):
+- Correios do Subsolo (rede Nosferatu)
+- Corte do Elysium (Camarilla)
+Ghouls/servos diretos: 2
+- Jonas Santos (Correio (motoboy de rotas))
+- Rui "Barata" (Tecnico de campo (cabos e cameras))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Informacao nao e crueldade'.
+- Touchstone: um abrigo de animais que ele protege.
+Ganchos de cena:
+- Vende um dado crucial com preco moral.
+- Ajuda os PJ a sumir por uma noite.
+- Entrega prova de traicao e cria guerra.
+Atuacao mortal (explicita):
+- Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
+- sumicos logisticos (entregas, galpoes, portoes, horarios).
+- Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
+Servos/contatos notaveis (entrada rapida):
+- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: neutralidade comprada por informacao
+- Samira al-Haddad (kindred; Xerife) [boon_due]: Trivial; acesso a cameras
+- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: guerra de narrativa

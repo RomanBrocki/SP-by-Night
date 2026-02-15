@@ -1,0 +1,24 @@
+Nome / Alcunha: Livia "Sem-Nome" / Informante tolerada
+Cla: Caitiff | Seita: Camarilla
+Idade aparente: 25 | Abraco: 2022 | Potencia do Sangue 2
+Dominio / area principal: Centro Expandido (circula)
+Disciplinas (top 3): ['Obfuscate 2', 'Auspex 1', 'Presence 1']
+Assinatura / estilo: nao deixa rastro; sempre sabe quem viu o que
+Coteries/associacoes (grupo e rede):
+- (Sem grupo formal registrado)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Sobrevivencia nao e traicao'.
+- Touchstone: uma irma mortal que ela nao procura.
+Ganchos de cena:
+- Entrega aos PJ uma pista sobre a SI.
+- E acusada de um vazamento e precisa sumir.
+- Vira isca para capturar um thin-blood alquimista.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+Servos/contatos notaveis (entrada rapida):
+- Samira al-Haddad (kindred; Xerife) [handler]: o Xerife usa quando precisa
+- Artur Macedo (kindred; Principe de Sao Paulo) [client]: vende pequenos favores por protecao
+- Nico "Sombra" (kindred; Corretor de informacao) [ally]: troca de pistas por anonimato

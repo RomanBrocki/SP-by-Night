@@ -1,0 +1,23 @@
+meta:
+  chronicle_year: 2035
+domains:
+  - name: "Paulista/Jardins"
+    style: "vitrine corporativa e etiqueta"
+    notes: "Elysium e proximidades; predacao discreta."
+    primary: "ventrue_artur_macedo"
+  - name: "Pinheiros/Vila Madalena"
+    style: "arte, boemia, fofoca"
+    notes: "Camarilla tolera desde que nao vire escandalo."
+    primary: "toreador_luiza_salles"
+  - name: "Centro Velho (Se/Republica)"
+    style: "ruina viva, memoria morta"
+    notes: "Disputado; atividade espectral e rotas subterraneas."
+    primary: "hecata_donato_lazzari"
+  - name: "Tatuape/Mooca"
+    style: "baronia anarch e tradicao"
+    notes: "Controle social via associacoes e rotas locais."
+    primary: "brujah_renata_ferraz"
+  - name: "Corredores Logisticos (Barra Funda/Lapa)"
+    style: "armazens e encontros discretos"
+    notes: "Sabbat testando limites; Nosferatu observam."
+    primary: "nosferatu_nico_sombra"

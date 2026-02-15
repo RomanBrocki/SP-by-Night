@@ -1,0 +1,26 @@
+Nome / Alcunha: Ester "Gato-Preto" / Courier de dados
+Cla: Nosferatu | Seita: Anarch
+Idade aparente: 24 | Abraco: 2024 | Potencia do Sangue 2
+Dominio / area principal: Zonas mistas (entregas)
+Disciplinas (top 3): ['Obfuscate 2', 'Animalism 1', 'Potence 1']
+Assinatura / estilo: moto, mochila, silencio
+Coteries/associacoes (grupo e rede):
+- Correios do Subsolo (rede Nosferatu)
+- Coterie Ferrugem (Mooca/Tatuape)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao venda gente'.
+- Touchstone: uma amiga mortal de rua.
+Ganchos de cena:
+- Leva um pacote errado aos PJ.
+- Pede ajuda para escapar de uma cacada.
+- Vira ponte entre Camarilla e Anarchs por acidente.
+Atuacao mortal (explicita):
+- Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
+- sumicos logisticos (entregas, galpoes, portoes, horarios).
+- Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+Servos/contatos notaveis (entrada rapida):
+- Nico "Sombra" (kindred; Corretor de informacao) [childe]: relacao de controle e protecao
+- Renata Ferraz (kindred; Baronesa da Mooca) [ally]: Anarchs a protegem por utilidade
+- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [friend]: rede de sumico digital

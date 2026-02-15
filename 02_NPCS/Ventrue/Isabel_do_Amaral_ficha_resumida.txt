@@ -1,0 +1,26 @@
+Nome / Alcunha: Isabel do Amaral / Primogena Ventrue (em retiro)
+Cla: Ventrue | Seita: Camarilla
+Idade aparente: 55 | Abraco: 1872 | Potencia do Sangue 3
+Dominio / area principal: Itaim/Berrini
+Disciplinas (top 3): ['Dominate 4', 'Fortitude 3', 'Presence 3']
+Assinatura / estilo: caridade calculada; ela manda sem aparecer
+Coteries/associacoes (grupo e rede):
+- (Sem grupo formal registrado)
+Ghouls/servos diretos: 1
+- Marcela "Cartorio" Guimaraes (Escritura e apagamento (cartorio, procuração, 'segunda via'))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Proteja a linhagem'.
+- Touchstone: uma fundacao beneficente como mascara.
+Ganchos de cena:
+- Oferece um conselho que e um comando.
+- Testa os PJ com uma tarefa moralmente cinzenta.
+- Entrega um segredo e cobra um futuro.
+Atuacao mortal (explicita):
+- Financas e imobiliario (fundos, holdings, locacoes estrategicas).
+- Influencia em seguranca privada e compliance (controle de acesso, camadas de permissao).
+- Intermediacao via advogados, consultorias e fixers (apagamento de incidentes).
+- Relacoes com elites corporativas (eventos, conselhos, patrocinios).
+Servos/contatos notaveis (entrada rapida):
+- Artur Macedo (kindred; Principe de Sao Paulo) [mentor]: sire e conselheira
+- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [rival]: nao confia em magia fora de controle
+- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [ally]: acordo de integracao discreta

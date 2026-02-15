@@ -1,0 +1,8 @@
+Nome: Silvia "Funebre" Prado
+Tipo: ghoul
+Vinculo: Autarquicos
+Papel: Diretora de funeraria (agenda, sala, 'preparo')
+Area: Consolacao (cemiterios/funerarias)
+Assinatura / estilo: Tailleur preto, lenço cinza, perfume de formol disfarçado; olhar sem pressa.
+Coteries/associacoes:
+- Enclave dos Cemiterios (Hecata)

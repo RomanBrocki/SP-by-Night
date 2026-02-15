@@ -1,0 +1,27 @@
+Nome / Alcunha: Dario Kron / Primogeno Tremere (regente de fato)
+Cla: Tremere | Seita: Camarilla
+Idade aparente: 42 | Abraco: 1968 | Potencia do Sangue 4
+Dominio / area principal: Butanta/USP (Torre Tremere; refugios dispersos)
+Disciplinas (top 3): ['Blood Sorcery 4', 'Auspex 2', 'Dominate 2']
+Assinatura / estilo: rituais curtos; paranoia como liturgia
+Coteries/associacoes (grupo e rede):
+- Corte do Elysium (Camarilla)
+- Torre da USP (Tremere)
+Ghouls/servos diretos: 2
+- Leonardo "Aprendiz" (Assistente de laboratorio (retentor))
+- Renato "Bico" Sampaio (Tecnico de laboratorio (amostras, descarte, chave de sala))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Conhecimento e responsabilidade'.
+- Touchstone: um laboratorio mortal sob patrocinio.
+Ganchos de cena:
+- Pede aos PJ que recuperem um grimorio em territorio Anarch.
+- Oferece um ritual util em troca de um nome.
+- Tenta usar os PJ para expor um traidor no cla.
+Atuacao mortal (explicita):
+- Academia e laboratorios (pesquisa, bolsas, comites de etica como escudo).
+- Ocultismo de vitrine (livrarias, palestras, grupos de estudo).
+- Arquivos e burocracia (quem controla o registro controla a versao).
+Servos/contatos notaveis (entrada rapida):
+- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [rival]: ela odeia o imprevisivel dos rituais
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [boon_owed]: Minor; intermediacao com mortos
+- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [uneasy]: nao confia em sombras na Camarilla

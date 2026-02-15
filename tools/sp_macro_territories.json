@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "note": "Macro-territorios para o mapa (HOME BREW alinhado com o lore do projeto). Distritos usam ds_nome do GeoJSON oficial."
+  },
+  "macro": [
+    {
+      "id": "camarilla_macro",
+      "label": "Camarilla (macro): Marca d'agua da cidade",
+      "faction": "Camarilla",
+      "districts": [
+        "AGUA RASA",
+        "ALTO DE PINHEIROS",
+        "ANHANGUERA",
+        "ARICANDUVA",
+        "ARTUR ALVIM",
+        "BELA VISTA",
+        "BELEM",
+        "BRAS",
+        "BRASILANDIA",
+        "BUTANTA",
+        "CACHOEIRINHA",
+        "CAMPO BELO",
+        "CAMPO GRANDE",
+        "CANGAIBA",
+        "CARRAO",
+        "CASA VERDE",
+        "CIDADE ADEMAR",
+        "CIDADE DUTRA",
+        "CIDADE LIDER",
+        "CONSOLACAO",
+        "CURSINO",
+        "ERMELINO MATARAZZO",
+        "FREGUESIA DO O",
+        "IGUATEMI",
+        "ITAIM BIBI",
+        "ITAIM PAULISTA",
+        "JABAQUARA",
+        "JACANA",
+        "JARAGUA",
+        "JARDIM HELENA",
+        "JARDIM PAULISTA",
+        "JOSE BONIFACIO",
+        "LAJEADO",
+        "LAPA",
+        "LIBERDADE",
+        "LIMAO",
+        "MANDAQUI",
+        "MARSILAC",
+        "MOEMA",
+        "MORUMBI",
+        "PARELHEIROS",
+        "PARI",
+        "PARQUE DO CARMO",
+        "PEDREIRA",
+        "PENHA",
+        "PERDIZES",
+        "PERUS",
+        "PINHEIROS",
+        "PIRITUBA",
+        "PONTE RASA",
+        "RAPOSO TAVARES",
+        "SACOMA",
+        "SANTANA",
+        "SANTO AMARO",
+        "SAO DOMINGOS",
+        "SAO LUCAS",
+        "SAO MIGUEL",
+        "SAO RAFAEL",
+        "SAUDE",
+        "SOCORRO",
+        "TATUAPE",
+        "TREMEMBE",
+        "TUCURUVI",
+        "VILA ANDRADE",
+        "VILA CURUCA",
+        "VILA FORMOSA",
+        "VILA GUILHERME",
+        "VILA JACUI",
+        "VILA MARIA",
+        "VILA MARIANA",
+        "VILA MATILDE",
+        "VILA MEDEIROS",
+        "VILA SONIA"
+      ],
+      "leader_entity_id": "ventrue_artur_macedo",
+      "leader_label": "Artur Macedo (Principe)",
+      "notes": "A Camarilla e o default: protocolo, acesso e silencio. Onde ela nao controla, ela ainda taxa."
+    }
+  ],
+  "anarch_baronatos": [
+    {
+      "id": "baronato_mooca_tatuape",
+      "label": "Baronato Anarch: Mooca/Tatuape",
+      "faction": "Anarch",
+      "districts": [
+        "MOOCA",
+        "TATUAPE"
+      ],
+      "leader_entity_id": "brujah_renata_ferraz",
+      "leader_label": "Renata Ferraz (Baronesa da Mooca)",
+      "notes": "Baronato estruturado. Protecao comunitaria com custo. Rotas e estacoes sao moeda."
+    },
+    {
+      "id": "baronato_sul",
+      "label": "Baronato Anarch: Sul (Capao/Grajau)",
+      "faction": "Anarch",
+      "districts": [
+        "CAPAO REDONDO",
+        "CAMPO LIMPO",
+        "GRAJAU",
+        "JARDIM ANGELA",
+        "JARDIM SAO LUIS"
+      ],
+      "leader_entity_id": "gangrel_bia_matilha",
+      "leader_label": "Bia \"Matilha\" (Baronesa do Sul, de fato)",
+      "notes": "Zona que a Camarilla evita reconquistar: custo alto, risco alto, pouca vitrine. Paz tenue."
+    },
+    {
+      "id": "baronato_leste",
+      "label": "Baronato Anarch: Leste (Itaquera/Extremo Leste)",
+      "faction": "Anarch",
+      "districts": [
+        "ITAQUERA",
+        "GUAIANASES",
+        "CIDADE TIRADENTES",
+        "SAO MATEUS",
+        "SAPOPEMBA"
+      ],
+      "leader_entity_id": "brujah_diego_itaquera",
+      "leader_label": "Diego \"Itaquera\" Nascimento (Barao do Leste)",
+      "notes": "Controle por rota e lealdade. O que vale aqui e quem chega primeiro e quem fica."
+    }
+  ],
+  "independentes": [
+    {
+      "id": "indep_centro_velho",
+      "label": "Autarquicos: Centro Velho (subsolo e eco)",
+      "faction": "Autarquicos",
+      "districts": [
+        "SE",
+        "REPUBLICA",
+        "SANTA CECILIA",
+        "BOM RETIRO",
+        "CAMBUCI"
+      ],
+      "leader_entity_id": "hecata_donato_lazzari",
+      "leader_label": "Donato Lazzari (Hecata)",
+      "notes": "Acordos de passagem, pedagios e rotas. O custo e sempre social antes de ser dinheiro."
+    },
+    {
+      "id": "indep_corredores",
+      "label": "Independentes: Corredores (Zona Cinza de carga e sumico)",
+      "faction": "Independentes",
+      "districts": [
+        "BARRA FUNDA",
+        "LAPA",
+        "VILA LEOPOLDINA",
+        "JAGUARE",
+        "JAGUARA",
+        "RIO PEQUENO"
+      ],
+      "leader_entity_id": "",
+      "leader_label": "Conselho de corretores (acordo informal)",
+      "notes": "Ninguem admite que manda. Todo mundo usa. Aqui territorio e horario, camera e cracha."
+    },
+    {
+      "id": "indep_cemiterios",
+      "label": "Autarquicos: Cemiterios e funerarias (enclave)",
+      "faction": "Autarquicos",
+      "districts": [
+        "CONSOLACAO"
+      ],
+      "leader_entity_id": "hecata_donato_lazzari",
+      "leader_label": "Donato Lazzari (Hecata)",
+      "notes": "Enclave por acordo. A Camarilla tolera porque precisa. Quem quebra o acordo vira exemplo."
+    }
+  ],
+  "contested": [
+    {
+      "id": "contestado_bras",
+      "label": "Territorio contestado: BRAS (Autarquicos vs Camarilla)",
+      "faction": "Contestado",
+      "districts": [
+        "BRAS"
+      ],
+      "between": [
+        "Autarquicos",
+        "Camarilla"
+      ],
+      "notes": "O Bras e corredor de carga e gente. Autarquicos cobram 'passagem' nas galerias; Camarilla tenta comprar portas e impor 'ordem'. Quando os dois cobram na mesma noite, sobra sangue no asfalto."
+    },
+    {
+      "id": "contestado_butanta",
+      "label": "Territorio contestado: BUTANTA (Camarilla vs Anarch)",
+      "faction": "Contestado",
+      "districts": [
+        "BUTANTA"
+      ],
+      "between": [
+        "Camarilla",
+        "Anarch"
+      ],
+      "notes": "Butanta mistura campus, pesquisa e bolsoes populares. Camarilla quer a fachada academica; Anarch querem as rotas e os corpos. Segredos de laboratorio viram moeda."
+    },
+    {
+      "id": "contestado_ipiranga",
+      "label": "Territorio contestado: IPIRANGA (Autarquicos vs Anarch)",
+      "faction": "Contestado",
+      "districts": [
+        "IPIRANGA"
+      ],
+      "between": [
+        "Autarquicos",
+        "Anarch"
+      ],
+      "notes": "No Ipiranga a historia vira arma. Autarquicos manipulam memoria e patrimonio; Anarch inflamam rua e torcida. Qualquer ritual antigo aqui chama atencao errada."
+    },
+    {
+      "id": "contestado_jabaquara",
+      "label": "Territorio contestado: JABAQUARA (Camarilla vs Anarch)",
+      "faction": "Contestado",
+      "districts": [
+        "JABAQUARA"
+      ],
+      "between": [
+        "Camarilla",
+        "Anarch"
+      ],
+      "notes": "Jabaquara e no de transito, hotel e contrabando. Camarilla compra portas; Anarch controlam quem entra e sai. O que some aqui raramente reaparece inteiro."
+    },
+    {
+      "id": "contestado_lapa",
+      "label": "Territorio contestado: LAPA (Camarilla vs Zona cinza)",
+      "faction": "Contestado",
+      "districts": [
+        "LAPA"
+      ],
+      "between": [
+        "Camarilla",
+        "Zona cinza"
+      ],
+      "notes": "A Lapa e dinheiro e logistica. Camarilla quer estabilidade e contratos; a Zona cinza vende sumico e acesso. A disputa e silenciosa: auditoria, chantagem, incendio 'acidental'."
+    },
+    {
+      "id": "contestado_mooca",
+      "label": "Territorio contestado: MOOCA (Anarch vs Autarquicos)",
+      "faction": "Contestado",
+      "districts": [
+        "MOOCA"
+      ],
+      "between": [
+        "Anarch",
+        "Autarquicos"
+      ],
+      "notes": "A Mooca e disputa por rotas e abrigo: Anarch controlam quarteiroes; Autarquicos controlam portas (cartorios, arquivos, poroes). Quem nao tem guia, se perde."
+    },
+    {
+      "id": "contestado_tatuape",
+      "label": "Territorio contestado: TATUAPE (Anarch vs Camarilla)",
+      "faction": "Contestado",
+      "districts": [
+        "TATUAPE"
+      ],
+      "between": [
+        "Anarch",
+        "Camarilla"
+      ],
+      "notes": "Tatuape e vitrine de consumo com periferia ao redor. Camarilla quer etiqueta e 'ordem'; Anarch querem rua e autonomia. A guerra aqui e de reputacao e desaparecimentos."
+    },
+    {
+      "id": "contestado_vila prudente",
+      "label": "Territorio contestado: VILA PRUDENTE (Autarquicos vs Anarch)",
+      "faction": "Contestado",
+      "districts": [
+        "VILA PRUDENTE"
+      ],
+      "between": [
+        "Autarquicos",
+        "Anarch"
+      ],
+      "notes": "Vila Prudente e fronteira viva. O lado que controla a estacao controla a noite. Quando muda, muda rapido e com testemunhas mortais demais."
+    }
+  ],
+  "alerts": [
+    {
+      "id": "risco_lupino",
+      "label": "Risco lupino (zonas de perigo; evitar predacao repetida)",
+      "faction": "Risco lupino",
+      "districts": [
+        "ANHANGUERA",
+        "JACANA",
+        "JARAGUA",
+        "MARSILAC",
+        "PARELHEIROS",
+        "PERUS",
+        "TREMEMBE"
+      ],
+      "notes": "Nao e dominio: e presenca registrada. Predacao repetida costuma virar retaliação."
+    }
+  ]
+}

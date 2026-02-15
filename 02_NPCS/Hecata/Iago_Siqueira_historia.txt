@@ -1,0 +1,43 @@
+Iago Siqueira
+
+Perfil:
+- Cla: Hecata | Seita: Autarquicos | Funcao: Banco de boons (cobrador)
+- Dominio: Centro Expandido (reunioes discretas) | Idade aparente: 29
+- Abraco: 2014 | Sire: hecata_donato_lazzari | Acima do sire: -
+- Disciplinas (top 3): ['Auspex 2', 'Oblivion 2', 'Dominate 1']
+- Assinatura/estilo: educacao impecavel; cobranca implacavel
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Enclave dos Cemiterios (Hecata)
+
+Tom (para narrar):
+Iago Siqueira e taxa e passagem. Em cena: portas se abrem, mas cada abertura vem com registro, um recibo social e uma cobranca futura. O morto nao esquece, e eles tambem nao.
+
+Historia (costurada, sem resumo seco):
+Iago Siqueira nasceu em 1986. O Abraco veio em 2014 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Transformar boons em um sistema que ninguem pode negar. O medo e igualmente pratico: Que a SI aprenda a rastrear dividas sociais.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Funerarias, cemiterios e logistica de corpo (o que some, some direito).
+- Cartorios e registros (nome, documento, heranca).
+- Intermediacao de dividas (boons como tabela, cobranca como ritual).
+
+Segredo (objetivamente jogavel):
+- Ele manipula boons para alimentar o Buraco (sem dizer a Donato). [CANON-ADJACENT / HOME BREW]
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele e um Ventrue disfarçado.
+- Verdade (perigosa): Ele tem registro de quem deve o Principe.
+
+Conexoes (com motivo e custo):
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [childe]: aprendeu a cobrar com o sire
+- Artur Macedo (kindred; Principe de Sao Paulo) [client]: compra silencio e rastros
+- Luiza Salles (kindred; Senescal e Harpia principal) [client]: vende paz social com juros
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Cenas prontas (para jogar hoje):
+- Cena: Centro Expandido (reunioes discretas). Oferece aos PJ um adiantamento de boon em troca de risco.
+- Cena: Centro Expandido (reunioes discretas). Vende perdao por um favor no Centro velho.
+- Cena: Centro Expandido (reunioes discretas). Marca um PJ como devedor sem ele perceber.

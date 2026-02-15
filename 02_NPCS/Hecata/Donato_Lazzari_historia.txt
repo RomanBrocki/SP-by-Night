@@ -1,0 +1,47 @@
+Donato Lazzari
+
+Perfil:
+- Cla: Hecata | Seita: Autarquicos | Funcao: Coletor do pedagio (cemiterios e galerias)
+- Dominio: Centro Velho / cemiterios | Idade aparente: 39
+- Abraco: 1936 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Oblivion 4', 'Fortitude 2', 'Auspex 2']
+- Assinatura/estilo: educado, implacavel; fala com mortos como quem liga para um amigo
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Enclave dos Cemiterios (Hecata)
+
+Tom (para narrar):
+Donato Lazzari e taxa e passagem. Em cena: portas se abrem, mas cada abertura vem com registro, um recibo social e uma cobranca futura. O morto nao esquece, e eles tambem nao.
+
+Historia (costurada, sem resumo seco):
+Donato Lazzari nasceu em 1897. O Abraco veio em 1936 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Transformar o Buraco do Centro em moeda politica. O medo e igualmente pratico: Que o Buraco se abra e arraste a cidade para uma guerra espiritual.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Funerarias, cemiterios e logistica de corpo (o que some, some direito).
+- Cartorios e registros (nome, documento, heranca).
+- Intermediacao de dividas (boons como tabela, cobranca como ritual).
+
+Segredo (objetivamente jogavel):
+- Ele alimenta o Buraco com promessas quebradas (boons sabotados). [CANON-ADJACENT / HOME BREW]
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele e aliado do Principe.
+- Verdade (perigosa): Ele sabe como aprisionar a alma de um vampiro em um objeto.
+
+Conexoes (com motivo e custo):
+- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [boon_due]: Minor; intermediacao com mortos
+- Yusuf Rahman (kindred; Juiz itinerante) [uneasy]: juiz odeia seus negocios
+- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [uneasy]: subsolo dividido
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Lia Morais: Necroassistente (funeraria) (area: Centro Velho/cemiterios)
+- Silvia "Funebre" Prado: Diretora de funeraria (agenda, sala, 'preparo') (area: Consolacao (cemiterios/funerarias))
+
+Linhagem (quem carrega seu sangue e seu problema):
+- hecata_iago_siqueira
+
+Cenas prontas (para jogar hoje):
+- Cena: Centro Velho / cemiterios. Cobra pedagio de passagem aos PJ e oferece desconto por um favor.
+- Cena: Centro Velho / cemiterios. Pede que os PJ calem um fantasma inconveniente.
+- Cena: Centro Velho / cemiterios. Oferece informacao de mortos sobre a SI.

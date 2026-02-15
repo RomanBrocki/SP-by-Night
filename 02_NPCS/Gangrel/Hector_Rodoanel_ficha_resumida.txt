@@ -1,0 +1,23 @@
+Nome / Alcunha: Hector "Rodoanel" / Batedor de rotas (cargas)
+Cla: Gangrel | Seita: Independentes
+Idade aparente: 28 | Abraco: 2019 | Potencia do Sangue 2
+Dominio / area principal: Rodoanel e corredores
+Disciplinas (top 3): ['Animalism 2', 'Protean 2', 'Fortitude 1']
+Assinatura / estilo: sempre em movimento; nunca aparece duas vezes igual
+Coteries/associacoes (grupo e rede):
+- Corredores de Sombra (conselho de corretores)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Ninguem fica pra tras'.
+- Touchstone: um caminhoneiro mortal que ele protege.
+Ganchos de cena:
+- Consegue tirar os PJ da cidade sem rastros.
+- E pego com algo do Sabbat sem saber.
+- Vira guia para um refugio improvisado.
+Atuacao mortal (explicita):
+- Rotas de carga, trilhas e fronteiras (batedores, escoltas, sumicos).
+- protecao de borda (onde a cidade vira mata, alguem manda).
+Servos/contatos notaveis (entrada rapida):
+- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [childe]: lealdade e vontade de provar valor
+- Cecilia "Linha-Dois" (kindred; Mensageira de pressagios) [uneasy]: ela sabe demais de rotas
+- Nico "Sombra" (kindred; Corretor de informacao) [client]: vende rotas e horarios

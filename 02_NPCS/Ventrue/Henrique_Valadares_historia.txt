@@ -1,0 +1,41 @@
+Henrique Valadares
+
+Perfil:
+- Cla: Ventrue | Seita: Camarilla | Funcao: Primogeno Ventrue (financas de guerra)
+- Dominio: Morumbi/Campo Belo (fundos, seguranca e condominio) | Idade aparente: 46
+- Abraco: 1984 | Sire: ventrue_isabel_amaral | Acima do sire: -
+- Disciplinas (top 3): -
+- Assinatura/estilo: -
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Chaves do Morumbi (Ventrue)
+- Corte do Elysium (Camarilla)
+
+Tom (para narrar):
+Henrique Valadares pressiona por acesso e protocolo. Em cena isso e concreto: a portaria barra seu nome, o elevador entra em 'manutencao', o seguranca pede documento, o evento vira 'somente convidados', e o advogado certo aparece para oferecer uma saida que ja vem com custo. Nao e magia: e cadeia de comando, dinheiro, medo e papel assinado.
+
+Historia (costurada, sem resumo seco):
+Henrique Valadares nasceu em 1937. O Abraco veio em 1984 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Financas e imobiliario (fundos, holdings, locacoes estrategicas).
+- Influencia em seguranca privada e compliance (controle de acesso, camadas de permissao).
+- Intermediacao via advogados, consultorias e fixers (apagamento de incidentes).
+- Relacoes com elites corporativas (eventos, conselhos, patrocinios).
+
+Segredo (objetivamente jogavel):
+- (Nao definido)
+
+Rumor e verdade (municao social):
+- (Nao definido)
+
+Conexoes (com motivo e custo):
+- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [boon_due]: Isabel o elevou; ele paga com caixa e obediencia
+- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: caixa e escudo em troca de influencia real
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Damiao "Portaria": Retentor (seguranca e acesso em condominios) (area: Morumbi/Campo Belo)
+- Paula "Compliance" Azevedo: Advogada de crise (NDA, sumico, acordo extrajudicial) (area: Morumbi/Campo Belo)
+
+Cenas prontas (para jogar hoje):
+- Cena: Morumbi/Campo Belo (fundos, seguranca e condominio). Um encontro pequeno vira custo grande.

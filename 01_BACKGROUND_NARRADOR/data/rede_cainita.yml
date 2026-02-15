@@ -1,0 +1,2759 @@
+meta:
+  chronicle_year: 2035
+  note: "Arquivo gerado a partir de tools/sp_by_night_source.json."
+entities:
+  - id: "ventrue_artur_macedo"
+    name: "Artur Macedo"
+    file_stem: "Artur_Macedo"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Principe de Sao Paulo"
+    domain: "Paulista/Jardins"
+    apparent_age: "40"
+    embrace_year: 1929
+    born_year: 1888
+    sire: "ventrue_isabel_amaral"
+    childer:
+      - "ventrue_mateus_cordeiro"
+    tier: "S"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "boon_due"
+        note: "ela deve um Major pela crise de 2034"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "employer"
+        note: "Xerife, tolerado por eficiencia"
+      - to: "nosferatu_nico_sombra"
+        type: "ally"
+        note: "informacao em troca de neutralidade"
+  - id: "ventrue_isabel_amaral"
+    name: "Isabel do Amaral"
+    file_stem: "Isabel_do_Amaral"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Primogena Ventrue (em retiro)"
+    domain: "Itaim/Berrini"
+    apparent_age: "55"
+    embrace_year: 1872
+    born_year: 1811
+    sire: null
+    childer:
+      - "ventrue_artur_macedo"
+    tier: "A"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "mentor"
+        note: "sire e conselheira"
+      - to: "tremere_dario_kron"
+        type: "rival"
+        note: "nao confia em magia fora de controle"
+      - to: "lasombra_padre_miguel_aranha"
+        type: "ally"
+        note: "acordo de integracao discreta"
+  - id: "ventrue_mateus_cordeiro"
+    name: "Mateus Cordeiro"
+    file_stem: "Mateus_Cordeiro"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Responsavel por Protocolos de Elysium"
+    domain: "Paulista"
+    apparent_age: "28"
+    embrace_year: 2009
+    born_year: 1981
+    sire: "ventrue_artur_macedo"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "rival"
+        note: "disputa narrativa em Elysium"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "uneasy"
+        note: "tem medo do Xerife"
+      - to: "nosferatu_nico_sombra"
+        type: "client"
+        note: "compra informacao barata"
+  - id: "toreador_luiza_salles"
+    name: "Luiza Salles"
+    file_stem: "Luiza_Salles"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Senescal e Harpia principal"
+    domain: "Pinheiros/Vila Madalena"
+    apparent_age: "33"
+    embrace_year: 1987
+    born_year: 1954
+    sire: "toreador_helena_vasconcelos"
+    childer:
+      - "toreador_daniel_sato"
+    tier: "S"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "boon_owed"
+        note: "Major; ele comprou o silencio"
+      - to: "nosferatu_nico_sombra"
+        type: "rival"
+        note: "odeia depender de informacao feia"
+      - to: "ministry_talita_serpente"
+        type: "uneasy"
+        note: "culto tentando seduzir sua corte"
+  - id: "toreador_helena_vasconcelos"
+    name: "Helena Vasconcelos"
+    file_stem: "Helena_Vasconcelos"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Guardia de Elysium (curadora)"
+    domain: "Liberdade (Elysium satelite)"
+    apparent_age: "45"
+    embrace_year: 1956
+    born_year: 1911
+    sire: null
+    childer:
+      - "toreador_luiza_salles"
+    tier: "A"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "mentor"
+        note: "sire e aliada"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "ally"
+        note: "seguranca discreta em eventos"
+      - to: "ventrue_artur_macedo"
+        type: "client"
+        note: "vende paz em troca de influencia"
+  - id: "toreador_daniel_sato"
+    name: "Daniel Sato"
+    file_stem: "Daniel_Sato"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Harpia junior (fofoca de campo)"
+    domain: "Liberdade/Paulista"
+    apparent_age: "26"
+    embrace_year: 2018
+    born_year: 1992
+    sire: "toreador_luiza_salles"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "childe"
+        note: "dependencia afetiva e politica"
+      - to: "thinblood_ana_carbono"
+        type: "ally"
+        note: "troca favores por anonimato digital"
+      - to: "nosferatu_nico_sombra"
+        type: "client"
+        note: "compra boatos com boatos"
+  - id: "banuhaqim_samira_al_haddad"
+    name: "Samira al-Haddad"
+    file_stem: "Samira_al_Haddad"
+    kind: "kindred"
+    clan: "Banu Haqim"
+    sect: "Camarilla"
+    role: "Xerife"
+    domain: "Santana/Tucuruvi (Xerifado; base de pressao e resposta)"
+    apparent_age: "38"
+    embrace_year: 1979
+    born_year: 1941
+    sire: "banuhaqim_yusuf_rahman"
+    childer:
+      - null
+    tier: "S"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "liege"
+        note: "executa a lei do Principe"
+      - to: "nosferatu_nico_sombra"
+        type: "boon_owed"
+        note: "Trivial; acesso a cameras"
+      - to: "brujah_renata_ferraz"
+        type: "rival"
+        note: "baronia anarch e resistencia armada"
+  - id: "banuhaqim_yusuf_rahman"
+    name: "Yusuf Rahman"
+    file_stem: "Yusuf_Rahman"
+    kind: "kindred"
+    clan: "Banu Haqim"
+    sect: "Independentes"
+    role: "Juiz itinerante"
+    domain: "Rotas (aeroporto/rodovias)"
+    apparent_age: "60"
+    embrace_year: 1918
+    born_year: 1869
+    sire: null
+    childer:
+      - "banuhaqim_samira_al_haddad"
+    tier: "A"
+    links:
+      - to: "banuhaqim_samira_al_haddad"
+        type: "sire"
+        note: "puxa as cordas quando quer"
+      - to: "hecata_donato_lazzari"
+        type: "uneasy"
+        note: "detesta negocio com mortos"
+      - to: "ventrue_isabel_amaral"
+        type: "ally"
+        note: "acordo de nao-interferencia"
+  - id: "nosferatu_nico_sombra"
+    name: "Nico \"Sombra\""
+    file_stem: "Nico_Sombra"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Corretor de informacao"
+    domain: "Bras/Pari + Corredores logisticos (Barra Funda/Lapa)"
+    apparent_age: "30"
+    embrace_year: 2001
+    born_year: 1971
+    sire: "nosferatu_vovo_zilda"
+    childer:
+      - "nosferatu_ester_gato_preto"
+    tier: "S"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "ally"
+        note: "neutralidade comprada por informacao"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "boon_due"
+        note: "Trivial; acesso a cameras"
+      - to: "toreador_luiza_salles"
+        type: "rival"
+        note: "guerra de narrativa"
+  - id: "nosferatu_vovo_zilda"
+    name: "Vovo Zilda"
+    file_stem: "Vovo_Zilda"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Ancia subterranea (matriarca)"
+    domain: "Galerias do Centro"
+    apparent_age: "70"
+    embrace_year: 1943
+    born_year: 1880
+    sire: null
+    childer:
+      - "nosferatu_nico_sombra"
+    tier: "A"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "sire"
+        note: "controla por afeto e medo"
+      - to: "hecata_donato_lazzari"
+        type: "uneasy"
+        note: "pedagios e segredos se cruzam"
+      - to: "malkavian_paulo_vidente"
+        type: "ally"
+        note: "troca pressagios por rotas"
+  - id: "nosferatu_ester_gato_preto"
+    name: "Ester \"Gato-Preto\""
+    file_stem: "Ester_Gato_Preto"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Anarch"
+    role: "Courier de dados"
+    domain: "Zonas mistas (entregas)"
+    apparent_age: "24"
+    embrace_year: 2024
+    born_year: 2000
+    sire: "nosferatu_nico_sombra"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "childe"
+        note: "relacao de controle e protecao"
+      - to: "brujah_renata_ferraz"
+        type: "ally"
+        note: "Anarchs a protegem por utilidade"
+      - to: "thinblood_ana_carbono"
+        type: "friend"
+        note: "rede de sumico digital"
+  - id: "brujah_renata_ferraz"
+    name: "Renata Ferraz"
+    file_stem: "Renata_Ferraz"
+    kind: "kindred"
+    clan: "Brujah"
+    sect: "Anarch"
+    role: "Baronesa da Mooca"
+    domain: "Tatuape/Mooca"
+    apparent_age: "35"
+    embrace_year: 1998
+    born_year: 1969
+    sire: "brujah_joao_do_trem"
+    childer:
+      - "brujah_caua_martins"
+    tier: "S"
+    links:
+      - to: "banuhaqim_samira_al_haddad"
+        type: "rival"
+        note: "confrontos de fronteira"
+      - to: "gangrel_bia_matilha"
+        type: "ally"
+        note: "rotas e refugios na borda"
+      - to: "caitiff_rafa_ferro"
+        type: "uneasy"
+        note: "caitiff tenta virar corte propria"
+  - id: "brujah_joao_do_trem"
+    name: "Joao do Trem"
+    file_stem: "Joao_do_Trem"
+    kind: "kindred"
+    clan: "Brujah"
+    sect: "Independentes"
+    role: "Lenda de trilhos (ancao de periferia)"
+    domain: "Corredores e estacoes (rumores)"
+    apparent_age: "50"
+    embrace_year: 1974
+    born_year: 1920
+    sire: null
+    childer:
+      - "brujah_renata_ferraz"
+    tier: "A"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "sire"
+        note: "orgulho e culpa"
+      - to: "malkavian_cecilia_linha_dois"
+        type: "ally"
+        note: "pressagios em troca de protecao"
+      - to: "thinblood_dante_fumo"
+        type: "protector"
+        note: "nao gosta de ver jovens queimados"
+  - id: "brujah_caua_martins"
+    name: "Caua Martins"
+    file_stem: "Caua_Martins"
+    kind: "kindred"
+    clan: "Brujah"
+    sect: "Anarch"
+    role: "Executor da Baronesa (linha dura)"
+    domain: "Mooca (ruas)"
+    apparent_age: "29"
+    embrace_year: 2016
+    born_year: 1987
+    sire: "brujah_renata_ferraz"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "childe"
+        note: "lealdade e ambicao"
+      - to: "ministry_elias_sal"
+        type: "boon_owed"
+        note: "favor sujo por dinheiro e culto"
+      - to: "gangrel_bia_matilha"
+        type: "uneasy"
+        note: "nao confia em 'animais' na politica"
+  - id: "ministry_talita_serpente"
+    name: "Talita \"Serpente\""
+    file_stem: "Talita_Serpente"
+    kind: "kindred"
+    clan: "Ministry"
+    sect: "Independentes"
+    role: "Pregadora do Vicio (culto urbano)"
+    domain: "Pinheiros/baixa Augusta (celulas)"
+    apparent_age: "31"
+    embrace_year: 2010
+    born_year: 1982
+    sire: null
+    childer:
+      - "ministry_elias_sal"
+    tier: "A"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "pressure"
+        note: "tenta infiltrar a corte"
+      - to: "lasombra_padre_miguel_aranha"
+        type: "rival"
+        note: "guerra de fe e controle"
+      - to: "thinblood_ana_carbono"
+        type: "supplier"
+        note: "compra 'milagres' alquimicos"
+  - id: "ministry_elias_sal"
+    name: "Elias \"Sal\""
+    file_stem: "Elias_Sal"
+    kind: "kindred"
+    clan: "Ministry"
+    sect: "Anarch"
+    role: "Agitador de celula (cobrador)"
+    domain: "Mooca e rotas"
+    apparent_age: "27"
+    embrace_year: 2021
+    born_year: 1994
+    sire: "ministry_talita_serpente"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "ministry_talita_serpente"
+        type: "childe"
+        note: "devocao e ressentimento"
+      - to: "brujah_caua_martins"
+        type: "creditor"
+        note: "favor sujo em aberto"
+      - to: "brujah_renata_ferraz"
+        type: "uneasy"
+        note: "usa a baronia como zona cinza"
+  - id: "lasombra_padre_miguel_aranha"
+    name: "Padre Miguel Aranha"
+    file_stem: "Padre_Miguel_Aranha"
+    kind: "kindred"
+    clan: "Lasombra"
+    sect: "Camarilla"
+    role: "Guardiao de confissoes (Camarilla)"
+    domain: "Bela Vista/Bixiga (Confissao; salas privadas)"
+    apparent_age: "47"
+    embrace_year: 1948
+    born_year: 1899
+    sire: null
+    childer:
+      - "lasombra_camila_noite_funda"
+    tier: "S"
+    links:
+      - to: "ventrue_isabel_amaral"
+        type: "ally"
+        note: "acordo de integracao"
+      - to: "tremere_dario_kron"
+        type: "uneasy"
+        note: "rivalidade silenciosa"
+      - to: "ministry_talita_serpente"
+        type: "rival"
+        note: "guerra de fe e influencia"
+  - id: "tremere_dario_kron"
+    name: "Dario Kron"
+    file_stem: "Dario_Kron"
+    kind: "kindred"
+    clan: "Tremere"
+    sect: "Camarilla"
+    role: "Primogeno Tremere (regente de fato)"
+    domain: "Butanta/USP (Torre Tremere; refugios dispersos)"
+    apparent_age: "42"
+    embrace_year: 1968
+    born_year: 1925
+    sire: null
+    childer:
+      - "tremere_bianca_saramago"
+    tier: "S"
+    links:
+      - to: "ventrue_isabel_amaral"
+        type: "rival"
+        note: "ela odeia o imprevisivel dos rituais"
+      - to: "hecata_donato_lazzari"
+        type: "boon_owed"
+        note: "Minor; intermediacao com mortos"
+      - to: "lasombra_padre_miguel_aranha"
+        type: "uneasy"
+        note: "nao confia em sombras na Camarilla"
+  - id: "tremere_bianca_saramago"
+    name: "Bianca Saramago"
+    file_stem: "Bianca_Saramago"
+    kind: "kindred"
+    clan: "Tremere"
+    sect: "Camarilla"
+    role: "Arquivista de campo"
+    domain: "Pinheiros/Centro"
+    apparent_age: "29"
+    embrace_year: 2012
+    born_year: 1983
+    sire: "tremere_dario_kron"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "tremere_dario_kron"
+        type: "childe"
+        note: "lealdade e medo"
+      - to: "hecata_soraia_nunes"
+        type: "client"
+        note: "paga por silencio de mortos"
+      - to: "toreador_helena_vasconcelos"
+        type: "ally"
+        note: "acesso a eventos e bibliotecas privadas"
+  - id: "hecata_donato_lazzari"
+    name: "Donato Lazzari"
+    file_stem: "Donato_Lazzari"
+    kind: "kindred"
+    clan: "Hecata"
+    sect: "Autarquicos"
+    role: "Coletor do pedagio (cemiterios e galerias)"
+    domain: "Centro Velho / cemiterios"
+    apparent_age: "39"
+    embrace_year: 1936
+    born_year: 1897
+    sire: null
+    childer:
+      - "hecata_iago_siqueira"
+    tier: "S"
+    links:
+      - to: "tremere_dario_kron"
+        type: "boon_due"
+        note: "Minor; intermediacao com mortos"
+      - to: "banuhaqim_yusuf_rahman"
+        type: "uneasy"
+        note: "juiz odeia seus negocios"
+      - to: "nosferatu_vovo_zilda"
+        type: "uneasy"
+        note: "subsolo dividido"
+  - id: "hecata_soraia_nunes"
+    name: "Soraia Nunes"
+    file_stem: "Soraia_Nunes"
+    kind: "kindred"
+    clan: "Hecata"
+    sect: "Autarquicos"
+    role: "Interprete de ecos (mediunica)"
+    domain: "Centro Velho (consultas)"
+    apparent_age: "34"
+    embrace_year: 2005
+    born_year: 1978
+    sire: "hecata_donato_lazzari"
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "hecata_donato_lazzari"
+        type: "childe"
+        note: "dependencia e protecao"
+      - to: "tremere_bianca_saramago"
+        type: "client"
+        note: "silencio de mortos por paginas"
+      - to: "malkavian_paulo_vidente"
+        type: "ally"
+        note: "pressagios e ecos se cruzam"
+  - id: "hecata_iago_siqueira"
+    name: "Iago Siqueira"
+    file_stem: "Iago_Siqueira"
+    kind: "kindred"
+    clan: "Hecata"
+    sect: "Autarquicos"
+    role: "Banco de boons (cobrador)"
+    domain: "Centro Expandido (reunioes discretas)"
+    apparent_age: "29"
+    embrace_year: 2014
+    born_year: 1986
+    sire: "hecata_donato_lazzari"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "hecata_donato_lazzari"
+        type: "childe"
+        note: "aprendeu a cobrar com o sire"
+      - to: "ventrue_artur_macedo"
+        type: "client"
+        note: "compra silencio e rastros"
+      - to: "toreador_luiza_salles"
+        type: "client"
+        note: "vende paz social com juros"
+  - id: "lasombra_camila_noite_funda"
+    name: "Camila \"Noite-Funda\""
+    file_stem: "Camila_Noite_Funda"
+    kind: "kindred"
+    clan: "Lasombra"
+    sect: "Anarch"
+    role: "Dissidente (ex-Camarilla)"
+    domain: "Lapa/Barra Funda"
+    apparent_age: "32"
+    embrace_year: 2011
+    born_year: 1982
+    sire: "lasombra_padre_miguel_aranha"
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "childe"
+        note: "odio e dependencia"
+      - to: "brujah_renata_ferraz"
+        type: "ally"
+        note: "apoio mutuo na fronteira"
+      - to: "nosferatu_nico_sombra"
+        type: "uneasy"
+        note: "rotas e apagao"
+  - id: "malkavian_paulo_vidente"
+    name: "Paulo \"O Vidente\""
+    file_stem: "Paulo_Vidente"
+    kind: "kindred"
+    clan: "Malkavian"
+    sect: "Autarquicos"
+    role: "Oraculo de tunel"
+    domain: "Galerias e estacoes (rumores)"
+    apparent_age: "37"
+    embrace_year: 1993
+    born_year: 1960
+    sire: null
+    childer:
+      - "malkavian_cecilia_linha_dois"
+    tier: "A"
+    links:
+      - to: "nosferatu_vovo_zilda"
+        type: "ally"
+        note: "troca pressagios por rotas"
+      - to: "brujah_joao_do_trem"
+        type: "ally"
+        note: "avisos e rotas"
+      - to: "salubri_irene_da_luz"
+        type: "friend"
+        note: "cura e visao se reconhecem"
+  - id: "malkavian_cecilia_linha_dois"
+    name: "Cecilia \"Linha-Dois\""
+    file_stem: "Cecilia_Linha_Dois"
+    kind: "kindred"
+    clan: "Malkavian"
+    sect: "Anarch"
+    role: "Mensageira de pressagios"
+    domain: "Tatuape/Centro (deslocamentos)"
+    apparent_age: "22"
+    embrace_year: 2026
+    born_year: 2004
+    sire: "malkavian_paulo_vidente"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "brujah_joao_do_trem"
+        type: "ally"
+        note: "protege suas rotas"
+      - to: "thinblood_dante_fumo"
+        type: "friend"
+        note: "mensagens e sumicos"
+      - to: "gangrel_hector_rodoanel"
+        type: "uneasy"
+        note: "ele segue rastros demais"
+  - id: "gangrel_bia_matilha"
+    name: "Bia \"Matilha\""
+    file_stem: "Bia_Matilha"
+    kind: "kindred"
+    clan: "Gangrel"
+    sect: "Anarch"
+    role: "Patrulheira de fronteira (cinturao)"
+    domain: "Oeste/Sul (bordas verdes)"
+    apparent_age: "30"
+    embrace_year: 2008
+    born_year: 1981
+    sire: null
+    childer:
+      - "gangrel_hector_rodoanel"
+    tier: "A"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "ally"
+        note: "fronteira protegida"
+      - to: "gangrel_hector_rodoanel"
+        type: "sire"
+        note: "ensina sobrevivencia dura"
+      - to: "thinblood_luan_patch"
+        type: "ally"
+        note: "ajuda medica nas bordas"
+  - id: "gangrel_hector_rodoanel"
+    name: "Hector \"Rodoanel\""
+    file_stem: "Hector_Rodoanel"
+    kind: "kindred"
+    clan: "Gangrel"
+    sect: "Independentes"
+    role: "Batedor de rotas (cargas)"
+    domain: "Rodoanel e corredores"
+    apparent_age: "28"
+    embrace_year: 2019
+    born_year: 1991
+    sire: "gangrel_bia_matilha"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "gangrel_bia_matilha"
+        type: "childe"
+        note: "lealdade e vontade de provar valor"
+      - to: "malkavian_cecilia_linha_dois"
+        type: "uneasy"
+        note: "ela sabe demais de rotas"
+      - to: "nosferatu_nico_sombra"
+        type: "client"
+        note: "vende rotas e horarios"
+  - id: "caitiff_rafa_ferro"
+    name: "Rafa \"Ferro\""
+    file_stem: "Rafa_Ferro"
+    kind: "kindred"
+    clan: "Caitiff"
+    sect: "Anarch"
+    role: "Aspirante a corte (Caitiff)"
+    domain: "Mooca e adjacencias"
+    apparent_age: "34"
+    embrace_year: 2013
+    born_year: 1980
+    sire: null
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "uneasy"
+        note: "disputa por legitimidade Anarch"
+      - to: "thinblood_ana_carbono"
+        type: "ally"
+        note: "protege a rede alquimica"
+      - to: "ministry_elias_sal"
+        type: "uneasy"
+        note: "culto tenta tomar sua base"
+  - id: "caitiff_livia_semnome"
+    name: "Livia \"Sem-Nome\""
+    file_stem: "Livia_Sem_Nome"
+    kind: "kindred"
+    clan: "Caitiff"
+    sect: "Camarilla"
+    role: "Informante tolerada"
+    domain: "Centro Expandido (circula)"
+    apparent_age: "25"
+    embrace_year: 2022
+    born_year: 1997
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "banuhaqim_samira_al_haddad"
+        type: "handler"
+        note: "o Xerife usa quando precisa"
+      - to: "ventrue_artur_macedo"
+        type: "client"
+        note: "vende pequenos favores por protecao"
+      - to: "nosferatu_nico_sombra"
+        type: "ally"
+        note: "troca de pistas por anonimato"
+  - id: "thinblood_ana_carbono"
+    name: "Ana \"Carbono\""
+    file_stem: "Ana_Carbono"
+    kind: "kindred"
+    clan: "Thin Blood"
+    sect: "Anarch"
+    role: "Alquimista (mercado cinza)"
+    domain: "Pinheiros e rotas"
+    apparent_age: "23"
+    embrace_year: 2031
+    born_year: 2008
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "toreador_daniel_sato"
+        type: "ally"
+        note: "anonimato em troca de favores"
+      - to: "ministry_talita_serpente"
+        type: "supplier"
+        note: "milagres por boons"
+      - to: "caitiff_rafa_ferro"
+        type: "ally"
+        note: "protecao de base"
+  - id: "thinblood_dante_fumo"
+    name: "Dante \"Fumo\""
+    file_stem: "Dante_Fumo"
+    kind: "kindred"
+    clan: "Thin Blood"
+    sect: "Independentes"
+    role: "Correio e sumico"
+    domain: "Corredores (entregas)"
+    apparent_age: "19"
+    embrace_year: 2033
+    born_year: 2014
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "brujah_joao_do_trem"
+        type: "protector"
+        note: "o velho o protege por principio"
+      - to: "malkavian_cecilia_linha_dois"
+        type: "friend"
+        note: "mensagens e pressagios"
+      - to: "nosferatu_nico_sombra"
+        type: "client"
+        note: "faz entregas para ele"
+  - id: "thinblood_katia_zero"
+    name: "Katia \"Zero\""
+    file_stem: "Katia_Zero"
+    kind: "kindred"
+    clan: "Thin Blood"
+    sect: "Anarch"
+    role: "Tecnica de sumico digital"
+    domain: "Centro/Pinheiros (rede)"
+    apparent_age: "24"
+    embrace_year: 2030
+    born_year: 2006
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "uneasy"
+        note: "parceria e guerra fria"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "target"
+        note: "o Xerife quer seu dump"
+      - to: "tremere_bianca_saramago"
+        type: "friend"
+        note: "arquivos por rituais pequenos"
+  - id: "thinblood_luan_patch"
+    name: "Luan \"Patch\""
+    file_stem: "Luan_Patch"
+    kind: "kindred"
+    clan: "Thin Blood"
+    sect: "Anarch"
+    role: "Medico de rua (limpa estrago)"
+    domain: "Oeste/Sul (bordas)"
+    apparent_age: "28"
+    embrace_year: 2032
+    born_year: 2007
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "salubri_irene_da_luz"
+        type: "mentor"
+        note: "aprendeu etica de sangue"
+      - to: "gangrel_bia_matilha"
+        type: "ally"
+        note: "socorro nas bordas"
+      - to: "hecata_donato_lazzari"
+        type: "client"
+        note: "paga pedagio em servico"
+  - id: "ravnos_ravi_truque"
+    name: "Ravi \"Truque\""
+    file_stem: "Ravi_Truque"
+    kind: "kindred"
+    clan: "Ravnos"
+    sect: "Independentes"
+    role: "Ilusionista de esquina"
+    domain: "Centro/Barra Funda (itinerante)"
+    apparent_age: "36"
+    embrace_year: 2002
+    born_year: 1972
+    sire: null
+    childer:
+      - "ravnos_maru_vento"
+    tier: "B"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "client"
+        note: "troca de rotas por dados"
+      - to: "toreador_luiza_salles"
+        type: "rival"
+        note: "ela odeia o imprevisivel"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "uneasy"
+        note: "ela quer controle sobre ele"
+  - id: "ravnos_maru_vento"
+    name: "Maru \"Vento\""
+    file_stem: "Maru_Vento"
+    kind: "kindred"
+    clan: "Ravnos"
+    sect: "Anarch"
+    role: "Scout de baronia"
+    domain: "Leste (rotas)"
+    apparent_age: "23"
+    embrace_year: 2027
+    born_year: 2002
+    sire: "ravnos_ravi_truque"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "ravnos_ravi_truque"
+        type: "childe"
+        note: "amor e irritacao"
+      - to: "brujah_renata_ferraz"
+        type: "ally"
+        note: "trabalha para a baronia"
+      - to: "gangrel_bia_matilha"
+        type: "friend"
+        note: "rotas e respeito"
+  - id: "salubri_irene_da_luz"
+    name: "Irene da Luz"
+    file_stem: "Irene_da_Luz"
+    kind: "kindred"
+    clan: "Salubri"
+    sect: "Autarquicos"
+    role: "Curandeira escondida"
+    domain: "Oeste (refugio discreto)"
+    apparent_age: "32"
+    embrace_year: 1971
+    born_year: 1938
+    sire: null
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "malkavian_paulo_vidente"
+        type: "friend"
+        note: "pressagios e cura"
+      - to: "thinblood_luan_patch"
+        type: "mentor"
+        note: "ensinou etica de sangue"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "uneasy"
+        note: "acordo de silencio antigo"
+  - id: "tzimisce_nina_costura"
+    name: "Nina \"Costura\""
+    file_stem: "Nina_Costura"
+    kind: "kindred"
+    clan: "Tzimisce"
+    sect: "Autarquicos"
+    role: "Cirurgia e favores (carne e segredos)"
+    domain: "Centro/clinicas clandestinas"
+    apparent_age: "40"
+    embrace_year: 1959
+    born_year: 1918
+    sire: null
+    childer:
+      - "tzimisce_vlado_itapecerica"
+    tier: "A"
+    links:
+      - to: "hecata_donato_lazzari"
+        type: "uneasy"
+        note: "mortos e carne se odeiam"
+      - to: "tremere_dario_kron"
+        type: "rival"
+        note: "magia vs forma"
+      - to: "lasombra_camila_noite_funda"
+        type: "client"
+        note: "disfarces por boons"
+  - id: "tzimisce_vlado_itapecerica"
+    name: "Vlado de Itapecerica"
+    file_stem: "Vlado_de_Itapecerica"
+    kind: "kindred"
+    clan: "Tzimisce"
+    sect: "Autarquicos"
+    role: "Exilado (violencia contida)"
+    domain: "Sul (bordas e sitios)"
+    apparent_age: "29"
+    embrace_year: 2017
+    born_year: 1987
+    sire: "tzimisce_nina_costura"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "tzimisce_nina_costura"
+        type: "childe"
+        note: "amor e repulsa"
+      - to: "gangrel_bia_matilha"
+        type: "uneasy"
+        note: "disputa de borda"
+      - to: "hecata_soraia_nunes"
+        type: "uneasy"
+        note: "mortos sussurram seu nome"
+  - id: "ghoul_mariana_lobo"
+    name: "Mariana Lobo"
+    file_stem: "Mariana_Lobo"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Camarilla"
+    role: "Chefe de gabinete (mortal)"
+    domain: "Paulista/Jardins"
+    apparent_age: "36"
+    embrace_year: null
+    born_year: 1999
+    sire: null
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "servant"
+        note: "retentora e escudo humano"
+      - to: "ventrue_mateus_cordeiro"
+        type: "rival"
+        note: "disputa de agenda e acesso"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "uneasy"
+        note: "tem medo do Xerife"
+  - id: "ghoul_carla_nogueira"
+    name: "Carla Nogueira"
+    file_stem: "Carla_Nogueira"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Camarilla"
+    role: "Assistente de curadoria (Elysium)"
+    domain: "Paulista/Pinheiros"
+    apparent_age: "29"
+    embrace_year: null
+    born_year: 2006
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "servant"
+        note: "retentora e confidente"
+      - to: "toreador_helena_vasconcelos"
+        type: "uneasy"
+        note: "a curadora testa sua lealdade"
+      - to: "ministry_talita_serpente"
+        type: "target"
+        note: "o culto quer recruta-la"
+  - id: "ghoul_vitor_kallas"
+    name: "Vitor Kallas"
+    file_stem: "Vitor_Kallas"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Camarilla"
+    role: "Motorista e apoio tatico"
+    domain: "Centro Expandido"
+    apparent_age: "41"
+    embrace_year: null
+    born_year: 1994
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "banuhaqim_samira_al_haddad"
+        type: "servant"
+        note: "apoio e testemunha"
+      - to: "nosferatu_nico_sombra"
+        type: "uneasy"
+        note: "detesta depender de dados"
+      - to: "caitiff_livia_semnome"
+        type: "rival"
+        note: "ela some quando ele precisa de prova"
+  - id: "ghoul_rui_barata"
+    name: "Rui \"Barata\""
+    file_stem: "Rui_Barata"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Camarilla"
+    role: "Tecnico de campo (cabos e cameras)"
+    domain: "Barra Funda/Lapa"
+    apparent_age: "33"
+    embrace_year: null
+    born_year: 2002
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "servant"
+        note: "retentor e risco"
+      - to: "thinblood_katia_zero"
+        type: "rival"
+        note: "guerra fria por dados"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "uneasy"
+        note: "o Xerife o assusta"
+  - id: "ghoul_lia_morais"
+    name: "Lia Morais"
+    file_stem: "Lia_Morais"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Autarquicos"
+    role: "Necroassistente (funeraria)"
+    domain: "Centro Velho/cemiterios"
+    apparent_age: "40"
+    embrace_year: null
+    born_year: 1995
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "hecata_donato_lazzari"
+        type: "servant"
+        note: "retentora e operadora"
+      - to: "hecata_soraia_nunes"
+        type: "ally"
+        note: "trabalham com ecos"
+      - to: "tremere_bianca_saramago"
+        type: "uneasy"
+        note: "magia perto de mortos da problema"
+  - id: "ghoul_tiago_tranca"
+    name: "Tiago \"Tranca\""
+    file_stem: "Tiago_Tranca"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Anarch"
+    role: "Chefe de seguranca da baronia"
+    domain: "Tatuape/Mooca"
+    apparent_age: "38"
+    embrace_year: null
+    born_year: 1997
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "servant"
+        note: "escudo e executor mortal"
+      - to: "brujah_caua_martins"
+        type: "rival"
+        note: "disputa de violencia e metodo"
+      - to: "gangrel_bia_matilha"
+        type: "ally"
+        note: "fronteira protegida"
+  - id: "ghoul_beto_mecanico"
+    name: "Beto \"Mecanico\""
+    file_stem: "Beto_Mecanico"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Independentes"
+    role: "Mantenedor de rotas (garagem)"
+    domain: "Corredores e estacoes"
+    apparent_age: "45"
+    embrace_year: null
+    born_year: 1990
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "brujah_joao_do_trem"
+        type: "servant"
+        note: "apoio e lealdade antiga"
+      - to: "malkavian_paulo_vidente"
+        type: "uneasy"
+        note: "o vidente pede coisas estranhas"
+      - to: "thinblood_dante_fumo"
+        type: "ally"
+        note: "protege o garoto em rotas"
+  - id: "mortal_delegada_helena_pacheco"
+    name: "Delegada Helena Pacheco"
+    file_stem: "Delegada_Helena_Pacheco"
+    kind: "mortal"
+    clan: "Mortal"
+    sect: "Segunda Inquisicao"
+    role: "Coordenacao de campo"
+    domain: "Centro Expandido"
+    apparent_age: "44"
+    embrace_year: null
+    born_year: 1991
+    sire: null
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "enemy"
+        note: "a cidade e o tabuleiro"
+      - to: "nosferatu_nico_sombra"
+        type: "target"
+        note: "quer a rede"
+      - to: "thinblood_katia_zero"
+        type: "target"
+        note: "quer o dump"
+  - id: "mortal_padre_augusto_faria"
+    name: "Padre Augusto Faria"
+    file_stem: "Padre_Augusto_Faria"
+    kind: "mortal"
+    clan: "Mortal"
+    sect: "Mortal"
+    role: "Administracao de abrigo/ong"
+    domain: "Centro"
+    apparent_age: "52"
+    embrace_year: null
+    born_year: 1983
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "contact"
+        note: "porta mortal"
+      - to: "ministry_talita_serpente"
+        type: "enemy"
+        note: "disputa por 'almas'"
+      - to: "mortal_delegada_helena_pacheco"
+        type: "pressure"
+        note: "estado cobra resultados"
+  - id: "mortal_dra_aline_moretti"
+    name: "Dra. Aline Moretti"
+    file_stem: "Dra_Aline_Moretti"
+    kind: "mortal"
+    clan: "Mortal"
+    sect: "Mortal"
+    role: "Gestao hospitalar"
+    domain: "Oeste"
+    apparent_age: "39"
+    embrace_year: null
+    born_year: 1996
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "salubri_irene_da_luz"
+        type: "ally"
+        note: "cura discreta"
+      - to: "thinblood_luan_patch"
+        type: "ally"
+        note: "atendimento de rua"
+      - to: "mortal_delegada_helena_pacheco"
+        type: "pressure"
+        note: "pedidos de dados"
+  - id: "ghoul_jonas_coro"
+    name: "Jonas \"Coro\""
+    file_stem: "Jonas_Coro"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Camarilla"
+    role: "Coordenador de abrigo e coral (facilitador)"
+    domain: "Centro"
+    apparent_age: "32"
+    embrace_year: null
+    born_year: 2003
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "servant"
+        note: "logistica, isca e cobertura humana"
+      - to: "mortal_padre_augusto_faria"
+        type: "ally"
+        note: "rede de abrigo e cozinha"
+      - to: "mortal_delegada_helena_pacheco"
+        type: "pressure"
+        note: "inspecoes e pedidos de dados"
+  - id: "ghoul_leonardo_aprendiz"
+    name: "Leonardo \"Aprendiz\""
+    file_stem: "Leonardo_Aprendiz"
+    kind: "ghoul"
+    clan: "Mortal"
+    sect: "Camarilla"
+    role: "Assistente de laboratorio (retentor)"
+    domain: "Centro Expandido"
+    apparent_age: "27"
+    embrace_year: null
+    born_year: 2008
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "tremere_dario_kron"
+        type: "servant"
+        note: "retentor e caixa de ferramentas"
+      - to: "tremere_bianca_saramago"
+        type: "uneasy"
+        note: "ela o usa como fonte"
+      - to: "mortal_delegada_helena_pacheco"
+        type: "target"
+        note: "possivel ponto de pressao"
+  - id: "mortal_vivi_lacerda"
+    name: "Vivi Lacerda"
+    file_stem: "Vivi_Lacerda"
+    kind: "mortal"
+    clan: "Mortal"
+    sect: "Mortal"
+    role: "Influenciadora e recrutadora"
+    domain: "Pinheiros/baixa Augusta"
+    apparent_age: "26"
+    embrace_year: null
+    born_year: 2009
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "ministry_talita_serpente"
+        type: "contact"
+        note: "recrutamento e propaganda"
+      - to: "toreador_luiza_salles"
+        type: "target"
+        note: "fofoca vira arma"
+      - to: "mortal_delegada_helena_pacheco"
+        type: "pressure"
+        note: "intimacao e vigilancia"
+  - id: "malkavian_marcia_falcao"
+    name: "Marcia Falcao"
+    file_stem: "Marcia_Falcao"
+    kind: "kindred"
+    clan: "Malkavian"
+    sect: "Camarilla"
+    role: "Primogena Malkavian (ouvinte do padrao)"
+    domain: "Consolacao/Higienopolis (consultorios, jornais e bastidores)"
+    apparent_age: "42"
+    embrace_year: 1971
+    born_year: 1929
+    sire: null
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "ally"
+        note: "etiqueta em troca de previsao; controle por vias diferentes"
+      - to: "ventrue_artur_macedo"
+        type: "uneasy"
+        note: "o Principe tolera, mas nao gosta de ser lido"
+  - id: "toreador_clara_montenegro"
+    name: "Clara Montenegro"
+    file_stem: "Clara_Montenegro"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Primogena Toreador (curadora de vitrine e faca)"
+    domain: "Moema/Paraiso (galerias, hospitais e patronato)"
+    apparent_age: "33"
+    embrace_year: 1999
+    born_year: 1966
+    sire: "toreador_luiza_salles"
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "boon_due"
+        note: "Luiza a elevou; Clara paga com obediencia publica e faca privada"
+      - to: "ventrue_mateus_cordeiro"
+        type: "ally"
+        note: "protocolo e vitrine: o mesmo controle com outra musica"
+  - id: "nosferatu_raimundo_rato_rei"
+    name: "Raimundo \"Rato-Rei\""
+    file_stem: "Raimundo_Rato_Rei"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Primogeno Nosferatu (cartografo do subsolo)"
+    domain: "Perdizes/Barra Funda (dutos e rotas de fuga)"
+    apparent_age: "50"
+    embrace_year: 1964
+    born_year: 1903
+    sire: "nosferatu_vovo_zilda"
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "rival"
+        note: "informacao vs infraestrutura: dois reis no mesmo subsolo"
+      - to: "ventrue_artur_macedo"
+        type: "ally"
+        note: "rotas discretas por favores pesados"
+  - id: "banuhaqim_nadia_nasser"
+    name: "Nadia Nasser"
+    file_stem: "Nadia_Nasser"
+    kind: "kindred"
+    clan: "Banu Haqim"
+    sect: "Camarilla"
+    role: "Primogena Banu Haqim (juiza de protocolo e sangue)"
+    domain: "Ipiranga/Cursino (tribunais, cartorios e segredos)"
+    apparent_age: "38"
+    embrace_year: 2003
+    born_year: 1979
+    sire: "banuhaqim_samira_al_haddad"
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "banuhaqim_samira_al_haddad"
+        type: "mentor"
+        note: "Samira a treinou como sucessora segura para a corte"
+      - to: "ventrue_artur_macedo"
+        type: "employer"
+        note: "tribunal quando punicao precisa parecer justa"
+  - id: "ventrue_henrique_valadares"
+    name: "Henrique Valadares"
+    file_stem: "Henrique_Valadares"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Primogeno Ventrue (financas de guerra)"
+    domain: "Morumbi/Campo Belo (fundos, seguranca e condominio)"
+    apparent_age: "46"
+    embrace_year: 1984
+    born_year: 1937
+    sire: "ventrue_isabel_amaral"
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "ventrue_isabel_amaral"
+        type: "boon_due"
+        note: "Isabel o elevou; ele paga com caixa e obediencia"
+      - to: "ventrue_artur_macedo"
+        type: "ally"
+        note: "caixa e escudo em troca de influencia real"
+  - id: "brujah_diego_itaquera"
+    name: "Diego \"Itaquera\" Nascimento"
+    file_stem: "Diego_Itaquera_Nascimento"
+    kind: "kindred"
+    clan: "Brujah"
+    sect: "Anarch"
+    role: "Barao do Leste (Itaquera e Extremo Leste)"
+    domain: "Baronato Leste (Itaquera/Extremo Leste)"
+    apparent_age: "34"
+    embrace_year: 2012
+    born_year: 1978
+    sire: null
+    childer:
+      - null
+    tier: "A"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "ally"
+        note: "paz entre baronatos enquanto a Camarilla observa"
+      - to: "ravnos_maru_vento"
+        type: "employer"
+        note: "mensagens e rotas; paga com protecao"
+  - id: "hecata_celia_moura"
+    name: "Celia Moura"
+    file_stem: "Celia_Moura"
+    kind: "kindred"
+    clan: "Hecata"
+    sect: "Autarquicos"
+    role: "Agente funeraria (enclave de cemiterio)"
+    domain: "Consolacao (cemiterios, funerarias e chaves)"
+    apparent_age: "41"
+    embrace_year: 2008
+    born_year: 1967
+    sire: "hecata_donato_lazzari"
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "hecata_donato_lazzari"
+        type: "servant"
+        note: "operadora do enclave; ela faz o acordo valer na pratica"
+      - to: "salubri_irene_da_luz"
+        type: "ally"
+        note: "cura e morte conversam no mesmo corredor"
+  - id: "toreador_novo_01_aiko_tanaka"
+    name: "Aiko Tanaka"
+    file_stem: "Aiko_Tanaka"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Harpia de bairro (Pinheiros)"
+    domain: "Pinheiros/Vila Madalena"
+    apparent_age: "27"
+    embrace_year: 2006
+    born_year: 1976
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "nosferatu_novo_02_leandro_batista"
+    name: "Leandro Batista"
+    file_stem: "Leandro_Batista"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Operador de cameras (Paulista)"
+    domain: "Paulista/Jardins"
+    apparent_age: "28"
+    embrace_year: 2007
+    born_year: 1977
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "tremere_novo_03_maira_koehler"
+    name: "Maira Koehler"
+    file_stem: "Maira_Koehler"
+    kind: "kindred"
+    clan: "Tremere"
+    sect: "Camarilla"
+    role: "Guardia de grimorios (USP)"
+    domain: "Butanta/USP"
+    apparent_age: "29"
+    embrace_year: 2008
+    born_year: 1978
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "tremere_dario_kron"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "lasombra_novo_04_irma_beatriz_lemos"
+    name: "Irma Beatriz Lemos"
+    file_stem: "Irma_Beatriz_Lemos"
+    kind: "kindred"
+    clan: "Lasombra"
+    sect: "Camarilla"
+    role: "Confessora auxiliar (Bixiga)"
+    domain: "Bela Vista/Bixiga"
+    apparent_age: "30"
+    embrace_year: 2009
+    born_year: 1979
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ventrue_novo_05_eduardo_nogueira"
+    name: "Eduardo Nogueira"
+    file_stem: "Eduardo_Nogueira"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Fornecedor de Elysium (Paulista)"
+    domain: "Paulista"
+    apparent_age: "31"
+    embrace_year: 2010
+    born_year: 1980
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "malkavian_novo_06_miriam_kwon"
+    name: "Miriam Kwon"
+    file_stem: "Miriam_Kwon"
+    kind: "kindred"
+    clan: "Malkavian"
+    sect: "Camarilla"
+    role: "Leitora de padroes (bolsa)"
+    domain: "Itaim Bibi"
+    apparent_age: "32"
+    embrace_year: 2011
+    born_year: 1981
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "malkavian_paulo_vidente"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "gangrel_novo_07_bruno_arantes"
+    name: "Bruno Arantes"
+    file_stem: "Bruno_Arantes"
+    kind: "kindred"
+    clan: "Gangrel"
+    sect: "Camarilla"
+    role: "Batedor de borda (parques)"
+    domain: "Alto de Pinheiros/Butanta"
+    apparent_age: "33"
+    embrace_year: 2012
+    born_year: 1982
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "gangrel_bia_matilha"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ministry_novo_08_vivi_fenda_lacerda"
+    name: "Vivi \"Fenda\" Lacerda"
+    file_stem: "Vivi_Fenda_Lacerda"
+    kind: "kindred"
+    clan: "Ministry"
+    sect: "Anarch"
+    role: "Recrutadora (Sul)"
+    domain: "Baronato Sul (Capao/Grajau)"
+    apparent_age: "34"
+    embrace_year: 2013
+    born_year: 1983
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ministry_talita_serpente"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "gangrel_novo_09_jonas_capim"
+    name: "Jonas \"Capim\""
+    file_stem: "Jonas_Capim"
+    kind: "kindred"
+    clan: "Gangrel"
+    sect: "Anarch"
+    role: "Batedor (Sul)"
+    domain: "Baronato Sul (Capao/Grajau)"
+    apparent_age: "35"
+    embrace_year: 2014
+    born_year: 1984
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "gangrel_bia_matilha"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "thinblood_novo_10_bruna_sinais"
+    name: "Bruna \"Sinais\""
+    file_stem: "Bruna_Sinais"
+    kind: "kindred"
+    clan: "Thin Blood"
+    sect: "Anarch"
+    role: "Correio e drone (Sul)"
+    domain: "Baronato Sul (Capao/Grajau)"
+    apparent_age: "36"
+    embrace_year: 2015
+    born_year: 1985
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "thinblood_katia_zero"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "brujah_novo_11_sabrina_siqueira"
+    name: "Sabrina Siqueira"
+    file_stem: "Sabrina_Siqueira"
+    kind: "kindred"
+    clan: "Brujah"
+    sect: "Anarch"
+    role: "Organizadora de ocupacao (Sul)"
+    domain: "Baronato Sul (Capao/Grajau)"
+    apparent_age: "37"
+    embrace_year: 2016
+    born_year: 1986
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ventrue_novo_12_raul_marques"
+    name: "Raul Marques"
+    file_stem: "Raul_Marques"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Hound do Xerife (cobrador)"
+    domain: "Santana/Tucuruvi"
+    apparent_age: "38"
+    embrace_year: 2017
+    born_year: 1987
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "banuhaqim_novo_13_farid_alvim"
+    name: "Farid Alvim"
+    file_stem: "Farid_Alvim"
+    kind: "kindred"
+    clan: "Banu Haqim"
+    sect: "Camarilla"
+    role: "Auditor de sangue (campo)"
+    domain: "Ipiranga/Cursino"
+    apparent_age: "39"
+    embrace_year: 2018
+    born_year: 1988
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "banuhaqim_samira_al_haddad"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "toreador_novo_14_renata_freire"
+    name: "Renata Freire"
+    file_stem: "Renata_Freire"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Produtora de moda (noite)"
+    domain: "Jardim Paulista"
+    apparent_age: "40"
+    embrace_year: 2019
+    born_year: 1989
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "nosferatu_novo_15_taina_aruana"
+    name: "Taina Aruana"
+    file_stem: "Taina_Aruana"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Sondadora de redes (subsolo)"
+    domain: "Perdizes/Barra Funda"
+    apparent_age: "41"
+    embrace_year: 2020
+    born_year: 1990
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "caitiff_novo_16_caio_papel"
+    name: "Caio \"Papel\""
+    file_stem: "Caio_Papel"
+    kind: "kindred"
+    clan: "Caitiff"
+    sect: "Camarilla"
+    role: "Portador de recados (util)"
+    domain: "Centro Expandido"
+    apparent_age: "42"
+    embrace_year: 2021
+    born_year: 1991
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "caitiff_rafa_ferro"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ventrue_novo_17_helio_barros_1"
+    name: "Helio Barros"
+    file_stem: "Helio_Barros"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Gestor de predio (fachada)"
+    domain: "Morumbi/Campo Belo"
+    apparent_age: "43"
+    embrace_year: 2022
+    born_year: 1992
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "toreador_novo_18_sofia_pires_2"
+    name: "Sofia Pires"
+    file_stem: "Sofia_Pires"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Curadora de sala (Elysium)"
+    domain: "Liberdade"
+    apparent_age: "44"
+    embrace_year: 2023
+    born_year: 1993
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "nosferatu_novo_19_nara_sato_3"
+    name: "Nara Sato"
+    file_stem: "Nara_Sato"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Sombra de entrega (correio)"
+    domain: "Bras/Pari"
+    apparent_age: "45"
+    embrace_year: 2024
+    born_year: 1994
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "tremere_novo_20_igor_menezes_4"
+    name: "Igor Menezes"
+    file_stem: "Igor_Menezes"
+    kind: "kindred"
+    clan: "Tremere"
+    sect: "Camarilla"
+    role: "Analista de risco (oculto)"
+    domain: "Butanta/USP"
+    apparent_age: "26"
+    embrace_year: 2005
+    born_year: 1995
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "tremere_dario_kron"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "lasombra_novo_21_severino_carmo_5"
+    name: "Severino Carmo"
+    file_stem: "Severino_Carmo"
+    kind: "kindred"
+    clan: "Lasombra"
+    sect: "Camarilla"
+    role: "Advogado da confissao"
+    domain: "Bela Vista/Bixiga"
+    apparent_age: "27"
+    embrace_year: 2006
+    born_year: 1996
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "malkavian_novo_22_celia_andrade_6"
+    name: "Celia Andrade"
+    file_stem: "Celia_Andrade"
+    kind: "kindred"
+    clan: "Malkavian"
+    sect: "Camarilla"
+    role: "Cinegrafista de rumor"
+    domain: "Paulista"
+    apparent_age: "28"
+    embrace_year: 2007
+    born_year: 1997
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "malkavian_paulo_vidente"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ventrue_novo_23_helio_barros_7"
+    name: "Otavio Braga"
+    file_stem: "Otavio_Braga"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Gestor de predio (fachada)"
+    domain: "Morumbi/Campo Belo"
+    apparent_age: "29"
+    embrace_year: 2008
+    born_year: 1998
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "toreador_novo_24_sofia_pires_8"
+    name: "Beatriz Pires"
+    file_stem: "Beatriz_Pires"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Curadora de sala (Elysium)"
+    domain: "Liberdade"
+    apparent_age: "30"
+    embrace_year: 2009
+    born_year: 1999
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "nosferatu_novo_25_nara_sato_9"
+    name: "Keiko Sato"
+    file_stem: "Keiko_Sato"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Sombra de entrega (correio)"
+    domain: "Bras/Pari"
+    apparent_age: "31"
+    embrace_year: 2010
+    born_year: 1975
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "tremere_novo_26_igor_menezes_10"
+    name: "Rafael Menezes"
+    file_stem: "Rafael_Menezes"
+    kind: "kindred"
+    clan: "Tremere"
+    sect: "Camarilla"
+    role: "Analista de risco (oculto)"
+    domain: "Butanta/USP"
+    apparent_age: "32"
+    embrace_year: 2011
+    born_year: 1976
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "tremere_dario_kron"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "lasombra_novo_27_severino_carmo_11"
+    name: "Afonso Carmo"
+    file_stem: "Afonso_Carmo"
+    kind: "kindred"
+    clan: "Lasombra"
+    sect: "Camarilla"
+    role: "Advogado da confissao"
+    domain: "Bela Vista/Bixiga"
+    apparent_age: "33"
+    embrace_year: 2012
+    born_year: 1977
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "malkavian_novo_28_celia_andrade_12"
+    name: "Regina Andrade"
+    file_stem: "Regina_Andrade"
+    kind: "kindred"
+    clan: "Malkavian"
+    sect: "Camarilla"
+    role: "Cinegrafista de rumor"
+    domain: "Paulista"
+    apparent_age: "34"
+    embrace_year: 2013
+    born_year: 1978
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "malkavian_paulo_vidente"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ventrue_novo_29_helio_barros_13"
+    name: "Renato Vianna"
+    file_stem: "Renato_Vianna"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Gestor de predio (fachada)"
+    domain: "Morumbi/Campo Belo"
+    apparent_age: "35"
+    embrace_year: 2014
+    born_year: 1979
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "toreador_novo_30_sofia_pires_14"
+    name: "Larissa Prado"
+    file_stem: "Larissa_Prado"
+    kind: "kindred"
+    clan: "Toreador"
+    sect: "Camarilla"
+    role: "Curadora de sala (Elysium)"
+    domain: "Liberdade"
+    apparent_age: "36"
+    embrace_year: 2015
+    born_year: 1980
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "nosferatu_novo_31_nara_sato_15"
+    name: "Hiroko Sato"
+    file_stem: "Hiroko_Sato"
+    kind: "kindred"
+    clan: "Nosferatu"
+    sect: "Camarilla"
+    role: "Sombra de entrega (correio)"
+    domain: "Bras/Pari"
+    apparent_age: "37"
+    embrace_year: 2016
+    born_year: 1981
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "tremere_novo_32_igor_menezes_16"
+    name: "Caio Menezes"
+    file_stem: "Caio_Menezes"
+    kind: "kindred"
+    clan: "Tremere"
+    sect: "Camarilla"
+    role: "Analista de risco (oculto)"
+    domain: "Butanta/USP"
+    apparent_age: "38"
+    embrace_year: 2017
+    born_year: 1982
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "tremere_dario_kron"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "lasombra_novo_33_severino_carmo_17"
+    name: "Bento Carmo"
+    file_stem: "Bento_Carmo"
+    kind: "kindred"
+    clan: "Lasombra"
+    sect: "Camarilla"
+    role: "Advogado da confissao"
+    domain: "Bela Vista/Bixiga"
+    apparent_age: "39"
+    embrace_year: 2018
+    born_year: 1983
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "malkavian_novo_34_celia_andrade_18"
+    name: "Patricia Andrade"
+    file_stem: "Patricia_Andrade"
+    kind: "kindred"
+    clan: "Malkavian"
+    sect: "Camarilla"
+    role: "Cinegrafista de rumor"
+    domain: "Paulista"
+    apparent_age: "40"
+    embrace_year: 2019
+    born_year: 1984
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "malkavian_paulo_vidente"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ventrue_novo_35_helio_barros_19"
+    name: "Augusto Brito"
+    file_stem: "Augusto_Brito"
+    kind: "kindred"
+    clan: "Ventrue"
+    sect: "Camarilla"
+    role: "Gestor de predio (fachada)"
+    domain: "Morumbi/Campo Belo"
+    apparent_age: "41"
+    embrace_year: 2020
+    born_year: 1985
+    sire: null
+    childer:
+      - null
+    tier: "B"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "contact"
+        note: "ponte para a politica local"
+  - id: "ghoul_damiao_portaria"
+    name: "Damiao \"Portaria\""
+    file_stem: "Damiao_Portaria"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Retentor (seguranca e acesso em condominios)"
+    domain: "Morumbi/Campo Belo"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1983
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_henrique_valadares"
+        type: "servant"
+        note: "acesso, vigilância, chaves-mestras"
+  - id: "ghoul_sonia_atelie"
+    name: "Sonia \"Atelie\""
+    file_stem: "Sonia_Atelie"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Retentora (figurinista e disfarces)"
+    domain: "Moema/Paraiso"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1991
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "toreador_clara_montenegro"
+        type: "servant"
+        note: "disfarces, figurino, identidades de evento"
+  - id: "ghoul_ana_terapeuta"
+    name: "Ana \"Terapeuta\" Reis"
+    file_stem: "Ana_Terapeuta_Reis"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Retentora (escuta, arquivo e remedio)"
+    domain: "Consolacao/Higienopolis"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1990
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "malkavian_marcia_falcao"
+        type: "servant"
+        note: "atende mortais e cola rastros; protege o consultorio"
+  - id: "ghoul_samir_escrivao"
+    name: "Samir \"Escrivao\" Haddad"
+    file_stem: "Samir_Escrivao_Haddad"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Retentor (cartorio, selo e copia)"
+    domain: "Ipiranga/Cursino"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1987
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "banuhaqim_nadia_nasser"
+        type: "servant"
+        note: "processos, carimbos e favores; faz a noite parecer legal"
+  - id: "ghoul_pedro_manutencao"
+    name: "Pedro \"Manutencao\" Lins"
+    file_stem: "Pedro_Manutencao_Lins"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Retentor (chaves, dutos e horarios)"
+    domain: "Perdizes/Barra Funda"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1981
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "nosferatu_raimundo_rato_rei"
+        type: "servant"
+        note: "abre portas de manutencao e apaga trilhas no concreto"
+  - id: "ghoul_lia_comunidade"
+    name: "Lia \"Comunidad\" Souza"
+    file_stem: "Lia_Comunidad_Souza"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Contato mortal (cozinha, abrigo e aviso)"
+    domain: "Baronato Leste (Itaquera/Extremo Leste)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1995
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "brujah_diego_itaquera"
+        type: "ally"
+        note: "organiza abrigo e noticia; faz o baronato respirar"
+  - id: "ghoul_marcelo_moto"
+    name: "Marcelo \"Moto\" Vieira"
+    file_stem: "Marcelo_Moto_Vieira"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Courier (entregas e fuga)"
+    domain: "Baronato Sul (Capao/Grajau)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1998
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "gangrel_bia_matilha"
+        type: "servant"
+        note: "leva recados e sangue; conhece as bordas e volta vivo"
+  - id: "ghoul_ricardo_protocolos"
+    name: "Ricardo \"Protocolos\" Nery"
+    file_stem: "Ricardo_Protocolos_Nery"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Maitre de Elysium (lista, convite, humilhacao elegante)"
+    domain: "Paulista/Jardins"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1986
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_mateus_cordeiro"
+        type: "servant"
+        note: "executa protocolo e seleciona quem pode humilhar quem"
+      - to: "toreador_luiza_salles"
+        type: "uneasy"
+        note: "Luiza o usa como instrumento; Ricardo nao esquece ser usado"
+  - id: "ghoul_lara_contencao"
+    name: "Lara \"Contencao\" Tavares"
+    file_stem: "Lara_Contencao_Tavares"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Seguranca de Elysium (contencao sem sangue, camera sem prova)"
+    domain: "Liberdade/Paulista"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1993
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "banuhaqim_samira_al_haddad"
+        type: "ally"
+        note: "Samira a usa como mao limpa fora da cadeia oficial"
+      - to: "toreador_helena_vasconcelos"
+        type: "servant"
+        note: "Helena confia nela para proteger eventos sem virar escandalo"
+  - id: "ghoul_paula_compliance"
+    name: "Paula \"Compliance\" Azevedo"
+    file_stem: "Paula_Compliance_Azevedo"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Advogada de crise (NDA, sumico, acordo extrajudicial)"
+    domain: "Morumbi/Campo Belo"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1990
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_henrique_valadares"
+        type: "servant"
+        note: "tapa buracos juridicos e compra silencio em lote"
+      - to: "ventrue_novo_12_raul_marques"
+        type: "uneasy"
+        note: "Raul prefere pancada; Paula prefere papel. Os dois se odeiam e se precisam"
+  - id: "ghoul_igor_motorista"
+    name: "Igor \"Sombra\" Camargo"
+    file_stem: "Igor_Sombra_Camargo"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Motorista (rota, placa, porta traseira)"
+    domain: "Paulista/Jardins"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1981
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "servant"
+        note: "leva mensagens e pessoas; nunca pergunta o nome verdadeiro"
+      - to: "ghoul_mariana_lobo"
+        type: "ally"
+        note: "ela controla a agenda; ele controla a rota"
+  - id: "ghoul_renato_laboratorio"
+    name: "Renato \"Bico\" Sampaio"
+    file_stem: "Renato_Bico_Sampaio"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Tecnico de laboratorio (amostras, descarte, chave de sala)"
+    domain: "Butanta/USP"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1996
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "tremere_dario_kron"
+        type: "servant"
+        note: "faz a torre funcionar sem deixar rastro mortal"
+      - to: "tremere_bianca_saramago"
+        type: "pressure"
+        note: "Bianca o pressiona por nomes e horarios"
+  - id: "ghoul_camila_fotografa"
+    name: "Camila \"Flash\" Siqueira"
+    file_stem: "Camila_Flash_Siqueira"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Fotografa de evento (imagem, corte, prova)"
+    domain: "Pinheiros/Moema"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1999
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "servant"
+        note: "transforma politica em imagem e imagem em arma"
+      - to: "toreador_clara_montenegro"
+        type: "ally"
+        note: "hospitalidade e vitrine: Clara a protege quando convem"
+  - id: "ghoul_marcos_sacristao"
+    name: "Marcos \"Sacristao\" Vieira"
+    file_stem: "Marcos_Sacristao_Vieira"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Sacristao e logistica (chaves, horarios, sala dos fundos)"
+    domain: "Bela Vista/Bixiga"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1978
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "lasombra_padre_miguel_aranha"
+        type: "servant"
+        note: "abre portas e fecha bocas na mesma noite"
+      - to: "lasombra_novo_04_irma_beatriz_lemos"
+        type: "ally"
+        note: "ela cuida da culpa; ele cuida do corredor"
+  - id: "ghoul_jessica_biqueira"
+    name: "Jessica \"Biqueira\" Ramos"
+    file_stem: "Jessica_Biqueira_Ramos"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Gerente de esquina (boca, aviso, caixa)"
+    domain: "Baronato Sul (Capao/Grajau)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1997
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "gangrel_bia_matilha"
+        type: "ally"
+        note: "a rua sustenta a matilha; a matilha protege a rua"
+      - to: "ministry_novo_08_vivi_fenda_lacerda"
+        type: "uneasy"
+        note: "culto quer tomar a esquina; Jessica nao aceita perder caixa"
+  - id: "ghoul_rodrigo_fiel"
+    name: "Rodrigo \"Fiel\" Santana"
+    file_stem: "Rodrigo_Fiel_Santana"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Capanga (cobranca e 'resolucao')"
+    domain: "Baronato Mooca/Tatuape"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1991
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "servant"
+        note: "faz cobranca e protege a imagem da baronia"
+      - to: "ghoul_tiago_tranca"
+        type: "ally"
+        note: "Tiago manda; Rodrigo executa (e exagera)"
+  - id: "ghoul_maya_hacker"
+    name: "Maya \"Backdoor\" Costa"
+    file_stem: "Maya_Backdoor_Costa"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Hacker e camera (apaga, injeta, rastreia)"
+    domain: "Baronato Mooca/Tatuape"
+    apparent_age: null
+    embrace_year: null
+    born_year: 2001
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "thinblood_katia_zero"
+        type: "ally"
+        note: "duas redes que se respeitam porque precisam"
+      - to: "nosferatu_ester_gato_preto"
+        type: "uneasy"
+        note: "Ester tenta compra-la; Maya tenta nao virar propriedade"
+  - id: "ghoul_eli_customs"
+    name: "Eli \"Despacho\" Araujo"
+    file_stem: "Eli_Despacho_Araujo"
+    kind: "ghoul"
+    clan: ""
+    sect: "Independentes"
+    role: "Despachante (nota fiscal, placa e horario)"
+    domain: "Corredores (Barra Funda/Lapa)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1989
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "brujah_joao_do_trem"
+        type: "ally"
+        note: "Joao fornece rota; Eli fornece papel"
+      - to: "nosferatu_nico_sombra"
+        type: "uneasy"
+        note: "Nico compra 'verdade de papel' quando precisa"
+  - id: "ghoul_silvia_funebre"
+    name: "Silvia \"Funebre\" Prado"
+    file_stem: "Silvia_Funebre_Prado"
+    kind: "ghoul"
+    clan: ""
+    sect: "Autarquicos"
+    role: "Diretora de funeraria (agenda, sala, 'preparo')"
+    domain: "Consolacao (cemiterios/funerarias)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1975
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "hecata_donato_lazzari"
+        type: "servant"
+        note: "faz o enclave funcionar e apaga rastros no mundo mortal"
+      - to: "hecata_celia_moura"
+        type: "ally"
+        note: "Celia cuida das chaves; Silvia cuida do calendario"
+  - id: "ghoul_marcela_cartorio"
+    name: "Marcela \"Cartorio\" Guimaraes"
+    file_stem: "Marcela_Cartorio_Guimaraes"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Escritura e apagamento (cartorio, procuração, 'segunda via')"
+    domain: "Itaim/Berrini"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1982
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ventrue_isabel_amaral"
+        type: "servant"
+        note: "Isabel controla nomes; Marcela controla papel"
+      - to: "ventrue_henrique_valadares"
+        type: "uneasy"
+        note: "Henrique tenta compra-la; ela cobra caro demais"
+  - id: "ghoul_yuri_curador"
+    name: "Yuri \"Curador\" Sato"
+    file_stem: "Yuri_Curador_Sato"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Equipe de Elysium (cenografia, alcool, saida de emergencia)"
+    domain: "Liberdade"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1994
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "toreador_helena_vasconcelos"
+        type: "servant"
+        note: "Helena cuida do Elysium; Yuri cuida do corpo do evento"
+      - to: "toreador_daniel_sato"
+        type: "ally"
+        note: "Daniel planta rumor; Yuri escolhe onde ele cai"
+  - id: "ghoul_nando_desmanche"
+    name: "Nando \"Desmanche\" Alves"
+    file_stem: "Nando_Desmanche_Alves"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Desmanche e documento (carro quente, placa fria)"
+    domain: "Baronato Mooca/Tatuape"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1988
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "caitiff_rafa_ferro"
+        type: "ally"
+        note: "Rafa protege; Nando fornece fuga"
+      - to: "brujah_renata_ferraz"
+        type: "servant"
+        note: "taxa em pecas e silencio"
+  - id: "ghoul_paula_olheira"
+    name: "Paula \"Olheira\" Nascimento"
+    file_stem: "Paula_Olheira_Nascimento"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Olheira de rua (aviso, filmagem, fuga a pe)"
+    domain: "Baronato Leste (Itaquera/Extremo Leste)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 2002
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "brujah_diego_itaquera"
+        type: "servant"
+        note: "Diego manda: Paula ve primeiro"
+      - to: "thinblood_ana_carbono"
+        type: "ally"
+        note: "Ana some gente; Paula some imagem"
+  - id: "ghoul_wesley_corredor"
+    name: "Wesley \"Corredor\" Dias"
+    file_stem: "Wesley_Corredor_Dias"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Motoqueiro de rota (sangue, arma, gente)"
+    domain: "Baronato Sul (Capao/Grajau)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1999
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ghoul_marcelo_moto"
+        type: "rival"
+        note: "os dois disputam quem entrega primeiro e quem volta vivo"
+      - to: "gangrel_bia_matilha"
+        type: "servant"
+        note: "Bia cobra respeito; Wesley cobra gasolina"
+  - id: "ghoul_teresa_balanca"
+    name: "Teresa \"Balanca\" Pacheco"
+    file_stem: "Teresa_Balanca_Pacheco"
+    kind: "ghoul"
+    clan: ""
+    sect: "Independentes"
+    role: "Controle de doca (fila, balanca, camera 'cego')"
+    domain: "Corredores (Barra Funda/Lapa)"
+    apparent_age: null
+    embrace_year: null
+    born_year: 1980
+    sire: null
+    childer:
+      - null
+    tier: "C"
+    links:
+      - to: "ghoul_eli_customs"
+        type: "ally"
+        note: "papel e balanca: juntos criam passagem"
+      - to: "nosferatu_nico_sombra"
+        type: "client"
+        note: "vende janela de camera por dado moral"
+  - id: "ghoul_victor_pires"
+    name: "Victor Pires"
+    file_stem: "Victor_Pires"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Seguranca e motorista (Corte do Elysium)"
+    domain: "Paulista/Jardins"
+    apparent_age: "38"
+    embrace_year: null
+    born_year: null
+    sire: null
+    childer:
+      - null
+    tier: "support"
+    links:
+      - to: "ventrue_artur_macedo"
+        type: "servant"
+        note: "motorista e seguranca discreto do Principe"
+      - to: "banuhaqim_samira_al_haddad"
+        type: "uneasy"
+        note: "respeita o Xerife e teme auditoria"
+  - id: "ghoul_silvia_kajiki"
+    name: "Silvia Kajiki"
+    file_stem: "Silvia_Kajiki"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Recepcao e lista (Elysium de Pinheiros)"
+    domain: "Pinheiros/Vila Madalena"
+    apparent_age: "29"
+    embrace_year: null
+    born_year: null
+    sire: null
+    childer:
+      - null
+    tier: "support"
+    links:
+      - to: "toreador_luiza_salles"
+        type: "servant"
+        note: "recepcao, lista e controle social para a Senescal/Harpia"
+      - to: "toreador_helena_vasconcelos"
+        type: "ally"
+        note: "trabalham juntas para manter o Elysium limpo"
+  - id: "ghoul_douglas_ferraz"
+    name: "Douglas Ferraz"
+    file_stem: "Douglas_Ferraz"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Logistica e carros (Baronato da Mooca)"
+    domain: "Tatuape/Mooca"
+    apparent_age: "33"
+    embrace_year: null
+    born_year: null
+    sire: null
+    childer:
+      - null
+    tier: "support"
+    links:
+      - to: "brujah_renata_ferraz"
+        type: "servant"
+        note: "logistica, roubos e carros para o Baronato da Mooca"
+      - to: "ghoul_beto_mecanico"
+        type: "ally"
+        note: "oficina e pecas; parceria tensa"
+  - id: "ghoul_rafaela_novais"
+    name: "Rafaela Novais"
+    file_stem: "Rafaela_Novais"
+    kind: "ghoul"
+    clan: ""
+    sect: "Anarch"
+    role: "Socorro e triagem (Itaquera)"
+    domain: "Baronato Leste (Itaquera/Extremo Leste)"
+    apparent_age: "26"
+    embrace_year: null
+    born_year: null
+    sire: null
+    childer:
+      - null
+    tier: "support"
+    links:
+      - to: "brujah_diego_itaquera"
+        type: "servant"
+        note: "atendimento, cobertura e rede de socorro do Barao do Leste"
+      - to: "thin_blood_luan_patch"
+        type: "ally"
+        note: "troca de materiais e tecnicas; respeito mutuo"
+  - id: "ghoul_jonas_santos"
+    name: "Jonas Santos"
+    file_stem: "Jonas_Santos"
+    kind: "ghoul"
+    clan: ""
+    sect: "Camarilla"
+    role: "Correio (motoboy de rotas)"
+    domain: "Corredores (Zona Cinza de carga e sumico)"
+    apparent_age: "41"
+    embrace_year: null
+    born_year: null
+    sire: null
+    childer:
+      - null
+    tier: "support"
+    links:
+      - to: "nosferatu_nico_sombra"
+        type: "servant"
+        note: "correio de dados e pequenas coisas; roda pela Zona Cinza"
+      - to: "nosferatu_ester_gato_preto"
+        type: "rival"
+        note: "disputa de rotas e de confianca"
+  - id: "ghoul_maria_zelia_ramos"
+    name: "Maria Zelia Ramos"
+    file_stem: "Maria_Zelia_Ramos"
+    kind: "ghoul"
+    clan: ""
+    sect: "Autarquicos"
+    role: "Gestora de funeraria (enclave Hecata)"
+    domain: "Cemiterios (Centro/Oeste)"
+    apparent_age: "52"
+    embrace_year: null
+    born_year: null
+    sire: null
+    childer:
+      - null
+    tier: "support"
+    links:
+      - to: "hecata_celia_moura"
+        type: "servant"
+        note: "gestao de funeraria e acesso ao cemiterio"
+      - to: "hecata_donato_lazzari"
+        type: "uneasy"
+        note: "teme o coletor de pedagio e seus 'custos'"

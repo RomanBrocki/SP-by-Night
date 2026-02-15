@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+tools/__pycache__/
+tools/_pydeps/
+tools/_recovered/
+
+# If you ever use local venvs
+.venv/
+venv/
+

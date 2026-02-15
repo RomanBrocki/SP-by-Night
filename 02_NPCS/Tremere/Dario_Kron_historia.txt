@@ -1,0 +1,48 @@
+Dario Kron
+
+Perfil:
+- Cla: Tremere | Seita: Camarilla | Funcao: Primogeno Tremere (regente de fato)
+- Dominio: Butanta/USP (Torre Tremere; refugios dispersos) | Idade aparente: 42
+- Abraco: 1968 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Blood Sorcery 4', 'Auspex 2', 'Dominate 2']
+- Assinatura/estilo: rituais curtos; paranoia como liturgia
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Corte do Elysium (Camarilla)
+- Torre da USP (Tremere)
+
+Tom (para narrar):
+Dario Kron e metodo e contingencia. Em cena: tudo vira procedimento (selos, verificacoes, contramedidas), e qualquer improviso vira risco registrado. Quem quebra a regra descobre que a regra tem dentes.
+
+Historia (costurada, sem resumo seco):
+Dario Kron nasceu em 1925. O Abraco veio em 1968 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Reconstruir um chantry sem virar alvo facil. O medo e igualmente pratico: Que a SI esteja mais proxima do que ele admite.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Academia e laboratorios (pesquisa, bolsas, comites de etica como escudo).
+- Ocultismo de vitrine (livrarias, palestras, grupos de estudo).
+- Arquivos e burocracia (quem controla o registro controla a versao).
+
+Segredo (objetivamente jogavel):
+- Ele mantem um acordo de silencio com um Hecata para varrer rastros (corpos, nomes e horarios). O acordo tem contrapartida e prova material (mensagens, recibos, intermediarios).
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ele nao e Tremere; e um impostor de outro cla.
+- Verdade (perigosa): Ele tem um metodo de rastrear sangue pela rede de boons.
+
+Conexoes (com motivo e custo):
+- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [rival]: ela odeia o imprevisivel dos rituais
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [boon_owed]: Minor; intermediacao com mortos
+- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [uneasy]: nao confia em sombras na Camarilla
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Leonardo "Aprendiz": Assistente de laboratorio (retentor) (area: Centro Expandido)
+- Renato "Bico" Sampaio: Tecnico de laboratorio (amostras, descarte, chave de sala) (area: Butanta/USP)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- tremere_bianca_saramago
+
+Cenas prontas (para jogar hoje):
+- Cena: Butanta/USP (Torre Tremere; refugios dispersos). Pede aos PJ que recuperem um grimorio em territorio Anarch.
+- Cena: Butanta/USP (Torre Tremere; refugios dispersos). Oferece um ritual util em troca de um nome.
+- Cena: Butanta/USP (Torre Tremere; refugios dispersos). Tenta usar os PJ para expor um traidor no cla.

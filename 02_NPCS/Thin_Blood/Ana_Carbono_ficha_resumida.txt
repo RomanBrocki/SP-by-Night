@@ -1,0 +1,25 @@
+Nome / Alcunha: Ana "Carbono" / Alquimista (mercado cinza)
+Cla: Thin Blood | Seita: Anarch
+Idade aparente: 23 | Abraco: 2031 | Potencia do Sangue 0
+Dominio / area principal: Pinheiros e rotas
+Disciplinas (top 3): ['Thin-blood Alchemy 3', 'Celerity 1', 'Obfuscate 1']
+Assinatura / estilo: laboratorio improvisado; carisma de nerd
+Coteries/associacoes (grupo e rede):
+- Leste de Aco (Itaquera/Extremo Leste)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Ninguem merece virar cinza por ignorancia'.
+- Touchstone: um irmao mortal que acha que ela esta viajando.
+Ganchos de cena:
+- Pode dar aos PJ um sangue que engana camera por horas (com risco).
+- E cacada por um operador da Operacao Lumen.
+- Pede ajuda para resgatar um thin-blood preso.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+Servos/contatos notaveis (entrada rapida):
+- Daniel Sato (kindred; Harpia junior (fofoca de campo)) [ally]: anonimato em troca de favores
+- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [supplier]: milagres por boons
+- Rafa "Ferro" (kindred; Aspirante a corte (Caitiff)) [ally]: protecao de base

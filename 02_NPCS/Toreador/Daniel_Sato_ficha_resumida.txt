@@ -1,0 +1,24 @@
+Nome / Alcunha: Daniel Sato / Harpia junior (fofoca de campo)
+Cla: Toreador | Seita: Camarilla
+Idade aparente: 26 | Abraco: 2018 | Potencia do Sangue 2
+Dominio / area principal: Liberdade/Paulista
+Disciplinas (top 3): ['Auspex 2', 'Presence 2', 'Celerity 1']
+Assinatura / estilo: gentil, rapido, sempre em eventos certos
+Coteries/associacoes (grupo e rede):
+- Salao de Pinheiros (Toreador)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao destrua inocentes por esporte'.
+- Touchstone: uma prima mortal que ele ajuda anonimamente.
+Ganchos de cena:
+- Vira informante dos PJ por simpatia.
+- Entrega rumor verdadeiro mas cobra protecao.
+- E usado como isca pela SI sem saber.
+Atuacao mortal (explicita):
+- Arte e midia (curadoria, eventos, reputacao e narrativas).
+- Cenas noturnas (clubes, galerias, circulos VIP).
+- Intermediacao social (listas, convites, portas que abrem e fecham).
+Servos/contatos notaveis (entrada rapida):
+- Luiza Salles (kindred; Senescal e Harpia principal) [childe]: dependencia afetiva e politica
+- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [ally]: troca favores por anonimato digital
+- Nico "Sombra" (kindred; Corretor de informacao) [client]: compra boatos com boatos

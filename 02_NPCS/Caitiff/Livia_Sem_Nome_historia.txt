@@ -1,0 +1,43 @@
+Livia "Sem-Nome"
+
+Perfil:
+- Cla: Caitiff | Seita: Camarilla | Funcao: Informante tolerada
+- Dominio: Centro Expandido (circula) | Idade aparente: 25
+- Abraco: 2022 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Obfuscate 2', 'Auspex 1', 'Presence 1']
+- Assinatura/estilo: nao deixa rastro; sempre sabe quem viu o que
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- (Sem grupo formal registrado)
+
+Tom (para narrar):
+Livia "Sem-Nome" e utilidade perigosa. Em cena: alguem tenta usar, alguem tenta culpar, e a pessoa aprende a viver entre martelo e bigorna.
+
+Historia (costurada, sem resumo seco):
+Livia "Sem-Nome" nasceu em 1997. O Abraco veio em 2022 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Ganhar status sem escolher um lado para morrer. O medo e igualmente pratico: Ser apagada pelo Xerife por conveniencia.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+
+Segredo (objetivamente jogavel):
+- Ela ja serviu como guia para uma equipe mortal (sem saber o que eram).
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e Nosferatu sob maquiagem.
+- Verdade (perigosa): Ela sabe o caminho para um refugio de emergencia do Principe.
+
+Conexoes (com motivo e custo):
+- Samira al-Haddad (kindred; Xerife) [handler]: o Xerife usa quando precisa
+- Artur Macedo (kindred; Principe de Sao Paulo) [client]: vende pequenos favores por protecao
+- Nico "Sombra" (kindred; Corretor de informacao) [ally]: troca de pistas por anonimato
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Cenas prontas (para jogar hoje):
+- Cena: Centro Expandido (circula). Entrega aos PJ uma pista sobre a SI.
+- Cena: Centro Expandido (circula). E acusada de um vazamento e precisa sumir.
+- Cena: Centro Expandido (circula). Vira isca para capturar um thin-blood alquimista.

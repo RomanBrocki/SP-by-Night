@@ -1,0 +1,22 @@
+Nome / Alcunha: Raimundo "Rato-Rei" / Primogeno Nosferatu (cartografo do subsolo)
+Cla: Nosferatu | Seita: Camarilla
+Idade aparente: 50 | Abraco: 1964 | Potencia do Sangue 3
+Dominio / area principal: Perdizes/Barra Funda (dutos e rotas de fuga)
+Disciplinas (top 3): -
+Assinatura / estilo: -
+Coteries/associacoes (grupo e rede):
+- Correios do Subsolo (rede Nosferatu)
+- Corte do Elysium (Camarilla)
+Ghouls/servos diretos: 1
+- Pedro "Manutencao" Lins (Retentor (chaves, dutos e horarios))
+Touchstones/Conviccoes (resumo):
+- (Nao definido)
+Ganchos de cena:
+- (Nao definido)
+Atuacao mortal (explicita):
+- Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
+- sumicos logisticos (entregas, galpoes, portoes, horarios).
+- Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
+Servos/contatos notaveis (entrada rapida):
+- Nico "Sombra" (kindred; Corretor de informacao) [rival]: informacao vs infraestrutura: dois reis no mesmo subsolo
+- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: rotas discretas por favores pesados

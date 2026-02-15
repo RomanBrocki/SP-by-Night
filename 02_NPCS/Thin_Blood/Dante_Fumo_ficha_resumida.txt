@@ -1,0 +1,24 @@
+Nome / Alcunha: Dante "Fumo" / Correio e sumico
+Cla: Thin Blood | Seita: Independentes
+Idade aparente: 19 | Abraco: 2033 | Potencia do Sangue 0
+Dominio / area principal: Corredores (entregas)
+Disciplinas (top 3): ['Thin-blood Alchemy 1', 'Celerity 1', 'Obfuscate 1']
+Assinatura / estilo: some em esquina iluminada
+Coteries/associacoes (grupo e rede):
+- Corredores de Sombra (conselho de corretores)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao venda ninguem'.
+- Touchstone: uma mae mortal que ele observa de longe.
+Ganchos de cena:
+- Entrega aos PJ algo que ele nao devia ter.
+- Vira testemunha de um ataque mortal.
+- Pede abrigo na baronia de Renata.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+Servos/contatos notaveis (entrada rapida):
+- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [protector]: o velho o protege por principio
+- Cecilia "Linha-Dois" (kindred; Mensageira de pressagios) [friend]: mensagens e pressagios
+- Nico "Sombra" (kindred; Corretor de informacao) [client]: faz entregas para ele

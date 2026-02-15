@@ -1,0 +1,24 @@
+Nome / Alcunha: Iago Siqueira / Banco de boons (cobrador)
+Cla: Hecata | Seita: Autarquicos
+Idade aparente: 29 | Abraco: 2014 | Potencia do Sangue 2
+Dominio / area principal: Centro Expandido (reunioes discretas)
+Disciplinas (top 3): ['Auspex 2', 'Oblivion 2', 'Dominate 1']
+Assinatura / estilo: educacao impecavel; cobranca implacavel
+Coteries/associacoes (grupo e rede):
+- Enclave dos Cemiterios (Hecata)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Divida e destino'.
+- Touchstone: uma planilha mortal que ninguem mais entende.
+Ganchos de cena:
+- Oferece aos PJ um adiantamento de boon em troca de risco.
+- Vende perdao por um favor no Centro velho.
+- Marca um PJ como devedor sem ele perceber.
+Atuacao mortal (explicita):
+- Funerarias, cemiterios e logistica de corpo (o que some, some direito).
+- Cartorios e registros (nome, documento, heranca).
+- Intermediacao de dividas (boons como tabela, cobranca como ritual).
+Servos/contatos notaveis (entrada rapida):
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [childe]: aprendeu a cobrar com o sire
+- Artur Macedo (kindred; Principe de Sao Paulo) [client]: compra silencio e rastros
+- Luiza Salles (kindred; Senescal e Harpia principal) [client]: vende paz social com juros

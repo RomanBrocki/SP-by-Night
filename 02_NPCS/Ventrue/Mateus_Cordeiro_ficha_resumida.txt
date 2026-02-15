@@ -1,0 +1,26 @@
+Nome / Alcunha: Mateus Cordeiro / Responsavel por Protocolos de Elysium
+Cla: Ventrue | Seita: Camarilla
+Idade aparente: 28 | Abraco: 2009 | Potencia do Sangue 2
+Dominio / area principal: Paulista
+Disciplinas (top 3): ['Presence 3', 'Dominate 2', 'Fortitude 1']
+Assinatura / estilo: cordial demais; registra tudo o que pode
+Coteries/associacoes (grupo e rede):
+- Corte do Elysium (Camarilla)
+Ghouls/servos diretos: 1
+- Ricardo "Protocolos" Nery (Maitre de Elysium (lista, convite, humilhacao elegante))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'A etiqueta impede a guerra'.
+- Touchstone: um ex-colega mortal em eventos.
+Ganchos de cena:
+- Enquadra os PJ por quebra de etiqueta para testar reacao.
+- Ajuda a conseguir convite para Elysium por um preco.
+- Vira bode expiatorio em uma crise.
+Atuacao mortal (explicita):
+- Financas e imobiliario (fundos, holdings, locacoes estrategicas).
+- Influencia em seguranca privada e compliance (controle de acesso, camadas de permissao).
+- Intermediacao via advogados, consultorias e fixers (apagamento de incidentes).
+- Relacoes com elites corporativas (eventos, conselhos, patrocinios).
+Servos/contatos notaveis (entrada rapida):
+- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: disputa narrativa em Elysium
+- Samira al-Haddad (kindred; Xerife) [uneasy]: tem medo do Xerife
+- Nico "Sombra" (kindred; Corretor de informacao) [client]: compra informacao barata

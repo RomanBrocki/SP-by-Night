@@ -1,0 +1,46 @@
+Talita "Serpente"
+
+Perfil:
+- Cla: Ministry | Seita: Independentes | Funcao: Pregadora do Vicio (culto urbano)
+- Dominio: Pinheiros/baixa Augusta (celulas) | Idade aparente: 31
+- Abraco: 2010 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Presence 3', 'Obfuscate 2', 'Protean 2']
+- Assinatura/estilo: promessa de alivio; custo escondido
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Corredores de Sombra (conselho de corretores)
+
+Tom (para narrar):
+Talita "Serpente" e isca e culto. Em cena: a oferta parece escolha, o vicio parece cura, e quando voce aceita, ja esta dentro do circulo.
+
+Historia (costurada, sem resumo seco):
+Talita "Serpente" nasceu em 1982. O Abraco veio em 2010 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Transformar boons em fe: divida como devocao. O medo e igualmente pratico: Que o Padre Lasombra a silencie como 'herege'.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Cultos urbanos e recrutamento (influencia, vicio, promessa).
+- espacos de festa e culto (boate, after, estudio, 'retiro').
+- extorsao suave (a pessoa acha que escolheu).
+
+Segredo (objetivamente jogavel):
+- Ela tem um contato mortal dentro da Operacao Lumen. [CANON-ADJACENT / HOME BREW]
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e na verdade Toreador brincando de culto.
+- Verdade (perigosa): Ela ja usou thin-blood alquimia como 'milagre' para recrutar.
+
+Conexoes (com motivo e custo):
+- Luiza Salles (kindred; Senescal e Harpia principal) [pressure]: tenta infiltrar a corte
+- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [rival]: guerra de fe e controle
+- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [supplier]: compra 'milagres' alquimicos
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- ministry_elias_sal
+
+Cenas prontas (para jogar hoje):
+- Cena: Pinheiros/baixa Augusta (celulas). Oferece aos PJ um abrigo contra SI (com preco).
+- Cena: Pinheiros/baixa Augusta (celulas). Tenta seduzir um PJ para uma celula do culto.
+- Cena: Pinheiros/baixa Augusta (celulas). Entrega um boato verdadeiro para causar caos no Elysium.

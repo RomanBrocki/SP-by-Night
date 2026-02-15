@@ -1,0 +1,24 @@
+Nome / Alcunha: Irene da Luz / Curandeira escondida
+Cla: Salubri | Seita: Autarquicos
+Idade aparente: 32 | Abraco: 1971 | Potencia do Sangue 3
+Dominio / area principal: Oeste (refugio discreto)
+Disciplinas (top 3): ['Auspex 3', 'Dominate 2', 'Fortitude 2']
+Assinatura / estilo: voz baixa; presenca que acalma frenesi
+Coteries/associacoes (grupo e rede):
+- (Sem grupo formal registrado)
+Ghouls/servos diretos: 0
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Nao transforme cura em poder'.
+- Touchstone: um hospital publico onde ela ja trabalhou.
+Ganchos de cena:
+- Pode salvar um NPC importante (e gerar divida).
+- E cacada por rumores e precisa de protecao.
+- Pede aos PJ que destruam um culto que sequestra doadores.
+Atuacao mortal (explicita):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+Servos/contatos notaveis (entrada rapida):
+- Paulo "O Vidente" (kindred; Oraculo de tunel) [friend]: pressagios e cura
+- Luan "Patch" (kindred; Medico de rua (limpa estrago)) [mentor]: ensinou etica de sangue
+- Samira al-Haddad (kindred; Xerife) [uneasy]: acordo de silencio antigo

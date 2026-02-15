@@ -1,0 +1,43 @@
+Soraia Nunes
+
+Perfil:
+- Cla: Hecata | Seita: Autarquicos | Funcao: Interprete de ecos (mediunica)
+- Dominio: Centro Velho (consultas) | Idade aparente: 34
+- Abraco: 2005 | Sire: hecata_donato_lazzari | Acima do sire: -
+- Disciplinas (top 3): ['Oblivion 2', 'Auspex 2', 'Fortitude 1']
+- Assinatura/estilo: fala com mortos como quem negocia com vivos
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Enclave dos Cemiterios (Hecata)
+
+Tom (para narrar):
+Soraia Nunes e taxa e passagem. Em cena: portas se abrem, mas cada abertura vem com registro, um recibo social e uma cobranca futura. O morto nao esquece, e eles tambem nao.
+
+Historia (costurada, sem resumo seco):
+Soraia Nunes nasceu em 1978. O Abraco veio em 2005 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Fazer o Buraco responder perguntas em vez de gritar nomes. O medo e igualmente pratico: Que Donato a use como ferramenta descartavel.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Funerarias, cemiterios e logistica de corpo (o que some, some direito).
+- Cartorios e registros (nome, documento, heranca).
+- Intermediacao de dividas (boons como tabela, cobranca como ritual).
+
+Segredo (objetivamente jogavel):
+- Ela ja apagou um fantasma ligado a um crime Camarilla.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e na verdade uma Salubri.
+- Verdade (perigosa): Ela consegue puxar uma lembranca de sangue de um vampiro em torpor.
+
+Conexoes (com motivo e custo):
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [childe]: dependencia e protecao
+- Bianca Saramago (kindred; Arquivista de campo) [client]: silencio de mortos por paginas
+- Paulo "O Vidente" (kindred; Oraculo de tunel) [ally]: pressagios e ecos se cruzam
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Cenas prontas (para jogar hoje):
+- Cena: Centro Velho (consultas). Oferece aos PJ uma conversa com um morto que cobra um preco.
+- Cena: Centro Velho (consultas). Pede ajuda para conter um eco agressivo do Buraco.
+- Cena: Centro Velho (consultas). Vira a unica testemunha de um crime de Mascara.

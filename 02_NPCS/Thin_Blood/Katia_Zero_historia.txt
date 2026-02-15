@@ -1,0 +1,44 @@
+Katia "Zero"
+
+Perfil:
+- Cla: Thin Blood | Seita: Anarch | Funcao: Tecnica de sumico digital
+- Dominio: Centro/Pinheiros (rede) | Idade aparente: 24
+- Abraco: 2030 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Thin-blood Alchemy 2', 'Obfuscate 1', 'Auspex 1']
+- Assinatura/estilo: apagao de dados; identidades descartaveis
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Coterie Ferrugem (Mooca/Tatuape)
+
+Tom (para narrar):
+Katia "Zero" e sobrevivencia em publico. Em cena: tudo e improviso, cadeia curta de favores, e a Mascarada e uma parede rachada que ainda fica de pe.
+
+Historia (costurada, sem resumo seco):
+Katia "Zero" nasceu em 2006. O Abraco veio em 2030 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Quebrar a correlacao de cameras da SI por uma noite. O medo e igualmente pratico: Ser doxxada e queimada publicamente.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+- Controle territorial por lealdade (protecao, punicao, comunidade).
+
+Segredo (objetivamente jogavel):
+- Ela tem um dump parcial de uma lista mortal de nomes.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e agente do Principe.
+- Verdade (perigosa): Ela ja vendeu dados para pagar um favor Hecata.
+
+Conexoes (com motivo e custo):
+- Nico "Sombra" (kindred; Corretor de informacao) [uneasy]: parceria e guerra fria
+- Samira al-Haddad (kindred; Xerife) [target]: o Xerife quer seu dump
+- Bianca Saramago (kindred; Arquivista de campo) [friend]: arquivos por rituais pequenos
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Cenas prontas (para jogar hoje):
+- Cena: Centro/Pinheiros (rede). Pode limpar um rastro digital dos PJ (com consequencia).
+- Cena: Centro/Pinheiros (rede). E chantageada por um Nosferatu rival.
+- Cena: Centro/Pinheiros (rede). Descobre um padrao da Operacao Lumen.

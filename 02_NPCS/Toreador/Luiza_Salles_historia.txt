@@ -1,0 +1,50 @@
+Luiza Salles
+
+Perfil:
+- Cla: Toreador | Seita: Camarilla | Funcao: Senescal e Harpia principal
+- Dominio: Pinheiros/Vila Madalena | Idade aparente: 33
+- Abraco: 1987 | Sire: toreador_helena_vasconcelos | Acima do sire: -
+- Disciplinas (top 3): ['Presence 4', 'Auspex 3', 'Celerity 2']
+- Assinatura/estilo: elogio que corta, sorriso que condena
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Corte do Elysium (Camarilla)
+- Salao de Pinheiros (Toreador)
+
+Tom (para narrar):
+Luiza Salles domina sala e narrativa. Em cena: um elogio vira rotulo, um boato vira pauta, e uma foto fora de contexto vira sentenca social. Se a mesa 'vira assunto', a consequencia vem como portas fechadas e convites cancelados.
+
+Historia (costurada, sem resumo seco):
+Luiza Salles nasceu em 1954. O Abraco veio em 1987 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Ser o poder por tras do Principe sem tomar o trono. O medo e igualmente pratico: Que alguem prove que ela quase quebrou a Mascara em 2034.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Arte e midia (curadoria, eventos, reputacao e narrativas).
+- Cenas noturnas (clubes, galerias, circulos VIP).
+- Intermediacao social (listas, convites, portas que abrem e fecham).
+- Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
+
+Segredo (objetivamente jogavel):
+- No incidente de 2034, Luiza testou um arranjo (droga, arte e Presenca) para medir reacoes da corte; um mortal desmaiou, foi levado para fora e voltou 'diferente'. Existe um video bruto e um nome de enfermaria que ela apagou do circuito.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela e amante do Principe.
+- Verdade (perigosa): Ela tem uma rede mortal de influenciadores usada como isca.
+
+Conexoes (com motivo e custo):
+- Artur Macedo (kindred; Principe de Sao Paulo) [boon_owed]: Major; ele comprou o silencio
+- Nico "Sombra" (kindred; Corretor de informacao) [rival]: odeia depender de informacao feia
+- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [uneasy]: culto tentando seduzir sua corte
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Camila "Flash" Siqueira: Fotografa de evento (imagem, corte, prova) (area: Pinheiros/Moema)
+- Carla Nogueira: Assistente de curadoria (Elysium) (area: Paulista/Pinheiros)
+- Silvia Kajiki: Recepcao e lista (Elysium de Pinheiros) (area: Pinheiros/Vila Madalena)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- toreador_daniel_sato
+
+Cenas prontas (para jogar hoje):
+- Cena: Pinheiros/Vila Madalena. Oferece status aos PJ em troca de um segredo.
+- Cena: Pinheiros/Vila Madalena. Faz um PJ virar assunto para medir reacoes.
+- Cena: Pinheiros/Vila Madalena. Entrega um boon pequeno que vira algema.

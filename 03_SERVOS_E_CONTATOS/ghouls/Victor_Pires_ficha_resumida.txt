@@ -1,0 +1,8 @@
+Nome: Victor Pires
+Tipo: ghoul
+Vinculo: Camarilla
+Papel: Seguranca e motorista (Corte do Elysium)
+Area: Paulista/Jardins
+Assinatura / estilo: terno simples, auricular de seguranca, fala curta
+Coteries/associacoes:
+- Corte do Elysium

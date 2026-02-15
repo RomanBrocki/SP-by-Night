@@ -1,0 +1,9 @@
+Nome: Marcos "Sacristao" Vieira
+Tipo: ghoul
+Vinculo: Camarilla
+Papel: Sacristao e logistica (chaves, horarios, sala dos fundos)
+Area: Bela Vista/Bixiga
+Assinatura / estilo: Camisa branca simples, terco no bolso, maos manchadas de cera; olhar que evita camera.
+Coteries/associacoes:
+- A Confissao Preta (Lasombra)
+- Corte do Elysium (Camarilla)

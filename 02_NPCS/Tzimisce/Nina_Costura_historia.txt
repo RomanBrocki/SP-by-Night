@@ -1,0 +1,46 @@
+Nina "Costura"
+
+Perfil:
+- Cla: Tzimisce | Seita: Autarquicos | Funcao: Cirurgia e favores (carne e segredos)
+- Dominio: Centro/clinicas clandestinas | Idade aparente: 40
+- Abraco: 1959 | Sire: - | Acima do sire: -
+- Disciplinas (top 3): ['Protean 3', 'Dominate 2', 'Animalism 1']
+- Assinatura/estilo: gentileza clinica; horror artesanal
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- (Sem grupo formal registrado)
+
+Tom (para narrar):
+Nina "Costura" e hospitalidade predatoria. Em cena: abrigo vem com clausula, e a casa (ou o corpo) lembra quem e o dono.
+
+Historia (costurada, sem resumo seco):
+Nina "Costura" nasceu em 1918. O Abraco veio em 1959 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Ser invisivel para politica e indispensavel para sobrevivencia. O medo e igualmente pratico: Que o Sabbat traga guerra ate sua porta.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+
+Segredo (objetivamente jogavel):
+- Ela ja fez uma obra para um Lasombra Camarilla.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela esta em torpor.
+- Verdade (perigosa): Ela sabe como apagar uma identidade fisica.
+
+Conexoes (com motivo e custo):
+- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: mortos e carne se odeiam
+- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [rival]: magia vs forma
+- Camila "Noite-Funda" (kindred; Dissidente (ex-Camarilla)) [client]: disfarces por boons
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- (Nenhum servo direto registrado)
+
+Linhagem (quem carrega seu sangue e seu problema):
+- tzimisce_vlado_itapecerica
+
+Cenas prontas (para jogar hoje):
+- Cena: Centro/clinicas clandestinas. Pode consertar alguem (com custo).
+- Cena: Centro/clinicas clandestinas. Pede aos PJ um corpo sem perguntas.
+- Cena: Centro/clinicas clandestinas. Oferece disfarce corporal para fugir da SI.

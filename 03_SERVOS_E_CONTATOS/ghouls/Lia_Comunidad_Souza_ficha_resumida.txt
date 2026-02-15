@@ -1,0 +1,7 @@
+Nome: Lia "Comunidad" Souza
+Tipo: ghoul
+Vinculo: Anarch
+Papel: Contato mortal (cozinha, abrigo e aviso)
+Area: Baronato Leste (Itaquera/Extremo Leste)
+Coteries/associacoes:
+- Leste de Aco (Itaquera/Extremo Leste)

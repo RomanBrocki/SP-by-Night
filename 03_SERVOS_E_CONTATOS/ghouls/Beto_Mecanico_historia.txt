@@ -1,0 +1,34 @@
+Beto "Mecanico"
+
+Perfil:
+- Tipo: ghoul | Vinculo: Independentes | Papel: Mantenedor de rotas (garagem)
+- Area: Corredores e estacoes
+- Assinatura/estilo: mao suja; memoria de ferro
+
+Coteries/associacoes:
+- Corredores de Sombra (conselho de corretores)
+
+Tom (para narrar):
+Beto "Mecanico" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Corredores e estacoes.
+
+Historia (costurada, sem resumo seco):
+Beto "Mecanico" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Mantenedor de rotas (garagem). A area operacional e Corredores e estacoes. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao e: Manter seu senhor fora das guerras urbanas.. O medo e: Que a garagem vire alvo de incendio mortal..
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
+- Mercado cinza e documentos (identidades descartaveis, sumico digital).
+- Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
+
+Segredo (objetivamente jogavel):
+- Ele guarda um mapa de tuneis antigos em papel.
+
+Conexoes (com motivo e custo):
+- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [servant]: apoio e lealdade antiga
+- Paulo "O Vidente" (kindred; Oraculo de tunel) [uneasy]: o vidente pede coisas estranhas
+- Dante "Fumo" (kindred; Correio e sumico) [ally]: protege o garoto em rotas
+
+Cenas prontas (para jogar hoje):
+- Cena: Corredores e estacoes. Pode arrumar um veiculo para fugir da SI.
+- Cena: Corredores e estacoes. Entrega aos PJ uma chave que nao devia existir.
+- Cena: Corredores e estacoes. Sumiu e deixou um bilhete com pressagio.

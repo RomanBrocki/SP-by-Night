@@ -1,0 +1,45 @@
+Samira al-Haddad
+
+Perfil:
+- Cla: Banu Haqim | Seita: Camarilla | Funcao: Xerife
+- Dominio: Santana/Tucuruvi (Xerifado; base de pressao e resposta) | Idade aparente: 38
+- Abraco: 1979 | Sire: banuhaqim_yusuf_rahman | Acima do sire: -
+- Disciplinas (top 3): ['Blood Sorcery 3', 'Celerity 3', 'Obfuscate 2']
+- Assinatura/estilo: cirurgica; ela fala pouco e some mais
+
+Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
+- Corte do Elysium (Camarilla)
+- Sangue e Selo (Banu Haqim)
+
+Tom (para narrar):
+Samira al-Haddad faz a conversa virar procedimento. Em cena: perguntas parecem casuais, mas montam um quadro; contradicoes viram chantagem; e a punicao vem como 'precedente' (multa, restricao, aviso do Xerifado). Nao e teatral: e disciplina e rastreio.
+
+Historia (costurada, sem resumo seco):
+Samira al-Haddad nasceu em 1941. O Abraco veio em 1979 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao e direta: Transformar Sao Paulo numa cidade onde quebrar a Mascara e suicidio. O medo e igualmente pratico: Que a Camarilla a use como bode expiatorio.
+
+Atuacao na sociedade mortal (explicita, pratica):
+- Rede juridica e de investigacao (advocacia, auditoria, pressao oficial).
+- seguranca e resposta (pessoas que chegam rapido demais).
+- Controle de risco e rastros (apagar evidencia, reescrever narrativa).
+- Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
+
+Segredo (objetivamente jogavel):
+- Ela mantem um arquivo de pecados do Principe: datas, nomes e provas (prints, audios, relatorios). O arquivo esta duplicado em dois lugares e a existencia dele e o que a mantem viva.
+
+Rumor e verdade (municao social):
+- Rumor (falso): Ela mata por prazer.
+- Verdade (perigosa): Ela ja negociou com Anarchs para evitar um banho de sangue.
+
+Conexoes (com motivo e custo):
+- Artur Macedo (kindred; Principe de Sao Paulo) [liege]: executa a lei do Principe
+- Nico "Sombra" (kindred; Corretor de informacao) [boon_owed]: Trivial; acesso a cameras
+- Renata Ferraz (kindred; Baronesa da Mooca) [rival]: baronia anarch e resistencia armada
+
+Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
+- Vitor Kallas: Motorista e apoio tatico (area: Centro Expandido)
+
+Cenas prontas (para jogar hoje):
+- Cena: Santana/Tucuruvi (Xerifado; base de pressao e resposta). Recruta os PJ para uma captura discreta.
+- Cena: Santana/Tucuruvi (Xerifado; base de pressao e resposta). Oferece anistia por um favor sangrento.
+- Cena: Santana/Tucuruvi (Xerifado; base de pressao e resposta). Testa os PJ com uma ordem ambigua.

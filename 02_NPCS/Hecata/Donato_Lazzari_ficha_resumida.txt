@@ -1,0 +1,26 @@
+Nome / Alcunha: Donato Lazzari / Coletor do pedagio (cemiterios e galerias)
+Cla: Hecata | Seita: Autarquicos
+Idade aparente: 39 | Abraco: 1936 | Potencia do Sangue 4
+Dominio / area principal: Centro Velho / cemiterios
+Disciplinas (top 3): ['Oblivion 4', 'Fortitude 2', 'Auspex 2']
+Assinatura / estilo: educado, implacavel; fala com mortos como quem liga para um amigo
+Coteries/associacoes (grupo e rede):
+- Enclave dos Cemiterios (Hecata)
+Ghouls/servos diretos: 2
+- Lia Morais (Necroassistente (funeraria))
+- Silvia "Funebre" Prado (Diretora de funeraria (agenda, sala, 'preparo'))
+Touchstones/Conviccoes (resumo):
+- Conviccao: 'Toda promessa tem eco'.
+- Touchstone: um jazigo familiar que ele nunca abandona.
+Ganchos de cena:
+- Cobra pedagio de passagem aos PJ e oferece desconto por um favor.
+- Pede que os PJ calem um fantasma inconveniente.
+- Oferece informacao de mortos sobre a SI.
+Atuacao mortal (explicita):
+- Funerarias, cemiterios e logistica de corpo (o que some, some direito).
+- Cartorios e registros (nome, documento, heranca).
+- Intermediacao de dividas (boons como tabela, cobranca como ritual).
+Servos/contatos notaveis (entrada rapida):
+- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [boon_due]: Minor; intermediacao com mortos
+- Yusuf Rahman (kindred; Juiz itinerante) [uneasy]: juiz odeia seus negocios
+- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [uneasy]: subsolo dividido

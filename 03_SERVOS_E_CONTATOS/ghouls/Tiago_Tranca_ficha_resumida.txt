@@ -1,0 +1,8 @@
+Nome: Tiago "Tranca"
+Tipo: ghoul
+Vinculo: Anarch
+Papel: Chefe de seguranca da baronia
+Area: Tatuape/Mooca
+Assinatura / estilo: lealdade dura; conversa curta
+Coteries/associacoes:
+- Coterie Ferrugem (Mooca/Tatuape)
