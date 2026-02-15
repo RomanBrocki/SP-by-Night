@@ -69,6 +69,11 @@ def main() -> int:
     if src_readme.exists():
         shutil.copyfile(src_readme, DOCS / "README.md")
 
+    # Publish guide/how-to for replication
+    src_guide = ROOT / "GUIA_DE_CURADORIA_E_PROMPTS.md"
+    if src_guide.exists():
+        shutil.copyfile(src_guide, DOCS / "GUIA_DE_CURADORIA_E_PROMPTS.md")
+
     # No Jekyll (avoid underscore issues)
     write(DOCS / ".nojekyll", "")
 
