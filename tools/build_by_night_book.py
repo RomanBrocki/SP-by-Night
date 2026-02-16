@@ -531,6 +531,13 @@ def write_book_files(data: dict[str, Any]) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     OUT_DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    site_cfg = read_site_config()
+    repo_url = (site_cfg.get("github_repo_url") or "").strip() or "https://github.com/SEU_USUARIO/SEU_REPO"
+    repo_url_html = html_escape(repo_url)
+    pdf_name = (site_cfg.get("book_pdf_filename") or "").strip()
+    pdf_name = pdf_name if pdf_name.lower().endswith(".pdf") else (pdf_name + ".pdf" if pdf_name else "")
+    pdf_name_html = html_escape(pdf_name)
+
     css = """
 :root{
   --bg:#0c0c10;
@@ -655,6 +662,9 @@ const state = {
     q: '',
   }
 };
+
+// Injected at build time (may be empty string).
+const PDF_NAME = __BOOK_PDF_FILENAME_JSON__;
 
 function el(id){ return document.getElementById(id); }
 
@@ -1082,6 +1092,18 @@ async function main(){
   el('modalWrap').addEventListener('click', (ev)=>{ if(ev.target && ev.target.id==='modalWrap') closeModal(); });
   document.addEventListener('keydown', (ev)=>{ if(ev.key==='Escape') closeModal(); });
 
+  // Optional PDF link. On Pages/docs it lives one level above /book/. When opening the
+  // generator output directly (07_LIVRO_BY_NIGHT/index.html), we also support ../docs/.
+  const pdfName = PDF_NAME;
+  const pdfEl = el('lnkPdf');
+  if(pdfName && pdfName !== '')
+  {
+    const p = String(location.pathname||'').replace(/\\\\/g,'/');
+    const isBook = p.includes('/book/');
+    pdfEl.href = (isBook ? ('../' + pdfName) : ('../docs/' + pdfName));
+    pdfEl.style.display = 'inline-block';
+  }
+
   renderNpcCards();
 }
 
@@ -1102,6 +1124,7 @@ main().catch(err => {
   document.body.appendChild(e);
 });
 """.strip() + "\n"
+    js = js.replace("__BOOK_PDF_FILENAME_JSON__", json.dumps(pdf_name))
     OUT_JS.write_text(js, encoding="utf-8", newline="\n")
 
     # Convert md to html now, and keep raw text in the JSON.
@@ -1118,11 +1141,7 @@ main().catch(err => {
     # Guard against accidentally closing the script tag.
     inline_json = json.dumps(data2, ensure_ascii=False).replace("</", "<\\/")
 
-    site_cfg = read_site_config()
-    repo_url = (site_cfg.get("github_repo_url") or "").strip()
-    if not repo_url:
-        repo_url = "https://github.com/SEU_USUARIO/SEU_REPO"
-    repo_url_html = html_escape(repo_url)
+    # repo_url_html/pdf_name_html already computed above.
 
     html = f"""<!doctype html>
 <html lang="pt-br">
@@ -1150,6 +1169,7 @@ main().catch(err => {
         <div class="embedRow">
           <a id="lnkMap" href="#">Mapa territorial (interativo)</a>
           <a id="lnkTeia" href="#">Teia de conexoes (interativa)</a>
+          <a id="lnkPdf" href="#" style="display:none;">Livro (PDF)</a>
         </div>
         <div class="small">Dica: no mapa, ative "Cainitas (pins)" para ver todos. Clique num pin para abrir o retrato e detalhes.</div>
       </div>

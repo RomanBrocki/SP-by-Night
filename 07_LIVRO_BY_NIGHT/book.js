@@ -9,6 +9,9 @@ const state = {
   }
 };
 
+// Injected at build time (may be empty string).
+const PDF_NAME = "Sao_Paulo_by_Night.pdf";
+
 function el(id){ return document.getElementById(id); }
 
 function uniq(arr){ return Array.from(new Set(arr)); }
@@ -434,6 +437,18 @@ async function main(){
   el('modalClose').addEventListener('click', closeModal);
   el('modalWrap').addEventListener('click', (ev)=>{ if(ev.target && ev.target.id==='modalWrap') closeModal(); });
   document.addEventListener('keydown', (ev)=>{ if(ev.key==='Escape') closeModal(); });
+
+  // Optional PDF link. On Pages/docs it lives one level above /book/. When opening the
+  // generator output directly (07_LIVRO_BY_NIGHT/index.html), we also support ../docs/.
+  const pdfName = PDF_NAME;
+  const pdfEl = el('lnkPdf');
+  if(pdfName && pdfName !== '')
+  {
+    const p = String(location.pathname||'').replace(/\\/g,'/');
+    const isBook = p.includes('/book/');
+    pdfEl.href = (isBook ? ('../' + pdfName) : ('../docs/' + pdfName));
+    pdfEl.style.display = 'inline-block';
+  }
 
   renderNpcCards();
 }
