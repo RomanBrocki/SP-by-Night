@@ -20,9 +20,33 @@ function norm(s){
   return String(s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,'');
 }
 
-function portraitSrc(stem){
-  if(!stem) return '';
-  return (state.data?.paths?.portraits_base || '../05_ASSETS/portraits/') + stem + '.png?v=' + (window.__PORTRAIT_V || Date.now());
+function portraitCandidates(stem){
+  if(!stem) return [];
+  const base = (state.data?.paths?.portraits_base || '../05_ASSETS/portraits/');
+  // In the "Option 1" repo layout, portraits may only exist under docs/assets.
+  // This keeps the source book (07_LIVRO_BY_NIGHT/index.html) working even if 05_ASSETS is absent.
+  const p = String(location.pathname||'').replace(/\/g,'/');
+  const altBase = p.includes('/docs/') ? '../assets/portraits/' : '../docs/assets/portraits/';
+  const v = (window.__PORTRAIT_V || Date.now());
+  const bases = (altBase && altBase !== base) ? [base, altBase] : [base];
+  const out = [];
+  bases.forEach(b => {
+    out.push(b + stem + '.jpg?v=' + v);
+    out.push(b + stem + '.jpeg?v=' + v);
+    out.push(b + stem + '.png?v=' + v);
+    out.push(b + stem + '.webp?v=' + v);
+  });
+  return out;
+}
+function setImgWithFallback(img, stem){
+  const c = portraitCandidates(stem);
+  if(!c.length){ img.src=''; return; }
+  let i = 0;
+  img.onerror = () => {
+    i++;
+    if(i < c.length) img.src = c[i];
+  };
+  img.src = c[0];
 }
 
 function buildChips(id, values, labelFn){
@@ -82,7 +106,7 @@ function openModalForEntity(e){
   const img = el('modalImg');
   img.style.display = 'block';
   img.alt = e.display_name || '';
-  img.src = portraitSrc(e.file_stem);
+  setImgWithFallback(img, e.file_stem);
   img.onerror = () => { img.style.display = 'none'; };
 
   const metaLines = [];
@@ -185,7 +209,7 @@ function renderNpcCards(){
     const img = document.createElement('img');
     img.loading = 'lazy';
     img.alt = e.display_name || '';
-    img.src = portraitSrc(e.file_stem);
+    setImgWithFallback(img, e.file_stem);
     img.onerror = () => { img.style.display='none'; };
     p.appendChild(img);
     const meta = document.createElement('div');

@@ -60,9 +60,28 @@ def main() -> int:
             shutil.copyfile(src, DOCS / "teia" / name)
 
     # Portrait assets (the book/map/teia will use this path)
-    (DOCS / "assets" / "portraits").mkdir(parents=True, exist_ok=True)
-    for png in (ROOT / "05_ASSETS" / "portraits").glob("*.png"):
-        shutil.copyfile(png, DOCS / "assets" / "portraits" / png.name)
+    portraits_dst = DOCS / "assets" / "portraits"
+    portraits_dst.mkdir(parents=True, exist_ok=True)
+
+    portraits_src = ROOT / "05_ASSETS" / "portraits"
+    src_files: list[Path] = []
+    if portraits_src.exists():
+        for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp"):
+            src_files.extend(sorted(portraits_src.glob(ext)))
+
+    # If the local source portraits folder exists and has files, sync it into docs/.
+    # If not, keep whatever is already in docs/ (important when the repo is configured
+    # to only track docs/assets/portraits and ignore 05_ASSETS/portraits).
+    if src_files:
+        # Clean stale portrait formats from previous builds (important for repo size).
+        for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp"):
+            for f in portraits_dst.glob(ext):
+                try:
+                    f.unlink()
+                except OSError:
+                    pass
+        for f in src_files:
+            shutil.copyfile(f, portraits_dst / f.name)
 
     # Publish README for in-site linking (book links to ../README.md)
     src_readme = ROOT / "README.md"

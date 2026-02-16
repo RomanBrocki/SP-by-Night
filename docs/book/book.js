@@ -20,9 +20,26 @@ function norm(s){
   return String(s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,'');
 }
 
-function portraitSrc(stem){
-  if(!stem) return '';
-  return (state.data?.paths?.portraits_base || '../assets/portraits/') + stem + '.png?v=' + (window.__PORTRAIT_V || Date.now());
+function portraitCandidates(stem){
+  if(!stem) return [];
+  const base = (state.data?.paths?.portraits_base || '../assets/portraits/');
+  const v = (window.__PORTRAIT_V || Date.now());
+  return [
+    base + stem + '.jpg?v=' + v,
+    base + stem + '.jpeg?v=' + v,
+    base + stem + '.png?v=' + v,
+    base + stem + '.webp?v=' + v,
+  ];
+}
+function setImgWithFallback(img, stem){
+  const c = portraitCandidates(stem);
+  if(!c.length){ img.src=''; return; }
+  let i = 0;
+  img.onerror = () => {
+    i++;
+    if(i < c.length) img.src = c[i];
+  };
+  img.src = c[0];
 }
 
 function buildChips(id, values, labelFn){
@@ -82,7 +99,7 @@ function openModalForEntity(e){
   const img = el('modalImg');
   img.style.display = 'block';
   img.alt = e.display_name || '';
-  img.src = portraitSrc(e.file_stem);
+  setImgWithFallback(img, e.file_stem);
   img.onerror = () => { img.style.display = 'none'; };
 
   const metaLines = [];
@@ -185,7 +202,7 @@ function renderNpcCards(){
     const img = document.createElement('img');
     img.loading = 'lazy';
     img.alt = e.display_name || '';
-    img.src = portraitSrc(e.file_stem);
+    setImgWithFallback(img, e.file_stem);
     img.onerror = () => { img.style.display='none'; };
     p.appendChild(img);
     const meta = document.createElement('div');

@@ -54,4 +54,5 @@ git push -u origin main
 ## Observacoes
 
 - Se o `build_docs_for_github_pages.py` falhar no Windows por arquivo "em uso", feche abas do navegador abertas em `docs/` (mapa/teia/livro) e rode novamente.
-- Retratos usados pelo site: `05_ASSETS/portraits/*.png` (publicados em `docs/assets/portraits/`).
+- Retratos usados pelo site publicado (GitHub Pages): `docs/assets/portraits/` (atualmente `.jpg`).
+- Para reduzir o tamanho do repo, `05_ASSETS/portraits/` foi tratado como cache/local (ignorado pelo git) e o que vai para o Pages e comitado fica em `docs/assets/portraits/`.

@@ -477,7 +477,12 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
       try {
         const stem = n.file_stem || n.id;
         const v = String(Date.now());
-        const primary = "../assets/portraits/" + stem + ".png?v=" + v;
+        const p = String(location.pathname || '').replace(/\\/g, '/');
+        const altBase = p.includes('/docs/') ? '../assets/portraits/' : '../docs/assets/portraits/';
+        const primary = "../assets/portraits/" + stem + ".jpg?v=" + v;
+        const primaryAlt = altBase + stem + ".jpg?v=" + v;
+        const secondary = "../assets/portraits/" + stem + ".png?v=" + v;
+        const secondaryAlt = altBase + stem + ".png?v=" + v;
         let fallback = "";
         if (n.kind === "kindred") {
           const clanFolder = String(n.clan || "Desconhecido").replaceAll(" ","_").replaceAll("-","_").replaceAll("/","_");
@@ -491,7 +496,25 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
         }
         if (portraitImg && portraitBox && portraitLink) {
           portraitImg.onerror = () => {
-            // One-shot fallback.
+            // Fallback chain: 05 jpg -> docs/assets jpg -> 05 png -> docs/assets png -> legacy
+            if (portraitImg.dataset && portraitImg.dataset.didFallbackAltJpg !== "1") {
+              portraitImg.dataset.didFallbackAltJpg = "1";
+              portraitImg.src = primaryAlt;
+              portraitLink.href = primaryAlt;
+              return;
+            }
+            if (portraitImg.dataset && portraitImg.dataset.didFallbackPng !== "1") {
+              portraitImg.dataset.didFallbackPng = "1";
+              portraitImg.src = secondary;
+              portraitLink.href = secondary;
+              return;
+            }
+            if (portraitImg.dataset && portraitImg.dataset.didFallbackAltPng !== "1") {
+              portraitImg.dataset.didFallbackAltPng = "1";
+              portraitImg.src = secondaryAlt;
+              portraitLink.href = secondaryAlt;
+              return;
+            }
             if (fallback && portraitImg.dataset && portraitImg.dataset.didFallback !== "1") {
               portraitImg.dataset.didFallback = "1";
               portraitImg.src = fallback;
@@ -501,7 +524,12 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
             portraitBox.style.display = "none";
           };
           portraitImg.onload = () => { portraitBox.style.display = "block"; };
-          if (portraitImg.dataset) portraitImg.dataset.didFallback = "0";
+          if (portraitImg.dataset) {
+            portraitImg.dataset.didFallback = "0";
+            portraitImg.dataset.didFallbackPng = "0";
+            portraitImg.dataset.didFallbackAltJpg = "0";
+            portraitImg.dataset.didFallbackAltPng = "0";
+          }
           portraitImg.src = primary;
           portraitImg.alt = (n.label || "").replace(/\n/g, " ");
           portraitLink.href = primary;
