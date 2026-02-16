@@ -1,6 +1,5 @@
 Nome / Alcunha: Nico "Sombra" / Corretor de informacao
 Cla: Nosferatu | Seita: Camarilla
-Idade aparente: 30 | Abraco: 2001 | Potencia do Sangue 4
 Dominio / area principal: Bras/Pari + Corredores logisticos (Barra Funda/Lapa)
 Disciplinas (top 3): ['Obfuscate 4', 'Animalism 2', 'Potence 2']
 Assinatura / estilo: voz em audio, encontro em lugar errado

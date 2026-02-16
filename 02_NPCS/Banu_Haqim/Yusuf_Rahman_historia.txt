@@ -2,7 +2,7 @@ Yusuf Rahman
 
 Perfil:
 - Cla: Banu Haqim | Seita: Independentes | Funcao: Juiz itinerante
-- Dominio: Rotas (aeroporto/rodovias) | Idade aparente: 60
+- Dominio: Rotas (aeroporto/rodovias) | Idade aparente: 40
 - Abraco: 1918 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Blood Sorcery 3', 'Obfuscate 2', 'Celerity 2']
 - Assinatura/estilo: aparece uma vez, muda destinos, desaparece

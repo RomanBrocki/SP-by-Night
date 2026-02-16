@@ -35,7 +35,7 @@ entities:
     sect: "Camarilla"
     role: "Primogena Ventrue (em retiro)"
     domain: "Itaim/Berrini"
-    apparent_age: "55"
+    apparent_age: "40"
     embrace_year: 1872
     born_year: 1811
     sire: null
@@ -110,7 +110,7 @@ entities:
     sect: "Camarilla"
     role: "Guardia de Elysium (curadora)"
     domain: "Liberdade (Elysium satelite)"
-    apparent_age: "45"
+    apparent_age: "40"
     embrace_year: 1956
     born_year: 1911
     sire: null
@@ -185,7 +185,7 @@ entities:
     sect: "Independentes"
     role: "Juiz itinerante"
     domain: "Rotas (aeroporto/rodovias)"
-    apparent_age: "60"
+    apparent_age: "40"
     embrace_year: 1918
     born_year: 1869
     sire: null
@@ -210,7 +210,7 @@ entities:
     sect: "Camarilla"
     role: "Corretor de informacao"
     domain: "Bras/Pari + Corredores logisticos (Barra Funda/Lapa)"
-    apparent_age: "30"
+    apparent_age: null
     embrace_year: 2001
     born_year: 1971
     sire: "nosferatu_vovo_zilda"
@@ -235,7 +235,7 @@ entities:
     sect: "Camarilla"
     role: "Ancia subterranea (matriarca)"
     domain: "Galerias do Centro"
-    apparent_age: "70"
+    apparent_age: null
     embrace_year: 1943
     born_year: 1880
     sire: null
@@ -260,7 +260,7 @@ entities:
     sect: "Anarch"
     role: "Courier de dados"
     domain: "Zonas mistas (entregas)"
-    apparent_age: "24"
+    apparent_age: null
     embrace_year: 2024
     born_year: 2000
     sire: "nosferatu_nico_sombra"
@@ -310,7 +310,7 @@ entities:
     sect: "Independentes"
     role: "Lenda de trilhos (ancao de periferia)"
     domain: "Corredores e estacoes (rumores)"
-    apparent_age: "50"
+    apparent_age: "40"
     embrace_year: 1974
     born_year: 1920
     sire: null
@@ -410,7 +410,7 @@ entities:
     sect: "Camarilla"
     role: "Guardiao de confissoes (Camarilla)"
     domain: "Bela Vista/Bixiga (Confissao; salas privadas)"
-    apparent_age: "47"
+    apparent_age: "40"
     embrace_year: 1948
     born_year: 1899
     sire: null
@@ -435,7 +435,7 @@ entities:
     sect: "Camarilla"
     role: "Primogeno Tremere (regente de fato)"
     domain: "Butanta/USP (Torre Tremere; refugios dispersos)"
-    apparent_age: "42"
+    apparent_age: "40"
     embrace_year: 1968
     born_year: 1925
     sire: null
@@ -1010,7 +1010,7 @@ entities:
     sect: "Camarilla"
     role: "Motorista e apoio tatico"
     domain: "Centro Expandido"
-    apparent_age: "41"
+    apparent_age: "40"
     embrace_year: null
     born_year: 1994
     sire: null
@@ -1110,7 +1110,7 @@ entities:
     sect: "Independentes"
     role: "Mantenedor de rotas (garagem)"
     domain: "Corredores e estacoes"
-    apparent_age: "45"
+    apparent_age: "40"
     embrace_year: null
     born_year: 1990
     sire: null
@@ -1135,7 +1135,7 @@ entities:
     sect: "Segunda Inquisicao"
     role: "Coordenacao de campo"
     domain: "Centro Expandido"
-    apparent_age: "44"
+    apparent_age: "40"
     embrace_year: null
     born_year: 1991
     sire: null
@@ -1160,7 +1160,7 @@ entities:
     sect: "Mortal"
     role: "Administracao de abrigo/ong"
     domain: "Centro"
-    apparent_age: "52"
+    apparent_age: "40"
     embrace_year: null
     born_year: 1983
     sire: null
@@ -1285,7 +1285,7 @@ entities:
     sect: "Camarilla"
     role: "Primogena Malkavian (ouvinte do padrao)"
     domain: "Consolacao/Higienopolis (consultorios, jornais e bastidores)"
-    apparent_age: "42"
+    apparent_age: "40"
     embrace_year: 1971
     born_year: 1929
     sire: null
@@ -1329,7 +1329,7 @@ entities:
     sect: "Camarilla"
     role: "Primogeno Nosferatu (cartografo do subsolo)"
     domain: "Perdizes/Barra Funda (dutos e rotas de fuga)"
-    apparent_age: "50"
+    apparent_age: null
     embrace_year: 1964
     born_year: 1903
     sire: "nosferatu_vovo_zilda"
@@ -1373,7 +1373,7 @@ entities:
     sect: "Camarilla"
     role: "Primogeno Ventrue (financas de guerra)"
     domain: "Morumbi/Campo Belo (fundos, seguranca e condominio)"
-    apparent_age: "46"
+    apparent_age: "40"
     embrace_year: 1984
     born_year: 1937
     sire: "ventrue_isabel_amaral"
@@ -1417,7 +1417,7 @@ entities:
     sect: "Autarquicos"
     role: "Agente funeraria (enclave de cemiterio)"
     domain: "Consolacao (cemiterios, funerarias e chaves)"
-    apparent_age: "41"
+    apparent_age: "40"
     embrace_year: 2008
     born_year: 1967
     sire: "hecata_donato_lazzari"
@@ -1458,7 +1458,7 @@ entities:
     sect: "Camarilla"
     role: "Operador de cameras (Paulista)"
     domain: "Paulista/Jardins"
-    apparent_age: "28"
+    apparent_age: null
     embrace_year: 2007
     born_year: 1977
     sire: null
@@ -1705,7 +1705,7 @@ entities:
     sect: "Camarilla"
     role: "Sondadora de redes (subsolo)"
     domain: "Perdizes/Barra Funda"
-    apparent_age: "41"
+    apparent_age: null
     embrace_year: 2020
     born_year: 1990
     sire: null
@@ -1724,7 +1724,7 @@ entities:
     sect: "Camarilla"
     role: "Portador de recados (util)"
     domain: "Centro Expandido"
-    apparent_age: "42"
+    apparent_age: "40"
     embrace_year: 2021
     born_year: 1991
     sire: null
@@ -1743,7 +1743,7 @@ entities:
     sect: "Camarilla"
     role: "Gestor de predio (fachada)"
     domain: "Morumbi/Campo Belo"
-    apparent_age: "43"
+    apparent_age: "40"
     embrace_year: 2022
     born_year: 1992
     sire: null
@@ -1762,7 +1762,7 @@ entities:
     sect: "Camarilla"
     role: "Curadora de sala (Elysium)"
     domain: "Liberdade"
-    apparent_age: "44"
+    apparent_age: "40"
     embrace_year: 2023
     born_year: 1993
     sire: null
@@ -1781,7 +1781,7 @@ entities:
     sect: "Camarilla"
     role: "Sombra de entrega (correio)"
     domain: "Bras/Pari"
-    apparent_age: "45"
+    apparent_age: null
     embrace_year: 2024
     born_year: 1994
     sire: null
@@ -1895,7 +1895,7 @@ entities:
     sect: "Camarilla"
     role: "Sombra de entrega (correio)"
     domain: "Bras/Pari"
-    apparent_age: "31"
+    apparent_age: null
     embrace_year: 2010
     born_year: 1975
     sire: null
@@ -2009,7 +2009,7 @@ entities:
     sect: "Camarilla"
     role: "Sombra de entrega (correio)"
     domain: "Bras/Pari"
-    apparent_age: "37"
+    apparent_age: null
     embrace_year: 2016
     born_year: 1981
     sire: null
@@ -2085,7 +2085,7 @@ entities:
     sect: "Camarilla"
     role: "Gestor de predio (fachada)"
     domain: "Morumbi/Campo Belo"
-    apparent_age: "41"
+    apparent_age: "40"
     embrace_year: 2020
     born_year: 1985
     sire: null
@@ -2721,7 +2721,7 @@ entities:
     sect: "Camarilla"
     role: "Correio (motoboy de rotas)"
     domain: "Corredores (Zona Cinza de carga e sumico)"
-    apparent_age: "41"
+    apparent_age: "40"
     embrace_year: null
     born_year: null
     sire: null
@@ -2743,7 +2743,7 @@ entities:
     sect: "Autarquicos"
     role: "Gestora de funeraria (enclave Hecata)"
     domain: "Cemiterios (Centro/Oeste)"
-    apparent_age: "52"
+    apparent_age: "40"
     embrace_year: null
     born_year: null
     sire: null

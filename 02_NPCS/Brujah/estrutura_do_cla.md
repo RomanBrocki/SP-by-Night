@@ -29,4 +29,3 @@ Quando a SI aperta, Brujah e Camarilla fazem acordos que ninguem assume.
 - Uma operacao mortal mira o bairro (e alguem quer que pareca "culpa Anarch").
 - Um boon antigo com Camarilla volta como chantagem.
 - Um executor Brujah vira bode expiatorio para evitar guerra.
-

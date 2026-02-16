@@ -29,4 +29,3 @@ lei demais vira tirania; punicao demais vira padrao (e padrao chama SI).
 - Um infrator some e volta diferente.
 - A Lumen aprende o "padrao" de punicao do Xerife.
 - Um julgamento de Yusuf muda o tabuleiro e cria inimigo novo.
-

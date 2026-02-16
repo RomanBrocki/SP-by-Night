@@ -2,7 +2,7 @@ Celia Moura
 
 Perfil:
 - Cla: Hecata | Seita: Autarquicos | Funcao: Agente funeraria (enclave de cemiterio)
-- Dominio: Consolacao (cemiterios, funerarias e chaves) | Idade aparente: 41
+- Dominio: Consolacao (cemiterios, funerarias e chaves) | Idade aparente: 40
 - Abraco: 2008 | Sire: hecata_donato_lazzari | Acima do sire: -
 - Disciplinas (top 3): -
 - Assinatura/estilo: -

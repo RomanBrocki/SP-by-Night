@@ -1,6 +1,6 @@
 Nome / Alcunha: Dario Kron / Primogeno Tremere (regente de fato)
 Cla: Tremere | Seita: Camarilla
-Idade aparente: 42 | Abraco: 1968 | Potencia do Sangue 4
+Idade aparente: 40 | Abraco: 1968 | Potencia do Sangue 4
 Dominio / area principal: Butanta/USP (Torre Tremere; refugios dispersos)
 Disciplinas (top 3): ['Blood Sorcery 4', 'Auspex 2', 'Dominate 2']
 Assinatura / estilo: rituais curtos; paranoia como liturgia

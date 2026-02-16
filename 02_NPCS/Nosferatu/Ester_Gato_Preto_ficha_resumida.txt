@@ -1,6 +1,5 @@
 Nome / Alcunha: Ester "Gato-Preto" / Courier de dados
 Cla: Nosferatu | Seita: Anarch
-Idade aparente: 24 | Abraco: 2024 | Potencia do Sangue 2
 Dominio / area principal: Zonas mistas (entregas)
 Disciplinas (top 3): ['Obfuscate 2', 'Animalism 1', 'Potence 1']
 Assinatura / estilo: moto, mochila, silencio

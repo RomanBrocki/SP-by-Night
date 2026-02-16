@@ -28,4 +28,3 @@ Thin-bloods, por isso, valorizam rede e fuga, nao etiqueta.
 - Uma receita de alquimia vira produto e chama a Lumen.
 - Um thin-blood desaparece e a cidade decide que nao importa (ate importar).
 - Um "apagao digital" vira arma de baronia.
-

@@ -1,6 +1,6 @@
 Nome / Alcunha: Yusuf Rahman / Juiz itinerante
 Cla: Banu Haqim | Seita: Independentes
-Idade aparente: 60 | Abraco: 1918 | Potencia do Sangue 3
+Idade aparente: 40 | Abraco: 1918 | Potencia do Sangue 3
 Dominio / area principal: Rotas (aeroporto/rodovias)
 Disciplinas (top 3): ['Blood Sorcery 3', 'Obfuscate 2', 'Celerity 2']
 Assinatura / estilo: aparece uma vez, muda destinos, desaparece

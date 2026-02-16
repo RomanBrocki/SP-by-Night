@@ -1,6 +1,6 @@
 Nome / Alcunha: Joao do Trem / Lenda de trilhos (ancao de periferia)
 Cla: Brujah | Seita: Independentes
-Idade aparente: 50 | Abraco: 1974 | Potencia do Sangue 3
+Idade aparente: 40 | Abraco: 1974 | Potencia do Sangue 3
 Dominio / area principal: Corredores e estacoes (rumores)
 Disciplinas (top 3): ['Celerity 3', 'Potence 3', 'Presence 1']
 Assinatura / estilo: aparece em lugares onde nao devia existir

@@ -2,7 +2,7 @@ Padre Miguel Aranha
 
 Perfil:
 - Cla: Lasombra | Seita: Camarilla | Funcao: Guardiao de confissoes (Camarilla)
-- Dominio: Bela Vista/Bixiga (Confissao; salas privadas) | Idade aparente: 47
+- Dominio: Bela Vista/Bixiga (Confissao; salas privadas) | Idade aparente: 40
 - Abraco: 1948 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Oblivion 3', 'Dominate 3', 'Potence 2']
 - Assinatura/estilo: conselho como chantagem; sombra como assinatura

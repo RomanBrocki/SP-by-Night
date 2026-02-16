@@ -2,7 +2,7 @@ Vovo Zilda
 
 Perfil:
 - Cla: Nosferatu | Seita: Camarilla | Funcao: Ancia subterranea (matriarca)
-- Dominio: Galerias do Centro | Idade aparente: 70
+- Dominio: Galerias do Centro
 - Abraco: 1943 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Animalism 3', 'Obfuscate 3', 'Potence 2']
 - Assinatura/estilo: conselho como maldicao; cuidado como controle

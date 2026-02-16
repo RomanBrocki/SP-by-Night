@@ -2,7 +2,7 @@ Raimundo "Rato-Rei"
 
 Perfil:
 - Cla: Nosferatu | Seita: Camarilla | Funcao: Primogeno Nosferatu (cartografo do subsolo)
-- Dominio: Perdizes/Barra Funda (dutos e rotas de fuga) | Idade aparente: 50
+- Dominio: Perdizes/Barra Funda (dutos e rotas de fuga)
 - Abraco: 1964 | Sire: nosferatu_vovo_zilda | Acima do sire: -
 - Disciplinas (top 3): -
 - Assinatura/estilo: -

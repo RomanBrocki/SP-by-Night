@@ -2,7 +2,7 @@ Nico "Sombra"
 
 Perfil:
 - Cla: Nosferatu | Seita: Camarilla | Funcao: Corretor de informacao
-- Dominio: Bras/Pari + Corredores logisticos (Barra Funda/Lapa) | Idade aparente: 30
+- Dominio: Bras/Pari + Corredores logisticos (Barra Funda/Lapa)
 - Abraco: 2001 | Sire: nosferatu_vovo_zilda | Acima do sire: -
 - Disciplinas (top 3): ['Obfuscate 4', 'Animalism 2', 'Potence 2']
 - Assinatura/estilo: voz em audio, encontro em lugar errado

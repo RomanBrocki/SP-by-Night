@@ -1,6 +1,6 @@
 Nome / Alcunha: Padre Miguel Aranha / Guardiao de confissoes (Camarilla)
 Cla: Lasombra | Seita: Camarilla
-Idade aparente: 47 | Abraco: 1948 | Potencia do Sangue 4
+Idade aparente: 40 | Abraco: 1948 | Potencia do Sangue 4
 Dominio / area principal: Bela Vista/Bixiga (Confissao; salas privadas)
 Disciplinas (top 3): ['Oblivion 3', 'Dominate 3', 'Potence 2']
 Assinatura / estilo: conselho como chantagem; sombra como assinatura

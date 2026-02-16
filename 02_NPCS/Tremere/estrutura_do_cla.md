@@ -28,4 +28,3 @@ E o risco, em 2035, e chamar atencao mortal para padroes e simbolos.
 - Paginas arrancadas: cada pagina e poder e prova.
 - Um retentor capturado pela Lumen.
 - Ritual que resolve um problema e cria tres novos.
-

@@ -19,4 +19,3 @@ Indicadores na barra "Selecionado":
 
 Fallback:
 - Se JS estiver bloqueado, a pagina mostra a imagem teia_de_conexoes_mapa.png.
-

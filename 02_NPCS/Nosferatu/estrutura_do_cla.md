@@ -32,4 +32,3 @@ se a Camarilla quer sobreviver a Lumen, ela precisa de Nosferatu.
 - Um espelho de cameras: se existe, a Lumen quer; se nao existe, alguem esta fingindo.
 - Um ghoul capturado: um tecnico de campo vira alavanca.
 - A rede racha: Anarch Nosferatu vs Camarilla Nosferatu.
-

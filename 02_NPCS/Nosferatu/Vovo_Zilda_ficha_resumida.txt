@@ -1,6 +1,5 @@
 Nome / Alcunha: Vovo Zilda / Ancia subterranea (matriarca)
 Cla: Nosferatu | Seita: Camarilla
-Idade aparente: 70 | Abraco: 1943 | Potencia do Sangue 3
 Dominio / area principal: Galerias do Centro
 Disciplinas (top 3): ['Animalism 3', 'Obfuscate 3', 'Potence 2']
 Assinatura / estilo: conselho como maldicao; cuidado como controle

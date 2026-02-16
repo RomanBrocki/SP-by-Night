@@ -31,4 +31,3 @@ se a Camarilla cair em Sao Paulo, o que entra no lugar e "caca organizada".
 - Sucessao silenciosa: quem assume se Artur cair? Isabel escolhe? A Harpia decide?
 - Registro falso: um erro em boons/protocolos pode destruir o castelo.
 - Canal mortal: um contato "util" pode ser a porta da Lumen.
-

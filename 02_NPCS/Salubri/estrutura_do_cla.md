@@ -27,4 +27,3 @@ Qualquer rumor vira arma para Harpias e Tremere.
 - Um Salubri salva alguem importante e cria divida impossivel.
 - Um rumor vaza e vira caca.
 - Um hospital vira campo de batalha entre cura e vigilancia.
-

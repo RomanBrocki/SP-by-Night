@@ -27,4 +27,3 @@ Mesmo quando Ravnos ajuda, ninguem confia que vai ajudar de novo.
 - Um disfarce perfeito existe... e tem preco.
 - A Lumen prende o Ravnos errado e aprende um padrao falso.
 - Um item "roubado" na verdade e isca.
-

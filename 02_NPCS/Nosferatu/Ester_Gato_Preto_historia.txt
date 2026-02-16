@@ -2,7 +2,7 @@ Ester "Gato-Preto"
 
 Perfil:
 - Cla: Nosferatu | Seita: Anarch | Funcao: Courier de dados
-- Dominio: Zonas mistas (entregas) | Idade aparente: 24
+- Dominio: Zonas mistas (entregas)
 - Abraco: 2024 | Sire: nosferatu_nico_sombra | Acima do sire: -
 - Disciplinas (top 3): ['Obfuscate 2', 'Animalism 1', 'Potence 1']
 - Assinatura/estilo: moto, mochila, silencio

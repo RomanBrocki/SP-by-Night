@@ -1,6 +1,6 @@
 Nome / Alcunha: Helena Vasconcelos / Guardia de Elysium (curadora)
 Cla: Toreador | Seita: Camarilla
-Idade aparente: 45 | Abraco: 1956 | Potencia do Sangue 3
+Idade aparente: 40 | Abraco: 1956 | Potencia do Sangue 3
 Dominio / area principal: Liberdade (Elysium satelite)
 Disciplinas (top 3): ['Auspex 3', 'Presence 2', 'Celerity 2']
 Assinatura / estilo: cultura como arma; silencio como castigo

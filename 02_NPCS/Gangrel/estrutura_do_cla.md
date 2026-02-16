@@ -22,4 +22,3 @@ Gangrel detestam ser usados como "porta de servico" e cobram em favor, nao em st
 - A tregua verde quebra e Gangrel escolhe lados.
 - Um corredor de carga vira zona Sabbat e Gangrel precisam de aliados.
 - A Lumen comeca a vigiar rotas fora de camera.
-

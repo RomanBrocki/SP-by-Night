@@ -2,7 +2,7 @@ Helena Vasconcelos
 
 Perfil:
 - Cla: Toreador | Seita: Camarilla | Funcao: Guardia de Elysium (curadora)
-- Dominio: Liberdade (Elysium satelite) | Idade aparente: 45
+- Dominio: Liberdade (Elysium satelite) | Idade aparente: 40
 - Abraco: 1956 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Auspex 3', 'Presence 2', 'Celerity 2']
 - Assinatura/estilo: cultura como arma; silencio como castigo

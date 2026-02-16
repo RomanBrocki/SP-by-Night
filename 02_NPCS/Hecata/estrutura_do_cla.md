@@ -24,4 +24,3 @@ um morto que fala pode destruir a vitrine mais rapido do que um video.
 - Um pedagio nao pago vira maldicao social.
 - Um morto acusa o Principe em voz alta (e ninguem sabe calar).
 - O Buraco pede um nome e cobra em humanidade.
-

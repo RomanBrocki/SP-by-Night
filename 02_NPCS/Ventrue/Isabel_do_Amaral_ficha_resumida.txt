@@ -1,6 +1,6 @@
 Nome / Alcunha: Isabel do Amaral / Primogena Ventrue (em retiro)
 Cla: Ventrue | Seita: Camarilla
-Idade aparente: 55 | Abraco: 1872 | Potencia do Sangue 3
+Idade aparente: 40 | Abraco: 1872 | Potencia do Sangue 3
 Dominio / area principal: Itaim/Berrini
 Disciplinas (top 3): ['Dominate 4', 'Fortitude 3', 'Presence 3']
 Assinatura / estilo: caridade calculada; ela manda sem aparecer

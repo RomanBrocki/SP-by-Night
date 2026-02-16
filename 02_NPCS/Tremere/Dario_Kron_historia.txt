@@ -2,7 +2,7 @@ Dario Kron
 
 Perfil:
 - Cla: Tremere | Seita: Camarilla | Funcao: Primogeno Tremere (regente de fato)
-- Dominio: Butanta/USP (Torre Tremere; refugios dispersos) | Idade aparente: 42
+- Dominio: Butanta/USP (Torre Tremere; refugios dispersos) | Idade aparente: 40
 - Abraco: 1968 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Blood Sorcery 4', 'Auspex 2', 'Dominate 2']
 - Assinatura/estilo: rituais curtos; paranoia como liturgia

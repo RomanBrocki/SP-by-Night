@@ -2,7 +2,7 @@ Joao do Trem
 
 Perfil:
 - Cla: Brujah | Seita: Independentes | Funcao: Lenda de trilhos (ancao de periferia)
-- Dominio: Corredores e estacoes (rumores) | Idade aparente: 50
+- Dominio: Corredores e estacoes (rumores) | Idade aparente: 40
 - Abraco: 1974 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Celerity 3', 'Potence 3', 'Presence 1']
 - Assinatura/estilo: aparece em lugares onde nao devia existir

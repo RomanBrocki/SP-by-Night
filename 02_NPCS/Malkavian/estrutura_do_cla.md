@@ -25,4 +25,3 @@ Malkavian sao o cla que pode destruir um plano com uma frase.
 - Um pressagio vira boato e mata alguem.
 - Um Malkavian entrega nome verdadeiro da Lumen.
 - Um sonho coletivo aponta para um lugar que nao existe no mapa.
-

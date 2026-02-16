@@ -37,4 +37,3 @@ Como entram: pista torta, custo moral, pressao de segredo.
 - Culto do Buraco (promessa quebrada como oferenda) **[CANON-ADJACENT / HOME BREW]**
 
 Como entram: abrigo que cobra, fe que prende, comunidade que denuncia.
-

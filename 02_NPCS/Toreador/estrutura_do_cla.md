@@ -28,4 +28,3 @@ quando a Camarilla precisa que um incidente vire "nada", Toreador compram o sile
 - Arquivo de 2034: existe um original que ninguem apagou.
 - Influenciadores como isca: alguem usa midia para puxar SI.
 - Uma obra roubada: arte como prova (ou como armadilha).
-
