@@ -1,7 +1,7 @@
 Nome / Alcunha: Maru "Vento" / Scout de baronia
 Cla: Ravnos | Seita: Anarch
 Idade aparente: 23 | Abraco: 2027 | Potencia do Sangue 2
-Dominio / area principal: Leste (rotas)
+Dominio / area principal: Leste
 Disciplinas (top 3): ['Obfuscate 1', 'Presence 1', 'Animalism 1']
 Assinatura / estilo: sempre leve; nunca fica
 Coteries/associacoes (grupo e rede):
@@ -22,4 +22,5 @@ Atuacao mortal (explicita):
 Servos/contatos notaveis (entrada rapida):
 - Ravi "Truque" (kindred; Ilusionista de esquina) [childe]: amor e irritacao
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: trabalha para a baronia
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [friend]: rotas e respeito
+- Bia "Matilha" (kindred; Baronesa da borda sul) [friend]: rotas e respeito
+- Ravi "Truque" (kindred; Ilusionista de esquina) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

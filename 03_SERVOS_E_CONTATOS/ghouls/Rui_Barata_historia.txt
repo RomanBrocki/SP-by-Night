@@ -1,16 +1,16 @@
 Rui "Barata"
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Tecnico de campo (cabos e cameras)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Técnico de campo
 - Area: Barra Funda/Lapa
 - Assinatura/estilo: sujo de graxa; rapido em sumir
 
 Tom (para narrar):
-Rui "Barata" e imagem e prova. Em cena: ele(a) sabe o que cortar, o que guardar, e o que vazar para destruir reputacao. Area operacional: Barra Funda/Lapa.
+Rui "Barata" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Barra Funda/Lapa.
 
 Historia (costurada, sem resumo seco):
-Rui "Barata" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Tecnico de campo (cabos e cameras). A area operacional e Barra Funda/Lapa. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: Comprar a propria liberdade.. O medo e: Ser jogado aos caçadores para salvar o senhor..
+Rui "Barata" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Técnico de campo. A area operacional e Barra Funda/Lapa. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Rui "Barata" e Comprar a propria liberdade. O medo central e Ser jogado aos caçadores para salvar o senhor. Em Barra Funda/Lapa, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -21,9 +21,10 @@ Segredo (objetivamente jogavel):
 - Ele escondeu um backup que Nico pediu para apagar.
 
 Conexoes (com motivo e custo):
-- Nico "Sombra" (kindred; Corretor de informacao) [servant]: retentor e risco
-- Katia "Zero" (kindred; Tecnica de sumico digital) [rival]: guerra fria por dados
+- Nico "Sombra" (kindred; Corretor de informação) [servant]: retentor e risco
+- Katia "Zero" (kindred; Técnica de sumiço digital) [rival]: guerra fria por dados
 - Samira al-Haddad (kindred; Xerife) [uneasy]: o Xerife o assusta
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: Barra Funda/Lapa. Instala uma camera para os PJ (e cobra).

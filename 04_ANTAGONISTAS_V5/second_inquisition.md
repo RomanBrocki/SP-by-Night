@@ -1,79 +1,36 @@
-# Segunda Inquisicao (V5) - Operacao Lumen em Sao Paulo
+# Segunda Inquisicao (Canon DOCX)
 
-**[CANON-ADJACENT / HOME BREW]** Nesta cronica, a presenca mais constante da SI e um consorcio informal
-apelidado de **Operacao Lumen**: vigilancia, correlacao e campo.
+## 7.2 - Segunda Inquisição em São Paulo
+A Segunda Inquisição, em São Paulo, não se apresenta como cruzada. Ela se apresenta como força-tarefa, auditoria, “procedimento” - e só depois vira caça.
+No submundo cainita, o apelido que pegou é Lumen: não porque eles sejam iluminados, mas porque a sensação é de luz fria acendendo em cima de você, devagar, até não sobrar sombra.
+### Como ela entra
+Ela entra quando um incidente vira caso. Um vídeo curto demais, um incêndio limpo demais, um desaparecimento com assinatura repetida. O primeiro passo quase sempre é humano: uma pergunta bem feita no lugar certo.
+Depois vêm as conexões: um mesmo nome aparece em dois relatórios; um mesmo número de telefone encosta em três ocorrências; um mesmo bairro começa a ter “coincidências” demais. A partir daí, a Lumen não precisa acreditar em vampiros. Precisa só de um alvo plausível.
+### Métodos típicos (o horror é a normalidade)
+A Lumen prefere métodos que parecem rotina urbana. O objetivo é fazer a cidade aceitar a explicação - e, assim, não questionar a ação.
+- Pressão silenciosa por dados: hospitais, abrigos, clínicas e empresas terceirizadas viram fontes involuntárias. Não é “interrogatório”; é pedido de registro, planilha, log, filmagem.
+- Cerco de hábitos: vigilância em horários fixos, carros que estacionam ‘só por alguns minutos’, visitas técnicas, fiscalizações, pequenas interrupções que empurram o alvo para a rua certa.
+- Limpeza com cara de acidente: incêndio rápido, vazamento, curto, obra, interdição. O que mata não é a explosão; é a impossibilidade de ficar.
+- Captura de intermediários: ghouls, fornecedores, motoristas, seguranças - gente que some sem virar manchete. A delegada Helena Pacheco (o rosto humano do Lumen - ou a máscara dele)
+Helena Pacheco é o tipo de delegada que sobrevive a uma cidade que devora gente: ela organiza o caos e não dorme bem. Ela não precisa de fé para caçar; ela precisa de padrão para justificar.
+Entre os mortais, ela é ‘competente demais’. Entre os cainitas, ela é um boato com nome e crachá: a pessoa que consegue transformar coincidência em protocolo.
+Há duas leituras possíveis - e você pode escolher a que melhor serve sua crônica:
+- Pacheco é Lumen: ela sabe mais do que diz, opera com um círculo pequeno e confia em ‘métodos de contenção’ que ninguém assina. Para ela, o segredo não é místico - é risco sanitário e segurança pública.
+- Pacheco é usada pela Lumen: alguém alimenta seus casos com pistas e ‘explicações’ para empurrá-la na direção certa. Ela acha que está combatendo uma rede criminosa; na prática, está abrindo portas para a caça.
+O que a torna perigosa não é arma; é acesso. Ela consegue fazer um hospital “cooperar”, uma perícia “priorizar”, um relatório “andar”, uma testemunha “reconsiderar”. E isso, em São Paulo, é mais letal do que um revólver.
+Fraqueza: Pacheco precisa que a história pareça normal para permanecer de pé. Se a noite consegue fazer o caso parecer absurdo demais para o sistema - ou, pior, se consegue provar que alguém dentro do sistema está usando o sistema - ela perde cobertura e vira apenas uma pessoa cansada com inimigos demais.
+### Fraquezas exploráveis (sem infantilizar a Segunda Inquisição)
+- Política e vaidade: forças-tarefa sobrevivem de resultado. Alguém quer crédito; alguém quer orçamento; alguém quer escândalo controlado.
+- Dependência de registro: quando o dado vira ruído, a Lumen perde tração por algumas noites. Um apagão, uma chuva de falsos positivos, um escândalo paralelo - e a caça precisa replanejar.
+- Cegueira para vínculos: eles mapeiam trajeto e prova; subestimam lealdade, boon, medo e vaidade.
+### Ganchos de crônica
+- A Lumen escolhe um domínio ‘piloto’ e começa a testar resposta: uma semana de perguntas, depois uma semana de interdições, depois um incêndio que “ninguém entende”.
+- Um operador oferece acordo: uma noite de paz em troca de um nome. O problema é que o nome pedido não é o do culpado - é o do útil.
+- Pacheco pressiona um hospital por registros, e um contato dos personagens está no meio. A escolha não é salvar o contato; é decidir quem vai pagar o preço do silêncio.
+### Fichas rápidas - Segunda Inquisição
+Use estes blocos como antagonistas prontos. Ajuste 1-2 dados para cima/baixo conforme a cena (um operador veterano, um novato, etc.).
+#### Analista de Triagem (Lumen)
 
-Eles nao precisam "acreditar" em vampiros. Eles precisam:
-- ver padrao
-- isolar alvo
-- eliminar com fogo e silencio
+#### Equipe de Campo (Lumen) - 3 a 5 agentes
 
-## Assinatura (como voce reconhece uma operacao Lumen)
-- Incendio "tecnico" com tempo perfeito (curto, gas, falha de disjuntor).
-- Pessoas fazendo perguntas que parecem inocentes, mas seguem roteiro.
-- Pressao em hospital/abrigo por logs e entradas (metadado).
-- Equipe pequena, eficiente, sem bravata. Pouca fala. Muito checklist.
-
-## O que a Lumen quer (objetivo real)
-- Provar a existencia de uma ameaca (para justificar recurso)
-- Entregar resultados (para sobreviver politicamente)
-- Construir uma lista que permita operacoes futuras (controle)
-
-Se eles conseguirem, a cidade entra em espiral: cada operacao gera mais evidencia, que gera mais operacao.
-
-## Como eles operam (ciclo)
-1. **Sinal**: incidente, vazamento, video, padrao de sumico.
-2. **Triagem**: cruzar camera, horario, geolocalizacao, compras, registros.
-3. **Isolamento**: cortar rotas (blitz discreta), vigiar abrigo, pressionar hospitais/abrigos.
-4. **Campo**: captura (se possivel) ou queima (se necessario).
-5. **Apagamento**: narrativa mortal (curto, gas, briga de gangue, overdose).
-
-## Elementos notaveis (NPC mortal)
-
-### Delegada Helena Pacheco (coordenacao de campo)
-Pacheco e o tipo de pessoa que transforma caos em planilha. Ela nao precisa de odio. Ela precisa de
-protocolo.
-
-Ela usa:
-- intimacoes discretas em hospitais (dados)
-- inspecoes em abrigos (rotas e nomes)
-- "parcerias" com seguranca privada (campo)
-
-**Fraqueza:** ela precisa de provas que parecam "normais". Se os PJ conseguirem tornar o caso "absurdo"
-publicamente, ela perde escudo institucional.
-
-## Lugares e recursos notaveis (para cena)
-Use como "mapa de pressao":
-- Sala de triagem: um escritorio comum com parede cheia de print (o inimigo e feio, e por isso assusta).
-- Garagem de campo: veiculos sem marca, equipamento em caixas pretas, cheiro de plastico novo.
-- Ponto de interrogatorio: nunca parece interrogatorio; parece conversa em lugar limpo demais.
-
-## Assets e tecnicas (para o Narrador)
-- reconhecimento facial barato (falso positivo, mas util)
-- drones em corredor de carga
-- escutas e captura de metadados (nao precisa do conteudo)
-- "acidentes" (incendio, curto, gas) como padrao de limpeza
-- informantes pagos (motoristas, segurancas, tecnicos)
-
-## Como a Lumen entra na mesa (sem virar TPK)
-Use a Lumen como:
-- **relogio**: cada incidente aumenta o nivel de pressao
-- **predador lento**: primeiro vem a pergunta, depois o cerco, depois a queima
-- **arma politica**: Cainitas tentam jogar a Lumen em cima de rivais
-
-### Relogio (exemplo)
-- Nivel 1: perguntas e OSINT (nada acontece ainda)
-- Nivel 2: vigilancia em rotas e abrigos
-- Nivel 3: capturas de ghouls/contatos
-- Nivel 4: tentativa de queimar refugio
-- Nivel 5: operacao coordenada (varios alvos)
-
-## Fraquezas da Lumen (pontos de jogo)
-- politica interna: alguem quer credito (e expoe demais)
-- dependencia de dados: um apagao digital os deixa cegos
-- excesso de protocolo: eles tem dificuldade com improviso social
-
-## Ganchos
-- um operador de campo oferece acordo (por medo): "um nome por uma noite de paz"
-- um hospital pressiona um contato dos PJ por logs; a pista vem de dentro
-- a Lumen compra um clip antigo e acha que e ouro (mas e um rastro plantado)
+#### Consultor de Perícia/Incêndio (Lumen)

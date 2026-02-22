@@ -1,267 +1,95 @@
-# Coteries e Associacoes (Sao Paulo by Night)
+# Coteries e Associacoes (Canon DOCX)
 
-Este arquivo define grupos recorrentes citados nos NPCs e no mapa.
-Regra de ouro: **coterie** = equipe pequena que age junta; **associacao** = rede/mercado com pedagio.
+# Capítulo 6 – As Coteries
 
-## Corte do Elysium (Camarilla)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Paulista/Jardins + salas de protocolo (Elysium e satelites)
-
-Descricao:
-Nao e uma coterie, e a maquina politica da Camarilla. Aqui favor vira norma, e norma vira sentenca. Quem entra aprende etiqueta ou vira exemplo.
-
-Membros (atuais, nomeados no projeto):
-- Artur Macedo (Ventrue; Camarilla) - Principe de Sao Paulo
-- Luiza Salles (Toreador; Camarilla) - Senescal e Harpia principal
-- Samira al-Haddad (Banu Haqim; Camarilla) - Xerife
-- Mateus Cordeiro (Ventrue; Camarilla) - Responsavel por Protocolos de Elysium
-- Henrique Valadares (Ventrue; Camarilla) - Primogeno Ventrue (financas de guerra)
-- Dario Kron (Tremere; Camarilla) - Primogeno Tremere (regente de fato)
-- Nico "Sombra" (Nosferatu; Camarilla) - Corretor de informacao
-- Marcia Falcao (Malkavian; Camarilla) - Primogena Malkavian (ouvinte do padrao)
-- Clara Montenegro (Toreador; Camarilla) - Primogena Toreador (curadora de vitrine e faca)
-- Nadia Nasser (Banu Haqim; Camarilla) - Primogena Banu Haqim (juiza de protocolo e sangue)
-- Raimundo "Rato-Rei" (Nosferatu; Camarilla) - Primogeno Nosferatu (cartografo do subsolo)
-- Padre Miguel Aranha (Lasombra; Camarilla) - Guardiao de confissoes (Camarilla)
-- Mariana Lobo (Mortal; Camarilla) - Chefe de gabinete (mortal)
-- Ricardo "Protocolos" Nery (-; Camarilla) - Maitre de Elysium (lista, convite, humilhacao elegante)
-- Igor "Sombra" Camargo (-; Camarilla) - Motorista (rota, placa, porta traseira)
-- Paula "Compliance" Azevedo (-; Camarilla) - Advogada de crise (NDA, sumico, acordo extrajudicial)
-- Lara "Contencao" Tavares (-; Camarilla) - Seguranca de Elysium (contencao sem sangue, camera sem prova)
-- Vitor Kallas (Mortal; Camarilla) - Motorista e apoio tatico
-- Carla Nogueira (Mortal; Camarilla) - Assistente de curadoria (Elysium)
-- Yuri "Curador" Sato (-; Camarilla) - Equipe de Elysium (cenografia, alcool, saida de emergencia)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Coterie Ferrugem (Mooca/Tatuape)
-- Tipo: coterie
-- Faccao: Anarch
-- Base: Mooca/Tatuape (bares, oficinas, ruas e estacoes)
-
-Descricao:
-O coracao politico do baronato da Renata: gente que resolve na rua e cobra em lealdade. Eles chamam de 'protecao comunitaria'; a Camarilla chama de extorsao com narrativa.
-
-Membros (atuais, nomeados no projeto):
-- Renata Ferraz (Brujah; Anarch) - Baronesa da Mooca
-- Caua Martins (Brujah; Anarch) - Executor da Baronesa (linha dura)
-- Elias "Sal" (Ministry; Anarch) - Agitador de celula (cobrador)
-- Rafa "Ferro" (Caitiff; Anarch) - Aspirante a corte (Caitiff)
-- Ester "Gato-Preto" (Nosferatu; Anarch) - Courier de dados
-- Cecilia "Linha-Dois" (Malkavian; Anarch) - Mensageira de pressagios
-- Katia "Zero" (Thin Blood; Anarch) - Tecnica de sumico digital
-- Tiago "Tranca" (Mortal; Anarch) - Chefe de seguranca da baronia
-- Rodrigo "Fiel" Santana (-; Anarch) - Capanga (cobranca e 'resolucao')
-- Maya "Backdoor" Costa (-; Anarch) - Hacker e camera (apaga, injeta, rastreia)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Matilha do Sul (Capao/Grajau)
-- Tipo: coterie
-- Faccao: Anarch
-- Base: Capao Redondo / Grajau (bordas, quebradas e rotas verdes)
-
-Descricao:
-A unidade que faz o baronato Sul existir na pratica: escolta, aviso, resgate e represalia. Quando a cidade 'acaba', eles ainda estao andando.
-
-Membros (atuais, nomeados no projeto):
-- Bia "Matilha" (Gangrel; Anarch) - Patrulheira de fronteira (cinturao)
-- Luan "Patch" (Thin Blood; Anarch) - Medico de rua (limpa estrago)
-- Vlado de Itapecerica (Tzimisce; Autarquicos) - Exilado (violencia contida)
-- Sabrina Siqueira (Brujah; Anarch) - Organizadora de ocupacao (Sul)
-- Jonas "Capim" (Gangrel; Anarch) - Batedor (Sul)
-- Vivi "Fenda" Lacerda (Ministry; Anarch) - Recrutadora (Sul)
-- Bruna "Sinais" (Thin Blood; Anarch) - Correio e drone (Sul)
-- Marcelo "Moto" Vieira (-; Anarch) - Courier (entregas e fuga)
-- Jessica "Biqueira" Ramos (-; Anarch) - Gerente de esquina (boca, aviso, caixa)
-- Wesley "Corredor" Dias (-; Anarch) - Motoqueiro de rota (sangue, arma, gente)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Leste de Aco (Itaquera/Extremo Leste)
-- Tipo: coterie
-- Faccao: Anarch
-- Base: Itaquera e rotas do Extremo Leste
-
-Descricao:
-Rede de rota e abrigo do Baronato Leste. Funciona como guarda territorial e como correio: quem atravessa o Leste sem avisar vira assunto.
-
-Membros (atuais, nomeados no projeto):
-- Diego "Itaquera" Nascimento (Brujah; Anarch) - Barao do Leste (Itaquera e Extremo Leste)
-- Maru "Vento" (Ravnos; Anarch) - Scout de baronia
-- Ana "Carbono" (Thin Blood; Anarch) - Alquimista (mercado cinza)
-- Lia "Comunidad" Souza (-; Anarch) - Contato mortal (cozinha, abrigo e aviso)
-- Paula "Olheira" Nascimento (-; Anarch) - Olheira de rua (aviso, filmagem, fuga a pe)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Corredores de Sombra (conselho de corretores)
-- Tipo: associacao
-- Faccao: Independentes
-- Base: Barra Funda/Lapa e eixos de carga (zona cinza)
-
-Descricao:
-Nao e uma coterie, e um mercado: corretores, 'fixers' e gente de rota. Territorio aqui nao e bairro, e janela: hora, camera, cracha e nota fiscal. Eles vendem passagem, sumico e atraso planejado.
-
-Membros (atuais, nomeados no projeto):
-- Yusuf Rahman (Banu Haqim; Autarquicos) - Juiz itinerante
-- Joao do Trem (Brujah; Autarquicos) - Lenda de trilhos (ancao de periferia)
-- Hector "Rodoanel" (Gangrel; Autarquicos) - Batedor de rotas (cargas)
-- Talita "Serpente" (Ministry; Autarquicos) - Pregadora do Vicio (culto urbano)
-- Ravi "Truque" (Ravnos; Autarquicos) - Ilusionista de esquina
-- Dante "Fumo" (Thin Blood; Autarquicos) - Correio e sumico
-- Camila "Noite-Funda" (Lasombra; Anarch) - Dissidente (ex-Camarilla)
-- Beto "Mecanico" (Mortal; Autarquicos) - Mantenedor de rotas (garagem)
-- Eli "Despacho" Araujo (-; Independentes) - Despachante (nota fiscal, placa e horario)
-- Teresa "Balanca" Pacheco (-; Independentes) - Controle de doca (fila, balanca, camera 'cego')
-
-Como isso entra em mesa (ganchos claros):
-- Pedido de passagem: um PJ precisa cruzar com um corpo/objeto sem camera. O 'conselho' cobra horario, placa e um favor.
-- Sumiço vendido: um mortal some por 12h; a devolucao custa uma entrega no dia seguinte.
-
-## Enclave dos Cemiterios (Hecata)
-- Tipo: associacao
-- Faccao: Independentes
-- Base: Consolacao (cemiterio, funerarias e capelas de servico)
-
-Descricao:
-Um acordo escrito sem papel: a Camarilla tolera porque precisa. Aqui o pedagio e memoria, nome e segredo. Quebrar o acordo vira exemplo.
-
-Membros (atuais, nomeados no projeto):
-- Donato Lazzari (Hecata; Autarquicos) - Coletor do pedagio (cemiterios e galerias)
-- Soraia Nunes (Hecata; Autarquicos) - Interprete de ecos (mediunica)
-- Celia Moura (Hecata; Autarquicos) - Agente funeraria (enclave de cemiterio)
-- Iago Siqueira (Hecata; Autarquicos) - Banco de boons (cobrador)
-- Lia Morais (Mortal; Autarquicos) - Necroassistente (funeraria)
-- Silvia "Funebre" Prado (-; Autarquicos) - Diretora de funeraria (agenda, sala, 'preparo')
-
-Como isso entra em mesa (ganchos claros):
-- Um corpo aparece com marca errada; o enclave exige que os PJ corrijam antes do amanhecer.
-- Um acordo quebrado: alguem caçou em capela proibida. O enclave quer exemplo.
-
-## Correios do Subsolo (rede Nosferatu)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Esgotos, galerias e salas tecnicas (Bras/Pari, Perdizes, Centro)
-
-Descricao:
-Rede de mensagens e rotas: bilhetes, pendrives, pessoas. O pagamento raramente e dinheiro; e silencio, acesso e uma porta aberta na hora certa.
-
-Membros (atuais, nomeados no projeto):
-- Raimundo "Rato-Rei" (Nosferatu; Camarilla) - Primogeno Nosferatu (cartografo do subsolo)
-- Nico "Sombra" (Nosferatu; Camarilla) - Corretor de informacao
-- Vovo Zilda (Nosferatu; Camarilla) - Ancia subterranea (matriarca)
-- Ester "Gato-Preto" (Nosferatu; Anarch) - Courier de dados
-- Nara Sato (Nosferatu; Camarilla) - Sombra de entrega (correio)
-- Keiko Sato (Nosferatu; Camarilla) - Sombra de entrega (correio)
-- Pedro "Manutencao" Lins (-; Camarilla) - Retentor (chaves, dutos e horarios)
-
-Como isso entra em mesa (ganchos claros):
-- Um bilhete chega sem remetente. Se for aberto fora do lugar certo, vira prova contra os PJ.
-- A rota mais segura exige que os PJ levem algo junto (uma encomenda).
-
-## A Confissao Preta (Lasombra)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Bela Vista/Bixiga (salas privadas, igrejas e advocacia)
-
-Descricao:
-Eles chamam de confissao. A cidade chama de chantagem com liturgia. Serve a Camarilla porque transforma pecado em protocolo e inimigo em penitente.
-
-Membros (atuais, nomeados no projeto):
-- Padre Miguel Aranha (Lasombra; Camarilla) - Guardiao de confissoes (Camarilla)
-- Irma Beatriz Lemos (Lasombra; Camarilla) - Confessora auxiliar (Bixiga)
-- Afonso Carmo (Lasombra; Camarilla) - Advogado da confissao
-- Jonas "Coro" (Mortal; Camarilla) - Coordenador de abrigo e coral (facilitador)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Salao de Pinheiros (Toreador)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Pinheiros/Vila Madalena + Elysium satelite (Liberdade)
-
-Descricao:
-Patronato, fofoca e convite. Quem entra tem vitrine; quem cai vira piada eterna. E onde a politica vira 'evento'.
-
-Membros (atuais, nomeados no projeto):
-- Luiza Salles (Toreador; Camarilla) - Senescal e Harpia principal
-- Clara Montenegro (Toreador; Camarilla) - Primogena Toreador (curadora de vitrine e faca)
-- Helena Vasconcelos (Toreador; Camarilla) - Guardia de Elysium (curadora)
-- Daniel Sato (Toreador; Camarilla) - Harpia junior (fofoca de campo)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Torre da USP (Tremere)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Butanta/USP (laboratorios, bibliotecas e salas trancadas)
-
-Descricao:
-Nao e piramide como antes, mas ainda e torre: arquivos, selos e contramedidas. A Camarilla tolera porque precisa de gente que apague rastros 'impossiveis'.
-
-Membros (atuais, nomeados no projeto):
-- Dario Kron (Tremere; Camarilla) - Primogeno Tremere (regente de fato)
-- Bianca Saramago (Tremere; Camarilla) - Arquivista de campo
-- Maira Koehler (Tremere; Camarilla) - Guardia de grimorios (USP)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Chaves do Morumbi (Ventrue)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Morumbi/Campo Belo (condominios e seguranca privada)
-
-Descricao:
-Controle por acesso. Aqui a Mascarada nao e misterio, e catraca: quem entra, quem sai, quem vira 'visitante'.
-
-Membros (atuais, nomeados no projeto):
-- Henrique Valadares (Ventrue; Camarilla) - Primogeno Ventrue (financas de guerra)
-- Helio Barros (Ventrue; Camarilla) - Gestor de predio (fachada)
-- Otavio Braga (Ventrue; Camarilla) - Gestor de predio (fachada)
-- Damiao "Portaria" (-; Camarilla) - Retentor (seguranca e acesso em condominios)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Sangue e Selo (Banu Haqim)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Ipiranga/Cursino + Santana (juridico e execucao)
-
-Descricao:
-Um tribunal ambulante: investigar, julgar, executar. Nao com teatro; com dossie, precedente e exemplo.
-
-Membros (atuais, nomeados no projeto):
-- Samira al-Haddad (Banu Haqim; Camarilla) - Xerife
-- Nadia Nasser (Banu Haqim; Camarilla) - Primogena Banu Haqim (juiza de protocolo e sangue)
-- Farid Alvim (Banu Haqim; Camarilla) - Auditor de sangue (campo)
-- Samir "Escrivao" Haddad (-; Camarilla) - Retentor (cartorio, selo e copia)
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
-
-## Os Ouvidores (Malkavian)
-- Tipo: associacao
-- Faccao: Camarilla
-- Base: Consolacao/Republica (clinicas, midia, metro)
-
-Descricao:
-Nao e uma seita secreta: e uma forma de sobreviver. Eles trocam padroes, alertas e lapsos. O custo e sempre um nome, uma lembranca ou uma verdade que voce nao queria dizer.
-
-Membros (atuais, nomeados no projeto):
-- Marcia Falcao (Malkavian; Camarilla) - Primogena Malkavian (ouvinte do padrao)
-- Miriam Kwon (Malkavian; Camarilla) - Leitora de padroes (bolsa)
-- Paulo "O Vidente" (Malkavian; Autarquicos) - Oraculo de tunel
-- Cecilia "Linha-Dois" (Malkavian; Anarch) - Mensageira de pressagios
-
-Como isso entra em mesa (ganchos claros):
-- Um favor pequeno vira cadeia: convite, acesso, informacao ou abrigo com custo social.
+## 6.1 - O que é uma coterie em São Paulo (e por que isso importa)
+Em São Paulo, ninguém “vira importante” sozinho. A cidade é grande demais, registra demais e pune demais. Uma coterie é a forma mais simples - e mais humana - de um cainita continuar existindo: um pequeno pacto de sobrevivência entre pessoas que se cobrem, se vigiam e se usam.
+Coterie não é “panelinha”. É unidade de ação. Ela aparece quando alguém precisa de gente que entregue resultado sem fazer barulho: recuperar alguém, apagar um rastro, cobrar uma dívida, impor um limite, descobrir quem está vendendo nomes para caçadores. Se você não tem coterie, você é um alvo andando - ou um problema que alguém vai terceirizar para uma coterie resolver.
+E o detalhe que define São Paulo: coteries aqui nascem de necessidade, não de romance. A amizade pode até existir - mas o que sustenta o grupo é função, custo e consequência.
+Um detalhe importante: na Camarilla de São Paulo, a noite e clã-cêntrica. A Torre forma gente por linhagem, dever e disciplina; coteries são mais raras e, quando existem, costumam nascer como 'equipes de tarefa' montadas para resolver um problema específico. Quem busca pertencimento encontra isso no próprio clã; quem busca um time encontra uma coterie - e paga o preço da autonomia.
+## 6.2 - O contrato invisível: cinco coisas que mantêm uma coterie viva
+Toda coterie que dura mais de um verão aprende cinco verdades. Elas não são leis escritas - são cicatrizes.
+- Um nome e uma reputação. Quando alguém fala de vocês, precisa saber o que vocês resolvem (e o que vocês não resolvem).
+- Um método de caça que não explode a Máscara. Se toda noite vira sangue e sirene, vocês não duram.
+- Um jeito de ‘limpar’ o que dá errado. Em São Paulo, o erro não é só matar: é deixar história, registro e padrão.
+- Um teto - nem que seja emprestado. Abrigo é poder. Abrigo é dívida.
+- Uma linha vermelha interna. A cidade testa até onde vocês vão. Se não houver limite, alguém escolhe por vocês - e geralmente é o pior tipo de líder.
+## 6.3 - Por que coteries são a moeda de confiança da cidade
+Príncipe, barões, prestadores e até gente sem bandeira preferem lidar com coteries porque elas têm um formato fácil de cobrar: você sabe quem estava junto, quem deve junto e quem vai sangrar junto se falhar.
+Isso cria um paradoxo bonito e cruel: coteries recebem trabalho porque são confiáveis - e viram confiáveis porque já receberam trabalho e sobreviveram. Entrar nesse círculo é difícil; sair dele quase sempre é violento.
+Abaixo estão as coteries mais influentes e estáveis do cenário. Elas são pequenas o bastante para caber na mesa; grandes o bastante para mudar uma noite inteira quando se movem.
+## 6.4 - As coteries que definem a rua
+### 6.4.1 - Coterie Ferrugem (Mooca/Tatuapé)
+A Ferrugem é o braço que faz a Baronia da Mooca existir fora do discurso. Eles lidam com o que a rua cria de pior: cobrança, proteção, retaliação e a eterna guerra por respeito. Se a Mooca tem ordem, é porque alguém apanhou para ela continuar em pé.
+#### Quem é quem (núcleo)
+- Renata Ferraz (Brujah) - Baronesa. Carisma de rua com senso de limite: ela sabe quando recuar para não perder a cidade inteira.
+- Cauã Martins (Brujah) - executor. A resposta rápida. Ele resolve antes de virar problema público - e cobra lealdade como se fosse sangue.
+- Rafa “Ferro” (Caitiff) - aspirante. Ambicioso, útil, perigoso: quer ser reconhecido sem virar “mascote” de ninguém.
+- Elias “Sal” (Ministry) - cobrador e agitador. Ele entende vício, culpa e desejo; transforma fraqueza em contrato.
+- Cecília “Linha-Dois” (Malkavian) - mensageira. A que chega com notícia ruim antes de a notícia existir.
+- Éster “Gato-Preto” (Nosferatu) - dados e sumiço. Faz pessoas pararem de falar - ou começarem a falar com a pessoa certa.
+- Kátia “Zero” (Thin-Blood) - sumiço digital. Apaga rastro, cria álibi, falsifica rotina.
+- Tiago “Tranca” (ghoul) - segurança e disciplina mortal. O tipo de homem que segura a entrada e mantém a boca fechada.
+#### Razão de existir
+A Ferrugem não é ‘patrulha’. É o seguro da Baronia: quando alguém tenta avançar, quando uma gangue mortal vira grande demais, quando um cainita acha que pode caçar como se estivesse em 1998, é a Ferrugem que vai bater primeiro - e negociar depois, se sobrar tempo.
+#### Dramas internos
+Renata precisa manter a Baronia útil e unida sem virar caricatura de guerra. O problema é que utilidade e união são metas diferentes: uma cobra eficiência; a outra cobra pertencimento. Quando falta resultado, surgem cobradores. Quando falta pertencimento, surge facção.
+#### Boatos e disputas
+- A Camarilla estaria comprando gente na Mooca com promessas discretas. A Ferrugem  quer  descobrir quem está  aceitando.
+- Um ‘protegido’ da Renata voltou diferente - mais frio, mais obediente. Falam  em  sangue  estrangeiro.
+- Éster tem um dossiê que pode derrubar um baronato vizinho. Renata não decide se usa - ou se guarda como arma de último recurso.
+#### Como entra  em mesa
+- Um PJ precisa de abrigo e proteção na zona Leste. A Ferrugem oferece - mas pede uma noite de serviço.
+- Alguém está extorquindo mortais ‘em nome da Baronia’. A Ferrugem precisa de prova e de exemplo.
+- Um erro de caça virou vídeo. Kátia diz que dá para apagar - se o grupo recuperar o celular original antes do amanhecer.
+### 6.4.2 - Leste de Aço (Itaquera/Extremo Leste)
+O Leste de Aço é a coterie que transforma território em resposta. Eles não dominam porque são ‘donos’ - dominam porque chegam antes, decidem rápido e deixam claro que há consequência. No Extremo Leste, a noite é longa e o dia é desconfiado; quem não tem gente, vira história.
+#### Quem é quem (núcleo)
+- Diego “Itaquera” Nascimento (Brujah) - Barão. Ele segura a rua porque entrega proteção de verdade e porque sabe dizer ‘não’ sem virar tirano.
+- Maru “Vento” (Ravnos) - exploradora. Mobilidade e engano: ela encontra saída onde a cidade só vê muro.
+- Ana “Carbono” (Thin-Blood) - alquimista. Mercado cinza, remendo de Máscara, química de sobrevivência.
+- Lia “Comunidad” Souza (ghoul) - abrigo e aviso. Cozinha, transporte, cama segura; o Leste confia nela mais do que em muita gente de sangue.
+- Paula “Olheira” Nascimento (ghoul) - filmagem e fuga. Ela vê antes que vire emboscada.
+- Rafaela Novais (ghoul) - triagem. Socorro discreto e ‘sumir com ferido’ quando a noite sangra.
+#### Razão de existir
+O Leste de Aço faz duas coisas: impede invasão e administra crise. Quando mortalidade, torcida, polícia e facções colidem, eles escolhem o que vai virar notícia - e o que vai virar silêncio. Ana resolve o que não tem nome; Maru resolve o que não tem caminho.
+#### Dramas internos
+O maior conflito do Leste é o tempo: a rua quer vingança imediata, mas vingança imediata traz luz demais. Diego segura os mais novos para não fazerem barulho; isso cria ressentimento. Ana vive no fio: útil demais para ser descartada, exposta demais para dormir tranquila.
+#### Boatos e disputas
+- Há um circuito de ‘caça fácil’ que alguém está vendendo para recém-chegados. Isso  está  trazendo  caçador para perto.
+- Uma facção mortal (torcida/segurança privada) começou a “cobrar taxa” na área - e não sabe com quem mexeu.
+- Maru teria levado um segredo para fora do Leste. Ninguém sabe se foi fuga ou missão.
+#### Como entra  em mesa
+- Um PJ precisa atravessar a cidade carregando algo comprometedor. O Leste oferece um trajeto seguro - em troca de um favor público.
+- Um ghoul importante sumiu. A coterie quer os PJs como ‘força de busca’ antes que a polícia encontre.
+- Ana oferece um produto raro (alquimia) - mas alguém quer roubá-la, e o Leste precisa decidir se mata por ela.
+### 6.4.3 - Matilha do Sul (Capão/Grajaú e bordas verdes)
+A Matilha do Sul é a coterie que mantém a borda respirando sem chamar predador maior. No Sul, a cidade encosta no verde - e o verde não perdoa arrogância. Bia aprendeu isso cedo: barulho demais vira visita indesejada. Por isso a Matilha é disciplina antes de ser coragem.
+#### Quem é quem (Matilha e aliados)
+- Bia ‘Matilha’ (Gangrel) - Baronesa de fato. Lidera pelo exemplo e pelo instinto: ela sabe onde a cidade termina e onde começa o território que não é nosso.
+- Jonas ‘Capim’ (Gangrel) - batedor. Nariz para emboscada, olho para trilha, paciência para esperar.
+- Sabrina Siqueira (Brujah) - organizadora. Política de ocupação, alianças locais e mobilização: ela mantém gente unida - e sabe transformar indignação em ação.
+- Vivi ‘Fenda’ (Ministry) - recrutadora. Promessa, culpa e acolhimento. Ela traz  reforço e traz  complicação no mesmo  pacote.
+- Luan ‘Patch’ (Thin-Blood) - médico de rua. O que ele salva hoje evita guerra amanhã.
+- Bruna ‘Sinais’ (Thin-Blood) - drones e recados. Olhos no céu quando a noite fica grande demais.
+- Jéssica ‘Biqueira’ Ramos (ghoul) - caixa e aviso. A pessoa que conhece todo mundo e ninguém nota.
+- Vlado de Itapecerica (Tzimisce, sem juramento) - aliado desconfortável. Não é da Matilha, mas é o monstro que às vezes você precisa ter do seu lado.
+#### Razão de existir
+A Matilha existe para impedir que o Sul vire duas coisas: campo de caça livre e ponto de contato com o risco lupino. Bia pune excessos porque sabe que o preço do exagero não cai só no culpado - cai na quebrada inteira. Quando alguém quer ‘dar show’, a Matilha corta pela raiz.
+#### Dramas internos
+Sabrina quer construir poder social; Bia quer sobreviver. Vivi promete salvação e cria dependência. Patch segura a Máscara com curativo e fé. E Vlado é tentação: ele resolve rápido demais, de um jeito que deixa cicatriz na cidade - e cicatriz chama atenção.
+#### Boatos e disputas
+- Dizem que Bia tem um entendimento com algo do outro lado da linha verde. Outros dizem que ela só sabe exatamente o que nunca deve ser feito.
+- Um grupo novo quer ‘expandir caça’ para perto das bordas. Bia já decidiu que isso termina em sangue - a dúvida é de quem.
+- Problema em mesa: Bia precisa parecer previsível para manter respeito, mas vive de se mover antes dos outros. Se ficar estável demais, perde vantagem. Se improvisar demais, vira risco para a própria Baronia. Ela vende controle; o preço é nunca poder parecer perdida.
+#### Como entra  em mesa
+- Um PJ caçou errado e o erro chegou perto da borda. Bia oferece uma chance: consertar - ou virar exemplo.
+- Um mortal desapareceu perto de uma área proibida. A Matilha precisa de gente para encontrar antes que vire ‘história’ nos dois mundos.
+- Patch pede ajuda: alguém que ele salvou está sendo rastreado. Se cair, leva a Matilha junto.
+## 6.5 - Em mesa: como criar uma coterie de jogadores que pertence a São Paulo
+Para a coterie de jogadores funcionar em São Paulo, ela precisa nascer com um lugar e um problema. Escolha um bairro (ou um eixo), um tipo de caça plausível e uma coisa que vocês resolvem melhor do que qualquer outra pessoa.
+Três  perguntas  costumam  bastar:
+- Quem tolera vocês? (um barão, um primógeno, um prestador, um enclave - alguém que prefira vocês vivos a vocês mortos).
+- Que tipo de bagunça vocês limpam? (Máscarada, dívida, violência, investigação, proteção).
+- Qual é a tentação que pode rachar o grupo? (poder, fome, fé, vingança, amor, medo).
+Uma boa coterie de São Paulo não precisa de ‘destino épico’. Precisa de dilema recorrente. E a cidade faz o resto.

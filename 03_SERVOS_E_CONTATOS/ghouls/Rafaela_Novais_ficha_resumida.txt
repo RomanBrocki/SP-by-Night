@@ -1,8 +1,9 @@
 Nome: Rafaela Novais
 Tipo: ghoul
 Vinculo: Anarch
-Papel: Socorro e triagem (Itaquera)
-Area: Baronato Leste (Itaquera/Extremo Leste)
+Papel: Socorro e triagem
+Area: Baronato Leste
 Assinatura / estilo: mochila de socorro, tenis gasto, fala objetiva
 Coteries/associacoes:
 - Matilha do Sul
+- Leste de Aco (Itaquera/Extremo Leste)

@@ -1,7 +1,7 @@
 {
   "blood_potency": 3,
   "humanity": 5,
-  "predator_type": "Consensualist (confissoes e acordos)",
+  "predator_type": "Consensualist",
   "compulsion_hook": "Dominio: precisa provar que manda no escuro.",
   "hunger_style": "Alimenta-se de devotos e culpados, discretamente.",
   "attributes": {

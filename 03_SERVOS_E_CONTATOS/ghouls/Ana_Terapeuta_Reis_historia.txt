@@ -1,14 +1,14 @@
 Ana "Terapeuta" Reis
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Retentora (escuta, arquivo e remedio)
-- Area: Consolacao/Higienopolis
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Retentora e cobertura clínica
+- Area: Consolação/Higienópolis
 
 Tom (para narrar):
-Ana "Terapeuta" Reis e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Consolacao/Higienopolis.
+Ana "Terapeuta" Reis e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Consolação/Higienópolis.
 
 Historia (costurada, sem resumo seco):
-Ana "Terapeuta" Reis vive no ponto em que o mundo mortal toca o tabuleiro cainita: Retentora (escuta, arquivo e remedio). A area operacional e Consolacao/Higienopolis. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Ana "Terapeuta" Reis vive no ponto em que o mundo mortal toca o tabuleiro cainita: Retentora e cobertura clínica. A area operacional e Consolação/Higienópolis. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -19,7 +19,8 @@ Segredo (objetivamente jogavel):
 - (Nao definido)
 
 Conexoes (com motivo e custo):
-- Marcia Falcao (kindred; Primogena Malkavian (ouvinte do padrao)) [servant]: atende mortais e cola rastros; protege o consultorio
+- Marcia Falcao (kindred; Primógena Malkavian) [servant]: atende mortais e cola rastros; protege o consultorio
+- Marcia Falcao (kindred; Primógena Malkavian) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

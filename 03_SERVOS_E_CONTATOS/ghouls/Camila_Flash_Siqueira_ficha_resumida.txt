@@ -1,7 +1,7 @@
 Nome: Camila "Flash" Siqueira
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Fotografa de evento (imagem, corte, prova)
+Papel: Fotografa de evento
 Area: Pinheiros/Moema
 Assinatura / estilo: Camera pendurada, jaqueta jeans, brincos pequenos; sorriso facil e memoria perfeita.
 Coteries/associacoes:

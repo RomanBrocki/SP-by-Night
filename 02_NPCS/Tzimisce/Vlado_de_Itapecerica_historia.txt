@@ -1,8 +1,8 @@
 Vlado de Itapecerica
 
 Perfil:
-- Cla: Tzimisce | Seita: Autarquicos | Funcao: Exilado (violencia contida)
-- Dominio: Sul (bordas e sitios) | Idade aparente: 29
+- Cla: Tzimisce | Seita: Autarquicos | Funcao: Exilado
+- Dominio: Sul | Idade aparente: 29
 - Abraco: 2017 | Sire: tzimisce_nina_costura | Acima do sire: -
 - Disciplinas (top 3): ['Protean 2', 'Dominate 1', 'Animalism 1']
 - Assinatura/estilo: silencio; olhos que avaliam carne
@@ -15,7 +15,7 @@ Vlado de Itapecerica e hospitalidade predatoria. Em cena: abrigo vem com clausul
 
 Historia (costurada, sem resumo seco):
 Vlado de Itapecerica nasceu em 1987. O Abraco veio em 2017 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Viver sem ser chamado por seitas. O medo e igualmente pratico: Que Nina o puxe de volta como propriedade.
+A ambicao de Vlado de Itapecerica e Viver sem ser chamado por seitas. O medo principal e Que Nina o puxe de volta como propriedade. No territorio de Sul, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -30,14 +30,15 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ele conhece um esconderijo rural usado por cacadores.
 
 Conexoes (com motivo e custo):
-- Nina "Costura" (kindred; Cirurgia e favores (carne e segredos)) [childe]: amor e repulsa
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [uneasy]: disputa de borda
-- Soraia Nunes (kindred; Interprete de ecos (mediunica)) [uneasy]: mortos sussurram seu nome
+- Nina "Costura" (kindred; Cirurgia e favores) [childe]: amor e repulsa
+- Bia "Matilha" (kindred; Baronesa da borda sul) [uneasy]: disputa de borda
+- Soraia Nunes (kindred; Intérprete de ecos) [uneasy]: mortos sussurram seu nome
+- Nina "Costura" (kindred; Cirurgia e favores) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Sul (bordas e sitios). Vira adversario se os PJ invadirem seu territorio.
-- Cena: Sul (bordas e sitios). Pode ser aliado contra o Sabbat por odio antigo.
-- Cena: Sul (bordas e sitios). Carrega um segredo sobre um ritual em cargas.
+- Cena: Sul. Vira adversario se os PJ invadirem seu territorio.
+- Cena: Sul. Pode ser aliado contra o Sabbat por odio antigo.
+- Cena: Sul. Carrega um segredo sobre um ritual em cargas.

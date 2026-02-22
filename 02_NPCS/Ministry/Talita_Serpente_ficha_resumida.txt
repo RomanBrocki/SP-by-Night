@@ -1,7 +1,7 @@
-Nome / Alcunha: Talita "Serpente" / Pregadora do Vicio (culto urbano)
+Nome / Alcunha: Talita "Serpente" / Pregadora do Vicio
 Cla: Ministry | Seita: Independentes
 Idade aparente: 31 | Abraco: 2010 | Potencia do Sangue 3
-Dominio / area principal: Pinheiros/baixa Augusta (celulas)
+Dominio / area principal: Pinheiros/baixa Augusta
 Disciplinas (top 3): ['Presence 3', 'Obfuscate 2', 'Protean 2']
 Assinatura / estilo: promessa de alivio; custo escondido
 Coteries/associacoes (grupo e rede):
@@ -11,14 +11,15 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'Liberdade e o unico sacramento'.
 - Touchstone: uma comunidade mortal 'recuperada'.
 Ganchos de cena:
-- Oferece aos PJ um abrigo contra SI (com preco).
-- Tenta seduzir um PJ para uma celula do culto.
-- Entrega um boato verdadeiro para causar caos no Elysium.
+- Pinheiros/baixa Augusta. Oferece aos PJs um abrigo contra SI. Entrada: Pinheiros/baixa Augusta; custo provável: boon, cobertura ou silêncio.
+- Pinheiros/baixa Augusta. Tenta seduzir um PJs para uma celula do culto. Entrada: Pinheiros/baixa Augusta; custo provável: boon, cobertura ou silêncio.
+- Pinheiros/baixa Augusta. Entrega um boato verdadeiro para causar caos no Elysium. Entrada: Pinheiros/baixa Augusta; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Cultos urbanos e recrutamento (influencia, vicio, promessa).
 - espacos de festa e culto (boate, after, estudio, 'retiro').
 - extorsao suave (a pessoa acha que escolheu).
 Servos/contatos notaveis (entrada rapida):
-- Luiza Salles (kindred; Senescal e Harpia principal) [pressure]: tenta infiltrar a corte
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [rival]: guerra de fe e controle
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [supplier]: compra 'milagres' alquimicos
+- Luiza Salles (kindred; Senescal) [pressure]: tenta infiltrar a corte
+- Padre Miguel Aranha (kindred; Guardião de confissões) [rival]: guerra de fe e controle
+- Ana "Carbono" (kindred; Alquimista) [supplier]: compra 'milagres' alquimicos
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

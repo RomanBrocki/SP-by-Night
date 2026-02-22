@@ -1,11 +1,11 @@
 Rafa "Ferro"
 
 Perfil:
-- Cla: Caitiff | Seita: Anarch | Funcao: Aspirante a corte (Caitiff)
-- Dominio: Mooca e adjacencias | Idade aparente: 34
-- Abraco: 2013 | Sire: - | Acima do sire: -
+- Cla: Caitiff | Seita: Anarch | Funcao: Aspirante a corte
+- Dominio: Mooca e adjacências | Idade aparente: 34
+- Abraco: 2013 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Celerity 2', 'Potence 1', 'Presence 1']
-- Assinatura/estilo: carisma de rua; violencia como ultimo argumento
+- Assinatura/estilo: carisma de rua; violência como ultimo argumento
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Coterie Ferrugem (Mooca/Tatuape)
@@ -15,7 +15,7 @@ Rafa "Ferro" e utilidade perigosa. Em cena: alguem tenta usar, alguem tenta culp
 
 Historia (costurada, sem resumo seco):
 Rafa "Ferro" nasceu em 1980. O Abraco veio em 2013 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ser reconhecido como Barao sem precisar de cla. O medo e igualmente pratico: Que o Xerife o use como exemplo.
+A ambicao de Rafa "Ferro" e Ser reconhecido como Barao sem precisar de cla. Na pratica, isso orienta decisoes no eixo de Coterie Ferrugem, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que o Xerife o use como exemplo. Quando esse risco aparece, Rafa "Ferro" reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,21 +24,22 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 
 Segredo (objetivamente jogavel):
-- Ele sabe quem falsificou um registro de boons (Mateus) e guarda como arma.
+- Ele sabe quem falsificou um registro de boons e guarda como arma. Isso encosta diretamente em Renata Ferraz e Ana "Carbono" (aliança; protege a rede alquimica). Se vier à tona, vira acerto de contas e perda de território ou rede.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ele e filho secreto do Principe.
-- Verdade (perigosa): Ele tem um contato com cacadores de rua que vende informacao barata.
+- Rumor (falso): Ele e filho secreto do Príncipe.
+- Verdade (perigosa): Ele tem um contato com cacadores de rua que vende informação barata. Hoje, quem está mais perto de descobrir isso é Renata Ferraz.
 
 Conexoes (com motivo e custo):
 - Renata Ferraz (kindred; Baronesa da Mooca) [uneasy]: disputa por legitimidade Anarch
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [ally]: protege a rede alquimica
+- Ana "Carbono" (kindred; Alquimista) [ally]: protege a rede alquimica
 - Elias "Sal" (kindred; Agitador de celula (cobrador)) [uneasy]: culto tenta tomar sua base
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Mooca e adjacencias. Pede aos PJ que validem sua corte com um favor publico.
-- Cena: Mooca e adjacencias. Oferece abrigo para Caitiff e thin-bloods.
-- Cena: Mooca e adjacencias. Vira alvo de boato plantado por Luiza.
+- Cena: Mooca e adjacências. Pede aos PJs que validem sua corte com um favor publico. Entrada: Mooca e adjacências; custo provável: boon, cobertura ou silêncio.
+- Cena: Mooca e adjacências. Oferece abrigo para Caitiff e thin-bloods. Entrada: Mooca e adjacências; custo provável: boon, cobertura ou silêncio.
+- Cena: Mooca e adjacências. Vira alvo de boato plantado por Luiza. Entrada: Mooca e adjacências; custo provável: boon, cobertura ou silêncio.

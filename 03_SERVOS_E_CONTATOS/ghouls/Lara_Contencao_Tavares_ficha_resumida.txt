@@ -1,7 +1,7 @@
 Nome: Lara "Contencao" Tavares
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Seguranca de Elysium (contencao sem sangue, camera sem prova)
+Papel: Segurança de Elysium
 Area: Liberdade/Paulista
 Assinatura / estilo: Corte militar, jaqueta tatica sem insignia, olhar seco; fala pouco e move gente.
 Coteries/associacoes:

@@ -1,8 +1,8 @@
 Nome: Maya "Backdoor" Costa
 Tipo: ghoul
 Vinculo: Anarch
-Papel: Hacker e camera (apaga, injeta, rastreia)
-Area: Baronato Mooca/Tatuape
+Papel: Hacker e câmera
+Area: Baronato Mooca/Tatuapé
 Assinatura / estilo: Moletom com capuz, oculos redondos, fone; dedos com esmalte preto descascado.
 Coteries/associacoes:
 - Coterie Ferrugem (Mooca/Tatuape)

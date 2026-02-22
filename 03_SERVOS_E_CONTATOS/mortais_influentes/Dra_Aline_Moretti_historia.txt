@@ -1,7 +1,7 @@
 Dra. Aline Moretti
 
 Perfil:
-- Tipo: mortal | Vinculo: Mortal | Papel: Gestao hospitalar
+- Tipo: mortal | Vinculo: Mortal | Papel: Gestão hospitalar
 - Area: Oeste
 - Assinatura/estilo: profissional; olha demais para feridas
 
@@ -9,8 +9,8 @@ Tom (para narrar):
 Dra. Aline Moretti e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Oeste.
 
 Historia (costurada, sem resumo seco):
-Dra. Aline Moretti vive no ponto em que o mundo mortal toca o tabuleiro cainita: Gestao hospitalar. A area operacional e Oeste. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: Manter seu hospital fora de guerras invisiveis.. O medo e: Ser associada a um escandalo e perder tudo..
+Dra. Aline Moretti vive no ponto em que o mundo mortal toca o tabuleiro cainita: Gestão hospitalar. A area operacional e Oeste. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Dra. Aline Moretti e Manter seu hospital fora de guerras invisiveis. O medo central e Ser associada a um escandalo e perder tudo. Em Oeste, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -22,8 +22,9 @@ Segredo (objetivamente jogavel):
 
 Conexoes (com motivo e custo):
 - Irene da Luz (kindred; Curandeira escondida) [ally]: cura discreta
-- Luan "Patch" (kindred; Medico de rua (limpa estrago)) [ally]: atendimento de rua
-- Delegada Helena Pacheco (mortal; Coordenacao de campo) [pressure]: pedidos de dados
+- Luan "Patch" (kindred; Médico de rua) [ally]: atendimento de rua
+- Delegada Helena Pacheco (mortal; Coordenação de campo) [pressure]: pedidos de dados
+- Irene da Luz (kindred; Curandeira escondida) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Cenas prontas (para jogar hoje):
 - Cena: Oeste. Pode falsificar um laudo para proteger um PJ.

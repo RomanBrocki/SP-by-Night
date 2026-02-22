@@ -1,9 +1,9 @@
-Isabel do Amaral
+﻿Isabel do Amaral
 
 Perfil:
-- Cla: Ventrue | Seita: Camarilla | Funcao: Primogena Ventrue (em retiro)
+- Cla: Ventrue | Seita: Camarilla | Funcao: PrimÃ³gena Ventrue
 - Dominio: Itaim/Berrini | Idade aparente: 40
-- Abraco: 1872 | Sire: - | Acima do sire: -
+- Abraco: 1872 | Sire: â€” (sem registro formal no projeto; origem mantida em silÃªncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Dominate 4', 'Fortitude 3', 'Presence 3']
 - Assinatura/estilo: caridade calculada; ela manda sem aparecer
 
@@ -15,7 +15,7 @@ Isabel do Amaral pressiona por acesso e protocolo. Em cena isso e concreto: a po
 
 Historia (costurada, sem resumo seco):
 Isabel do Amaral nasceu em 1811. O Abraco veio em 1872 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Garantir sucessao Ventrue sem guerra. O medo e igualmente pratico: Que Artur caia e leve o cla junto.
+A ambicao dela e garantir a sucessao Ventrue sem ruptura publica. Em cena, Isabel opera por comite informal de acionistas, controle de credito e blindagem juridica de aliados, para que qualquer troca de comando pareca um ajuste administrativo e nao uma guerra de cla. O medo real e Artur cair e arrastar o cla para disputa aberta. Quando percebe esse risco, ela bloqueia acesso, concentra informacao em dois intermediarios e transforma conversa em contrato.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Financas e imobiliario (fundos, holdings, locacoes estrategicas).
@@ -24,24 +24,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Relacoes com elites corporativas (eventos, conselhos, patrocinios).
 
 Segredo (objetivamente jogavel):
-- Ela sabe o nome verdadeiro de um operador da SI e o guarda como arma.
+- Ela sabe o nome verdadeiro de um operador da SI e o guarda como arma. Isso encosta diretamente em Artur Macedo e Dario Kron (rivalidade; nÃ£o confia em magia fora de controle). Se vier Ã  tona, vira cobranÃ§a de boon, sanÃ§Ã£o de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ela esta em torpor.
-- Verdade (perigosa): Ela sacrificou um childe antigo para comprar paz.
+- Verdade (perigosa): Ela sacrificou um childe antigo para comprar paz. Hoje, quem estÃ¡ mais perto de descobrir isso Ã© Artur Macedo.
 
 Conexoes (com motivo e custo):
-- Artur Macedo (kindred; Principe de Sao Paulo) [mentor]: sire e conselheira
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [rival]: nao confia em magia fora de controle
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [ally]: acordo de integracao discreta
+- Artur Macedo (kindred; PrÃ­ncipe de SÃ£o Paulo) [mentor]: sire e conselheira
+- Dario Kron (kindred; PrimÃ³geno Tremere) [rival]: nao confia em magia fora de controle
+- Padre Miguel Aranha (kindred; GuardiÃ£o de confissÃµes) [ally]: acordo de integracao discreta
+- Artur Macedo (kindred; PrÃ­ncipe de SÃ£o Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Marcela "Cartorio" Guimaraes: Escritura e apagamento (cartorio, procuração, 'segunda via') (area: Itaim/Berrini)
+- Marcela "Cartorio" Guimaraes: Escritura e regularizaÃ§Ã£o discreta (area: Itaim/Berrini)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- ventrue_artur_macedo
+- Artur Macedo
 
 Cenas prontas (para jogar hoje):
-- Cena: Itaim/Berrini. Oferece um conselho que e um comando.
-- Cena: Itaim/Berrini. Testa os PJ com uma tarefa moralmente cinzenta.
-- Cena: Itaim/Berrini. Entrega um segredo e cobra um futuro.
+- Cena: Itaim/Berrini. Oferece um conselho que e um comando. Entrada: Itaim/Berrini; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Itaim/Berrini. Testa os PJs com uma tarefa moralmente cinzenta. Entrada: Itaim/Berrini; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Itaim/Berrini. Entrega um segredo e cobra um futuro. Entrada: Itaim/Berrini; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+

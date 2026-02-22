@@ -1,9 +1,9 @@
-Yusuf Rahman
+﻿Yusuf Rahman
 
 Perfil:
 - Cla: Banu Haqim | Seita: Independentes | Funcao: Juiz itinerante
-- Dominio: Rotas (aeroporto/rodovias) | Idade aparente: 40
-- Abraco: 1918 | Sire: - | Acima do sire: -
+- Dominio: trajetos (aeroporto/rodovias) | Idade aparente: 40
+- Abraco: 1918 | Sire: â€” (sem registro formal no projeto; origem mantida em silÃªncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Blood Sorcery 3', 'Obfuscate 2', 'Celerity 2']
 - Assinatura/estilo: aparece uma vez, muda destinos, desaparece
 
@@ -15,7 +15,7 @@ Yusuf Rahman faz a conversa virar procedimento. Em cena: perguntas parecem casua
 
 Historia (costurada, sem resumo seco):
 Yusuf Rahman nasceu em 1869. O Abraco veio em 1918 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Manter a linhagem longe de politicas pequenas. O medo e igualmente pratico: Que Samira se torne ferramenta da Camarilla.
+A ambicao de Yusuf Rahman e manter a linhagem longe da politica miuda da cidade, preservando autonomia de julgamento nas rotas de passagem. Na pratica, isso se traduz em arbitragem objetiva, cobranca de prova e recusa de acordos emotivos. O medo principal e ver Samira virar instrumento cego da Camarilla. Nos trajetos de aeroporto e rodovias, Yusuf reduz exposicao, evita escolta previsivel e fecha acordo apenas com garantia de retorno.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede juridica e de investigacao (advocacia, auditoria, pressao oficial).
@@ -23,24 +23,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Controle de risco e rastros (apagar evidencia, reescrever narrativa).
 
 Segredo (objetivamente jogavel):
-- Ele ja julgou um anciao de outro cla e sobreviveu.
+- Ele jÃ¡ julgou um anciÃ£o de outro cla e sobreviveu. Isso encosta diretamente em Samira al-Haddad e Donato Lazzari (relaÃ§Ã£o tensa; detesta negÃ³cio com mortos). Se vier Ã  tona, vira acerto de contas e perda de territÃ³rio ou rede.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ele e um agente da SI.
-- Verdade (perigosa): Ele sabe um refugio antigo abaixo do Centro velho.
+- Verdade (perigosa): Ele sabe um refugio antigo abaixo do Centro velho. Hoje, quem estÃ¡ mais perto de descobrir isso Ã© Samira al-Haddad.
 
 Conexoes (com motivo e custo):
 - Samira al-Haddad (kindred; Xerife) [sire]: puxa as cordas quando quer
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: detesta negocio com mortos
-- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [ally]: acordo de nao-interferencia
+- Donato Lazzari (kindred; Cobrador de travessia) [uneasy]: detesta negocio com mortos
+- Isabel do Amaral (kindred; PrimÃ³gena Ventrue) [ally]: acordo de nao-interferencia
+- Samira al-Haddad (kindred; Xerife) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- banuhaqim_samira_al_haddad
+- Samira al-Haddad
 
 Cenas prontas (para jogar hoje):
-- Cena: Rotas (aeroporto/rodovias). Chega para arbitrar uma disputa que vira guerra.
-- Cena: Rotas (aeroporto/rodovias). Oferece uma sentenca: perdao em troca de sangue.
-- Cena: Rotas (aeroporto/rodovias). Tem informacoes sobre a SI em outras cidades.
+- Cena: trajetos (aeroporto/rodovias). Chega para arbitrar uma disputa que vira guerra. Entrada: trajetos (aeroporto/rodovias); custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: trajetos (aeroporto/rodovias). Oferece uma sentenca: perdao em troca de sangue. Entrada: trajetos (aeroporto/rodovias); custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: trajetos (aeroporto/rodovias). Tem informacoes sobre a SI em outras cidades. Entrada: trajetos (aeroporto/rodovias); custo provÃ¡vel: boon, cobertura ou silÃªncio.
+

@@ -1,7 +1,7 @@
 Jonas "Coro"
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Coordenador de abrigo e coral (facilitador)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Coordenador de abrigo e coral
 - Area: Centro
 - Assinatura/estilo: voz calma; organiza pessoas como quem organiza caixas
 
@@ -12,8 +12,8 @@ Tom (para narrar):
 Jonas "Coro" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Centro.
 
 Historia (costurada, sem resumo seco):
-Jonas "Coro" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Coordenador de abrigo e coral (facilitador). A area operacional e Centro. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: Manter o abrigo de pe, custe o que custar.. O medo e: Que o Estado queime o abrigo para 'limpar' a area..
+Jonas "Coro" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Coordenador de abrigo e coral. A area operacional e Centro. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Jonas "Coro" e Manter o abrigo de pe, custe o que custar. O medo central e Que o Estado queime o abrigo para 'limpar' a area. Em Centro, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,9 +24,10 @@ Segredo (objetivamente jogavel):
 - Ele guarda um caderno com rotinas e rostos (pode ser arma).
 
 Conexoes (com motivo e custo):
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [servant]: logistica, isca e cobertura humana
-- Padre Augusto Faria (mortal; Administracao de abrigo/ong) [ally]: rede de abrigo e cozinha
-- Delegada Helena Pacheco (mortal; Coordenacao de campo) [pressure]: inspecoes e pedidos de dados
+- Padre Miguel Aranha (kindred; Guardião de confissões) [servant]: logistica, isca e cobertura humana
+- Padre Augusto Faria (mortal; Administração de abrigo/ong) [ally]: rede de abrigo e cozinha
+- Delegada Helena Pacheco (mortal; Coordenação de campo) [pressure]: inspecoes e pedidos de dados
+- Padre Miguel Aranha (kindred; Guardião de confissões) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: Centro. Pode 'sumir' os PJ como voluntarios por uma noite.

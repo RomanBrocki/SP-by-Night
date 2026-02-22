@@ -1,7 +1,7 @@
 Nome: Carla Nogueira
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Assistente de curadoria (Elysium)
+Papel: Assistente de curadoria de Elysium
 Area: Paulista/Pinheiros
 Assinatura / estilo: beleza discreta; olhos que lembram tudo
 Coteries/associacoes:

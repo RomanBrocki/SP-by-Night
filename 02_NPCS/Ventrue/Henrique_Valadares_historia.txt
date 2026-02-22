@@ -1,11 +1,11 @@
 Henrique Valadares
 
 Perfil:
-- Cla: Ventrue | Seita: Camarilla | Funcao: Primogeno Ventrue (financas de guerra)
-- Dominio: Morumbi/Campo Belo (fundos, seguranca e condominio) | Idade aparente: 40
-- Abraco: 1984 | Sire: ventrue_isabel_amaral | Acima do sire: -
+- Cla: Ventrue | Seita: Camarilla | Funcao: Braço executivo Ventrue
+- Dominio: Morumbi/Campo Belo | Idade aparente: 40
+- Abraco: 1984 | Sire: Isabel do Amaral | Acima do sire: -
 - Disciplinas (top 3): -
-- Assinatura/estilo: -
+- Assinatura/estilo: educação de banco, cálculo rápido, ameaça sem elevar o tom
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Chaves do Morumbi (Ventrue)
@@ -16,6 +16,7 @@ Henrique Valadares pressiona por acesso e protocolo. Em cena isso e concreto: a 
 
 Historia (costurada, sem resumo seco):
 Henrique Valadares nasceu em 1937. O Abraco veio em 1984 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao de Henrique Valadares e manter a máquina Ventrue estável em Morumbi/Campo Belo, com caixa, cobertura jurídica e resposta rápida, enquanto protege Isabel e preserva espaço próprio na sucessão. O medo principal e virar peça de reposição numa crise de Corte e carregar culpa de erro que veio de cima. No territorio de Morumbi/Campo Belo, isso torna cada acordo mais tenso e cada erro mais caro. Quando esse cheiro aparece, a pessoa trabalha primeiro para controlar dano.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Financas e imobiliario (fundos, holdings, locacoes estrategicas).
@@ -24,18 +25,22 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Relacoes com elites corporativas (eventos, conselhos, patrocinios).
 
 Segredo (objetivamente jogavel):
-- (Nao definido)
+- Henrique mantém um caixa de contingência Ventrue fora do fluxo oficial da Corte, montado para segurar crise de mídia, advogado e silêncio rápido. Ele diz que é prudência; Isabel sabe que é poder acumulado. Se isso vaza, a discussão deixa de ser finança e vira sucessão.
 
 Rumor e verdade (municao social):
-- (Nao definido)
+- Rumor (falso): vendem a imagem de que é só burocrata de clã; cola porque o trabalho sujo quase nunca aparece no nome certo.
+- Verdade (perigosa): Henrique já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Isabel do Amaral.
 
 Conexoes (com motivo e custo):
-- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [boon_due]: Isabel o elevou; ele paga com caixa e obediencia
-- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: caixa e escudo em troca de influencia real
+- Isabel do Amaral (kindred; Primógena Ventrue) [boon_due]: Isabel o elevou; ele paga com caixa e obediencia
+- Artur Macedo (kindred; Príncipe de São Paulo) [ally]: caixa e escudo em troca de influencia real
+- Isabel do Amaral (kindred; Primógena Ventrue) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Damiao "Portaria": Retentor (seguranca e acesso em condominios) (area: Morumbi/Campo Belo)
-- Paula "Compliance" Azevedo: Advogada de crise (NDA, sumico, acordo extrajudicial) (area: Morumbi/Campo Belo)
+- Damiao "Portaria": Segurança e controle de entrada (area: Morumbi/Campo Belo)
+- Paula "Compliance" Azevedo: Advogada de crise (area: Morumbi/Campo Belo)
 
 Cenas prontas (para jogar hoje):
-- Cena: Morumbi/Campo Belo (fundos, seguranca e condominio). Um encontro pequeno vira custo grande.
+- Cena: Morumbi/Campo Belo. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local. Entrada: Morumbi/Campo Belo; custo provável: boon, cobertura ou silêncio.
+- Cena: Morumbi/Campo Belo. Henrique chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Morumbi/Campo Belo; custo provável: boon, cobertura ou silêncio.
+- Cena: Morumbi/Campo Belo. Um favor antigo cobrado por Henrique coloca o grupo no meio de duas versões conflitantes. Entrada: Morumbi/Campo Belo; custo provável: boon, cobertura ou silêncio.

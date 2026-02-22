@@ -1,7 +1,7 @@
 Nome / Alcunha: Livia "Sem-Nome" / Informante tolerada
 Cla: Caitiff | Seita: Camarilla
 Idade aparente: 25 | Abraco: 2022 | Potencia do Sangue 2
-Dominio / area principal: Centro Expandido (circula)
+Dominio / area principal: Centro Expandido
 Disciplinas (top 3): ['Obfuscate 2', 'Auspex 1', 'Presence 1']
 Assinatura / estilo: nao deixa rastro; sempre sabe quem viu o que
 Coteries/associacoes (grupo e rede):
@@ -20,5 +20,6 @@ Atuacao mortal (explicita):
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 Servos/contatos notaveis (entrada rapida):
 - Samira al-Haddad (kindred; Xerife) [handler]: o Xerife usa quando precisa
-- Artur Macedo (kindred; Principe de Sao Paulo) [client]: vende pequenos favores por protecao
-- Nico "Sombra" (kindred; Corretor de informacao) [ally]: troca de pistas por anonimato
+- Artur Macedo (kindred; Príncipe de São Paulo) [client]: vende pequenos favores por protecao
+- Nico "Sombra" (kindred; Corretor de informação) [ally]: troca de pistas por anonimato
+- Samira al-Haddad (kindred; Xerife) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

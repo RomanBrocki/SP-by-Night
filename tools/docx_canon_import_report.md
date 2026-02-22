@@ -1,0 +1,41 @@
+# Relatorio de Importacao do DOCX Canon
+
+- arquivo: `_tmp_docx_copy.docx`
+- npc_essenciais_detectados: **32**
+
+- atualizado: **Artur Macedo** (`ventrue_artur_macedo`)
+- atualizado: **Dario Kron** (`tremere_dario_kron`)
+- atualizado: **Donato Lazzari** (`hecata_donato_lazzari`)
+- atualizado: **Luiza Salles** (`toreador_luiza_salles`)
+- atualizado: **Nico "Sombra"** (`nosferatu_nico_sombra`)
+- atualizado: **Padre Miguel Aranha** (`lasombra_padre_miguel_aranha`)
+- atualizado: **Renata Ferraz** (`brujah_renata_ferraz`)
+- atualizado: **Samira al-Haddad** (`banuhaqim_samira_al_haddad`)
+- atualizado: **Bia "Matilha"** (`gangrel_bia_matilha`)
+- atualizado: **Camila "Noite-Funda"** (`lasombra_camila_noite_funda`)
+- atualizado: **Clara Montenegro** (`toreador_clara_montenegro`)
+- atualizado: **Diego "Itaquera" Nascimento** (`brujah_diego_itaquera`)
+- atualizado: **Helena Vasconcelos** (`toreador_helena_vasconcelos`)
+- atualizado: **Henrique Valadares** (`ventrue_henrique_valadares`)
+- atualizado: **Irene da Luz** (`salubri_irene_da_luz`)
+- atualizado: **Isabel do Amaral** (`ventrue_isabel_amaral`)
+- atualizado: **Joao do Trem** (`brujah_joao_do_trem`)
+- atualizado: **Marcia Falcao** (`malkavian_marcia_falcao`)
+- atualizado: **Nadia Nasser** (`banuhaqim_nadia_nasser`)
+- atualizado: **Nina "Costura"** (`tzimisce_nina_costura`)
+- atualizado: **Paulo "O Vidente"** (`malkavian_paulo_vidente`)
+- atualizado: **Rafa "Ferro"** (`caitiff_rafa_ferro`)
+- atualizado: **Raimundo "Rato-Rei"** (`nosferatu_raimundo_rato_rei`)
+- atualizado: **Soraia Nunes** (`hecata_soraia_nunes`)
+- atualizado: **Talita "Serpente"** (`ministry_talita_serpente`)
+- atualizado: **Vovo Zilda** (`nosferatu_vovo_zilda`)
+- atualizado: **Yusuf Rahman** (`banuhaqim_yusuf_rahman`)
+- atualizado: **Daniel Sato** (`toreador_daniel_sato`)
+- atualizado: **Aiko Tanaka** (`toreador_novo_01_aiko_tanaka`)
+- atualizado: **Delegada Helena Pacheco** (`mortal_delegada_helena_pacheco`)
+- atualizado: **Mariana Lobo** (`ghoul_mariana_lobo`)
+- atualizado: **Ana "Carbono"** (`thinblood_ana_carbono`)
+
+- entidades_com_mudancas: **32**
+- campos_alterados_aprox: **46374**
+- nao_encontrados: **0**

@@ -1,9 +1,9 @@
-Nome / Alcunha: Ana "Carbono" / Alquimista (mercado cinza)
+Nome / Alcunha: Ana "Carbono" / Alquimista
 Cla: Thin Blood | Seita: Anarch
-Idade aparente: 23 | Abraco: 2031 | Potencia do Sangue 0
-Dominio / area principal: Pinheiros e rotas
+Idade aparente: 23 | Abraco: 2022 | Potencia do Sangue 0
+Dominio / area principal: Pinheiros e trajetos
 Disciplinas (top 3): ['Thin-blood Alchemy 3', 'Celerity 1', 'Obfuscate 1']
-Assinatura / estilo: laboratorio improvisado; carisma de nerd
+Assinatura / estilo: laboratório improvisado; carisma de nerd
 Coteries/associacoes (grupo e rede):
 - Leste de Aco (Itaquera/Extremo Leste)
 Ghouls/servos diretos: 0
@@ -11,15 +11,16 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'Ninguem merece virar cinza por ignorancia'.
 - Touchstone: um irmao mortal que acha que ela esta viajando.
 Ganchos de cena:
-- Pode dar aos PJ um sangue que engana camera por horas (com risco).
-- E cacada por um operador da Operacao Lumen.
-- Pede ajuda para resgatar um thin-blood preso.
+- Pinheiros e circuitos do mercado cinza. Pode dar aos PJs um sangue que engana câmera por horas. Entrada: Pinheiros e rede de entrega; custo provável: boon, cobertura ou silêncio.
+- Pinheiros e circuitos do mercado cinza. É caçada por um operador da Operação Lumen. Entrada: Pinheiros e rede de entrega; custo provável: boon, cobertura ou silêncio.
+- Pinheiros e circuitos do mercado cinza. Pede ajuda para resgatar um thin-blood preso. Entrada: Pinheiros e rede de entrega; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
 - Mercado cinza e documentos (identidades descartaveis, sumico digital).
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Daniel Sato (kindred; Harpia junior (fofoca de campo)) [ally]: anonimato em troca de favores
-- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [supplier]: milagres por boons
-- Rafa "Ferro" (kindred; Aspirante a corte (Caitiff)) [ally]: protecao de base
+- Daniel Sato (kindred; Harpia) [ally]: anonimato em troca de favores
+- Talita "Serpente" (kindred; Pregadora do Vicio) [supplier]: milagres por boons
+- Rafa "Ferro" (kindred; Aspirante a corte) [ally]: protecao de base
+- Daniel Sato (kindred; Harpia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

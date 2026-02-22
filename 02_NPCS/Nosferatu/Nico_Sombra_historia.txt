@@ -1,9 +1,9 @@
 Nico "Sombra"
 
 Perfil:
-- Cla: Nosferatu | Seita: Camarilla | Funcao: Corretor de informacao
-- Dominio: Bras/Pari + Corredores logisticos (Barra Funda/Lapa)
-- Abraco: 2001 | Sire: nosferatu_vovo_zilda | Acima do sire: -
+- Cla: Nosferatu | Seita: Camarilla | Funcao: Corretor de informação
+- Dominio: Brás/Pari + eixos logísticos (Barra Funda/Lapa) | Idade aparente: -
+- Abraco: 2001 | Sire: Vovo Zilda | Acima do sire: -
 - Disciplinas (top 3): ['Obfuscate 4', 'Animalism 2', 'Potence 2']
 - Assinatura/estilo: voz em audio, encontro em lugar errado
 
@@ -16,7 +16,7 @@ Nico "Sombra" opera por infraestrutura e informacao. Em cena: uma camera cai por
 
 Historia (costurada, sem resumo seco):
 Nico "Sombra" nasceu em 1971. O Abraco veio em 2001 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ser indispensavel para todos e leal a ninguem. O medo e igualmente pratico: Que a SI aprenda a cacar por padroes de dados.
+A ambicao de Nico "Sombra" e Ser indispensavel para todos e leal a ninguem. Na pratica, isso orienta decisoes no eixo de Correios do Subsolo e Corte do Elysium, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que a SI aprenda a cacar por padroes de dados. Quando esse risco aparece, Nico "Sombra" reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
@@ -24,25 +24,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 
 Segredo (objetivamente jogavel):
-- Ele tem acesso a um espelho de cameras e logs: um servidor clandestino com backups e timestamps. Isso tem um local fisico, uma senha e um padrao de acesso. [CANON-ADJACENT / HOME BREW]
+- Ele tem acesso a um espelho de câmeras e logs: um servidor clandestino com backups e timestamps. Isso tem um local físico, uma senha e um padrão de acesso. Isso encosta diretamente em Artur Macedo e Samira al-Haddad. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ele nao existe; e uma rede de varios Nosferatu.
-- Verdade (perigosa): Ele ja entregou um vampiro para a SI para salvar sua cria.
+- Rumor (falso): Ele não existe; e uma rede de varios Nosferatu.
+- Verdade (perigosa): Ele já entregou um vampiro para a SI para salvar sua cria. Hoje, quem está mais perto de descobrir isso é Artur Macedo.
 
 Conexoes (com motivo e custo):
-- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: neutralidade comprada por informacao
+- Artur Macedo (kindred; Príncipe de São Paulo) [ally]: neutralidade comprada por informacao
 - Samira al-Haddad (kindred; Xerife) [boon_due]: Trivial; acesso a cameras
-- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: guerra de narrativa
+- Luiza Salles (kindred; Senescal) [rival]: guerra de narrativa
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Jonas Santos: Correio (motoboy de rotas) (area: Corredores (Zona Cinza de carga e sumico))
-- Rui "Barata": Tecnico de campo (cabos e cameras) (area: Barra Funda/Lapa)
+- Jonas Santos: Correio e entrega rápida (area: eixos de carga (Zona Cinza de carga e sumiço))
+- Rui "Barata": Técnico de campo (area: Barra Funda/Lapa)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- nosferatu_ester_gato_preto
+- Ester "Gato-Preto"
 
 Cenas prontas (para jogar hoje):
-- Cena: Bras/Pari + Corredores logisticos (Barra Funda/Lapa). Vende um dado crucial com preco moral.
-- Cena: Bras/Pari + Corredores logisticos (Barra Funda/Lapa). Ajuda os PJ a sumir por uma noite.
-- Cena: Bras/Pari + Corredores logisticos (Barra Funda/Lapa). Entrega prova de traicao e cria guerra.
+- Cena: Brás/Pari + eixos logísticos (Barra Funda/Lapa). Vende um dado crucial com preço moral. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.
+- Cena: Brás/Pari + eixos logísticos (Barra Funda/Lapa). Ajuda os PJs a sumir por uma noite. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.
+- Cena: Brás/Pari + eixos logísticos (Barra Funda/Lapa). Entrega prova de traição e cria guerra. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.

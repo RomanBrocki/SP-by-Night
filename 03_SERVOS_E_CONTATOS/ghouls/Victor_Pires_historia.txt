@@ -1,7 +1,7 @@
 Victor Pires
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Seguranca e motorista (Corte do Elysium)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Segurança e motorista
 - Area: Paulista/Jardins
 - Assinatura/estilo: terno simples, auricular de seguranca, fala curta
 
@@ -12,8 +12,8 @@ Tom (para narrar):
 Victor Pires e rota e placa. Em cena: ele(a) sabe qual entrada nao tem camera, qual horario evita blitz, e como trocar de carro sem deixar padrao. Area operacional: Paulista/Jardins.
 
 Historia (costurada, sem resumo seco):
-Victor Pires vive no ponto em que o mundo mortal toca o tabuleiro cainita: Seguranca e motorista (Corte do Elysium). A area operacional e Paulista/Jardins. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: aposentar vivo e com nome limpo. O medo e: ser descartado como 'dano colateral' em uma crise de Mascara.
+Victor Pires vive no ponto em que o mundo mortal toca o tabuleiro cainita: Segurança e motorista. A area operacional e Paulista/Jardins. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Victor Pires e aposentar vivo e com nome limpo. O medo central e ser descartado como 'dano colateral' em uma crise de Mascara. Em Paulista/Jardins, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ele guarda uma pasta com provas de suborno em contratos de seguranca, para o caso de precisar fugir.
 
 Conexoes (com motivo e custo):
-- Artur Macedo (kindred; Principe de Sao Paulo) [servant]: motorista e seguranca discreto do Principe
+- Artur Macedo (kindred; Príncipe de São Paulo) [servant]: motorista e seguranca discreto do Principe
 - Samira al-Haddad (kindred; Xerife) [uneasy]: respeita o Xerife e teme auditoria
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: Paulista/Jardins. Um carro de apoio some com uma maleta; Victor pede ajuda sem envolver a policia.

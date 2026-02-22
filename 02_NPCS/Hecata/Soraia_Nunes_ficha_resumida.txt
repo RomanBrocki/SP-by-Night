@@ -1,7 +1,7 @@
-Nome / Alcunha: Soraia Nunes / Interprete de ecos (mediunica)
+Nome / Alcunha: Soraia Nunes / Intérprete de ecos
 Cla: Hecata | Seita: Autarquicos
 Idade aparente: 34 | Abraco: 2005 | Potencia do Sangue 3
-Dominio / area principal: Centro Velho (consultas)
+Dominio / area principal: Centro Velho
 Disciplinas (top 3): ['Oblivion 2', 'Auspex 2', 'Fortitude 1']
 Assinatura / estilo: fala com mortos como quem negocia com vivos
 Coteries/associacoes (grupo e rede):
@@ -11,14 +11,15 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'O morto nao mente, ele distorce'.
 - Touchstone: uma radio comunitaria que ela usa como mascara.
 Ganchos de cena:
-- Oferece aos PJ uma conversa com um morto que cobra um preco.
-- Pede ajuda para conter um eco agressivo do Buraco.
-- Vira a unica testemunha de um crime de Mascara.
+- Oferece aos PJs uma conversa com um morto que cobra um preco. Entrada: Centro Velho; custo provável: boon, cobertura ou silêncio.
+- Pede ajuda para conter um eco agressivo do Buraco. Entrada: Centro Velho; custo provável: boon, cobertura ou silêncio.
+- Vira a unica testemunha de um crime de Mascara. Entrada: Centro Velho; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Funerarias, cemiterios e logistica de corpo (o que some, some direito).
 - Cartorios e registros (nome, documento, heranca).
 - Intermediacao de dividas (boons como tabela, cobranca como ritual).
 Servos/contatos notaveis (entrada rapida):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [childe]: dependencia e protecao
+- Donato Lazzari (kindred; Cobrador de travessia) [childe]: dependencia e protecao
 - Bianca Saramago (kindred; Arquivista de campo) [client]: silencio de mortos por paginas
-- Paulo "O Vidente" (kindred; Oraculo de tunel) [ally]: pressagios e ecos se cruzam
+- Paulo "O Vidente" (kindred; Leitor de padrões das galerias) [ally]: pressagios e ecos se cruzam
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

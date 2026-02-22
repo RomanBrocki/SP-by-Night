@@ -2,7 +2,7 @@ Maru "Vento"
 
 Perfil:
 - Cla: Ravnos | Seita: Anarch | Funcao: Scout de baronia
-- Dominio: Leste (rotas) | Idade aparente: 23
+- Dominio: Leste | Idade aparente: 23
 - Abraco: 2027 | Sire: ravnos_ravi_truque | Acima do sire: -
 - Disciplinas (top 3): ['Obfuscate 1', 'Presence 1', 'Animalism 1']
 - Assinatura/estilo: sempre leve; nunca fica
@@ -15,7 +15,7 @@ Maru "Vento" e deslocamento e golpe. Em cena: verdade vira truque, truque vira r
 
 Historia (costurada, sem resumo seco):
 Maru "Vento" nasceu em 2002. O Abraco veio em 2027 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ser mais do que sombra do sire. O medo e igualmente pratico: Que a baronia a use e descarte.
+A ambicao de Maru "Vento" e Ser mais do que sombra do sire. O medo principal e Que a baronia a use e descarte. No territorio de Leste, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -33,12 +33,13 @@ Rumor e verdade (municao social):
 Conexoes (com motivo e custo):
 - Ravi "Truque" (kindred; Ilusionista de esquina) [childe]: amor e irritacao
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: trabalha para a baronia
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [friend]: rotas e respeito
+- Bia "Matilha" (kindred; Baronesa da borda sul) [friend]: rotas e respeito
+- Ravi "Truque" (kindred; Ilusionista de esquina) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Leste (rotas). Serve de guia para um encontro perigoso.
-- Cena: Leste (rotas). Rouba algo dos PJ e depois devolve com explicacao.
-- Cena: Leste (rotas). Some com uma prova que podia estourar a Mascara.
+- Cena: Leste. Serve de guia para um encontro perigoso.
+- Cena: Leste. Rouba algo dos PJ e depois devolve com explicacao.
+- Cena: Leste. Some com uma prova que podia estourar a Mascara.

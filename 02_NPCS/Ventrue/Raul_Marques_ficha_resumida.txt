@@ -1,4 +1,4 @@
-Nome / Alcunha: Raul Marques / Hound do Xerife (cobrador)
+Nome / Alcunha: Raul Marques / Hound do Xerife
 Cla: Ventrue | Seita: Camarilla
 Idade aparente: 38 | Abraco: 2017 | Potencia do Sangue 1
 Dominio / area principal: Santana/Tucuruvi
@@ -18,4 +18,5 @@ Atuacao mortal (explicita):
 - Relacoes com elites corporativas (eventos, conselhos, patrocinios).
 - Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
 Servos/contatos notaveis (entrada rapida):
-- Artur Macedo (kindred; Principe de Sao Paulo) [contact]: ponte para a politica local
+- Artur Macedo (kindred; Príncipe de São Paulo) [contact]: ponte para a politica local
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

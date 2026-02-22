@@ -1,26 +1,27 @@
-Nome / Alcunha: Bia "Matilha" / Patrulheira de fronteira (cinturao)
+Nome / Alcunha: Bia "Matilha" / Baronesa da borda sul
 Cla: Gangrel | Seita: Anarch
 Idade aparente: 30 | Abraco: 2008 | Potencia do Sangue 3
-Dominio / area principal: Oeste/Sul (bordas verdes)
+Dominio / area principal: Capão/Extremo Sul e mata urbana
 Disciplinas (top 3): ['Protean 3', 'Animalism 2', 'Fortitude 2']
-Assinatura / estilo: cheiro de chuva; olhos de caca
+Assinatura / estilo: cheiro de chuva; olhos de caça
 Coteries/associacoes (grupo e rede):
 - Matilha do Sul (Capao/Grajau)
 Ghouls/servos diretos: 2
-- Marcelo "Moto" Vieira (Courier (entregas e fuga))
-- Wesley "Corredor" Dias (Motoqueiro de rota (sangue, arma, gente))
+- Marcelo "Moto" Vieira (Courier)
+- Wesley "Corredor" Dias (Motoqueiro de entrega)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'Nao provoque a floresta'.
 - Touchstone: um parque grande onde ela nunca permite predacao.
 Ganchos de cena:
-- Leva os PJ para fora da cidade por uma tarefa urgente.
-- Avisa sobre lobisomens e cobra respeito.
-- Oferece abrigo rural temporario.
+- Bia leva os PJs à borda para conter uma caça que ameaça a trégua com os Garou. Entrada: Oeste/Sul; custo provável: boon, cobertura ou silêncio.
+- Ela cobra respeito em território de mata e oferece abrigo temporário se o grupo aceitar a disciplina local. Entrada: Oeste/Sul; custo provável: boon, cobertura ou silêncio.
+- Um cadáver errado aparece na fronteira e Bia precisa de gente neutra antes que vire guerra de bairro. Entrada: Oeste/Sul; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rotas de carga, trilhas e fronteiras (batedores, escoltas, sumicos).
 - protecao de borda (onde a cidade vira mata, alguem manda).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: fronteira protegida
-- Hector "Rodoanel" (kindred; Batedor de rotas (cargas)) [sire]: ensina sobrevivencia dura
-- Luan "Patch" (kindred; Medico de rua (limpa estrago)) [ally]: ajuda medica nas bordas
+- Hector "Rodoanel" (kindred; Batedor de borda e carga) [sire]: ensina sobrevivencia dura
+- Luan "Patch" (kindred; Médico de rua) [ally]: ajuda medica nas bordas
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

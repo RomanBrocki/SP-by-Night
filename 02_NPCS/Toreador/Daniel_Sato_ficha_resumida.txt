@@ -1,4 +1,4 @@
-Nome / Alcunha: Daniel Sato / Harpia junior (fofoca de campo)
+Nome / Alcunha: Daniel Sato / Harpia
 Cla: Toreador | Seita: Camarilla
 Idade aparente: 26 | Abraco: 2018 | Potencia do Sangue 2
 Dominio / area principal: Liberdade/Paulista
@@ -19,6 +19,7 @@ Atuacao mortal (explicita):
 - Cenas noturnas (clubes, galerias, circulos VIP).
 - Intermediacao social (listas, convites, portas que abrem e fecham).
 Servos/contatos notaveis (entrada rapida):
-- Luiza Salles (kindred; Senescal e Harpia principal) [childe]: dependencia afetiva e politica
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [ally]: troca favores por anonimato digital
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: compra boatos com boatos
+- Luiza Salles (kindred; Senescal) [childe]: dependencia afetiva e politica
+- Ana "Carbono" (kindred; Alquimista) [ally]: troca favores por anonimato digital
+- Nico "Sombra" (kindred; Corretor de informação) [client]: compra boatos com boatos
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

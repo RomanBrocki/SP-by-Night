@@ -1,7 +1,7 @@
 Igor "Sombra" Camargo
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Motorista (rota, placa, porta traseira)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Motorista de apoio e fuga
 - Area: Paulista/Jardins
 - Assinatura/estilo: Camisa social cinza, jaqueta discreta, luvas de motorista; olhar de retrovisor.
 
@@ -12,7 +12,7 @@ Tom (para narrar):
 Igor "Sombra" Camargo e rota e placa. Em cena: ele(a) sabe qual entrada nao tem camera, qual horario evita blitz, e como trocar de carro sem deixar padrao. Area operacional: Paulista/Jardins.
 
 Historia (costurada, sem resumo seco):
-Igor "Sombra" Camargo vive no ponto em que o mundo mortal toca o tabuleiro cainita: Motorista (rota, placa, porta traseira). A area operacional e Paulista/Jardins. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Igor "Sombra" Camargo vive no ponto em que o mundo mortal toca o tabuleiro cainita: Motorista de apoio e fuga. A area operacional e Paulista/Jardins. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,8 +23,9 @@ Segredo (objetivamente jogavel):
 - Ele mantem um segundo carro sem documento, usado quando a noite vira investigacao mortal.
 
 Conexoes (com motivo e custo):
-- Artur Macedo (kindred; Principe de Sao Paulo) [servant]: leva mensagens e pessoas; nunca pergunta o nome verdadeiro
-- Mariana Lobo (ghoul; Chefe de gabinete (mortal)) [ally]: ela controla a agenda; ele controla a rota
+- Artur Macedo (kindred; Príncipe de São Paulo) [servant]: leva mensagens e pessoas; nunca pergunta o nome verdadeiro
+- Mariana Lobo (mortal; Chefe de gabinete) [ally]: ela controla a agenda; ele controla a rota
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

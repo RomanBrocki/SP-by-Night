@@ -1,7 +1,7 @@
 Vitor Kallas
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Motorista e apoio tatico
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Motorista e apoio tático
 - Area: Centro Expandido
 - Assinatura/estilo: calmo; observa saidas; fala pouco
 
@@ -12,8 +12,8 @@ Tom (para narrar):
 Vitor Kallas e rota e placa. Em cena: ele(a) sabe qual entrada nao tem camera, qual horario evita blitz, e como trocar de carro sem deixar padrao. Area operacional: Centro Expandido.
 
 Historia (costurada, sem resumo seco):
-Vitor Kallas vive no ponto em que o mundo mortal toca o tabuleiro cainita: Motorista e apoio tatico. A area operacional e Centro Expandido. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: Nao morrer na guerra que nao escolheu.. O medo e: Ser usado como bode expiatorio..
+Vitor Kallas vive no ponto em que o mundo mortal toca o tabuleiro cainita: Motorista e apoio tático. A area operacional e Centro Expandido. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Vitor Kallas e Nao morrer na guerra que nao escolheu. O medo central e Ser usado como bode expiatorio. Em Centro Expandido, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -25,8 +25,9 @@ Segredo (objetivamente jogavel):
 
 Conexoes (com motivo e custo):
 - Samira al-Haddad (kindred; Xerife) [servant]: apoio e testemunha
-- Nico "Sombra" (kindred; Corretor de informacao) [uneasy]: detesta depender de dados
+- Nico "Sombra" (kindred; Corretor de informação) [uneasy]: detesta depender de dados
 - Livia "Sem-Nome" (kindred; Informante tolerada) [rival]: ela some quando ele precisa de prova
+- Samira al-Haddad (kindred; Xerife) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: Centro Expandido. Pode tirar um PJ de uma area quente.

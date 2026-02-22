@@ -1,8 +1,8 @@
 Nome: Beto "Mecanico"
 Tipo: ghoul
 Vinculo: Independentes
-Papel: Mantenedor de rotas (garagem)
-Area: Corredores e estacoes
+Papel: Dono de oficina e operador de fuga
+Area: eixos de carga e pátios de apoio
 Assinatura / estilo: mao suja; memoria de ferro
 Coteries/associacoes:
 - Corredores de Sombra (conselho de corretores)

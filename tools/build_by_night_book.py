@@ -538,6 +538,21 @@ def write_book_files(data: dict[str, Any]) -> None:
     pdf_name = pdf_name if pdf_name.lower().endswith(".pdf") else (pdf_name + ".pdf" if pdf_name else "")
     pdf_name_html = html_escape(pdf_name)
 
+    gallery_chapters: dict[str, Any] = {}
+    gallery_portraits: dict[str, Any] = {}
+    ch_file = OUT_DIR / "chapter_images" / "chapter_images.json"
+    rp_file = OUT_DIR / "real_portraits.json"
+    if ch_file.exists():
+        try:
+            gallery_chapters = json.loads(ch_file.read_text(encoding="utf-8"))
+        except Exception:
+            gallery_chapters = {}
+    if rp_file.exists():
+        try:
+            gallery_portraits = json.loads(rp_file.read_text(encoding="utf-8"))
+        except Exception:
+            gallery_portraits = {}
+
     css = """
 :root{
   --bg:#0c0c10;
@@ -578,6 +593,12 @@ button:hover{ background: rgba(255,255,255,0.10); }
 .gridCards{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 @media (max-width: 1100px){ .gridCards{ grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 700px){ .gridCards{ grid-template-columns: 1fr; } }
+.galleryGrid{ display:grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+@media (max-width: 1100px){ .galleryGrid{ grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 760px){ .galleryGrid{ grid-template-columns: repeat(2, 1fr); } }
+.gItem{ border:1px solid var(--border); border-radius: 12px; overflow:hidden; background: rgba(0,0,0,0.22); cursor:pointer; }
+.gItem img{ width:100%; height:180px; object-fit:cover; display:block; }
+.gCap{ padding: 6px 8px; font-size:12px; color: var(--muted); white-space: nowrap; overflow:hidden; text-overflow: ellipsis; }
 .card{ border:1px solid var(--border); background: rgba(0,0,0,0.18); border-radius: 14px; overflow:hidden; }
 .cardHead{ display:flex; gap:10px; padding: 10px; align-items:center; }
 .portrait{ width: 64px; height: 64px; border-radius: 12px; overflow:hidden; border:1px solid rgba(238,241,247,0.18); background: rgba(0,0,0,0.25); flex: 0 0 auto; }
@@ -674,12 +695,18 @@ function norm(s){
   return String(s||'').toLowerCase().normalize('NFD').replace(/\\p{Diacritic}/gu,'');
 }
 
+function getJsonPayload(id){
+  const tag = document.getElementById(id);
+  if(!tag || !tag.textContent || !tag.textContent.trim()) return null;
+  try { return JSON.parse(tag.textContent); } catch(e) { return null; }
+}
+
 function portraitCandidates(stem){
   if(!stem) return [];
   const base = (state.data?.paths?.portraits_base || '../05_ASSETS/portraits/');
   // In the "Option 1" repo layout, portraits may only exist under docs/assets.
   // This keeps the source book (07_LIVRO_BY_NIGHT/index.html) working even if 05_ASSETS is absent.
-  const p = String(location.pathname||'').replace(/\\/g,'/');
+  const p = String(location.pathname||'').replace(/\\\\/g,'/');
   const altBase = p.includes('/docs/') ? '../assets/portraits/' : '../docs/assets/portraits/';
   const v = (window.__PORTRAIT_V || Date.now());
   const bases = (altBase && altBase !== base) ? [base, altBase] : [base];
@@ -914,6 +941,7 @@ function buildToc(){
     ['Visão geral', '#sec-overview'],
     ['Mapa macro (facções)', '#sec-macro-map'],
     ['Ferramentas (Mapa/Teia)', '#sec-tools'],
+    ['Banco de imagens', '#sec-gallery'],
     ['Facções (mestre)', '#sec-faccoes'],
     ['Clãs (estrutura)', '#sec-clas'],
     ['Coteries/Associações', '#sec-coteries'],
@@ -932,6 +960,70 @@ function buildToc(){
 }
 
 async function main(){
+  function renderGallery(data){
+    const host = el('galleryWrap');
+    if(!host) return;
+    const ch = getJsonPayload('galleryChapterJson') || {};
+    const rp = getJsonPayload('galleryPortraitJson') || {};
+    const chapterBase = (ch.base || 'chapter_images/').replace(/^\\//,'');
+    const chapterMap = ch.chapters || {};
+    const portraitStems = Array.isArray(rp.stems) ? rp.stems : [];
+    const byStem = new Map((data.entities || []).filter(Boolean).map(e => [String(e.file_stem || ''), e]));
+
+    const out = [];
+    Object.keys(chapterMap).sort((a,b)=>Number(a)-Number(b)).forEach(cid => {
+      const imgs = Array.isArray(chapterMap[cid]) ? chapterMap[cid] : [];
+      imgs.forEach(fn => {
+        out.push({
+          kind: 'chapter',
+          label: 'Capitulo ' + cid,
+          src: chapterBase + fn,
+        });
+      });
+    });
+
+    portraitStems.forEach(stem => {
+      const e = byStem.get(stem) || null;
+      out.push({
+        kind: 'portrait',
+        label: e ? (e.display_name || stem) : stem,
+        stem: stem,
+      });
+    });
+
+    host.innerHTML = '';
+    out.forEach(it => {
+      const card = document.createElement('div');
+      card.className = 'gItem';
+      const img = document.createElement('img');
+      img.loading = 'lazy';
+      img.alt = it.label || '';
+      if(it.kind === 'chapter'){
+        img.src = it.src;
+      } else {
+        setImgWithFallback(img, it.stem);
+      }
+      img.addEventListener('click', () => window.open(img.src, '_blank'));
+      const cap = document.createElement('div');
+      cap.className = 'gCap';
+      cap.textContent = it.label || '';
+      card.appendChild(img);
+      card.appendChild(cap);
+      host.appendChild(card);
+    });
+
+    const sec = document.getElementById('sec-gallery');
+    const btn = el('btnGallery');
+    if(btn && sec){
+      btn.addEventListener('click', () => {
+        sec.style.display = (sec.style.display === 'none' || !sec.style.display) ? 'block' : 'none';
+        if(sec.style.display === 'block'){
+          try { sec.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+        }
+      });
+    }
+  }
+
   // Prefer inline data when opened via file:// (fetch is often blocked by CORS).
   let data = null;
   if (window.BOOK_DATA) {
@@ -949,6 +1041,7 @@ async function main(){
   window.__PORTRAIT_V = Date.now();
 
   buildToc();
+  renderGallery(data);
   el('kCounts').textContent = `Kindred: ${data.counts.kindred} · Ghouls: ${data.counts.ghouls} · Mortais: ${data.counts.mortals}`;
 
   // Render macro map
@@ -1164,6 +1257,8 @@ main().catch(err => {
     # Inline JSON must not be HTML-escaped, otherwise JSON.parse fails.
     # Guard against accidentally closing the script tag.
     inline_json = json.dumps(data2, ensure_ascii=False).replace("</", "<\\/")
+    inline_gallery_ch = json.dumps(gallery_chapters, ensure_ascii=False).replace("</", "<\\/")
+    inline_gallery_rp = json.dumps(gallery_portraits, ensure_ascii=False).replace("</", "<\\/")
 
     # repo_url_html/pdf_name_html already computed above.
 
@@ -1178,6 +1273,8 @@ main().catch(err => {
 <body>
   <!-- Inline payloads so the book works on file:// without fetch() -->
   <script id="bookDataJson" type="application/json">{inline_json}</script>
+  <script id="galleryChapterJson" type="application/json">{inline_gallery_ch}</script>
+  <script id="galleryPortraitJson" type="application/json">{inline_gallery_rp}</script>
   <template id="macroMapSvg">{macro_svg}</template>
   <div class="wrap">
     <aside class="side">
@@ -1194,6 +1291,7 @@ main().catch(err => {
           <a id="lnkMap" href="#">Mapa territorial (interativo)</a>
           <a id="lnkTeia" href="#">Teia de conexoes (interativa)</a>
           <a id="lnkPdf" href="#" style="display:none;">Livro (PDF)</a>
+          <button id="btnGallery" type="button">Banco de imagens</button>
         </div>
         <div class="small">Dica: no mapa, ative "Cainitas (pins)" para ver todos. Clique num pin para abrir o retrato e detalhes.</div>
       </div>
@@ -1257,6 +1355,12 @@ main().catch(err => {
             <a href="../06_MAPA_SP/mapa_sp_dominios.html">Abrir mapa territorial (Leaflet)</a>
             <a href="../01_BACKGROUND_NARRADOR/teia_de_conexoes_mapa.html">Abrir teia de conexoes (vis-network)</a>
           </div>
+        </section>
+
+        <section class="sec" id="sec-gallery" style="display:none;">
+          <h2>Banco de imagens</h2>
+          <div class="kicker">NPCs especiais (retratos reais) e imagens de capitulos do livro. Clique na imagem para abrir em tamanho maior.</div>
+          <div class="galleryGrid" id="galleryWrap" style="margin-top:10px;"></div>
         </section>
 
         <section class="sec" id="sec-faccoes">

@@ -75,8 +75,7 @@ def build_nodes_edges(entities: list[dict]) -> tuple[list[dict], list[dict]]:
         embrace = e.get("embrace_year")
         tier = e.get("tier") or ""
 
-        label_role = role if role else ("Cainita" if kind == "kindred" else (kind or "entidade"))
-        label = f"{name}\\n({label_role})"
+        label = f"{name}"
         title_lines = [
             f"Nome: {name}",
             f"Tipo: {kind}",

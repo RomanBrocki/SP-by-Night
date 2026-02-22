@@ -11,6 +11,33 @@ const state = {
 
 // Injected at build time (may be empty string).
 const PDF_NAME = "Sao_Paulo_by_Night.pdf";
+const CANON_COTERIE_IDS = new Set([
+  "coterie_ferrugem_mooca",
+  "coterie_leste_de_aco",
+  "coterie_matilha_do_sul",
+]);
+const COTERIE_ALIAS_TO_ID = {
+  ferrugem: "coterie_ferrugem_mooca",
+  "coterie ferrugem mooca tatuape": "coterie_ferrugem_mooca",
+  "coterie ferrugem mooca/tatuape": "coterie_ferrugem_mooca",
+  "leste de aco": "coterie_leste_de_aco",
+  "coterie leste de aco itaquera/extremo leste": "coterie_leste_de_aco",
+  "matilha do sul": "coterie_matilha_do_sul",
+  "coterie matilha do sul capao/grajau": "coterie_matilha_do_sul",
+};
+const SECTION_META = [
+  ["sec-macro-map", "Mapa macro"],
+  ["sec-overview", "Visao geral"],
+  ["sec-gallery", "Banco de imagens"],
+  ["sec-faccoes", "Faccoes"],
+  ["sec-clas", "Clas"],
+  ["sec-coteries", "Coteries canonicas"],
+  ["sec-npcs", "NPCs e servos"],
+  ["sec-antagonistas", "Antagonistas"],
+  ["sec-files-jogadores", "Arquivos jogadores"],
+  ["sec-files-narrador", "Arquivos narrador"],
+];
+const SECTION_IDS = new Set(SECTION_META.map(x => x[0]));
 
 function el(id){ return document.getElementById(id); }
 
@@ -20,24 +47,165 @@ function norm(s){
   return String(s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,'');
 }
 
+function canonicalCoterieId(v){
+  const raw = String(v || '').trim();
+  if(!raw) return null;
+  if(CANON_COTERIE_IDS.has(raw)) return raw;
+  const k = norm(raw).replace(/[^a-z0-9]+/g, ' ').trim();
+  return COTERIE_ALIAS_TO_ID[k] || null;
+}
+
+function canonicalCoterieName(cid){
+  const c = (state.data?.coteries || []).find(x => x && x.id === cid);
+  if(c && c.name) return c.name;
+  if(cid === "coterie_ferrugem_mooca") return "Coterie Ferrugem (Mooca/Tatuape)";
+  if(cid === "coterie_leste_de_aco") return "Leste de Aco (Itaquera/Extremo Leste)";
+  if(cid === "coterie_matilha_do_sul") return "Matilha do Sul (Capao/Grajau)";
+  return cid;
+}
+
+function canonicalSectName(v){
+  const n = norm(v);
+  if(!n) return '';
+  if(n.includes('camar')) return 'Camarilla';
+  if(n.includes('anarch')) return 'Anarch';
+  if(n.includes('indep') || n.includes('autarqu') || n.includes('zona')) return 'Independentes';
+  if(n.includes('segunda') || n.includes('inquis')) return 'Segunda Inquisição';
+  if(n.includes('mortal')) return 'Mortal';
+  return String(v || '').trim();
+}
+
+function canonicalClanName(v, kind){
+  const raw = String(v || '').trim();
+  if(!raw) return '';
+  const n = norm(raw);
+  if(n === 'thin blood' || n === 'thin-blood') return 'Thin-Blood';
+  if(kind !== 'kindred' && n === 'mortal') return '';
+  return raw;
+}
+
+function extractCanonCoteries(e){
+  const raw = [
+    ...(Array.isArray(e?.coteries_all) ? e.coteries_all : []),
+    ...(Array.isArray(e?.coteries) ? e.coteries : []),
+  ];
+  const out = [];
+  raw.forEach(v => {
+    const cid = canonicalCoterieId(v);
+    if(cid && !out.includes(cid)) out.push(cid);
+  });
+  return out;
+}
+
+function normalizeEntityCanon(e){
+  if(!e || typeof e !== 'object') return e;
+  const canonCs = extractCanonCoteries(e);
+  const kind = e.kind || 'kindred';
+  const sect = canonicalSectName(e.sect_norm || e.sect || '');
+  const clan = canonicalClanName(e.clan, kind);
+  const servesClans = Array.isArray(e.serves_clans)
+    ? e.serves_clans.map(v => canonicalClanName(v, 'kindred')).filter(Boolean)
+    : [];
+  return {
+    ...e,
+    sect,
+    sect_norm: sect,
+    clan,
+    serves_clans: servesClans,
+    coteries_all: canonCs,
+    coteries: canonCs,
+  };
+}
+
+function sanitizeNpcTextCanon(text, entity){
+  if(!text) return text;
+  const lines = String(text).split(/\r?\n/);
+  const out = [];
+  let skippingOldCoterieBullets = false;
+  const canonList = extractCanonCoteries(entity).map(canonicalCoterieName);
+  for(const line of lines){
+    const n = norm(line);
+    if(n.includes('coterie') || n.includes('associaco')){
+      if(canonList.length){
+        out.push('Coteries canonicas: ' + canonList.join(', '));
+      } else {
+        out.push('Coteries canonicas: -');
+      }
+      skippingOldCoterieBullets = true;
+      continue;
+    }
+    if(skippingOldCoterieBullets){
+      if(!line.trim()){
+        skippingOldCoterieBullets = false;
+        out.push(line);
+        continue;
+      }
+      if(/^\s*-\s+/.test(line)) continue;
+      skippingOldCoterieBullets = false;
+    }
+    out.push(line);
+  }
+  return out.join('\n');
+}
+
+function getJsonPayload(id){
+  const tag = document.getElementById(id);
+  if(!tag || !tag.textContent || !tag.textContent.trim()) return null;
+  try { return JSON.parse(tag.textContent); } catch(e) { return null; }
+}
+
+function portraitStemVariants(stem){
+  const raw = String(stem || '').trim();
+  if(!raw) return [];
+  const out = [raw];
+  const parts = raw.split('_').filter(Boolean);
+  if(parts.length > 1){
+    const stop = new Set(['o','a','os','as','de','do','da','dos','das','del','la','le','el']);
+    const compact = parts.filter(p => !stop.has(String(p || '').toLowerCase())).join('_');
+    if(compact && !out.includes(compact)) out.push(compact);
+  }
+  return out;
+}
+
 function portraitCandidates(stem){
   if(!stem) return [];
   const base = (state.data?.paths?.portraits_base || '../assets/portraits/');
+  // In the "Option 1" repo layout, portraits may only exist under docs/assets.
+  // This keeps the source book (07_LIVRO_BY_NIGHT/index.html) working even if 05_ASSETS is absent.
+  const p = String(location.pathname||'').replace(/\\/g,'/');
+  const altBase = p.includes('/docs/') ? '../assets/portraits/' : '../docs/assets/portraits/';
   const v = (window.__PORTRAIT_V || Date.now());
-  return [
-    base + stem + '.jpg?v=' + v,
-    base + stem + '.jpeg?v=' + v,
-    base + stem + '.png?v=' + v,
-    base + stem + '.webp?v=' + v,
-  ];
+  const bases = (altBase && altBase !== base) ? [base, altBase] : [base];
+  const stems = portraitStemVariants(stem);
+  const out = [];
+  bases.forEach(b => {
+    stems.forEach(s => {
+      out.push(b + s + '.jpg?v=' + v);
+      out.push(b + s + '.jpeg?v=' + v);
+      out.push(b + s + '.png?v=' + v);
+      out.push(b + s + '.webp?v=' + v);
+    });
+  });
+  return out;
 }
 function setImgWithFallback(img, stem){
   const c = portraitCandidates(stem);
-  if(!c.length){ img.src=''; return; }
+  if(!c.length){
+    img.src='';
+    img.style.display = 'none';
+    return;
+  }
   let i = 0;
+  img.onload = () => {
+    img.style.display = 'block';
+  };
   img.onerror = () => {
     i++;
-    if(i < c.length) img.src = c[i];
+    if(i < c.length) {
+      img.src = c[i];
+    } else {
+      img.style.display = 'none';
+    }
   };
   img.src = c[0];
 }
@@ -80,7 +248,7 @@ function matchesFilters(e){
     }
   }
   if(f.coterie.size){
-    const cs = Array.isArray(e.coteries_all) ? e.coteries_all : (Array.isArray(e.coteries) ? e.coteries : []);
+    const cs = extractCanonCoteries(e);
     if(!cs.some(x => f.coterie.has(x))) return false;
   }
   const q = norm(f.q);
@@ -100,7 +268,6 @@ function openModalForEntity(e){
   img.style.display = 'block';
   img.alt = e.display_name || '';
   setImgWithFallback(img, e.file_stem);
-  img.onerror = () => { img.style.display = 'none'; };
 
   const metaLines = [];
   metaLines.push((e.kind || 'kindred') + (e.clan ? ' · ' + e.clan : '') + (e.sect ? ' · ' + e.sect : ''));
@@ -108,21 +275,17 @@ function openModalForEntity(e){
   if(e.domain) metaLines.push('Domínio/Área: ' + e.domain);
   if(e.tier) metaLines.push('Tier: ' + e.tier);
   if(e.appearance_explicit) metaLines.push('Aparência: ' + e.appearance_explicit);
-  const cs = Array.isArray(e.coteries_all) ? e.coteries_all : (Array.isArray(e.coteries) ? e.coteries : []);
+  const cs = extractCanonCoteries(e);
   if(cs.length){
-    const nm = (cid) => {
-      const meta = (state.data?.coteries || []).find(x => x && x.id === cid) || null;
-      return meta ? (meta.name || cid) : cid;
-    };
-    metaLines.push('Coteries/associações: ' + cs.map(nm).join(', '));
+    metaLines.push('Coteries: ' + cs.map(canonicalCoterieName).join(', '));
   }
   el('modalMeta').textContent = metaLines.join('\n');
 
   el('modalPrompt').textContent = (e.portrait_prompt || '(sem prompt)');
 
   const docs = (e.docs && e.docs.files) ? e.docs.files : {};
-  el('modalResumo').textContent = docs.ficha_resumida || '(sem ficha resumida)';
-  el('modalHistoria').textContent = docs.historia || '(sem história)';
+  el('modalResumo').textContent = sanitizeNpcTextCanon(docs.ficha_resumida || '(sem ficha resumida)', e);
+  el('modalHistoria').textContent = sanitizeNpcTextCanon(docs.historia || '(sem história)', e);
   el('modalCompleta').textContent = docs.ficha_completa || '(sem ficha completa em arquivo)';
 
   const fs = e.full_sheet || null;
@@ -148,6 +311,7 @@ function applyCoterieFilter(cid){
     cb.checked = (cb.value === cid);
     if(cb.checked) state.filters.coterie.add(cid);
   });
+  setActiveSection('sec-npcs');
   // Scroll to NPC section as a convenience.
   try { document.getElementById('sec-npcs')?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
   renderNpcCards();
@@ -203,7 +367,6 @@ function renderNpcCards(){
     img.loading = 'lazy';
     img.alt = e.display_name || '';
     setImgWithFallback(img, e.file_stem);
-    img.onerror = () => { img.style.display='none'; };
     p.appendChild(img);
     const meta = document.createElement('div');
     const t = document.createElement('div');
@@ -247,30 +410,96 @@ function mountMdSection(containerId, files, startsWith){
   });
 }
 
+function setActiveSection(targetId){
+  if(!SECTION_IDS.has(targetId)) return;
+  SECTION_META.forEach(([id]) => {
+    const sec = el(id);
+    if(!sec) return;
+    sec.classList.toggle('is-active', id === targetId);
+  });
+  document.querySelectorAll('.toc button[data-target]').forEach(btn => {
+    btn.classList.toggle('is-active', btn.dataset.target === targetId);
+  });
+}
+
 function buildToc(){
   const toc = el('toc');
-  const items = [
-    ['Visão geral', '#sec-overview'],
-    ['Mapa macro (facções)', '#sec-macro-map'],
-    ['Ferramentas (Mapa/Teia)', '#sec-tools'],
-    ['Facções (mestre)', '#sec-faccoes'],
-    ['Clãs (estrutura)', '#sec-clas'],
-    ['Coteries/Associações', '#sec-coteries'],
-    ['NPCs e Servos (busca)', '#sec-npcs'],
-    ['Antagonistas', '#sec-antagonistas'],
-    ['Arquivos (jogadores)', '#sec-files-jogadores'],
-    ['Arquivos (narrador)', '#sec-files-narrador'],
-  ];
   toc.innerHTML = '';
-  items.forEach(([label, href])=>{
-    const a = document.createElement('a');
-    a.href = href;
-    a.textContent = label;
-    toc.appendChild(a);
+  SECTION_META.forEach(([id, label]) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.dataset.target = id;
+    b.textContent = label;
+    b.addEventListener('click', () => {
+      setActiveSection(id);
+      try { document.getElementById(id)?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+    });
+    toc.appendChild(b);
   });
 }
 
 async function main(){
+  function renderGallery(data){
+    const host = el('galleryWrap');
+    if(!host) return;
+    const ch = getJsonPayload('galleryChapterJson') || {};
+    const rp = getJsonPayload('galleryPortraitJson') || {};
+    const chapterBase = (ch.base || 'chapter_images/').replace(/^\//,'');
+    const chapterMap = ch.chapters || {};
+    const portraitStems = Array.isArray(rp.stems) ? rp.stems : [];
+    const byStem = new Map((data.entities || []).filter(Boolean).map(e => [String(e.file_stem || ''), e]));
+
+    const out = [];
+    Object.keys(chapterMap).sort((a,b)=>Number(a)-Number(b)).forEach(cid => {
+      const imgs = Array.isArray(chapterMap[cid]) ? chapterMap[cid] : [];
+      imgs.forEach(fn => {
+        out.push({
+          kind: 'chapter',
+          label: 'Capitulo ' + cid,
+          src: chapterBase + fn,
+        });
+      });
+    });
+
+    portraitStems.forEach(stem => {
+      const e = byStem.get(stem) || null;
+      out.push({
+        kind: 'portrait',
+        label: e ? (e.display_name || stem) : stem,
+        stem: stem,
+      });
+    });
+
+    host.innerHTML = '';
+    out.forEach(it => {
+      const card = document.createElement('div');
+      card.className = 'gItem';
+      const img = document.createElement('img');
+      img.loading = 'lazy';
+      img.alt = it.label || '';
+      if(it.kind === 'chapter'){
+        img.src = it.src;
+      } else {
+        setImgWithFallback(img, it.stem);
+      }
+      img.addEventListener('click', () => window.open(img.src, '_blank'));
+      const cap = document.createElement('div');
+      cap.className = 'gCap';
+      cap.textContent = it.label || '';
+      card.appendChild(img);
+      card.appendChild(cap);
+      host.appendChild(card);
+    });
+
+    const btn = el('btnGallery');
+    if(btn){
+      btn.addEventListener('click', () => {
+        setActiveSection('sec-gallery');
+        try { document.getElementById('sec-gallery')?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+      });
+    }
+  }
+
   // Prefer inline data when opened via file:// (fetch is often blocked by CORS).
   let data = null;
   if (window.BOOK_DATA) {
@@ -278,16 +507,32 @@ async function main(){
   } else {
     const elJson = document.getElementById('bookDataJson');
     if (elJson && elJson.textContent && elJson.textContent.trim()) {
-      data = JSON.parse(elJson.textContent);
-    } else {
+      try {
+        data = JSON.parse(elJson.textContent);
+      } catch (err) {
+        console.error('bookDataJson invalido, usando fallback book_data.json', err);
+      }
+    }
+    if (!data) {
       const res = await fetch('book_data.json', { cache: 'no-store' });
       data = await res.json();
     }
   }
+  data.entities = (data.entities || []).map(normalizeEntityCanon);
+  data.coteries = (data.coteries || []).filter(c => CANON_COTERIE_IDS.has(String(c.id || '')));
+  if(data.coteries_by_id){
+    const next = {};
+    Object.entries(data.coteries_by_id).forEach(([k,v]) => {
+      if(CANON_COTERIE_IDS.has(k)) next[k] = v;
+    });
+    data.coteries_by_id = next;
+  }
+
   state.data = data;
   window.__PORTRAIT_V = Date.now();
 
   buildToc();
+  renderGallery(data);
   el('kCounts').textContent = `Kindred: ${data.counts.kindred} · Ghouls: ${data.counts.ghouls} · Mortais: ${data.counts.mortals}`;
 
   // Render macro map
@@ -311,6 +556,17 @@ async function main(){
   mountMdSection('filesFaccoes', data.files_html || {}, 'narrador/faccoes/');
   mountMdSection('filesAntagonistas', data.files_html || {}, 'antagonistas/');
   mountMdSection('filesClas', data.files_html || {}, 'clas/');
+  setActiveSection('sec-macro-map');
+  document.querySelectorAll('a[href^="#sec-"]').forEach(a => {
+    a.addEventListener('click', (ev) => {
+      const raw = String(a.getAttribute('href') || '');
+      const id = raw.replace(/^#/, '');
+      if(!SECTION_IDS.has(id)) return;
+      ev.preventDefault();
+      setActiveSection(id);
+      try { document.getElementById(id)?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+    });
+  });
 
   // Coteries cards
   const cwrap = el('coteriesCards');
@@ -417,8 +673,10 @@ async function main(){
   });
 
   // Links
-  el('lnkMap').href = data.paths.map_html;
-  el('lnkTeia').href = data.paths.teia_html;
+  if(el('lnkMap')) el('lnkMap').href = data.paths.map_html;
+  if(el('lnkTeia')) el('lnkTeia').href = data.paths.teia_html;
+  if(el('lnkMapTop')) el('lnkMapTop').href = data.paths.map_html;
+  if(el('lnkTeiaTop')) el('lnkTeiaTop').href = data.paths.teia_html;
 
   // Macro map tooltip (explicit; file:// often ignores <title> tooltips in embedded SVG).
   const tip = el('mapTip');
@@ -441,8 +699,7 @@ async function main(){
       p.addEventListener('mousemove', (ev)=>{
         const name = p.getAttribute('data-district') || '';
         const dom = p.getAttribute('data-dominant') || '';
-        const dis = p.getAttribute('data-dispute') || '';
-        const html = `<div class="t">${name}</div><div>Dominante: ${dom || '-'}</div>` + (dis ? `<div>Disputa: ${dis}</div>` : '');
+        const html = `<div class="t">${name}</div><div>Dominante: ${dom || '-'}</div>`;
         const r = macroHost.getBoundingClientRect();
         showTip(ev.clientX - r.left + 12, ev.clientY - r.top + 12, html);
       });
@@ -458,13 +715,16 @@ async function main(){
   // Optional PDF link. On Pages/docs it lives one level above /book/. When opening the
   // generator output directly (07_LIVRO_BY_NIGHT/index.html), we also support ../docs/.
   const pdfName = PDF_NAME;
-  const pdfEl = el('lnkPdf');
-  if(pdfName && pdfName !== '')
+  const pdfEls = [el('lnkPdf'), el('lnkPdfTop')].filter(Boolean);
+  if(pdfEls.length && pdfName && pdfName !== '')
   {
     const p = String(location.pathname||'').replace(/\\/g,'/');
     const isBook = p.includes('/book/');
-    pdfEl.href = (isBook ? ('../' + pdfName) : ('../docs/' + pdfName));
-    pdfEl.style.display = 'inline-block';
+    const href = (isBook ? ('../' + pdfName) : ('../docs/' + pdfName));
+    pdfEls.forEach(pdfEl => {
+      pdfEl.href = href;
+      pdfEl.style.display = 'inline-block';
+    });
   }
 
   renderNpcCards();

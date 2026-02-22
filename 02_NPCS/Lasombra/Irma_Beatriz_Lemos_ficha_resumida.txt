@@ -1,4 +1,4 @@
-Nome / Alcunha: Irma Beatriz Lemos / Confessora auxiliar (Bixiga)
+Nome / Alcunha: Irma Beatriz Lemos / Confessora auxiliar
 Cla: Lasombra | Seita: Camarilla
 Idade aparente: 30 | Abraco: 2009 | Potencia do Sangue 1
 Dominio / area principal: Bela Vista/Bixiga
@@ -16,4 +16,5 @@ Atuacao mortal (explicita):
 - Acordos de silencio (testemunha vira devota, nao delatora).
 - Acesso a 'fundos escuros' (quem paga, some).
 Servos/contatos notaveis (entrada rapida):
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [contact]: ponte para a politica local
+- Padre Miguel Aranha (kindred; Guardião de confissões) [contact]: ponte para a politica local
+- Padre Miguel Aranha (kindred; Guardião de confissões) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

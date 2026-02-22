@@ -1,25 +1,26 @@
-Nome / Alcunha: Joao do Trem / Lenda de trilhos (ancao de periferia)
+Nome / Alcunha: Joao do Trem / Fixador de circulação noturna
 Cla: Brujah | Seita: Independentes
 Idade aparente: 40 | Abraco: 1974 | Potencia do Sangue 3
-Dominio / area principal: Corredores e estacoes (rumores)
+Dominio / area principal: eixos urbanos e estações
 Disciplinas (top 3): ['Celerity 3', 'Potence 3', 'Presence 1']
-Assinatura / estilo: aparece em lugares onde nao devia existir
+Assinatura / estilo: fala como quem mede a cidade pelo ritmo das estações e pelo silêncio entre uma sirene e outra.
 Coteries/associacoes (grupo e rede):
 - Corredores de Sombra (conselho de corretores)
 Ghouls/servos diretos: 1
-- Beto "Mecanico" (Mantenedor de rotas (garagem))
+- Beto "Mecanico" (Dono de oficina e operador de fuga)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'Nao vire carcereiro do povo'.
 - Touchstone: um maquinista mortal que ele observa de longe.
 Ganchos de cena:
-- Surge com um aviso sobre o Buraco do Centro.
-- Pede que os PJ encontrem um thin-blood desaparecido.
-- Entrega uma rota secreta para fugir da SI.
+- João avisa que uma linha vai morrer por algumas noites e pede intervenção antes que a SI feche a área. Entrada: Paulista; custo provável: boon, cobertura ou silêncio.
+- Ele entrega um contato de estação em pânico e cobra dos PJs proteção para um thin-blood desaparecido. Entrada: Paulista; custo provável: boon, cobertura ou silêncio.
+- João oferece um trajeto de fuga pelas linhas, mas exige que o grupo tire uma isca humana da mira. Entrada: Paulista; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Movimento de rua e protecao informal (bairro, torcida, sindicato, igreja local).
 - Crime organizado de baixo perfil (cobranca, seguranca, 'taxa').
 - mediacao com liderancas comunitarias (favor por favor).
 Servos/contatos notaveis (entrada rapida):
 - Renata Ferraz (kindred; Baronesa da Mooca) [sire]: orgulho e culpa
-- Cecilia "Linha-Dois" (kindred; Mensageira de pressagios) [ally]: pressagios em troca de protecao
-- Dante "Fumo" (kindred; Correio e sumico) [protector]: nao gosta de ver jovens queimados
+- Cecilia "Linha-Dois" (kindred; Leitora de padrão e mensageira de crise) [ally]: pressagios em troca de protecao
+- Dante "Fumo" (kindred; Entregador de risco e sumiço) [protector]: nao gosta de ver jovens queimados
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

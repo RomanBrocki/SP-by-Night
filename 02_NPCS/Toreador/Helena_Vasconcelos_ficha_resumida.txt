@@ -1,26 +1,27 @@
-Nome / Alcunha: Helena Vasconcelos / Guardia de Elysium (curadora)
+Nome / Alcunha: Helena Vasconcelos / Guardia de Elysium
 Cla: Toreador | Seita: Camarilla
 Idade aparente: 40 | Abraco: 1956 | Potencia do Sangue 3
-Dominio / area principal: Liberdade (Elysium satelite)
+Dominio / area principal: Liberdade
 Disciplinas (top 3): ['Auspex 3', 'Presence 2', 'Celerity 2']
-Assinatura / estilo: cultura como arma; silencio como castigo
+Assinatura / estilo: cultura como arma; silêncio como castigo
 Coteries/associacoes (grupo e rede):
 - Salao de Pinheiros (Toreador)
 Ghouls/servos diretos: 2
-- Lara "Contencao" Tavares (Seguranca de Elysium (contencao sem sangue, camera sem prova))
-- Yuri "Curador" Sato (Equipe de Elysium (cenografia, alcool, saida de emergencia))
+- Lara "Contencao" Tavares (Segurança de Elysium)
+- Yuri "Curador" Sato (Equipe de Elysium)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'A cidade precisa de beleza para nao enlouquecer'.
 - Touchstone: um teatro antigo que ela preserva.
 Ganchos de cena:
-- Oferece refugio temporario em Elysium por um favor.
-- Pede que os PJ recuperem uma obra roubada.
-- Avista um vampiro proibido e testa a lealdade dos PJ.
+- Liberdade. Oferece refugio temporário em Elysium por um favor. Entrada: Liberdade; custo provável: boon, cobertura ou silêncio.
+- Liberdade. Pede que os PJs recuperem uma obra roubada. Entrada: Liberdade; custo provável: boon, cobertura ou silêncio.
+- Liberdade. Avista um vampiro proibido e testa a lealdade dos PJs. Entrada: Liberdade; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Arte e midia (curadoria, eventos, reputacao e narrativas).
 - Cenas noturnas (clubes, galerias, circulos VIP).
 - Intermediacao social (listas, convites, portas que abrem e fecham).
 Servos/contatos notaveis (entrada rapida):
-- Luiza Salles (kindred; Senescal e Harpia principal) [mentor]: sire e aliada
+- Luiza Salles (kindred; Senescal) [mentor]: sire e aliada
 - Samira al-Haddad (kindred; Xerife) [ally]: seguranca discreta em eventos
-- Artur Macedo (kindred; Principe de Sao Paulo) [client]: vende paz em troca de influencia
+- Artur Macedo (kindred; Príncipe de São Paulo) [client]: vende paz em troca de influencia
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

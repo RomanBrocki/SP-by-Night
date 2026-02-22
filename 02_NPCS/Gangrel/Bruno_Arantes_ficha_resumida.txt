@@ -1,7 +1,7 @@
-Nome / Alcunha: Bruno Arantes / Batedor de borda (parques)
+Nome / Alcunha: Bruno Arantes / Batedor de borda
 Cla: Gangrel | Seita: Camarilla
 Idade aparente: 33 | Abraco: 2012 | Potencia do Sangue 1
-Dominio / area principal: Alto de Pinheiros/Butanta
+Dominio / area principal: Alto de Pinheiros/Butantã
 Disciplinas (top 3): -
 Assinatura / estilo: -
 Coteries/associacoes (grupo e rede):
@@ -15,4 +15,5 @@ Atuacao mortal (explicita):
 - Rotas de carga, trilhas e fronteiras (batedores, escoltas, sumicos).
 - protecao de borda (onde a cidade vira mata, alguem manda).
 Servos/contatos notaveis (entrada rapida):
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [contact]: ponte para a politica local
+- Bia "Matilha" (kindred; Baronesa da borda sul) [contact]: ponte para a politica local
+- Bia "Matilha" (kindred; Baronesa da borda sul) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

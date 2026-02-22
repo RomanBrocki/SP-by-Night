@@ -1,9 +1,9 @@
 Vovo Zilda
 
 Perfil:
-- Cla: Nosferatu | Seita: Camarilla | Funcao: Ancia subterranea (matriarca)
-- Dominio: Galerias do Centro
-- Abraco: 1943 | Sire: - | Acima do sire: -
+- Cla: Nosferatu | Seita: Camarilla | Funcao: Anciã subterranea
+- Dominio: Galerias do Centro | Idade aparente: -
+- Abraco: 1943 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Animalism 3', 'Obfuscate 3', 'Potence 2']
 - Assinatura/estilo: conselho como maldicao; cuidado como controle
 
@@ -15,7 +15,7 @@ Vovo Zilda opera por infraestrutura e informacao. Em cena: uma camera cai por 90
 
 Historia (costurada, sem resumo seco):
 Vovo Zilda nasceu em 1880. O Abraco veio em 1943 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Manter o cla unido contra SI e intrigas. O medo e igualmente pratico: Que Nico vire traidor por necessidade.
+A ambicao de Vovo Zilda e Manter o cla unido contra SI e intrigas. Na pratica, isso orienta decisoes no eixo de Correios do Subsolo, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que Nico vire traidor por necessidade. Quando esse risco aparece, Vovo Zilda reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
@@ -23,24 +23,25 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 
 Segredo (objetivamente jogavel):
-- Ela sabe onde esta um acesso ao Buraco do Centro.
+- Ela sabe onde esta um acesso ao Buraco do Centro. Isso encosta diretamente em Nico "Sombra" e Donato Lazzari (relação tensa; cobranças de travessia e segredos se cruzam). Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ela e Hecata disfarçada.
-- Verdade (perigosa): Ela pode chamar ratos suficientes para matar um vampiro em torpor.
+- Verdade (perigosa): Ela pode chamar ratos suficientes para matar um vampiro em torpor. Hoje, quem está mais perto de descobrir isso é Nico "Sombra".
 
 Conexoes (com motivo e custo):
-- Nico "Sombra" (kindred; Corretor de informacao) [sire]: controla por afeto e medo
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: pedagios e segredos se cruzam
-- Paulo "O Vidente" (kindred; Oraculo de tunel) [ally]: troca pressagios por rotas
+- Nico "Sombra" (kindred; Corretor de informação) [sire]: controla por afeto e medo
+- Donato Lazzari (kindred; Cobrador de travessia) [uneasy]: pedagios e segredos se cruzam
+- Paulo "O Vidente" (kindred; Leitor de padrões das galerias) [ally]: troca pressagios por rotas
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- nosferatu_nico_sombra
+- Nico "Sombra"
 
 Cenas prontas (para jogar hoje):
-- Cena: Galerias do Centro. Exige que os PJ devolvam algo ao subsolo.
-- Cena: Galerias do Centro. Oferece um caminho seguro por um favor futuro.
-- Cena: Galerias do Centro. Conta uma historia que e um aviso.
+- Cena: Galerias do Centro. Exige que os PJs devolvam algo ao subsolo. Entrada: Galerias do Centro; custo provável: boon, cobertura ou silêncio.
+- Cena: Galerias do Centro. Oferece um caminho seguro por um favor futuro. Entrada: Galerias do Centro; custo provável: boon, cobertura ou silêncio.
+- Cena: Galerias do Centro. Conta uma historia que e um aviso. Entrada: Galerias do Centro; custo provável: boon, cobertura ou silêncio.

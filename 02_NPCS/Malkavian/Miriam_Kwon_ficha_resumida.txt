@@ -1,4 +1,4 @@
-Nome / Alcunha: Miriam Kwon / Leitora de padroes (bolsa)
+Nome / Alcunha: Miriam Kwon / Leitora de padroes
 Cla: Malkavian | Seita: Camarilla
 Idade aparente: 32 | Abraco: 2011 | Potencia do Sangue 1
 Dominio / area principal: Itaim Bibi
@@ -15,4 +15,5 @@ Atuacao mortal (explicita):
 - Rumor e previsao (padroes sociais, coincidencias, mensagens).
 - intervencoes pequenas com impacto grande (um telefonema muda tudo).
 Servos/contatos notaveis (entrada rapida):
-- Paulo "O Vidente" (kindred; Oraculo de tunel) [contact]: ponte para a politica local
+- Paulo "O Vidente" (kindred; Leitor de padrões das galerias) [contact]: ponte para a politica local
+- Paulo "O Vidente" (kindred; Leitor de padrões das galerias) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

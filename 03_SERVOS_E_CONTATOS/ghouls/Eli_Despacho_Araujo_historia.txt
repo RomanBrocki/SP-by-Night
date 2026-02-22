@@ -1,18 +1,18 @@
 Eli "Despacho" Araujo
 
 Perfil:
-- Tipo: ghoul | Vinculo: Independentes | Papel: Despachante (nota fiscal, placa e horario)
-- Area: Corredores (Barra Funda/Lapa)
+- Tipo: ghoul | Vinculo: Independentes | Papel: Despachante e regularizador de carga
+- Area: eixos de carga (Barra Funda/Lapa)
 - Assinatura/estilo: Camisa social aberta, cracha velho, pasta plastica; fala rapido e some cedo.
 
 Coteries/associacoes:
 - Corredores de Sombra (conselho de corretores)
 
 Tom (para narrar):
-Eli "Despacho" Araujo e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Corredores (Barra Funda/Lapa).
+Eli "Despacho" Araujo e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: eixos de carga (Barra Funda/Lapa).
 
 Historia (costurada, sem resumo seco):
-Eli "Despacho" Araujo vive no ponto em que o mundo mortal toca o tabuleiro cainita: Despachante (nota fiscal, placa e horario). A area operacional e Corredores (Barra Funda/Lapa). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Eli "Despacho" Araujo vive no ponto em que o mundo mortal toca o tabuleiro cainita: Despachante e regularizador de carga. A area operacional e eixos de carga (Barra Funda/Lapa). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,8 +23,9 @@ Segredo (objetivamente jogavel):
 - Ele forja documento para duas faccoes e mantem copia para se proteger.
 
 Conexoes (com motivo e custo):
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: Joao fornece rota; Eli fornece papel
-- Nico "Sombra" (kindred; Corretor de informacao) [uneasy]: Nico compra 'verdade de papel' quando precisa
+- Joao do Trem (kindred; Fixador de circulação noturna) [ally]: Joao fornece rota; Eli fornece papel
+- Nico "Sombra" (kindred; Corretor de informação) [uneasy]: Nico compra 'verdade de papel' quando precisa
+- Joao do Trem (kindred; Fixador de circulação noturna) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

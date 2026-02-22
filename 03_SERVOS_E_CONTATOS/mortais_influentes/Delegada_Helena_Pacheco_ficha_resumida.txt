@@ -1,6 +1,6 @@
 Nome: Delegada Helena Pacheco
 Tipo: mortal
-Vinculo: Segunda Inquisicao
-Papel: Coordenacao de campo
+Vinculo: Segunda Inquisição
+Papel: Coordenação de campo
 Area: Centro Expandido
-Assinatura / estilo: calma administrativa; violencia por protocolo
+Assinatura / estilo: calma administrativa; violência por protocolo

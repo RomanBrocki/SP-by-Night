@@ -1,19 +1,19 @@
 Jonas Santos
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Correio (motoboy de rotas)
-- Area: Corredores (Zona Cinza de carga e sumico)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Correio e entrega rápida
+- Area: eixos de carga (Zona Cinza de carga e sumiço)
 - Assinatura/estilo: jaqueta de motoboy sem logo, capacete sempre por perto, olhar que mede camera
 
 Coteries/associacoes:
 - Corredores de Sombra
 
 Tom (para narrar):
-Jonas Santos e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Corredores (Zona Cinza de carga e sumico).
+Jonas Santos e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: eixos de carga (Zona Cinza de carga e sumiço).
 
 Historia (costurada, sem resumo seco):
-Jonas Santos vive no ponto em que o mundo mortal toca o tabuleiro cainita: Correio (motoboy de rotas). A area operacional e Corredores (Zona Cinza de carga e sumico). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: virar o 'nome que resolve' sem aparecer em nenhum lugar. O medo e: ser filmado entregando coisa errada e virar ponto de correlacao.
+Jonas Santos vive no ponto em que o mundo mortal toca o tabuleiro cainita: Correio e entrega rápida. A area operacional e eixos de carga (Zona Cinza de carga e sumiço). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Jonas Santos e virar o 'nome que resolve' sem aparecer em nenhum lugar. O medo central e ser filmado entregando coisa errada e virar ponto de correlacao. Em eixos de carga (Zona Cinza de carga e sumiço), essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,10 +24,11 @@ Segredo (objetivamente jogavel):
 - Ele mantem uma rota de entrega que passa por pontos cegos conhecidos da cidade.
 
 Conexoes (com motivo e custo):
-- Nico "Sombra" (kindred; Corretor de informacao) [servant]: correio de dados e pequenas coisas; roda pela Zona Cinza
+- Nico "Sombra" (kindred; Corretor de informação) [servant]: correio de dados e pequenas coisas; roda pela Zona Cinza
 - Ester "Gato-Preto" (kindred; Courier de dados) [rival]: disputa de rotas e de confianca
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
-- Cena: Corredores (Zona Cinza de carga e sumico). Jonas entrega um pacote aos PJs e avisa: 'nao abre aqui'. A SI ja esta perto.
-- Cena: Corredores (Zona Cinza de carga e sumico). Ele pede para os PJs eliminarem uma camera especifica antes do proximo correio.
-- Cena: Corredores (Zona Cinza de carga e sumico). Um rival tenta roubar a rota; Jonas quer que os PJs decidam o que fazer com o ladrao.
+- Cena: eixos de carga (Zona Cinza de carga e sumiço). Jonas entrega um pacote aos PJs e avisa: 'nao abre aqui'. A SI ja esta perto.
+- Cena: eixos de carga (Zona Cinza de carga e sumiço). Ele pede para os PJs eliminarem uma camera especifica antes do proximo correio.
+- Cena: eixos de carga (Zona Cinza de carga e sumiço). Um rival tenta roubar a rota; Jonas quer que os PJs decidam o que fazer com o ladrao.

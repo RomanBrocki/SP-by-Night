@@ -1,18 +1,20 @@
-Nome / Alcunha: Diego "Itaquera" Nascimento / Barao do Leste (Itaquera e Extremo Leste)
+Nome / Alcunha: Diego "Itaquera" Nascimento / Barao do Leste
 Cla: Brujah | Seita: Anarch
 Idade aparente: 34 | Abraco: 2012 | Potencia do Sangue 3
-Dominio / area principal: Baronato Leste (Itaquera/Extremo Leste)
+Dominio / area principal: Baronato Leste
 Disciplinas (top 3): -
-Assinatura / estilo: -
+Assinatura / estilo: presença contida, leitura rápida da sala, resposta medida
 Coteries/associacoes (grupo e rede):
 - Leste de Aco (Itaquera/Extremo Leste)
 Ghouls/servos diretos: 2
-- Paula "Olheira" Nascimento (Olheira de rua (aviso, filmagem, fuga a pe))
-- Rafaela Novais (Socorro e triagem (Itaquera))
+- Paula "Olheira" Nascimento (Olheira de rua)
+- Rafaela Novais (Socorro e triagem)
 Touchstones/Conviccoes (resumo):
 - (Nao definido)
 Ganchos de cena:
-- (Nao definido)
+- Um encontro pequeno vira custo grande. Entrada: Baronato Leste; custo provável: boon, cobertura ou silêncio.
+- Diego chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Baronato Leste; custo provável: boon, cobertura ou silêncio.
+- Um favor antigo cobrado por Diego coloca o grupo no meio de duas versões conflitantes. Entrada: Baronato Leste; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Movimento de rua e protecao informal (bairro, torcida, sindicato, igreja local).
 - Crime organizado de baixo perfil (cobranca, seguranca, 'taxa').
@@ -21,3 +23,4 @@ Atuacao mortal (explicita):
 Servos/contatos notaveis (entrada rapida):
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: paz entre baronatos enquanto a Camarilla observa
 - Maru "Vento" (kindred; Scout de baronia) [employer]: mensagens e rotas; paga com protecao
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

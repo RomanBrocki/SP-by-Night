@@ -1,6 +1,7 @@
 Nome / Alcunha: Ester "Gato-Preto" / Courier de dados
 Cla: Nosferatu | Seita: Anarch
-Dominio / area principal: Zonas mistas (entregas)
+Idade aparente: - | Abraco: 2024 | Potencia do Sangue 2
+Dominio / area principal: Zonas mistas
 Disciplinas (top 3): ['Obfuscate 2', 'Animalism 1', 'Potence 1']
 Assinatura / estilo: moto, mochila, silencio
 Coteries/associacoes (grupo e rede):
@@ -20,6 +21,7 @@ Atuacao mortal (explicita):
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Nico "Sombra" (kindred; Corretor de informacao) [childe]: relacao de controle e protecao
+- Nico "Sombra" (kindred; Corretor de informação) [childe]: relacao de controle e protecao
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: Anarchs a protegem por utilidade
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [friend]: rede de sumico digital
+- Ana "Carbono" (kindred; Alquimista) [friend]: rede de sumico digital
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

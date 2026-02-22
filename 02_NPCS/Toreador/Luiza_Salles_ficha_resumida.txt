@@ -1,4 +1,4 @@
-Nome / Alcunha: Luiza Salles / Senescal e Harpia principal
+Nome / Alcunha: Luiza Salles / Senescal
 Cla: Toreador | Seita: Camarilla
 Idade aparente: 33 | Abraco: 1987 | Potencia do Sangue 4
 Dominio / area principal: Pinheiros/Vila Madalena
@@ -8,22 +8,23 @@ Coteries/associacoes (grupo e rede):
 - Corte do Elysium (Camarilla)
 - Salao de Pinheiros (Toreador)
 Ghouls/servos diretos: 3
-- Camila "Flash" Siqueira (Fotografa de evento (imagem, corte, prova))
-- Carla Nogueira (Assistente de curadoria (Elysium))
-- Silvia Kajiki (Recepcao e lista (Elysium de Pinheiros))
+- Camila "Flash" Siqueira (Fotografa de evento)
+- Carla Nogueira (Assistente de curadoria de Elysium)
+- Silvia Kajiki (Recepção e lista)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'A verdade e uma performance'.
 - Touchstone: uma curadora mortal que ela protege.
 Ganchos de cena:
-- Oferece status aos PJ em troca de um segredo.
-- Faz um PJ virar assunto para medir reacoes.
-- Entrega um boon pequeno que vira algema.
+- Oferece status aos PJs em troca de um segredo. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.
+- Faz um PJs virar assunto para medir reações. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.
+- Entrega um boon pequeno que vira algema. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Arte e midia (curadoria, eventos, reputacao e narrativas).
 - Cenas noturnas (clubes, galerias, circulos VIP).
 - Intermediacao social (listas, convites, portas que abrem e fecham).
 - Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
 Servos/contatos notaveis (entrada rapida):
-- Artur Macedo (kindred; Principe de Sao Paulo) [boon_owed]: Major; ele comprou o silencio
-- Nico "Sombra" (kindred; Corretor de informacao) [rival]: odeia depender de informacao feia
-- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [uneasy]: culto tentando seduzir sua corte
+- Artur Macedo (kindred; Príncipe de São Paulo) [boon_owed]: Major; ele comprou o silencio
+- Nico "Sombra" (kindred; Corretor de informação) [rival]: odeia depender de informacao feia
+- Talita "Serpente" (kindred; Pregadora do Vicio) [uneasy]: culto tentando seduzir sua corte
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

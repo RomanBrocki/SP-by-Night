@@ -1,7 +1,7 @@
 Sofia Pires
 
 Perfil:
-- Cla: Toreador | Seita: Camarilla | Funcao: Curadora de sala (Elysium)
+- Cla: Toreador | Seita: Camarilla | Funcao: Curadora de sala
 - Dominio: Liberdade | Idade aparente: 40
 - Abraco: 2023 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): -
@@ -28,10 +28,11 @@ Rumor e verdade (municao social):
 - (Nao definido)
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [contact]: ponte para a politica local
+- Luiza Salles (kindred; Senescal) [contact]: ponte para a politica local
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Liberdade. Um encontro pequeno vira custo grande.
+- Cena: Liberdade. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local.

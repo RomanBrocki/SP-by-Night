@@ -1,19 +1,20 @@
 Rafaela Novais
 
 Perfil:
-- Tipo: ghoul | Vinculo: Anarch | Papel: Socorro e triagem (Itaquera)
-- Area: Baronato Leste (Itaquera/Extremo Leste)
+- Tipo: ghoul | Vinculo: Anarch | Papel: Socorro e triagem
+- Area: Baronato Leste
 - Assinatura/estilo: mochila de socorro, tenis gasto, fala objetiva
 
 Coteries/associacoes:
 - Matilha do Sul
+- Leste de Aco (Itaquera/Extremo Leste)
 
 Tom (para narrar):
-Rafaela Novais e cuidado sob pressao. Em cena: ele(a) resolve ferida e colapso sem chamar hospital, e sabe quais profissionais mortais comprados aceitam 'casos estranhos'. Area operacional: Baronato Leste (Itaquera/Extremo Leste).
+Rafaela Novais e cuidado sob pressao. Em cena: ele(a) resolve ferida e colapso sem chamar hospital, e sabe quais profissionais mortais comprados aceitam 'casos estranhos'. Area operacional: Baronato Leste.
 
 Historia (costurada, sem resumo seco):
-Rafaela Novais vive no ponto em que o mundo mortal toca o tabuleiro cainita: Socorro e triagem (Itaquera). A area operacional e Baronato Leste (Itaquera/Extremo Leste). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: criar uma rede de clinicas 'invisiveis' na quebrada. O medo e: ser forçada a escolher entre salvar alguem e obedecer ao Barao.
+Rafaela Novais vive no ponto em que o mundo mortal toca o tabuleiro cainita: Socorro e triagem. A area operacional e Baronato Leste. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Rafaela Novais e criar uma rede de clinicas 'invisiveis' na quebrada. O medo central e ser forçada a escolher entre salvar alguem e obedecer ao Barao. Em Baronato Leste, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -25,10 +26,11 @@ Segredo (objetivamente jogavel):
 - Ela mantem um caderno com nomes de policias e paramedicos comprados, para acionar quando precisa.
 
 Conexoes (com motivo e custo):
-- Diego "Itaquera" Nascimento (kindred; Barao do Leste (Itaquera e Extremo Leste)) [servant]: atendimento, cobertura e rede de socorro do Barao do Leste
+- Diego "Itaquera" Nascimento (kindred; Barao do Leste) [servant]: atendimento, cobertura e rede de socorro do Barao do Leste
 - thin_blood_luan_patch [ally]: troca de materiais e tecnicas; respeito mutuo
+- Diego "Itaquera" Nascimento (kindred; Barao do Leste) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
-- Cena: Baronato Leste (Itaquera/Extremo Leste). Rafaela pede protecao para tirar um ferido de um hospital antes que a SI o veja.
-- Cena: Baronato Leste (Itaquera/Extremo Leste). Ela precisa de sangue conservado para uma transfusao e faz um acordo direto com os PJs.
-- Cena: Baronato Leste (Itaquera/Extremo Leste). Um 'animal grande' ronda a area onde ela atende; ela quer que os PJs confirmem o risco.
+- Cena: Baronato Leste. Rafaela pede protecao para tirar um ferido de um hospital antes que a SI o veja.
+- Cena: Baronato Leste. Ela precisa de sangue conservado para uma transfusao e faz um acordo direto com os PJs.
+- Cena: Baronato Leste. Um 'animal grande' ronda a area onde ela atende; ela quer que os PJs confirmem o risco.

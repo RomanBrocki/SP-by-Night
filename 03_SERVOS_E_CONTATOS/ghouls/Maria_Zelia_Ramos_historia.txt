@@ -1,19 +1,19 @@
 Maria Zelia Ramos
 
 Perfil:
-- Tipo: ghoul | Vinculo: Autarquicos | Papel: Gestora de funeraria (enclave Hecata)
-- Area: Cemiterios (Centro/Oeste)
+- Tipo: ghoul | Vinculo: Autarquicos | Papel: Gestora de funerária
+- Area: Cemitérios
 - Assinatura/estilo: blazer escuro, lencos discretos, voz baixa de secretaria
 
 Coteries/associacoes:
 - Porteiros do Centro
 
 Tom (para narrar):
-Maria Zelia Ramos e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Cemiterios (Centro/Oeste).
+Maria Zelia Ramos e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Cemitérios.
 
 Historia (costurada, sem resumo seco):
-Maria Zelia Ramos vive no ponto em que o mundo mortal toca o tabuleiro cainita: Gestora de funeraria (enclave Hecata). A area operacional e Cemiterios (Centro/Oeste). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: manter a funeraria funcionando sem que 'o mundo de fora' entre. O medo e: ser usada como isca por alguem que nao entende o preco dos mortos.
+Maria Zelia Ramos vive no ponto em que o mundo mortal toca o tabuleiro cainita: Gestora de funerária. A area operacional e Cemitérios. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Maria Zelia Ramos e manter a funeraria funcionando sem que 'o mundo de fora' entre. O medo central e ser usada como isca por alguem que nao entende o preco dos mortos. Em Cemitérios, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,10 +24,11 @@ Segredo (objetivamente jogavel):
 - Ela tem chaves e registros de jazigos que nao constam em cartorio nenhum.
 
 Conexoes (com motivo e custo):
-- Celia Moura (kindred; Agente funeraria (enclave de cemiterio)) [servant]: gestao de funeraria e acesso ao cemiterio
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: teme o coletor de pedagio e seus 'custos'
+- Celia Moura (kindred; Agente funerária) [servant]: gestao de funeraria e acesso ao cemiterio
+- Donato Lazzari (kindred; Cobrador de travessia) [uneasy]: teme o coletor de pedagio e seus 'custos'
+- Celia Moura (kindred; Agente funerária) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
-- Cena: Cemiterios (Centro/Oeste). Ela pede que os PJs escoltem um caixao ate um jazigo sem placas (nao pode atrasar).
-- Cena: Cemiterios (Centro/Oeste). Um parente mortal insiste em abrir o caixao; Maria quer que os PJs resolvam sem escandalo.
-- Cena: Cemiterios (Centro/Oeste). Ela encontrou um simbolo estranho gravado em lapide recente e quer identificacao.
+- Cena: Cemitérios. Ela pede que os PJs escoltem um caixao ate um jazigo sem placas (nao pode atrasar).
+- Cena: Cemitérios. Um parente mortal insiste em abrir o caixao; Maria quer que os PJs resolvam sem escandalo.
+- Cena: Cemitérios. Ela encontrou um simbolo estranho gravado em lapide recente e quer identificacao.

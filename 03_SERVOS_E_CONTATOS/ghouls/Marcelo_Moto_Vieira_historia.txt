@@ -1,17 +1,17 @@
 Marcelo "Moto" Vieira
 
 Perfil:
-- Tipo: ghoul | Vinculo: Anarch | Papel: Courier (entregas e fuga)
-- Area: Baronato Sul (Capao/Grajau)
+- Tipo: ghoul | Vinculo: Anarch | Papel: Courier
+- Area: Baronato Sul
 
 Coteries/associacoes:
 - Matilha do Sul (Capao/Grajau)
 
 Tom (para narrar):
-Marcelo "Moto" Vieira e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Sul (Capao/Grajau).
+Marcelo "Moto" Vieira e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Sul.
 
 Historia (costurada, sem resumo seco):
-Marcelo "Moto" Vieira vive no ponto em que o mundo mortal toca o tabuleiro cainita: Courier (entregas e fuga). A area operacional e Baronato Sul (Capao/Grajau). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Marcelo "Moto" Vieira vive no ponto em que o mundo mortal toca o tabuleiro cainita: Courier. A area operacional e Baronato Sul. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,7 +23,8 @@ Segredo (objetivamente jogavel):
 - (Nao definido)
 
 Conexoes (com motivo e custo):
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [servant]: leva recados e sangue; conhece as bordas e volta vivo
+- Bia "Matilha" (kindred; Baronesa da borda sul) [servant]: leva recados e sangue; conhece as bordas e volta vivo
+- Bia "Matilha" (kindred; Baronesa da borda sul) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

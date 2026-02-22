@@ -1,18 +1,18 @@
 Teresa "Balanca" Pacheco
 
 Perfil:
-- Tipo: ghoul | Vinculo: Independentes | Papel: Controle de doca (fila, balanca, camera 'cego')
-- Area: Corredores (Barra Funda/Lapa)
+- Tipo: ghoul | Vinculo: Independentes | Papel: Conferente de doca e triagem de carga
+- Area: eixos de carga (Barra Funda/Lapa)
 - Assinatura/estilo: Colete refletivo, prancheta, olhar de quem manda sem parecer.
 
 Coteries/associacoes:
 - Corredores de Sombra (conselho de corretores)
 
 Tom (para narrar):
-Teresa "Balanca" Pacheco e imagem e prova. Em cena: ele(a) sabe o que cortar, o que guardar, e o que vazar para destruir reputacao. Area operacional: Corredores (Barra Funda/Lapa).
+Teresa "Balanca" Pacheco e cuidado sob pressao. Em cena: ele(a) resolve ferida e colapso sem chamar hospital, e sabe quais profissionais mortais comprados aceitam 'casos estranhos'. Area operacional: eixos de carga (Barra Funda/Lapa).
 
 Historia (costurada, sem resumo seco):
-Teresa "Balanca" Pacheco vive no ponto em que o mundo mortal toca o tabuleiro cainita: Controle de doca (fila, balanca, camera 'cego'). A area operacional e Corredores (Barra Funda/Lapa). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Teresa "Balanca" Pacheco vive no ponto em que o mundo mortal toca o tabuleiro cainita: Conferente de doca e triagem de carga. A area operacional e eixos de carga (Barra Funda/Lapa). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,8 +23,9 @@ Segredo (objetivamente jogavel):
 - Ela sabe a senha de um DVR antigo que guarda meses de imagens.
 
 Conexoes (com motivo e custo):
-- Eli "Despacho" Araujo (ghoul; Despachante (nota fiscal, placa e horario)) [ally]: papel e balanca: juntos criam passagem
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: vende janela de camera por dado moral
+- Eli "Despacho" Araujo (ghoul; Despachante e regularizador de carga) [ally]: papel e balanca: juntos criam passagem
+- Nico "Sombra" (kindred; Corretor de informação) [client]: vende janela de camera por dado moral
+- Eli "Despacho" Araujo (ghoul; Despachante e regularizador de carga) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

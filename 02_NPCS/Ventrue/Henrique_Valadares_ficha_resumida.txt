@@ -1,24 +1,27 @@
-Nome / Alcunha: Henrique Valadares / Primogeno Ventrue (financas de guerra)
+Nome / Alcunha: Henrique Valadares / Braço executivo Ventrue
 Cla: Ventrue | Seita: Camarilla
 Idade aparente: 40 | Abraco: 1984 | Potencia do Sangue 3
-Dominio / area principal: Morumbi/Campo Belo (fundos, seguranca e condominio)
+Dominio / area principal: Morumbi/Campo Belo
 Disciplinas (top 3): -
-Assinatura / estilo: -
+Assinatura / estilo: educação de banco, cálculo rápido, ameaça sem elevar o tom
 Coteries/associacoes (grupo e rede):
 - Chaves do Morumbi (Ventrue)
 - Corte do Elysium (Camarilla)
 Ghouls/servos diretos: 2
-- Damiao "Portaria" (Retentor (seguranca e acesso em condominios))
-- Paula "Compliance" Azevedo (Advogada de crise (NDA, sumico, acordo extrajudicial))
+- Damiao "Portaria" (Segurança e controle de entrada)
+- Paula "Compliance" Azevedo (Advogada de crise)
 Touchstones/Conviccoes (resumo):
 - (Nao definido)
 Ganchos de cena:
-- (Nao definido)
+- Um encontro pequeno vira custo grande. Entrada: Morumbi/Campo Belo; custo provável: boon, cobertura ou silêncio.
+- Henrique chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Morumbi/Campo Belo; custo provável: boon, cobertura ou silêncio.
+- Um favor antigo cobrado por Henrique coloca o grupo no meio de duas versões conflitantes. Entrada: Morumbi/Campo Belo; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Financas e imobiliario (fundos, holdings, locacoes estrategicas).
 - Influencia em seguranca privada e compliance (controle de acesso, camadas de permissao).
 - Intermediacao via advogados, consultorias e fixers (apagamento de incidentes).
 - Relacoes com elites corporativas (eventos, conselhos, patrocinios).
 Servos/contatos notaveis (entrada rapida):
-- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [boon_due]: Isabel o elevou; ele paga com caixa e obediencia
-- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: caixa e escudo em troca de influencia real
+- Isabel do Amaral (kindred; Primógena Ventrue) [boon_due]: Isabel o elevou; ele paga com caixa e obediencia
+- Artur Macedo (kindred; Príncipe de São Paulo) [ally]: caixa e escudo em troca de influencia real
+- Isabel do Amaral (kindred; Primógena Ventrue) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

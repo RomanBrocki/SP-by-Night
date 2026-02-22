@@ -1,11 +1,11 @@
 Artur Macedo
 
 Perfil:
-- Cla: Ventrue | Seita: Camarilla | Funcao: Principe de Sao Paulo
+- Cla: Ventrue | Seita: Camarilla | Funcao: Príncipe de São Paulo
 - Dominio: Paulista/Jardins | Idade aparente: 40
-- Abraco: 1929 | Sire: ventrue_isabel_amaral | Acima do sire: -
+- Abraco: 1929 | Sire: Isabel do Amaral | Acima do sire: -
 - Disciplinas (top 3): ['Dominate 4', 'Presence 3', 'Fortitude 2']
-- Assinatura/estilo: voz baixa, contratos curtos, violencia como ultima palavra
+- Assinatura/estilo: voz baixa, contratos curtos, violência como última palavra
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Corte do Elysium (Camarilla)
@@ -15,36 +15,36 @@ Artur Macedo pressiona por acesso e protocolo. Em cena isso e concreto: a portar
 
 Historia (costurada, sem resumo seco):
 Artur Macedo nasceu em 1888. O Abraco veio em 1929 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Manter Sao Paulo como vitrine Camarilla ate 2040. O medo e igualmente pratico: Que a SI tenha provas publicas demais para comprar.
+A ambicao de Artur Macedo e Provar que o modelo dele funciona: uma Camarilla que governa São Paulo como máquina de crise, com frentes segmentadas, responsável claro e revisão curta, sem perder o verniz aristocrático. Se isso falha, não cai só o Príncipe; cai a tese de gestão moderna que sustenta o governo dele. O medo principal e perder o controle narrativo da cidade e ver a Corte regredir para feudos pessoais, boons opacos e reação lenta. No territorio de Paulista/Jardins, isso torna cada acordo mais tenso e cada erro mais caro. O pesadelo de Artur não é uma derrota frontal; é a máquina que ele montou começar a falhar por dentro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Financas e imobiliario (fundos, holdings, locacoes estrategicas).
 - Influencia em seguranca privada e compliance (controle de acesso, camadas de permissao).
 - Intermediacao via advogados, consultorias e fixers (apagamento de incidentes).
 - Relacoes com elites corporativas (eventos, conselhos, patrocinios).
-- Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
 
 Segredo (objetivamente jogavel):
-- Ele mantem um canal indireto com um operador mortal de vigilancia: recebe alertas de cameras e trocas de relatorio. O canal tem um nome, um pagamento e um rastro (mensagens, comprovantes e horarios). [CANON-ADJACENT / HOME BREW]
+- tolerou pactos e exceções que negaria em público, inclusive alianças de periferia que preservaram a cidade. Isso encosta diretamente em Luiza Salles e Samira al-Haddad. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ele esta sob a Beckoning e quer fugir.
-- Verdade (perigosa): Ele autorizou um Abraco ilegal e apagou o rastro.
+- Rumor (falso): o boato preferido é que ele já está caindo e só posa de firme; ainda não acharam o buraco real (cola porque a superfície da cidade mostra só um pedaço do trabalho real).
+- Verdade (perigosa): muitas 'decisões coletivas' da Camarilla foram imposições dele apresentadas como consenso. Hoje, quem está mais perto de descobrir isso é Luiza Salles.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [boon_due]: ela deve um Major pela crise de 2034
+- Luiza Salles (kindred; Senescal) [boon_due]: ela deve um Major pela crise de 2034
 - Samira al-Haddad (kindred; Xerife) [employer]: Xerife, tolerado por eficiencia
-- Nico "Sombra" (kindred; Corretor de informacao) [ally]: informacao em troca de neutralidade
+- Nico "Sombra" (kindred; Corretor de informação) [ally]: informacao em troca de neutralidade
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Igor "Sombra" Camargo: Motorista (rota, placa, porta traseira) (area: Paulista/Jardins)
-- Mariana Lobo: Chefe de gabinete (mortal) (area: Paulista/Jardins)
-- Victor Pires: Seguranca e motorista (Corte do Elysium) (area: Paulista/Jardins)
+- Igor "Sombra" Camargo: Motorista de apoio e fuga (area: Paulista/Jardins)
+- Mariana Lobo: Chefe de gabinete (area: Paulista/Jardins)
+- Victor Pires: Segurança e motorista (area: Paulista/Jardins)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- ventrue_mateus_cordeiro
+- Mateus Cordeiro
 
 Cenas prontas (para jogar hoje):
-- Cena: Paulista/Jardins. Convida os PJ para 'um favor pequeno' que vira auditoria de boons.
-- Cena: Paulista/Jardins. Usa os PJ como mensageiros para testar lealdade de um Primogeno.
-- Cena: Paulista/Jardins. Oferece asilo temporario em troca de um nome.
+- Cena: Paulista/Jardins. Convida os PJs para 'um favor pequeno' que vira auditoria de boons. Entrada: Paulista/Jardins; custo provável: boon, cobertura ou silêncio.
+- Cena: Paulista/Jardins. Usa os PJs como mensageiros para testar lealdade de um Primógeno. Entrada: Paulista/Jardins; custo provável: boon, cobertura ou silêncio.
+- Cena: Paulista/Jardins. Oferece asilo temporário em troca de um nome. Entrada: Paulista/Jardins; custo provável: boon, cobertura ou silêncio.

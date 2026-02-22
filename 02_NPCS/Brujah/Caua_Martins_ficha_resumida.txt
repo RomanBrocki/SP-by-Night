@@ -1,7 +1,7 @@
-Nome / Alcunha: Caua Martins / Executor da Baronesa (linha dura)
+Nome / Alcunha: Caua Martins / Executor da Baronesa
 Cla: Brujah | Seita: Anarch
 Idade aparente: 29 | Abraco: 2016 | Potencia do Sangue 2
-Dominio / area principal: Mooca (ruas)
+Dominio / area principal: Mooca
 Disciplinas (top 3): ['Potence 2', 'Celerity 2', 'Presence 1']
 Assinatura / estilo: sorriso curto; punho rapido; lealdade feroz
 Coteries/associacoes (grupo e rede):
@@ -22,4 +22,5 @@ Atuacao mortal (explicita):
 Servos/contatos notaveis (entrada rapida):
 - Renata Ferraz (kindred; Baronesa da Mooca) [childe]: lealdade e ambicao
 - Elias "Sal" (kindred; Agitador de celula (cobrador)) [boon_owed]: favor sujo por dinheiro e culto
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [uneasy]: nao confia em 'animais' na politica
+- Bia "Matilha" (kindred; Baronesa da borda sul) [uneasy]: nao confia em 'animais' na politica
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

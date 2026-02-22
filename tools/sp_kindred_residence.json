@@ -1,647 +1,807 @@
 {
   "meta": {
-    "note": "Fonte de verdade para 'onde este Cainita habita' em termos de camadas macro/domínios expressivos do mapa. Ajuste manualmente se quiser."
+    "note": "Residencia canonica dos Cainitas. Fonte unica: referencia_localizacao.xlsx (aba npcs)."
   },
   "residence": {
     "ventrue_artur_macedo": {
       "name": "Artur Macedo",
       "sect": "Camarilla",
-      "residence_id": "paulista_jardins",
-      "residence_label": "Paulista/Jardins",
-      "source": "override",
-      "domain_raw": "Paulista/Jardins"
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Jardins/Paulista",
+      "canon_region": "Paulista/Jardins",
+      "canon_group": "Camarilla"
     },
     "ventrue_isabel_amaral": {
       "name": "Isabel do Amaral",
       "sect": "Camarilla",
-      "residence_id": "itaim_berrini",
-      "residence_label": "Itaim/Berrini",
-      "source": "override",
-      "domain_raw": "Itaim/Berrini"
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Itaim/Berrini • Redes: sem rede fixa registrada • Função real: representa o clã na corte (na teoria)",
+      "canon_region": "Itaim/Berrini",
+      "canon_group": "Camarilla"
     },
     "ventrue_mateus_cordeiro": {
       "name": "Mateus Cordeiro",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Paulista"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Jardins e circuito de influÃªncia",
+      "canon_region": "Jardins e circuito de influência",
+      "canon_group": "Camarilla"
     },
     "toreador_luiza_salles": {
       "name": "Luiza Salles",
       "sect": "Camarilla",
-      "residence_id": "pinheiros_vila_madalena",
-      "residence_label": "Pinheiros/Vila Madalena",
-      "source": "override",
-      "domain_raw": "Pinheiros/Vila Madalena"
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Pinheiros/Vila Madalena • Redes: Corte do Elysium e Salão de Pinheiros • Função real: Luiza organiza o fluxo da Corte",
+      "canon_region": "Pinheiros/Vila Madalena",
+      "canon_group": "Camarilla"
     },
     "toreador_helena_vasconcelos": {
       "name": "Helena Vasconcelos",
       "sect": "Camarilla",
-      "residence_id": "liberdade",
-      "residence_label": "Liberdade",
-      "source": "override",
-      "domain_raw": "Liberdade (Elysium satelite)"
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Liberdade • Redes: Salão de Pinheiros • Função real: Helena sustenta guardia de elysium com trabalho de bastidor e presença em cena",
+      "canon_region": "Liberdade",
+      "canon_group": "Camarilla"
     },
     "toreador_daniel_sato": {
       "name": "Daniel Sato",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Liberdade/Paulista"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Liberdade/Paulista • Redes: recepções 24h, hotelaria, segurança privada, staff de eventos e ponte discreta com informantes Nosferatu • Função real: transformar ruído de bastidor em informação útil para a Corte",
+      "canon_region": "Liberdade/Paulista",
+      "canon_group": "Camarilla"
     },
     "banuhaqim_samira_al_haddad": {
       "name": "Samira al-Haddad",
       "sect": "Camarilla",
-      "residence_id": "santana_tucuruvi",
-      "residence_label": "Santana/Tucuruvi (Xerifado)",
-      "source": "override",
-      "domain_raw": "Santana/Tucuruvi (Xerifado; base de pressao e resposta)"
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Santana/Tucuruvi • Redes: Corte do Elysium e Sangue e Selo • Função real: Samira não é uma xerife de espetáculo",
+      "canon_region": "Santana/Tucuruvi",
+      "canon_group": "Camarilla"
     },
     "banuhaqim_yusuf_rahman": {
       "name": "Yusuf Rahman",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_corredores",
       "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Rotas (aeroporto/rodovias)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "trajetos (aeroporto/rodovias) • Redes: Rede de Corretores • Função real: Yusuf sustenta juiz itinerante com trabalho de bastidor e presença em cena",
+      "canon_region": "trajetos (aeroporto/rodovias)",
+      "canon_group": "Independentes"
     },
     "nosferatu_nico_sombra": {
       "name": "Nico \"Sombra\"",
       "sect": "Camarilla",
-      "residence_id": "bras_pari",
-      "residence_label": "Bras/Pari (Mercado de Sombras)",
-      "source": "override",
-      "domain_raw": "Bras/Pari + Corredores logisticos (Barra Funda/Lapa)"
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Brás/Pari + eixos logísticos (Barra Funda/Lapa) • Redes: Correios do Subsolo e Corte do Elysium • Função real: triangula informação e oportunidade",
+      "canon_region": "Brás/Pari + eixos logísticos (Barra Funda/Lapa)",
+      "canon_group": "Camarilla"
     },
     "nosferatu_vovo_zilda": {
       "name": "Vovo Zilda",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Galerias do Centro"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Galerias do Centro • Redes: Correios do Subsolo • Função real: Vovó sustenta anciã  subterrânea com trabalho de bastidor e presença em cena",
+      "canon_region": "Galerias do Centro",
+      "canon_group": "Camarilla"
     },
     "nosferatu_ester_gato_preto": {
       "name": "Ester \"Gato-Preto\"",
       "sect": "Anarch",
       "residence_id": "baronato_mooca_tatuape",
       "residence_label": "Baronato Mooca/Tatuape",
-      "source": "override",
-      "domain_raw": "Zonas mistas (entregas)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Zonas mistas",
+      "canon_region": "Zonas mistas",
+      "canon_group": "Anarquistas"
     },
     "brujah_renata_ferraz": {
       "name": "Renata Ferraz",
       "sect": "Anarch",
       "residence_id": "baronato_mooca_tatuape",
       "residence_label": "Baronato Mooca/Tatuape",
-      "source": "override",
-      "domain_raw": "Tatuape/Mooca"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Tatuapé/Mooca • Redes: Coterie Ferrugem • Função real: governa território",
+      "canon_region": "Tatuapé/Mooca",
+      "canon_group": "Anarquistas"
     },
     "brujah_joao_do_trem": {
       "name": "Joao do Trem",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_corredores",
       "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Corredores e estacoes (rumores)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Eixos urbanos e estações • Redes: Linhas e Sombras • Função real: João mantém a circulação noturna funcionando quando a cidade aperta",
+      "canon_region": "eixos urbanos e estações",
+      "canon_group": "Independentes"
     },
     "brujah_caua_martins": {
       "name": "Caua Martins",
       "sect": "Anarch",
       "residence_id": "baronato_mooca_tatuape",
       "residence_label": "Baronato Mooca/Tatuape",
-      "source": "override",
-      "domain_raw": "Mooca (ruas)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Mooca",
+      "canon_region": "Mooca",
+      "canon_group": "Anarquistas"
     },
     "ministry_talita_serpente": {
       "name": "Talita \"Serpente\"",
-      "sect": "Autarquico",
-      "residence_id": "indep_corredores",
-      "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Pinheiros/baixa Augusta (celulas)"
+      "sect": "Independentes",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Pinheiros/baixa Augusta • Redes: Rede de Corretores • Função real: Talita sustenta pregadora do vício com trabalho de bastidor e presença em cena",
+      "canon_region": "Pinheiros/baixa Augusta",
+      "canon_group": "Independentes"
     },
     "ministry_elias_sal": {
       "name": "Elias \"Sal\"",
       "sect": "Anarch",
       "residence_id": "baronato_mooca_tatuape",
       "residence_label": "Baronato Mooca/Tatuape",
-      "source": "override",
-      "domain_raw": "Mooca e rotas"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Mooca e rotas",
+      "canon_region": "Mooca e em circuitos de circulação e cobrança",
+      "canon_group": "Anarquistas"
     },
     "lasombra_padre_miguel_aranha": {
       "name": "Padre Miguel Aranha",
       "sect": "Camarilla",
-      "residence_id": "bela_vista_bixiga",
-      "residence_label": "Bela Vista/Bixiga (Confissao)",
-      "source": "override",
-      "domain_raw": "Bela Vista/Bixiga (Confissao; salas privadas)"
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bela Vista/Bixiga • Redes: A Confissão Preta e Corte do Elysium • Função real: Padre sustenta guardião de confissões com trabalho de bastidor e presença em cena",
+      "canon_region": "Bela Vista/Bixiga",
+      "canon_group": "Camarilla"
     },
     "tremere_dario_kron": {
       "name": "Dario Kron",
       "sect": "Camarilla",
-      "residence_id": "butanta_usp",
-      "residence_label": "Butanta/USP (Torre Tremere)",
-      "source": "override",
-      "domain_raw": "Butanta/USP (Torre Tremere; refugios dispersos)"
+      "residence_id": "camarilla_macro",
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Butantã/USP • Redes: Corte do Elysium e Torre da USP • Função real: representa o clã na corte",
+      "canon_region": "Butantã/USP",
+      "canon_group": "Camarilla"
     },
     "tremere_bianca_saramago": {
       "name": "Bianca Saramago",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Pinheiros/Centro"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Pinheiros/Centro",
+      "canon_region": "Pinheiros/Centro",
+      "canon_group": "Camarilla"
     },
     "hecata_donato_lazzari": {
       "name": "Donato Lazzari",
-      "sect": "Autarquico",
-      "residence_id": "indep_cemiterios",
-      "residence_label": "Independentes: Cemiterios/Funerarias (enclave)",
-      "source": "override",
-      "domain_raw": "Centro Velho / cemiterios"
+      "sect": "Independentes",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro Velho / cemitérios • Redes: Enclave dos Cemitérios • Função real: Donato sustenta uma rede de cobrança de travessia com trabalho de bastidor e presença em cena",
+      "canon_region": "Centro Velho / cemitérios",
+      "canon_group": "Independentes"
     },
     "hecata_soraia_nunes": {
       "name": "Soraia Nunes",
-      "sect": "Autarquico",
-      "residence_id": "indep_cemiterios",
-      "residence_label": "Independentes: Cemiterios/Funerarias (enclave)",
-      "source": "override",
-      "domain_raw": "Centro Velho (consultas)"
+      "sect": "Independentes",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro Velho • Redes: Enclave dos Cemitérios • Função real: Soraia sustenta intérprete de ecos com trabalho de bastidor e presença em cena",
+      "canon_region": "Centro Velho",
+      "canon_group": "Independentes"
     },
     "hecata_iago_siqueira": {
       "name": "Iago Siqueira",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_centro_velho",
       "residence_label": "Independentes: Centro Velho",
-      "source": "override",
-      "domain_raw": "Centro Expandido (reunioes discretas)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro Expandido",
+      "canon_region": "Centro Expandido",
+      "canon_group": "Independentes"
     },
     "lasombra_camila_noite_funda": {
       "name": "Camila \"Noite-Funda\"",
       "sect": "Anarch",
       "residence_id": "indep_corredores",
       "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Lapa/Barra Funda"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Lapa/Barra Funda • Redes: Rede de Corretores • Função real: Camila sustenta dissidente com trabalho de bastidor e presença em cena",
+      "canon_region": "Lapa/Barra Funda",
+      "canon_group": "Anarquistas"
     },
     "malkavian_paulo_vidente": {
       "name": "Paulo \"O Vidente\"",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_centro_velho",
       "residence_label": "Independentes: Centro Velho",
-      "source": "override",
-      "domain_raw": "Galerias e estacoes (rumores)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Galerias e estações • Redes: Os Ouvidores • Função real: Paulo sustenta um serviço de leitura de padrão, rumor e presságio com trabalho de bastidor",
+      "canon_region": "galerias e estações",
+      "canon_group": "Independentes"
     },
     "malkavian_cecilia_linha_dois": {
       "name": "Cecilia \"Linha-Dois\"",
       "sect": "Anarch",
       "residence_id": "baronato_mooca_tatuape",
       "residence_label": "Baronato Mooca/Tatuape",
-      "source": "override",
-      "domain_raw": "Tatuape/Centro (deslocamentos)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "TatuapÃ©/Centro",
+      "canon_region": "Tatuapé/Centro",
+      "canon_group": "Anarquistas"
     },
     "gangrel_bia_matilha": {
       "name": "Bia \"Matilha\"",
       "sect": "Anarch",
       "residence_id": "baronato_sul",
       "residence_label": "Baronato Sul (Capao/Grajau)",
-      "source": "override",
-      "domain_raw": "Oeste/Sul (bordas verdes)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Oeste/Sul • Redes: Matilha do Sul • Função real: Bia virou baronesa de fato porque entrega o que o Sul precisa para sobreviver: fronteira segura, resposta rápida e limite claro para quem quer transformar a quebrada em campo de caça",
+      "canon_region": "Capão/Extremo Sul e mata urbana",
+      "canon_group": "Anarquistas"
     },
     "gangrel_hector_rodoanel": {
       "name": "Hector \"Rodoanel\"",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_corredores",
       "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Rodoanel e corredores"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Rodoanel e eixos de carga",
+      "canon_region": "Rodoanel e eixos de carga",
+      "canon_group": "Independentes"
     },
     "caitiff_rafa_ferro": {
       "name": "Rafa \"Ferro\"",
       "sect": "Anarch",
       "residence_id": "baronato_mooca_tatuape",
       "residence_label": "Baronato Mooca/Tatuape",
-      "source": "override",
-      "domain_raw": "Mooca e adjacencias"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Mooca e adjacências • Redes: Coterie Ferrugem • Função real: Rafa sustenta aspirante a corte com trabalho de bastidor e presença em cena",
+      "canon_region": "Mooca e adjacências",
+      "canon_group": "Anarquistas"
     },
     "caitiff_livia_semnome": {
       "name": "Livia \"Sem-Nome\"",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Centro Expandido (circula)"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro Expandido",
+      "canon_region": "Centro Expandido",
+      "canon_group": "Camarilla"
     },
     "thinblood_ana_carbono": {
       "name": "Ana \"Carbono\"",
       "sect": "Anarch",
-      "residence_id": "baronato_leste",
-      "residence_label": "Baronato Leste (Itaquera/Extremo Leste)",
-      "source": "override",
-      "domain_raw": "Pinheiros e rotas"
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Pinheiros e trajetos • Redes: Leste de Aço • Função real: Ana opera no mercado cinza de sangue fraco",
+      "canon_region": "Pinheiros e trajetos",
+      "canon_group": "Anarquistas"
     },
     "thinblood_dante_fumo": {
       "name": "Dante \"Fumo\"",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_corredores",
       "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Corredores (entregas)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "eixos de entrega, pensÃµes e pontos de passagem",
+      "canon_region": "eixos de entrega, pensões e pontos de passagem",
+      "canon_group": "Independentes"
     },
     "thinblood_katia_zero": {
       "name": "Katia \"Zero\"",
       "sect": "Anarch",
       "residence_id": "baronato_mooca_tatuape",
       "residence_label": "Baronato Mooca/Tatuape",
-      "source": "override",
-      "domain_raw": "Centro/Pinheiros (rede)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro/Pinheiros",
+      "canon_region": "Centro/Pinheiros",
+      "canon_group": "Anarquistas"
     },
     "thinblood_luan_patch": {
       "name": "Luan \"Patch\"",
       "sect": "Anarch",
-      "residence_id": "baronato_sul",
-      "residence_label": "Baronato Sul (Capao/Grajau)",
-      "source": "override",
-      "domain_raw": "Oeste/Sul (bordas)"
+      "residence_id": "baronato_mooca_tatuape",
+      "residence_label": "Baronato Mooca/Tatuape",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Oeste/Sul",
+      "canon_region": "Oeste/Sul",
+      "canon_group": "Anarquistas"
     },
     "ravnos_ravi_truque": {
       "name": "Ravi \"Truque\"",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_corredores",
       "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Centro/Barra Funda (itinerante)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro/Barra Funda",
+      "canon_region": "Centro/Barra Funda",
+      "canon_group": "Independentes"
     },
     "ravnos_maru_vento": {
       "name": "Maru \"Vento\"",
       "sect": "Anarch",
       "residence_id": "baronato_leste",
       "residence_label": "Baronato Leste (Itaquera/Extremo Leste)",
-      "source": "override",
-      "domain_raw": "Leste (rotas)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Leste",
+      "canon_region": "Leste",
+      "canon_group": "Anarquistas"
     },
     "salubri_irene_da_luz": {
       "name": "Irene da Luz",
-      "sect": "Autarquico",
-      "residence_id": "indep_corredores",
-      "residence_label": "Independentes: Corredores",
-      "source": "override",
-      "domain_raw": "Oeste (refugio discreto)"
+      "sect": "Independentes",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Oeste • Redes: sem rede fixa registrada • Função real: Irene sustenta curandeira escondida com trabalho de bastidor e presença em cena",
+      "canon_region": "Oeste",
+      "canon_group": "Independentes"
     },
     "tzimisce_nina_costura": {
       "name": "Nina \"Costura\"",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_centro_velho",
       "residence_label": "Independentes: Centro Velho",
-      "source": "override",
-      "domain_raw": "Centro/clinicas clandestinas"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro/clínicas clandestinas • Redes: sem rede fixa registrada • Função real: Nina sustenta cirurgia e favores com trabalho de bastidor e presença em cena",
+      "canon_region": "Centro/clínicas clandestinas",
+      "canon_group": "Independentes"
     },
     "tzimisce_vlado_itapecerica": {
       "name": "Vlado de Itapecerica",
-      "sect": "Autarquico",
-      "residence_id": "baronato_sul",
-      "residence_label": "Baronato Sul (Capao/Grajau)",
-      "source": "override",
-      "domain_raw": "Sul (bordas e sitios)"
+      "sect": "Independentes",
+      "residence_id": "indep_centro_velho",
+      "residence_label": "Independentes: Centro Velho",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Sul",
+      "canon_region": "Sul",
+      "canon_group": "Independentes"
     },
     "malkavian_marcia_falcao": {
       "name": "Marcia Falcao",
       "sect": "Camarilla",
-      "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Consolacao/Higienopolis (consultorios, jornais e bastidores)"
+      "residence_id": "indep_cemiterios",
+      "residence_label": "Independentes: Cemiterios/Funerarias (enclave)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Consolação/Higienópolis • Redes: Corte do Elysium e Os Ouvidores • Função real: representa o clã na corte",
+      "canon_region": "Consolação/Higienópolis",
+      "canon_group": "Camarilla"
     },
     "toreador_clara_montenegro": {
       "name": "Clara Montenegro",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Moema/Paraiso (galerias, hospitais e patronato)"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Moema/Paraíso • Redes: Corte do Elysium e Salão de Pinheiros • Função real: representa o clã na corte",
+      "canon_region": "Moema/Paraíso",
+      "canon_group": "Camarilla"
     },
     "nosferatu_raimundo_rato_rei": {
       "name": "Raimundo \"Rato-Rei\"",
       "sect": "Camarilla",
-      "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Perdizes/Barra Funda (dutos e rotas de fuga)"
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Perdizes/Barra Funda • Redes: Correios do Subsolo e Corte do Elysium • Função real: representa o clã na corte",
+      "canon_region": "Perdizes/Barra Funda",
+      "canon_group": "Camarilla"
     },
     "banuhaqim_nadia_nasser": {
       "name": "Nadia Nasser",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Ipiranga/Cursino (tribunais, cartorios e segredos)"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Ipiranga/Cursino • Redes: Corte do Elysium e Sangue e Selo • Função real: representa o clã na corte",
+      "canon_region": "Ipiranga/Cursino",
+      "canon_group": "Camarilla"
     },
     "ventrue_henrique_valadares": {
       "name": "Henrique Valadares",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Morumbi/Campo Belo (fundos, seguranca e condominio)"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Morumbi/Campo Belo • Redes: Rede do Morumbi e Corte do Elysium • Função real: representa o clã na corte",
+      "canon_region": "Morumbi/Campo Belo",
+      "canon_group": "Camarilla"
     },
     "brujah_diego_itaquera": {
       "name": "Diego \"Itaquera\" Nascimento",
       "sect": "Anarch",
       "residence_id": "baronato_leste",
       "residence_label": "Baronato Leste (Itaquera/Extremo Leste)",
-      "source": "override",
-      "domain_raw": "Baronato Leste (Itaquera/Extremo Leste)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Baronato Leste • Redes: Leste de Aço • Função real: governa território",
+      "canon_region": "Baronato Leste",
+      "canon_group": "Anarquistas"
     },
     "hecata_celia_moura": {
       "name": "Celia Moura",
-      "sect": "Autarquico",
+      "sect": "Independentes",
       "residence_id": "indep_cemiterios",
       "residence_label": "Independentes: Cemiterios/Funerarias (enclave)",
-      "source": "override",
-      "domain_raw": "Consolacao (cemiterios, funerarias e chaves)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "ConsolaÃ§Ã£o",
+      "canon_region": "Consolação",
+      "canon_group": "Independentes"
     },
     "toreador_novo_01_aiko_tanaka": {
       "name": "Aiko Tanaka",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Pinheiros/Vila Madalena"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Pinheiros/Vila Madalena • Redes: produtores de evento, assessorias, listas de convidados, fotógrafos e staff de casa • Função real: medir temperatura social e decidir quem sobe, quem esfria e quem deixa de ser chamado",
+      "canon_region": "Pinheiros/Vila Madalena",
+      "canon_group": "Camarilla"
     },
     "nosferatu_novo_02_leandro_batista": {
       "name": "Leandro Batista",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Paulista/Jardins"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Paulista/Jardins",
+      "canon_region": "Paulista/Jardins",
+      "canon_group": "Camarilla"
     },
     "tremere_novo_03_maira_koehler": {
       "name": "Maira Koehler",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Butanta/USP"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "ButantÃ£/USP",
+      "canon_region": "Butantã/USP",
+      "canon_group": "Camarilla"
     },
     "lasombra_novo_04_irma_beatriz_lemos": {
       "name": "Irma Beatriz Lemos",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Bela Vista/Bixiga"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bela Vista/Bixiga",
+      "canon_region": "Bela Vista/Bixiga",
+      "canon_group": "Camarilla"
     },
     "ventrue_novo_05_eduardo_nogueira": {
       "name": "Eduardo Nogueira",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Paulista"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Paulista",
+      "canon_region": "Paulista",
+      "canon_group": "Camarilla"
     },
     "malkavian_novo_06_miriam_kwon": {
       "name": "Miriam Kwon",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Itaim Bibi"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Itaim Bibi",
+      "canon_region": "Itaim Bibi",
+      "canon_group": "Camarilla"
     },
     "gangrel_novo_07_bruno_arantes": {
       "name": "Bruno Arantes",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Alto de Pinheiros/Butanta"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Alto de Pinheiros/ButantÃ£",
+      "canon_region": "Alto de Pinheiros/Butantã",
+      "canon_group": "Camarilla"
     },
     "ministry_novo_08_vivi_fenda_lacerda": {
       "name": "Vivi \"Fenda\" Lacerda",
       "sect": "Anarch",
       "residence_id": "baronato_sul",
       "residence_label": "Baronato Sul (Capao/Grajau)",
-      "source": "override",
-      "domain_raw": "Baronato Sul (Capao/Grajau)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Baronato Sul",
+      "canon_region": "Baronato Sul",
+      "canon_group": "Anarquistas"
     },
     "gangrel_novo_09_jonas_capim": {
       "name": "Jonas \"Capim\"",
       "sect": "Anarch",
       "residence_id": "baronato_sul",
       "residence_label": "Baronato Sul (Capao/Grajau)",
-      "source": "override",
-      "domain_raw": "Baronato Sul (Capao/Grajau)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Baronato Sul",
+      "canon_region": "Baronato Sul",
+      "canon_group": "Anarquistas"
     },
     "thinblood_novo_10_bruna_sinais": {
       "name": "Bruna \"Sinais\"",
       "sect": "Anarch",
       "residence_id": "baronato_sul",
       "residence_label": "Baronato Sul (Capao/Grajau)",
-      "source": "override",
-      "domain_raw": "Baronato Sul (Capao/Grajau)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Baronato Sul",
+      "canon_region": "Baronato Sul",
+      "canon_group": "Anarquistas"
     },
     "brujah_novo_11_sabrina_siqueira": {
       "name": "Sabrina Siqueira",
       "sect": "Anarch",
       "residence_id": "baronato_sul",
       "residence_label": "Baronato Sul (Capao/Grajau)",
-      "source": "override",
-      "domain_raw": "Baronato Sul (Capao/Grajau)"
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Baronato Sul",
+      "canon_region": "Baronato Sul",
+      "canon_group": "Anarquistas"
     },
     "ventrue_novo_12_raul_marques": {
       "name": "Raul Marques",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Santana/Tucuruvi"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Santana/Tucuruvi",
+      "canon_region": "Santana/Tucuruvi",
+      "canon_group": "Camarilla"
     },
     "banuhaqim_novo_13_farid_alvim": {
       "name": "Farid Alvim",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Ipiranga/Cursino"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Ipiranga/Cursino",
+      "canon_region": "Ipiranga/Cursino",
+      "canon_group": "Camarilla"
     },
     "toreador_novo_14_renata_freire": {
       "name": "Renata Freire",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Jardim Paulista"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Jardim Paulista",
+      "canon_region": "Jardim Paulista",
+      "canon_group": "Camarilla"
     },
     "nosferatu_novo_15_taina_aruana": {
       "name": "Taina Aruana",
       "sect": "Camarilla",
-      "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Perdizes/Barra Funda"
+      "residence_id": "indep_corredores",
+      "residence_label": "Independentes: Corredores",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Perdizes/Barra Funda",
+      "canon_region": "Perdizes/Barra Funda",
+      "canon_group": "Camarilla"
     },
     "caitiff_novo_16_caio_papel": {
       "name": "Caio \"Papel\"",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Centro Expandido"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Centro Expandido",
+      "canon_region": "Centro Expandido",
+      "canon_group": "Camarilla"
     },
     "ventrue_novo_17_helio_barros_1": {
       "name": "Helio Barros",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Morumbi/Campo Belo"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Morumbi/Campo Belo",
+      "canon_region": "Morumbi/Campo Belo",
+      "canon_group": "Camarilla"
     },
     "toreador_novo_18_sofia_pires_2": {
       "name": "Sofia Pires",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Liberdade"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Liberdade",
+      "canon_region": "Liberdade",
+      "canon_group": "Camarilla"
     },
     "nosferatu_novo_19_nara_sato_3": {
       "name": "Nara Sato",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Bras/Pari"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bras/Pari",
+      "canon_region": "Bras/Pari",
+      "canon_group": "Camarilla"
     },
     "tremere_novo_20_igor_menezes_4": {
       "name": "Igor Menezes",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Butanta/USP"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "ButantÃ£/USP",
+      "canon_region": "Butantã/USP",
+      "canon_group": "Camarilla"
     },
     "lasombra_novo_21_severino_carmo_5": {
       "name": "Severino Carmo",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Bela Vista/Bixiga"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bela Vista/Bixiga",
+      "canon_region": "Bela Vista/Bixiga",
+      "canon_group": "Camarilla"
     },
     "malkavian_novo_22_celia_andrade_6": {
       "name": "Celia Andrade",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Paulista"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Paulista",
+      "canon_region": "Paulista",
+      "canon_group": "Camarilla"
     },
     "ventrue_novo_23_helio_barros_7": {
       "name": "Otavio Braga",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Morumbi/Campo Belo"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Morumbi/Campo Belo",
+      "canon_region": "Morumbi/Campo Belo",
+      "canon_group": "Camarilla"
     },
     "toreador_novo_24_sofia_pires_8": {
       "name": "Beatriz Pires",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Liberdade"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Liberdade",
+      "canon_region": "Liberdade",
+      "canon_group": "Camarilla"
     },
     "nosferatu_novo_25_nara_sato_9": {
       "name": "Keiko Sato",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Bras/Pari"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bras/Pari",
+      "canon_region": "Bras/Pari",
+      "canon_group": "Camarilla"
     },
     "tremere_novo_26_igor_menezes_10": {
       "name": "Rafael Menezes",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Butanta/USP"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "ButantÃ£/USP",
+      "canon_region": "Butantã/USP",
+      "canon_group": "Camarilla"
     },
     "lasombra_novo_27_severino_carmo_11": {
       "name": "Afonso Carmo",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Bela Vista/Bixiga"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bela Vista/Bixiga",
+      "canon_region": "Bela Vista/Bixiga",
+      "canon_group": "Camarilla"
     },
     "malkavian_novo_28_celia_andrade_12": {
       "name": "Regina Andrade",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Paulista"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Paulista",
+      "canon_region": "Paulista",
+      "canon_group": "Camarilla"
     },
     "ventrue_novo_29_helio_barros_13": {
       "name": "Renato Vianna",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Morumbi/Campo Belo"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Morumbi/Campo Belo",
+      "canon_region": "Morumbi/Campo Belo",
+      "canon_group": "Camarilla"
     },
     "toreador_novo_30_sofia_pires_14": {
       "name": "Larissa Prado",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Liberdade"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Liberdade",
+      "canon_region": "Liberdade",
+      "canon_group": "Camarilla"
     },
     "nosferatu_novo_31_nara_sato_15": {
       "name": "Hiroko Sato",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Bras/Pari"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bras/Pari",
+      "canon_region": "Bras/Pari",
+      "canon_group": "Camarilla"
     },
     "tremere_novo_32_igor_menezes_16": {
       "name": "Caio Menezes",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Butanta/USP"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "ButantÃ£/USP",
+      "canon_region": "Butantã/USP",
+      "canon_group": "Camarilla"
     },
     "lasombra_novo_33_severino_carmo_17": {
       "name": "Bento Carmo",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Bela Vista/Bixiga"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Bela Vista/Bixiga",
+      "canon_region": "Bela Vista/Bixiga",
+      "canon_group": "Camarilla"
     },
     "malkavian_novo_34_celia_andrade_18": {
       "name": "Patricia Andrade",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Paulista"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Paulista",
+      "canon_region": "Paulista",
+      "canon_group": "Camarilla"
     },
     "ventrue_novo_35_helio_barros_19": {
       "name": "Augusto Brito",
       "sect": "Camarilla",
       "residence_id": "camarilla_macro",
-      "residence_label": "Camarilla (sem territorio expressivo)",
-      "source": "default",
-      "domain_raw": "Morumbi/Campo Belo"
+      "residence_label": "Camarilla (macro)",
+      "source": "referencia_localizacao.xlsx:npcs",
+      "domain_raw": "Morumbi/Campo Belo",
+      "canon_region": "Morumbi/Campo Belo",
+      "canon_group": "Camarilla"
     }
   }
 }

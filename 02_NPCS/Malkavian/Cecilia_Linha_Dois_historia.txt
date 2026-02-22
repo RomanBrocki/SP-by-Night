@@ -1,8 +1,8 @@
 Cecilia "Linha-Dois"
 
 Perfil:
-- Cla: Malkavian | Seita: Anarch | Funcao: Mensageira de pressagios
-- Dominio: Tatuape/Centro (deslocamentos) | Idade aparente: 22
+- Cla: Malkavian | Seita: Anarch | Funcao: Leitora de padrão e mensageira de crise
+- Dominio: Tatuapé/Centro | Idade aparente: 22
 - Abraco: 2026 | Sire: malkavian_paulo_vidente | Acima do sire: -
 - Disciplinas (top 3): ['Auspex 2', 'Obfuscate 1', 'Dominate 1 (Dementation)']
 - Assinatura/estilo: mensagens em audio; poesia como senha
@@ -16,7 +16,7 @@ Cecilia "Linha-Dois" e percepcao que incomoda. Em cena: padroes aparecem onde ni
 
 Historia (costurada, sem resumo seco):
 Cecilia "Linha-Dois" nasceu em 2004. O Abraco veio em 2026 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Entender por que o Buraco chama certos nomes. O medo e igualmente pratico: Virar um instrumento do seu sire.
+A ambicao de Cecilia "Linha-Dois" e Entender por que o Buraco chama certos nomes. O medo principal e Virar um instrumento do seu sire. No territorio de Tatuapé/Centro, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rumor e previsao (padroes sociais, coincidencias, mensagens).
@@ -31,14 +31,15 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ela conhece um local de encontro de um pack Sabbat.
 
 Conexoes (com motivo e custo):
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: protege suas rotas
-- Dante "Fumo" (kindred; Correio e sumico) [friend]: mensagens e sumicos
-- Hector "Rodoanel" (kindred; Batedor de rotas (cargas)) [uneasy]: ele segue rastros demais
+- Joao do Trem (kindred; Fixador de circulação noturna) [ally]: protege suas rotas
+- Dante "Fumo" (kindred; Entregador de risco e sumiço) [friend]: mensagens e sumicos
+- Hector "Rodoanel" (kindred; Batedor de borda e carga) [uneasy]: ele segue rastros demais
+- Joao do Trem (kindred; Fixador de circulação noturna) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Tatuape/Centro (deslocamentos). Entrega aos PJ um aviso que salva (ou condena).
-- Cena: Tatuape/Centro (deslocamentos). E cacada por ter ouvido algo da SI.
-- Cena: Tatuape/Centro (deslocamentos). Leva os PJ a um lugar que nao existe no mapa.
+- Cena: Tatuapé/Centro. Entrega aos PJ um aviso que salva (ou condena).
+- Cena: Tatuapé/Centro. E cacada por ter ouvido algo da SI.
+- Cena: Tatuapé/Centro. Leva os PJ a um lugar que nao existe no mapa.

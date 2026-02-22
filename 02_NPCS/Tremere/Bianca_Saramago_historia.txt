@@ -15,7 +15,7 @@ Bianca Saramago e metodo e contingencia. Em cena: tudo vira procedimento (selos,
 
 Historia (costurada, sem resumo seco):
 Bianca Saramago nasceu em 1983. O Abraco veio em 2012 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Virar indispensavel para o regente. O medo e igualmente pratico: Ser queimada para proteger o cla.
+A ambicao de Bianca Saramago e Virar indispensavel para o regente. O medo principal e Ser queimada para proteger o cla. No territorio de Pinheiros/Centro, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Academia e laboratorios (pesquisa, bolsas, comites de etica como escudo).
@@ -30,9 +30,10 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ela consegue identificar um vampiro por residuos de sangue seco.
 
 Conexoes (com motivo e custo):
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [childe]: lealdade e medo
-- Soraia Nunes (kindred; Interprete de ecos (mediunica)) [client]: paga por silencio de mortos
-- Helena Vasconcelos (kindred; Guardia de Elysium (curadora)) [ally]: acesso a eventos e bibliotecas privadas
+- Dario Kron (kindred; Primógeno Tremere) [childe]: lealdade e medo
+- Soraia Nunes (kindred; Intérprete de ecos) [client]: paga por silencio de mortos
+- Helena Vasconcelos (kindred; Guardia de Elysium) [ally]: acesso a eventos e bibliotecas privadas
+- Dario Kron (kindred; Primógeno Tremere) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)

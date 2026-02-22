@@ -1,9 +1,9 @@
-Camila "Noite-Funda"
+﻿Camila "Noite-Funda"
 
 Perfil:
-- Cla: Lasombra | Seita: Anarch | Funcao: Dissidente (ex-Camarilla)
+- Cla: Lasombra | Seita: Anarch | Funcao: Dissidente
 - Dominio: Lapa/Barra Funda | Idade aparente: 32
-- Abraco: 2011 | Sire: lasombra_padre_miguel_aranha | Acima do sire: -
+- Abraco: 2011 | Sire: Padre Miguel Aranha | Acima do sire: -
 - Disciplinas (top 3): ['Oblivion 2', 'Dominate 2', 'Potence 1']
 - Assinatura/estilo: apagao local; voz no escuro
 
@@ -15,7 +15,7 @@ Camila "Noite-Funda" usa culpa, segredo e protecao como moeda. Em cena: alguem o
 
 Historia (costurada, sem resumo seco):
 Camila "Noite-Funda" nasceu em 1982. O Abraco veio em 2011 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Quebrar o monopolio da Camarilla sobre narrativa e medo. O medo e igualmente pratico: Que seu sire a puxe de volta com culpa.
+A ambicao de Camila "Noite-Funda" e quebrar o monopolio da Camarilla sobre medo e narrativa publica, criando espaco real para dissidencia organizada. Na pratica, ela opera com celulas pequenas, rotas alternadas e acordos sem registro. O medo principal e ser puxada de volta pelo proprio sire por culpa, dependencia ou chantagem. Em Lapa/Barra Funda, Camila evita reunioes longas, corta nomes da cadeia de contato e trabalha por compartimentos.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Igrejas, filantropia e bastidores (moral como ferramenta).
@@ -24,21 +24,23 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 
 Segredo (objetivamente jogavel):
-- Ela sabe um segredo do crime em Elysium do Padre.
+- Ela sabe um segredo do crime em Elysium do Padre. Isso encosta diretamente em Padre Miguel Aranha (relaÃ§Ã£o de cria; Ã³dio e dependÃªncia) e Renata Ferraz. Se vier Ã  tona, vira acerto de contas e perda de territÃ³rio ou rede.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ela e Sabbat infiltrada.
-- Verdade (perigosa): Ela ja ajudou a sabotar um registro de boons do Principe.
+- Verdade (perigosa): Ela jÃ¡ ajudou a sabotar um registro de boons do PrÃ­ncipe. Hoje, quem estÃ¡ mais perto de descobrir isso Ã© Padre Miguel Aranha (relaÃ§Ã£o de cria; Ã³dio e dependÃªncia).
 
 Conexoes (com motivo e custo):
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [childe]: odio e dependencia
+- Padre Miguel Aranha (kindred; GuardiÃ£o de confissÃµes) [childe]: odio e dependencia
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: apoio mutuo na fronteira
-- Nico "Sombra" (kindred; Corretor de informacao) [uneasy]: rotas e apagao
+- Nico "Sombra" (kindred; Corretor de informaÃ§Ã£o) [uneasy]: rotas e apagao
+- Padre Miguel Aranha (kindred; GuardiÃ£o de confissÃµes) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Lapa/Barra Funda. Oferece aos PJ um abrigo sem cameras.
-- Cena: Lapa/Barra Funda. Tenta provar que o Padre ainda serve a si mesmo.
-- Cena: Lapa/Barra Funda. E perseguida por uma celula mortal apos um erro pequeno.
+- Cena: Lapa/Barra Funda. Oferece aos PJs um abrigo sem cÃ¢meras. Entrada: Lapa/Barra Funda; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Lapa/Barra Funda. Tenta provar que o Padre ainda serve a si mesmo. Entrada: Lapa/Barra Funda; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Lapa/Barra Funda. E perseguida por uma celula mortal apos um erro pequeno. Entrada: Lapa/Barra Funda; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+

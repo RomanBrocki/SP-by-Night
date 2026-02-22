@@ -1,7 +1,7 @@
 Nome / Alcunha: Yusuf Rahman / Juiz itinerante
 Cla: Banu Haqim | Seita: Independentes
 Idade aparente: 40 | Abraco: 1918 | Potencia do Sangue 3
-Dominio / area principal: Rotas (aeroporto/rodovias)
+Dominio / area principal: trajetos (aeroporto/rodovias)
 Disciplinas (top 3): ['Blood Sorcery 3', 'Obfuscate 2', 'Celerity 2']
 Assinatura / estilo: aparece uma vez, muda destinos, desaparece
 Coteries/associacoes (grupo e rede):
@@ -11,14 +11,15 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'A lei e para os poderosos tambem'.
 - Touchstone: um caderno de sentencas.
 Ganchos de cena:
-- Chega para arbitrar uma disputa que vira guerra.
-- Oferece uma sentenca: perdao em troca de sangue.
-- Tem informacoes sobre a SI em outras cidades.
+- trajetos (aeroporto/rodovias). Chega para arbitrar uma disputa que vira guerra. Entrada: trajetos (aeroporto/rodovias); custo provável: boon, cobertura ou silêncio.
+- trajetos (aeroporto/rodovias). Oferece uma sentenca: perdao em troca de sangue. Entrada: trajetos (aeroporto/rodovias); custo provável: boon, cobertura ou silêncio.
+- trajetos (aeroporto/rodovias). Tem informacoes sobre a SI em outras cidades. Entrada: trajetos (aeroporto/rodovias); custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rede juridica e de investigacao (advocacia, auditoria, pressao oficial).
 - seguranca e resposta (pessoas que chegam rapido demais).
 - Controle de risco e rastros (apagar evidencia, reescrever narrativa).
 Servos/contatos notaveis (entrada rapida):
 - Samira al-Haddad (kindred; Xerife) [sire]: puxa as cordas quando quer
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: detesta negocio com mortos
-- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [ally]: acordo de nao-interferencia
+- Donato Lazzari (kindred; Cobrador de travessia) [uneasy]: detesta negocio com mortos
+- Isabel do Amaral (kindred; Primógena Ventrue) [ally]: acordo de nao-interferencia
+- Samira al-Haddad (kindred; Xerife) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

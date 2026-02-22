@@ -1,7 +1,7 @@
 Nome: Pedro "Manutencao" Lins
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Retentor (chaves, dutos e horarios)
+Papel: Retentor
 Area: Perdizes/Barra Funda
 Coteries/associacoes:
 - Correios do Subsolo (rede Nosferatu)

@@ -1,8 +1,8 @@
 Iago Siqueira
 
 Perfil:
-- Cla: Hecata | Seita: Autarquicos | Funcao: Banco de boons (cobrador)
-- Dominio: Centro Expandido (reunioes discretas) | Idade aparente: 29
+- Cla: Hecata | Seita: Autarquicos | Funcao: Banco de boons
+- Dominio: Centro Expandido | Idade aparente: 29
 - Abraco: 2014 | Sire: hecata_donato_lazzari | Acima do sire: -
 - Disciplinas (top 3): ['Auspex 2', 'Oblivion 2', 'Dominate 1']
 - Assinatura/estilo: educacao impecavel; cobranca implacavel
@@ -15,7 +15,7 @@ Iago Siqueira e taxa e passagem. Em cena: portas se abrem, mas cada abertura vem
 
 Historia (costurada, sem resumo seco):
 Iago Siqueira nasceu em 1986. O Abraco veio em 2014 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Transformar boons em um sistema que ninguem pode negar. O medo e igualmente pratico: Que a SI aprenda a rastrear dividas sociais.
+A ambicao de Iago Siqueira e Transformar boons em um sistema que ninguem pode negar. O medo principal e Que a SI aprenda a rastrear dividas sociais. No territorio de Centro Expandido, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Funerarias, cemiterios e logistica de corpo (o que some, some direito).
@@ -30,14 +30,15 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ele tem registro de quem deve o Principe.
 
 Conexoes (com motivo e custo):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [childe]: aprendeu a cobrar com o sire
-- Artur Macedo (kindred; Principe de Sao Paulo) [client]: compra silencio e rastros
-- Luiza Salles (kindred; Senescal e Harpia principal) [client]: vende paz social com juros
+- Donato Lazzari (kindred; Cobrador de travessia) [childe]: aprendeu a cobrar com o sire
+- Artur Macedo (kindred; Príncipe de São Paulo) [client]: compra silencio e rastros
+- Luiza Salles (kindred; Senescal) [client]: vende paz social com juros
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Centro Expandido (reunioes discretas). Oferece aos PJ um adiantamento de boon em troca de risco.
-- Cena: Centro Expandido (reunioes discretas). Vende perdao por um favor no Centro velho.
-- Cena: Centro Expandido (reunioes discretas). Marca um PJ como devedor sem ele perceber.
+- Cena: Centro Expandido. Oferece aos PJ um adiantamento de boon em troca de risco.
+- Cena: Centro Expandido. Vende perdao por um favor no Centro velho.
+- Cena: Centro Expandido. Marca um PJ como devedor sem ele perceber.

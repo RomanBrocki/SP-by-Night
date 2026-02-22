@@ -1,7 +1,7 @@
-Nome / Alcunha: Iago Siqueira / Banco de boons (cobrador)
+Nome / Alcunha: Iago Siqueira / Banco de boons
 Cla: Hecata | Seita: Autarquicos
 Idade aparente: 29 | Abraco: 2014 | Potencia do Sangue 2
-Dominio / area principal: Centro Expandido (reunioes discretas)
+Dominio / area principal: Centro Expandido
 Disciplinas (top 3): ['Auspex 2', 'Oblivion 2', 'Dominate 1']
 Assinatura / estilo: educacao impecavel; cobranca implacavel
 Coteries/associacoes (grupo e rede):
@@ -19,6 +19,7 @@ Atuacao mortal (explicita):
 - Cartorios e registros (nome, documento, heranca).
 - Intermediacao de dividas (boons como tabela, cobranca como ritual).
 Servos/contatos notaveis (entrada rapida):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [childe]: aprendeu a cobrar com o sire
-- Artur Macedo (kindred; Principe de Sao Paulo) [client]: compra silencio e rastros
-- Luiza Salles (kindred; Senescal e Harpia principal) [client]: vende paz social com juros
+- Donato Lazzari (kindred; Cobrador de travessia) [childe]: aprendeu a cobrar com o sire
+- Artur Macedo (kindred; Príncipe de São Paulo) [client]: compra silencio e rastros
+- Luiza Salles (kindred; Senescal) [client]: vende paz social com juros
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

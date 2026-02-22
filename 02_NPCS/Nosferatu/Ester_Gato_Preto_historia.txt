@@ -2,7 +2,7 @@ Ester "Gato-Preto"
 
 Perfil:
 - Cla: Nosferatu | Seita: Anarch | Funcao: Courier de dados
-- Dominio: Zonas mistas (entregas)
+- Dominio: Zonas mistas | Idade aparente: -
 - Abraco: 2024 | Sire: nosferatu_nico_sombra | Acima do sire: -
 - Disciplinas (top 3): ['Obfuscate 2', 'Animalism 1', 'Potence 1']
 - Assinatura/estilo: moto, mochila, silencio
@@ -16,7 +16,7 @@ Ester "Gato-Preto" opera por infraestrutura e informacao. Em cena: uma camera ca
 
 Historia (costurada, sem resumo seco):
 Ester "Gato-Preto" nasceu em 2000. O Abraco veio em 2024 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ser livre do controle de Nico. O medo e igualmente pratico: Que a Camarilla a capture para pressionar Nico.
+A ambicao de Ester "Gato-Preto" e Ser livre do controle de Nico. O medo principal e Que a Camarilla a capture para pressionar Nico. No territorio de Zonas mistas, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
@@ -32,14 +32,15 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ela sabe um refugio usado por Sabbat.
 
 Conexoes (com motivo e custo):
-- Nico "Sombra" (kindred; Corretor de informacao) [childe]: relacao de controle e protecao
+- Nico "Sombra" (kindred; Corretor de informação) [childe]: relacao de controle e protecao
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: Anarchs a protegem por utilidade
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [friend]: rede de sumico digital
+- Ana "Carbono" (kindred; Alquimista) [friend]: rede de sumico digital
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Zonas mistas (entregas). Leva um pacote errado aos PJ.
-- Cena: Zonas mistas (entregas). Pede ajuda para escapar de uma cacada.
-- Cena: Zonas mistas (entregas). Vira ponte entre Camarilla e Anarchs por acidente.
+- Cena: Zonas mistas. Leva um pacote errado aos PJ.
+- Cena: Zonas mistas. Pede ajuda para escapar de uma cacada.
+- Cena: Zonas mistas. Vira ponte entre Camarilla e Anarchs por acidente.

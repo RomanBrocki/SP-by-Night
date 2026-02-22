@@ -1,5 +1,6 @@
-Nome / Alcunha: Vovo Zilda / Ancia subterranea (matriarca)
+Nome / Alcunha: Vovo Zilda / Anciã subterranea
 Cla: Nosferatu | Seita: Camarilla
+Idade aparente: - | Abraco: 1943 | Potencia do Sangue 3
 Dominio / area principal: Galerias do Centro
 Disciplinas (top 3): ['Animalism 3', 'Obfuscate 3', 'Potence 2']
 Assinatura / estilo: conselho como maldicao; cuidado como controle
@@ -10,14 +11,15 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'Proteja os feios'.
 - Touchstone: um mapa desenhado a mao das galerias.
 Ganchos de cena:
-- Exige que os PJ devolvam algo ao subsolo.
-- Oferece um caminho seguro por um favor futuro.
-- Conta uma historia que e um aviso.
+- Exige que os PJs devolvam algo ao subsolo. Entrada: Galerias do Centro; custo provável: boon, cobertura ou silêncio.
+- Oferece um caminho seguro por um favor futuro. Entrada: Galerias do Centro; custo provável: boon, cobertura ou silêncio.
+- Conta uma historia que e um aviso. Entrada: Galerias do Centro; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
 - sumicos logisticos (entregas, galpoes, portoes, horarios).
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 Servos/contatos notaveis (entrada rapida):
-- Nico "Sombra" (kindred; Corretor de informacao) [sire]: controla por afeto e medo
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: pedagios e segredos se cruzam
-- Paulo "O Vidente" (kindred; Oraculo de tunel) [ally]: troca pressagios por rotas
+- Nico "Sombra" (kindred; Corretor de informação) [sire]: controla por afeto e medo
+- Donato Lazzari (kindred; Cobrador de travessia) [uneasy]: pedagios e segredos se cruzam
+- Paulo "O Vidente" (kindred; Leitor de padrões das galerias) [ally]: troca pressagios por rotas
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

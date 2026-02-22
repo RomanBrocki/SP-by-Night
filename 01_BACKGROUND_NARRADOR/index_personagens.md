@@ -1,752 +1,170 @@
-# Indice de Personagens (Sao Paulo by Night)
-
-Ano de cronica: 2035.
-
-## Lista (sem HTML, com caminhos de arquivos)
-
-### Samira al-Haddad
-
-Tipo: kindred
-Cla: Banu Haqim
-Seita: Camarilla
-Funcao: Xerife
-Dominio: Santana/Tucuruvi (Xerifado; base de pressao e resposta)
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Banu_Haqim/Samira_al_Haddad_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Banu_Haqim/Samira_al_Haddad_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Banu_Haqim/Samira_al_Haddad_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Samira_al_Haddad.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Samira_al_Haddad.png
-
-### Yusuf Rahman
-
-Tipo: kindred
-Cla: Banu Haqim
-Seita: Autarquico
-Funcao: Juiz itinerante
-Dominio: Rotas (aeroporto/rodovias)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Banu_Haqim/Yusuf_Rahman_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Banu_Haqim/Yusuf_Rahman_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Yusuf_Rahman.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Yusuf_Rahman.png
-
-### Caua Martins
-
-Tipo: kindred
-Cla: Brujah
-Seita: Anarch
-Funcao: Executor da Baronesa (linha dura)
-Dominio: Mooca (ruas)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Brujah/Caua_Martins_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Brujah/Caua_Martins_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Caua_Martins.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Caua_Martins.png
-
-### Joao do Trem
-
-Tipo: kindred
-Cla: Brujah
-Seita: Autarquico
-Funcao: Lenda de trilhos (ancao de periferia)
-Dominio: Corredores e estacoes (rumores)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Brujah/Joao_do_Trem_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Brujah/Joao_do_Trem_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Joao_do_Trem.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Joao_do_Trem.png
-
-### Renata Ferraz
-
-Tipo: kindred
-Cla: Brujah
-Seita: Anarch
-Funcao: Baronesa da Mooca
-Dominio: Tatuape/Mooca
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Brujah/Renata_Ferraz_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Brujah/Renata_Ferraz_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Brujah/Renata_Ferraz_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Renata_Ferraz.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Renata_Ferraz.png
-
-### Livia "Sem-Nome"
-
-Tipo: kindred
-Cla: Caitiff
-Seita: Camarilla
-Funcao: Informante tolerada
-Dominio: Centro Expandido (circula)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Caitiff/Livia_Sem_Nome_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Caitiff/Livia_Sem_Nome_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Livia_Sem_Nome.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Livia_Sem_Nome.png
-
-### Rafa "Ferro"
-
-Tipo: kindred
-Cla: Caitiff
-Seita: Anarch
-Funcao: Aspirante a corte (Caitiff)
-Dominio: Mooca e adjacencias
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Caitiff/Rafa_Ferro_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Caitiff/Rafa_Ferro_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Rafa_Ferro.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Rafa_Ferro.png
-
-### Bia "Matilha"
-
-Tipo: kindred
-Cla: Gangrel
-Seita: Anarch
-Funcao: Patrulheira de fronteira (cinturao)
-Dominio: Oeste/Sul (bordas verdes)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Gangrel/Bia_Matilha_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Gangrel/Bia_Matilha_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Bia_Matilha.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Bia_Matilha.png
-
-### Hector "Rodoanel"
-
-Tipo: kindred
-Cla: Gangrel
-Seita: Autarquico
-Funcao: Batedor de rotas (cargas)
-Dominio: Rodoanel e corredores
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Gangrel/Hector_Rodoanel_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Gangrel/Hector_Rodoanel_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Hector_Rodoanel.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Hector_Rodoanel.png
-
-### Donato Lazzari
-
-Tipo: kindred
-Cla: Hecata
-Seita: Autarquico
-Funcao: Coletor do pedagio (cemiterios e galerias)
-Dominio: Centro Velho / cemiterios
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Hecata/Donato_Lazzari_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Hecata/Donato_Lazzari_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Hecata/Donato_Lazzari_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Donato_Lazzari.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Donato_Lazzari.png
-
-### Iago Siqueira
-
-Tipo: kindred
-Cla: Hecata
-Seita: Autarquico
-Funcao: Banco de boons (cobrador)
-Dominio: Centro Expandido (reunioes discretas)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Hecata/Iago_Siqueira_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Hecata/Iago_Siqueira_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Iago_Siqueira.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Iago_Siqueira.png
-
-### Soraia Nunes
-
-Tipo: kindred
-Cla: Hecata
-Seita: Autarquico
-Funcao: Interprete de ecos (mediunica)
-Dominio: Centro Velho (consultas)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Hecata/Soraia_Nunes_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Hecata/Soraia_Nunes_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Soraia_Nunes.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Soraia_Nunes.png
-
-### Camila "Noite-Funda"
-
-Tipo: kindred
-Cla: Lasombra
-Seita: Anarch
-Funcao: Dissidente (ex-Camarilla)
-Dominio: Lapa/Barra Funda
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Lasombra/Camila_Noite_Funda_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Lasombra/Camila_Noite_Funda_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Camila_Noite_Funda.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Camila_Noite_Funda.png
-
-### Padre Miguel Aranha
-
-Tipo: kindred
-Cla: Lasombra
-Seita: Camarilla
-Funcao: Guardiao de confissoes (Camarilla)
-Dominio: Bela Vista/Bixiga (Confissao; salas privadas)
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Lasombra/Padre_Miguel_Aranha_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Lasombra/Padre_Miguel_Aranha_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Lasombra/Padre_Miguel_Aranha_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Padre_Miguel_Aranha.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Padre_Miguel_Aranha.png
-
-### Cecilia "Linha-Dois"
-
-Tipo: kindred
-Cla: Malkavian
-Seita: Anarch
-Funcao: Mensageira de pressagios
-Dominio: Tatuape/Centro (deslocamentos)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Malkavian/Cecilia_Linha_Dois_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Malkavian/Cecilia_Linha_Dois_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Cecilia_Linha_Dois.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Cecilia_Linha_Dois.png
-
-### Paulo "O Vidente"
-
-Tipo: kindred
-Cla: Malkavian
-Seita: Autarquico
-Funcao: Oraculo de tunel
-Dominio: Galerias e estacoes (rumores)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Malkavian/Paulo_Vidente_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Malkavian/Paulo_Vidente_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Paulo_Vidente.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Paulo_Vidente.png
-
-### Elias "Sal"
-
-Tipo: kindred
-Cla: Ministry
-Seita: Anarch
-Funcao: Agitador de celula (cobrador)
-Dominio: Mooca e rotas
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Ministry/Elias_Sal_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Ministry/Elias_Sal_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Elias_Sal.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Elias_Sal.png
-
-### Talita "Serpente"
-
-Tipo: kindred
-Cla: Ministry
-Seita: Autarquico
-Funcao: Pregadora do Vicio (culto urbano)
-Dominio: Pinheiros/baixa Augusta (celulas)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Ministry/Talita_Serpente_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Ministry/Talita_Serpente_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Talita_Serpente.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Talita_Serpente.png
-
-### Ester "Gato-Preto"
-
-Tipo: kindred
-Cla: Nosferatu
-Seita: Anarch
-Funcao: Courier de dados
-Dominio: Zonas mistas (entregas)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Nosferatu/Ester_Gato_Preto_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Nosferatu/Ester_Gato_Preto_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Ester_Gato_Preto.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Ester_Gato_Preto.png
-
-### Nico "Sombra"
-
-Tipo: kindred
-Cla: Nosferatu
-Seita: Camarilla
-Funcao: Corretor de informacao
-Dominio: Bras/Pari + Corredores logisticos (Barra Funda/Lapa)
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Nosferatu/Nico_Sombra_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Nosferatu/Nico_Sombra_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Nosferatu/Nico_Sombra_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Nico_Sombra.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Nico_Sombra.png
-
-### Vovo Zilda
-
-Tipo: kindred
-Cla: Nosferatu
-Seita: Camarilla
-Funcao: Ancia subterranea (matriarca)
-Dominio: Galerias do Centro
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Nosferatu/Vovo_Zilda_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Nosferatu/Vovo_Zilda_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Vovo_Zilda.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Vovo_Zilda.png
-
-### Maru "Vento"
-
-Tipo: kindred
-Cla: Ravnos
-Seita: Anarch
-Funcao: Scout de baronia
-Dominio: Leste (rotas)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Ravnos/Maru_Vento_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Ravnos/Maru_Vento_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Maru_Vento.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Maru_Vento.png
-
-### Ravi "Truque"
-
-Tipo: kindred
-Cla: Ravnos
-Seita: Autarquico
-Funcao: Ilusionista de esquina
-Dominio: Centro/Barra Funda (itinerante)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Ravnos/Ravi_Truque_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Ravnos/Ravi_Truque_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Ravi_Truque.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Ravi_Truque.png
-
-### Irene da Luz
-
-Tipo: kindred
-Cla: Salubri
-Seita: Autarquico
-Funcao: Curandeira escondida
-Dominio: Oeste (refugio discreto)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Salubri/Irene_da_Luz_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Salubri/Irene_da_Luz_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Irene_da_Luz.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Irene_da_Luz.png
-
-### Ana "Carbono"
-
-Tipo: kindred
-Cla: Thin Blood
-Seita: Anarch
-Funcao: Alquimista (mercado cinza)
-Dominio: Pinheiros e rotas
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Ana_Carbono_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Ana_Carbono_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Ana_Carbono.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Ana_Carbono.png
-
-### Dante "Fumo"
-
-Tipo: kindred
-Cla: Thin Blood
-Seita: Autarquico
-Funcao: Correio e sumico
-Dominio: Corredores (entregas)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Dante_Fumo_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Dante_Fumo_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Dante_Fumo.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Dante_Fumo.png
-
-### Katia "Zero"
-
-Tipo: kindred
-Cla: Thin Blood
-Seita: Anarch
-Funcao: Tecnica de sumico digital
-Dominio: Centro/Pinheiros (rede)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Katia_Zero_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Katia_Zero_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Katia_Zero.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Katia_Zero.png
-
-### Luan "Patch"
-
-Tipo: kindred
-Cla: Thin Blood
-Seita: Anarch
-Funcao: Medico de rua (limpa estrago)
-Dominio: Oeste/Sul (bordas)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Luan_Patch_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Thin_Blood/Luan_Patch_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Luan_Patch.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Luan_Patch.png
-
-### Daniel Sato
-
-Tipo: kindred
-Cla: Toreador
-Seita: Camarilla
-Funcao: Harpia junior (fofoca de campo)
-Dominio: Liberdade/Paulista
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Toreador/Daniel_Sato_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Toreador/Daniel_Sato_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Daniel_Sato.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Daniel_Sato.png
-
-### Helena Vasconcelos
-
-Tipo: kindred
-Cla: Toreador
-Seita: Camarilla
-Funcao: Guardia de Elysium (curadora)
-Dominio: Liberdade (Elysium satelite)
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Toreador/Helena_Vasconcelos_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Toreador/Helena_Vasconcelos_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Helena_Vasconcelos.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Helena_Vasconcelos.png
-
-### Luiza Salles
-
-Tipo: kindred
-Cla: Toreador
-Seita: Camarilla
-Funcao: Senescal e Harpia principal
-Dominio: Pinheiros/Vila Madalena
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Toreador/Luiza_Salles_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Toreador/Luiza_Salles_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Toreador/Luiza_Salles_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Luiza_Salles.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Luiza_Salles.png
-
-### Bianca Saramago
-
-Tipo: kindred
-Cla: Tremere
-Seita: Camarilla
-Funcao: Arquivista de campo
-Dominio: Pinheiros/Centro
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Tremere/Bianca_Saramago_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Tremere/Bianca_Saramago_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Bianca_Saramago.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Bianca_Saramago.png
-
-### Dario Kron
-
-Tipo: kindred
-Cla: Tremere
-Seita: Camarilla
-Funcao: Primogeno Tremere (regente de fato)
-Dominio: Butanta/USP (Torre Tremere; refugios dispersos)
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Tremere/Dario_Kron_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Tremere/Dario_Kron_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Tremere/Dario_Kron_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Dario_Kron.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Dario_Kron.png
-
-### Nina "Costura"
-
-Tipo: kindred
-Cla: Tzimisce
-Seita: Autarquico
-Funcao: Cirurgia e favores (carne e segredos)
-Dominio: Centro/clinicas clandestinas
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Tzimisce/Nina_Costura_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Tzimisce/Nina_Costura_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Nina_Costura.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Nina_Costura.png
-
-### Vlado de Itapecerica
-
-Tipo: kindred
-Cla: Tzimisce
-Seita: Autarquico
-Funcao: Exilado (violencia contida)
-Dominio: Sul (bordas e sitios)
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Tzimisce/Vlado_de_Itapecerica_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Tzimisce/Vlado_de_Itapecerica_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Vlado_de_Itapecerica.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Vlado_de_Itapecerica.png
-
-### Artur Macedo
-
-Tipo: kindred
-Cla: Ventrue
-Seita: Camarilla
-Funcao: Principe de Sao Paulo
-Dominio: Paulista/Jardins
-Tier: S
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Ventrue/Artur_Macedo_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Ventrue/Artur_Macedo_historia.txt
-- Ficha completa: F:/OneDrive/RPG/Teste IA/02_NPCS/Ventrue/Artur_Macedo_ficha_completa.md
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Artur_Macedo.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Artur_Macedo.png
-
-### Isabel do Amaral
-
-Tipo: kindred
-Cla: Ventrue
-Seita: Camarilla
-Funcao: Primogena Ventrue (em retiro)
-Dominio: Itaim/Berrini
-Tier: A
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Ventrue/Isabel_do_Amaral_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Ventrue/Isabel_do_Amaral_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Isabel_do_Amaral.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Isabel_do_Amaral.png
-
-### Mateus Cordeiro
-
-Tipo: kindred
-Cla: Ventrue
-Seita: Camarilla
-Funcao: Responsavel por Protocolos de Elysium
-Dominio: Paulista
-Tier: B
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/02_NPCS/Ventrue/Mateus_Cordeiro_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/02_NPCS/Ventrue/Mateus_Cordeiro_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Mateus_Cordeiro.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Mateus_Cordeiro.png
-
-### Beto "Mecanico"
-
-Tipo: ghoul
-Vinculo: Ghoul de Joao do Trem
-Papel: Mantenedor de rotas (garagem)
-Area: Corredores e estacoes
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Beto_Mecanico_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Beto_Mecanico_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Beto_Mecanico.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Beto_Mecanico.png
-
-### Carla Nogueira
-
-Tipo: ghoul
-Vinculo: Ghoul de Luiza Salles
-Papel: Assistente de curadoria (Elysium)
-Area: Paulista/Pinheiros
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Carla_Nogueira_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Carla_Nogueira_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Carla_Nogueira.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Carla_Nogueira.png
-
-### Delegada Helena Pacheco
-
-Tipo: mortal
-Vinculo: Operacao Lumen (mortal) [CANON-ADJACENT / HOME BREW]
-Papel: Coordenacao de campo
-Area: Centro Expandido
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Delegada_Helena_Pacheco_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Delegada_Helena_Pacheco_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Delegada_Helena_Pacheco.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Delegada_Helena_Pacheco.png
-
-### Dra. Aline Moretti
-
-Tipo: mortal
-Vinculo: Contato medico (zona cinza)
-Papel: Gestao hospitalar
-Area: Oeste
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Dra_Aline_Moretti_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Dra_Aline_Moretti_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Dra_Aline_Moretti.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Dra_Aline_Moretti.png
-
-### Jonas "Coro"
-
-Tipo: ghoul
-Vinculo: Ghoul de Padre Miguel Aranha
-Papel: Coordenador de abrigo e coral (facilitador)
-Area: Centro
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Jonas_Coro_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Jonas_Coro_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Jonas_Coro.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Jonas_Coro.png
-
-### Leonardo "Aprendiz"
-
-Tipo: ghoul
-Vinculo: Ghoul de Dario Kron
-Papel: Assistente de laboratorio (retentor)
-Area: Centro Expandido
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Leonardo_Aprendiz_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Leonardo_Aprendiz_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Leonardo_Aprendiz.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Leonardo_Aprendiz.png
-
-### Lia Morais
-
-Tipo: ghoul
-Vinculo: Ghoul de Donato Lazzari
-Papel: Necroassistente (funeraria)
-Area: Centro Velho/cemiterios
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Lia_Morais_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Lia_Morais_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Lia_Morais.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Lia_Morais.png
-
-### Mariana Lobo
-
-Tipo: ghoul
-Vinculo: Ghoul de Artur Macedo
-Papel: Chefe de gabinete (mortal)
-Area: Paulista/Jardins
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Mariana_Lobo_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Mariana_Lobo_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Mariana_Lobo.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Mariana_Lobo.png
-
-### Padre Augusto Faria
-
-Tipo: mortal
-Vinculo: Contato de Padre Miguel Aranha
-Papel: Administracao de abrigo/ong
-Area: Centro
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Padre_Augusto_Faria_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Padre_Augusto_Faria_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Padre_Augusto_Faria.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Padre_Augusto_Faria.png
-
-### Rui "Barata"
-
-Tipo: ghoul
-Vinculo: Ghoul de Nico "Sombra"
-Papel: Tecnico de campo (cabos e cameras)
-Area: Barra Funda/Lapa
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Rui_Barata_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Rui_Barata_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Rui_Barata.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Rui_Barata.png
-
-### Tiago "Tranca"
-
-Tipo: ghoul
-Vinculo: Ghoul de Renata Ferraz
-Papel: Chefe de seguranca da baronia
-Area: Tatuape/Mooca
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Tiago_Tranca_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Tiago_Tranca_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Tiago_Tranca.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Tiago_Tranca.png
-
-### Vitor Kallas
-
-Tipo: ghoul
-Vinculo: Ghoul de Samira al-Haddad
-Papel: Motorista e apoio tatico
-Area: Centro Expandido
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Vitor_Kallas_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/ghouls/Vitor_Kallas_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Vitor_Kallas.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Vitor_Kallas.png
-
-### Vivi Lacerda
-
-Tipo: mortal
-Vinculo: Celula de culto (Ministry)
-Papel: Influenciadora e recrutadora
-Area: Pinheiros/baixa Augusta
-
-Arquivos:
-- Ficha resumida: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Vivi_Lacerda_ficha_resumida.txt
-- Historia: F:/OneDrive/RPG/Teste IA/03_SERVOS_E_CONTATOS/mortais_influentes/Vivi_Lacerda_historia.txt
-- Prompt de retrato: F:/OneDrive/RPG/Teste IA/05_ASSETS/portrait_prompts/Vivi_Lacerda.txt
-- Imagem (placeholder): F:/OneDrive/RPG/Teste IA/05_ASSETS/portraits/Vivi_Lacerda.png
+# Index de Personagens (Canon DOCX)
+
+## 8.2 - Índice completo por facção e clã
+Índice de leitura rápida. Cada linha resume quem a pessoa é, onde atua e no que ela é realmente útil em jogo.
+### Camarilla
+#### Banu Haqim
+- S | Samira al-Haddad - Camarilla • Banu  Haqim. Xerife. Atua em Santana/Tucuruvi. Vínculo mais usado: Artur Macedo.
+- A | Nadia Nasser - Camarilla • Banu  Haqim. Primógena  Banu  Haqim. Atua em Ipiranga/Cursino. Vínculo mais usado: Samira al-Haddad.
+- C | Farid Alvim - Camarilla • Banu  Haqim. Auditor de sangue. Atua em Ipiranga/Cursino. Vínculo mais usado: Samira al-Haddad.
+#### Caitiff
+- B | Livia "Sem-Nome" - Camarilla • Caitiff. Informante tolerada. Atua em Centro Expandido. Vínculo mais usado: Samira al-Haddad.
+- C | Caio "Papel" - Camarilla • Caitiff. Portador de recados. Atua em Centro Expandido. Vínculo mais usado: Rafa "Ferro".
+#### Gangrel
+- C | Bruno Arantes - Camarilla • Gangrel. Batedor de borda. Atua em Alto de Pinheiros/Butantã. Vínculo mais usado: Bia "Matilha".
+#### Lasombra
+- S | Padre Miguel Aranha - Camarilla • Lasombra. Guardião de confissões. Atua em Bela Vista/Bixiga. Vínculo mais usado: Isabel do Amaral.
+- C | Afonso Carmo - Camarilla • Lasombra. Advogado da confissão. Atua em Bela Vista/Bixiga. Vínculo mais usado: Padre Miguel Aranha.
+- C | Bento Carmo - Camarilla • Lasombra. Advogado da confissão. Atua em Bela Vista/Bixiga. Vínculo mais usado: Padre Miguel Aranha.
+- C | Irmã Beatriz Lemos - Camarilla • Lasombra. Confessora auxiliar. Atua em Bela Vista/Bixiga. Vínculo mais usado: Padre Miguel Aranha.
+- C | Severino Carmo - Camarilla • Lasombra. Advogado da confissão. Atua em Bela Vista/Bixiga. Vínculo mais usado: Padre Miguel Aranha.
+#### Malkavian
+- A | Marcia Falcão - Camarilla • Malkavian. Primógena  Malkavian. Atua em Consolação/Higienópolis. Vínculo mais usado: Luiza Salles.
+- C | Celia Andrade - Camarilla • Malkavian. Cinegrafista de rumor. Atua em Paulista. Vínculo mais usado: Paulo "O Vidente".
+- C | Miriam Kwon - Camarilla • Malkavian. Leitora de padrões. Atua em Itaim Bibi. Vínculo mais usado: Paulo "O Vidente".
+- C | Patricia Andrade - Camarilla • Malkavian. Cinegrafista de rumor. Atua em Paulista. Vínculo mais usado: Paulo "O Vidente".
+- C | Regina Andrade - Camarilla • Malkavian. Cinegrafista de rumor. Atua em Paulista. Vínculo mais usado: Paulo "O Vidente".
+#### Nosferatu
+- S | Nico "Sombra" - Camarilla • Nosferatu. Corretor de informação. Atua em Brás/Pari + eixos logísticos (Barra Funda/Lapa). Vínculo mais usado: Artur Macedo.
+- A | Raimundo "Rato-Rei" - Camarilla • Nosferatu. Primógeno Nosferatu. Atua em Perdizes/Barra Funda. Vínculo mais usado: Nico "Sombra".
+- A | Vovó Zilda - Camarilla • Nosferatu. Anciã subterrânea. Atua em Galerias do Centro. Vínculo mais usado: Nico "Sombra".
+- B | Keiko Sato - Camarilla • Nosferatu. Sombra de entrega. Atua em Bras/Pari. Vínculo mais usado: Nico "Sombra".
+- B | Taina Aruana - Camarilla • Nosferatu. Sondadora de redes. Atua em Perdizes/Barra Funda. Vínculo mais usado: Nico "Sombra".
+- C | Hiroko Sato - Camarilla • Nosferatu. Sombra de entrega. Atua em Bras/Pari. Vínculo mais usado: Nico "Sombra".
+- C | Leandro Batista - Camarilla • Nosferatu. Operador de câmeras. Atua em Paulista/Jardins. Vínculo mais usado: Nico "Sombra".
+- C | Nara Sato - Camarilla • Nosferatu. Sombra de entrega. Atua em Bras/Pari. Vínculo mais usado: Nico "Sombra".
+#### Toreador
+- S | Luiza Salles - Camarilla • Toreador. Senescal. Atua em Pinheiros/Vila Madalena. Vínculo mais usado: Artur Macedo.
+- A | Clara Montenegro - Camarilla • Toreador. Primógena  Toreador. Atua em Moema/Paraíso. Vínculo mais usado: Luiza Salles.
+- A | Helena Vasconcelos - Camarilla • Toreador. Guardia de Elysium. Atua em Liberdade. Vínculo mais usado: Luiza Salles.
+- B | Daniel Sato - Camarilla • Toreador. Harpia. Atua em Liberdade/Paulista. Vínculo mais usado: Luiza Salles.
+- B | Larissa Prado - Camarilla • Toreador. Curadora de sala. Atua em Liberdade. Vínculo mais usado: Luiza Salles.
+- B | Aiko Tanaka - Camarilla • Toreador. Harpia. Atua em Pinheiros/Vila Madalena. Vínculo mais usado: Luiza Salles.
+- C | Beatriz Pires - Camarilla • Toreador. Curadora de sala. Atua em Liberdade. Vínculo mais usado: Luiza Salles.
+- C | Renata Freire - Camarilla • Toreador. Produtora de moda. Atua em Jardim Paulista. Vínculo mais usado: Luiza Salles.
+- C | Sofia Pires - Camarilla • Toreador. Curadora de sala. Atua em Liberdade. Vínculo mais usado: Luiza Salles.
+#### Tremere
+- S | Dario Kron - Camarilla • Tremere. Primógeno Tremere. Atua em Butantã/USP. Vínculo mais usado: Isabel do Amaral.
+- B | Bianca Saramago - Camarilla • Tremere. Arquivista de campo. Atua em Pinheiros/Centro. Vínculo mais usado: Dario Kron (relação de cria; lealdade e medo).
+- B | Igor Menezes - Camarilla • Tremere. Analista de risco. Atua em Butantã/USP. Vínculo mais usado: Dario Kron.
+- C | Caio Menezes - Camarilla • Tremere. Analista de risco. Atua em Butantã/USP. Vínculo mais usado: Dario Kron.
+- C | Maira Koehler - Camarilla • Tremere. Guardia de grimorios. Atua em Butantã/USP. Vínculo mais usado: Dario Kron.
+- C | Rafael Menezes - Camarilla • Tremere. Analista de risco. Atua em Butantã/USP. Vínculo mais usado: Dario Kron.
+#### Ventrue
+- S | Artur Macedo - Camarilla • Ventrue. Príncipe de São Paulo. Atua em Paulista/Jardins. Vínculo mais usado: Luiza Salles.
+- A | Henrique Valadares - Camarilla • Ventrue. Braço executivo Ventrue. Atua em Morumbi/Campo Belo. Vínculo mais usado: Isabel do Amaral; ele opera por dívida antiga, respeito e caixa.
+- A | Isabel do Amaral - Camarilla • Ventrue. Primógena Ventrue. Atua em Itaim/Berrini. Vínculo mais usado: Artur Macedo.
+- B | Augusto Brito - Camarilla • Ventrue. Gestor de prédio. Atua em Morumbi/Campo Belo. Vínculo mais usado: Artur Macedo.
+- B | Eduardo Nogueira - Camarilla • Ventrue. Fornecedor de Elysium. Atua em Paulista. Vínculo mais usado: Artur Macedo.
+- B | Mateus Cordeiro - Camarilla • Ventrue. Curador de prestígio e reputação. Atua em Jardins e circuito de influência. Vínculo mais usado: Luiza Salles.
+- C | Helio Barros - Camarilla • Ventrue. Gestor de prédio. Atua em Morumbi/Campo Belo. Vínculo mais usado: Artur Macedo.
+- C | Otavio Braga - Camarilla • Ventrue. Gestor de prédio. Atua em Morumbi/Campo Belo. Vínculo mais usado: Artur Macedo.
+- C | Raul Marques - Camarilla • Ventrue. Hound do Xerife. Atua em Santana/Tucuruvi. Vínculo mais usado: Artur Macedo.
+- C | Renato Vianna - Camarilla • Ventrue. Gestor de prédio. Atua em Morumbi/Campo Belo. Vínculo mais usado: Artur Macedo.
+### Anarquistas
+#### Baronia da Ferrugem (Mooca/Tatuapé)
+- S | Renata Ferraz - Anarquistas • Brujah. Baronesa da Mooca. Atua em Tatuapé/Mooca. Vínculo mais usado: Samira al-Haddad.
+- A | Rafa "Ferro" - Anarquistas • Caitiff. Aspirante a corte. Atua em Mooca e adjacências. Vínculo mais usado: Renata Ferraz.
+- B | Elias "Sal" - Anarquistas • Ministry. Agitador de célula. Atua na Mooca e em circuitos de circulação e cobrança. Vínculo mais usado: Talita "Serpente" (relação de cria; devoção e ressentimento).
+- B | Cauã Martins - Anarquistas • Brujah. Executor da Baronesa. Atua em Mooca. Vínculo mais usado: Renata Ferraz.
+#### Leste de Aço (Itaquera/Extremo Leste)
+- A | Diego "Itaquera" Nascimento - Anarquistas • Brujah. Barão do Leste. Atua em Baronato Leste. Vínculo mais usado: Renata Ferraz.
+- B | Maru "Vento" - Anarquistas • Ravnos. Scout de baronia. Atua em Leste. Vínculo mais usado: Ravi "Truque".
+#### Matilha do Sul (Capão/Grajaú e bordas verdes)
+- A | Bia "Matilha" - Anarquistas • Gangrel. Baronesa da borda sul. Atua em Capão/Extremo Sul e mata urbana. Vínculo mais usado: Renata Ferraz.
+- B | Bruna "Sinais" - Anarquistas • Thin-Blood. Correio e drone. Atua em Baronato Sul. Vínculo mais usado: Katia "Zero".
+- C | Sabrina Siqueira - Anarquistas • Brujah. Organizadora de ocupação. Atua em Baronato Sul. Vínculo mais usado: Renata Ferraz.
+- C | Jonas "Capim" - Anarquistas • Gangrel. Batedor. Atua em Baronato Sul. Vínculo mais usado: Bia "Matilha".
+- C | Vivi "Fenda" Lacerda - Anarquistas • Ministry. Recrutadora. Atua em Baronato Sul. Vínculo mais usado: Talita "Serpente".
+#### Rede interbaronatos (centro, trânsito e zonas mistas)
+- A | Camila "Noite-Funda" - Anarquistas • Lasombra. Dissidente. Atua em Lapa/Barra Funda. Vínculo mais usado: Padre Miguel Aranha (relação de cria; ódio e dependência).
+- B | Ana "Carbono" - Anarquistas • Thin-Blood. Alquimista. Atua em Pinheiros e trajetos. Vínculo mais usado: Daniel Sato.
+- B | Katia "Zero" - Anarquistas • Thin-Blood. Técnica de sumiço digital. Atua em Centro/Pinheiros. Vínculo mais usado: Nico "Sombra".
+- B | Ester "Gato-Preto" - Anarquistas • Nosferatu. Courier de dados. Atua em Zonas mistas. Vínculo mais usado: Nico "Sombra".
+- B | Cecília "Linha-Dois" - Anarquistas • Malkavian. Leitora de padrão e mensageira de crise. Atua em Tatuapé/Centro. Vínculo mais usado: João do Trem.
+- B | Luan "Patch" -  Anarquistas • Thin-Blood. Médico de rua. Atua em Oeste/Sul. Vínculo  mais  usado: Irene da Luz.
+### Independentes
+#### Hecata
+- S | Donato Lazzari - Independentes • Hecata. Cobrador de travessia. Atua em Centro Velho / cemitérios. Vínculo mais usado: Dario Kron.
+- A | Soraia Nunes - Independentes • Hecata. Intérprete de ecos. Atua em Centro Velho. Vínculo mais usado: Donato Lazzari (relação de cria; dependência e proteção).
+- B | Celia Moura - Independentes • Hecata. Agente funerária. Atua em Consolação. Vínculo mais usado: Donato Lazzari (servidão; operadora do enclave).
+- B | Iago Siqueira - Independentes • Hecata. Banco de boons. Atua em Centro Expandido. Vínculo mais usado: Donato Lazzari (relação de cria; aprendeu a cobrar com o sire).
+#### Malkavian
+- A | Paulo "O Vidente" - Independentes • Malkavian. Leitor de padrões das galerias. Atua em galerias e estações. Vínculo mais usado: Vovó Zilda.
+#### Tzimisce
+- A | Nina "Costura" - Independentes • Tzimisce. Cirurgia e favores. Atua em Centro/clínicas clandestinas. Vínculo mais usado: Donato Lazzari.
+- B | Vlado de Itapecerica - Independentes • Tzimisce. Exilado. Atua em Sul. Vínculo mais usado: Nina "Costura" (relação de cria; amor e repulsa).
+### Independentes
+#### Banu Haqim
+- A | Yusuf Rahman - Independentes • Banu  Haqim. Juiz itinerante. Vínculo mais usado: Samira al-Haddad.
+#### Brujah
+- A | João do Trem - Independentes • Brujah. Fixador de circulação noturna. Atua em eixos urbanos e estações. Vínculo mais usado: Renata Ferraz.
+#### Gangrel
+- B | Hector "Rodoanel" - Independentes • Gangrel. Batedor de borda e carga. Atua em Rodoanel e eixos de carga. Vínculo mais usado: Bia "Matilha" (relação de cria; lealdade e vontade de provar valor).
+#### Ministry
+- A | Talita "Serpente" - Independentes • Ministry. Pregadora do Vício. Atua em Pinheiros/baixa Augusta. Vínculo mais usado: Luiza Salles.
+#### Ravnos
+- B | Ravi "Truque" - Independentes • Ravnos. Ilusionista de esquina. Atua em Centro/Barra Funda. Vínculo mais usado: Nico "Sombra".
+#### Thin Blood
+- B | Dante "Fumo" - Independentes • Thin-Blood. Entregador de risco e sumiço. Atua em eixos de entrega, pensões e pontos de passagem. Vínculo mais usado: João do Trem (protetor; o velho o protege por princípio).
+#### Salubri
+- A | Irene da Luz - Independentes • Salubri. Curandeira escondida. Atua em Oeste. Vínculo  mais  usado: Paulo "O Vidente".
+### Segunda Inquisição
+- A | Delegada Helena Pacheco - Segunda Inquisição • Mortal. Coordenação de campo. Atua em Centro Expandido. Vínculo mais usado: Artur Macedo.
+#### Mortal
+- B | Dra. Aline Moretti - Mortal • Mortal. Gestão hospitalar. Atua em Oeste. Vínculo mais usado: Irene da Luz.
+- B | Padre Augusto Faria - Mortal • Mortal. Administração de abrigo/ong. Atua em Centro. Vínculo mais usado: Padre Miguel Aranha.
+- B | Vivi Lacerda - Mortal • Mortal. Influenciadora e recrutadora. Atua em Pinheiros/baixa Augusta. Vínculo mais usado: Talita "Serpente".
+
+## 8.3 - Ghouls
+Ghouls são a mão mortal da noite: fazem triagem, transporte, agenda, cobertura e dano de bastidor. O índice abaixo destaca função, zona de atuação e rede principal.
+### Camarilla
+- A | Mariana Lobo - Camarilla  • Mortal. Chefe de gabinete. Atua em Paulista/Jardins. Vínculo mais usado: Artur Macedo.
+- B | Carla Nogueira - Camarilla  • Mortal. Assistente de curadoria de Elysium. Atua em Paulista/Pinheiros. Vínculo mais usado: Luiza Salles.
+- B | Jonas "Coro" - Camarilla • Mortal. Coordenador de abrigo e coral. Atua em Centro. Vínculo mais usado: Padre Miguel Aranha.
+- B | Leonardo "Aprendiz" - Camarilla • Mortal. Assistente de laboratório. Atua em Centro Expandido. Vínculo mais usado: Dario Kron.
+- B | Rui "Barata" - Camarilla • Mortal. Técnico de campo. Atua em Barra Funda/Lapa. Vínculo mais usado: Nico "Sombra".
+- B | Vitor Kallas - Camarilla  • Mortal. Motorista e apoio tático. Atua em Centro Expandido. Vínculo mais usado: Samira al-Haddad.
+- C | Ana "Terapeuta" Reis - Camarilla • Mortal. Retentora e cobertura clínica. Atua em Consolação/Higienópolis. Vínculo mais usado: Marcia Falcão.
+- C | Camila "Flash" Siqueira - Camarilla • Mortal. Fotografa de evento. Atua em Pinheiros/Moema. Vínculo mais usado: Luiza Salles.
+- C | Damião "Guarita" - Camarilla • Mortal. Segurança e controle de entrada. Atua em Morumbi/Campo Belo. Vínculo mais usado: Henrique Valadares.
+- C | Igor "Sombra" Camargo - Camarilla • Mortal. Motorista de apoio e fuga. Atua em Paulista/Jardins. Vínculo mais usado: Artur Macedo.
+- C | Lara "Contenção" Tavares - Camarilla • Mortal. Segurança de Elysium. Atua em Liberdade/Paulista. Vínculo mais usado: Samira al-Haddad.
+- C | Marcela "Cartório" Guimarães - Camarilla • Mortal. Escritura e regularização discreta. Atua em Itaim/Berrini. Vínculo mais usado: Isabel do Amaral.
+- C | Marcos "Sacristão" Vieira - Camarilla • Mortal. Sacristão e logística. Atua em Bela Vista/Bixiga. Vínculo mais usado: Padre Miguel Aranha.
+- C | Paula "Compliance" Azevedo - Camarilla • Mortal. Advogada de crise. Atua em Morumbi/Campo Belo. Vínculo mais usado: Henrique Valadares.
+- C | Pedro "Manutenção" Lins - Camarilla • Mortal. Retentor. Atua em Perdizes/Barra Funda. Vínculo mais usado: Raimundo "Rato-Rei".
+- C | Renato "Bico" Sampaio - Camarilla • Mortal. Técnico de laboratório. Atua em Butantã/USP. Vínculo mais usado: Dario Kron.
+- C | Ricardo "Protocolos" Nery - Camarilla • Mortal. Maitre de Elysium. Atua em Paulista/Jardins. Vínculo mais usado: Mateus Cordeiro.
+- C | Samir "Escrivão" Haddad - Camarilla • Mortal. Escrivão e papelada discreta. Atua em Ipiranga/Cursino. Vínculo mais usado: Nadia Nasser.
+- C | Sonia "Ateliê" - Camarilla • Mortal. Retentora. Atua em Moema/Paraíso. Vínculo mais usado: Clara Montenegro.
+- C | Yuri "Curador" Sato - Camarilla • Mortal. Equipe de Elysium. Atua em Liberdade. Vínculo mais usado: Helena Vasconcelos.
+- Apoio | Jonas Santos - Camarilla  • Mortal. Correio e entrega rápida. Atua em eixos de carga (Zona Cinza de carga e sumiço). Vínculo mais usado: Nico "Sombra".
+- Apoio | Silvia Kajiki - Camarilla  • Mortal. Recepção e lista. Atua em Pinheiros/Vila Madalena. Vínculo mais usado: Luiza Salles.
+- Apoio | Victor Pires - Camarilla  • Mortal. Segurança e motorista. Atua em Paulista/Jardins. Vínculo mais usado: Artur Macedo.
+### Anarquistas
+#### Baronia da Ferrugem (Mooca/Tatuapé)
+- B | Tiago "Tranca" - Anarquistas • Mortal. Chefe de segurança da baronia. Atua em Tatuapé/Mooca. Vínculo mais usado: Renata Ferraz.
+- C | Maya "Backdoor" Costa - Anarquistas • Mortal. Hacker e câmera. Atua em Baronato Mooca/Tatuapé. Vínculo mais usado: Katia "Zero".
+- C | Nando "Desmanche" Alves - Anarquistas • Mortal. Desmanche e fuga limpa. Atua em Baronato Mooca/Tatuapé. Vínculo mais usado: Rafa "Ferro".
+- C | Rodrigo "Fiel" Santana - Anarquistas • Mortal. Capanga. Atua em Baronato Mooca/Tatuapé. Vínculo mais usado: Renata Ferraz.
+- Apoio | Douglas Ferraz - Anarquistas • Mortal. Logística e carros. Atua em Tatuapé/Mooca. Vínculo mais usado: Renata Ferraz.
+#### Leste de Aço (Itaquera/Extremo Leste)
+- C | Lia "Comunidad" Souza - Anarquistas • Mortal. Contato mortal. Atua em Baronato Leste. Vínculo mais usado: Diego "Itaquera" Nascimento.
+- C | Paula "Olheira" Nascimento - Anarquistas • Mortal. Olheira de rua. Atua em Baronato Leste. Vínculo mais usado: Diego "Itaquera" Nascimento.
+- Apoio | Rafaela Novais - Anarquistas • Mortal. Socorro e triagem. Atua em Baronato Leste. Vínculo mais usado: Diego "Itaquera" Nascimento.
+#### Matilha do Sul (Capão/Grajaú e bordas verdes)
+- C | Jessica "Biqueira" Ramos - Anarquistas • Mortal. Gerente de esquina. Atua em Baronato Sul. Vínculo mais usado: Bia "Matilha".
+- C | Marcelo "Moto" Vieira - Anarquistas • Mortal. Courier. Atua em Baronato Sul. Vínculo mais usado: Bia "Matilha".
+- C | Wesley "Faixa" Dias - Anarquistas • Mortal. Motoqueiro de entrega. Atua em Baronato Sul. Vínculo mais usado: Marcelo "Moto" Vieira.
+### Mortais servos dos Hecatas
+- B | Lia Morais - Independentes  • Mortal. Necroassistente. Atua em Centro Velho/cemitérios. Vínculo mais usado: Donato Lazzari.
+- C | Silvia "Fúnebre" Prado - Independentes • Mortal. Diretora de funerária. Atua em Consolação. Vínculo mais usado: Donato Lazzari.
+- Apoio | Maria Zélia Ramos - Independentes  • Mortal. Gestora de funerária. Atua em Cemitérios. Vínculo mais usado: Celia Moura.
+### Mortais servos de Independetes
+- B | Beto "Mecânico" - Independentes • Mortal. Dono de oficina e operador de fuga. Atua em eixos de carga e pátios de apoio. Vínculo mais usado: João do Trem.
+- C | Eli "Despacho" Araújo - Independentes • Mortal. Despachante e regularizador de carga. Atua em eixos de carga (Barra Funda/Lapa). Vínculo mais usado: João do Trem.
+- C | Teresa "Balança" Pacheco - Independentes • Mortal. Conferente de doca e triagem de carga. Atua em eixos de carga (Barra Funda/Lapa). Vínculo mais usado: Eli "Despacho" Araújo.
+
+## Referencia de fichas essenciais
+Ver capitulo 8.4 em `01_BACKGROUND_NARRADOR/canon_docx_integral.md`.

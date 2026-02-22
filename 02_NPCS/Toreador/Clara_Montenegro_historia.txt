@@ -1,11 +1,11 @@
 Clara Montenegro
 
 Perfil:
-- Cla: Toreador | Seita: Camarilla | Funcao: Primogena Toreador (curadora de vitrine e faca)
-- Dominio: Moema/Paraiso (galerias, hospitais e patronato) | Idade aparente: 33
-- Abraco: 1999 | Sire: toreador_luiza_salles | Acima do sire: -
+- Cla: Toreador | Seita: Camarilla | Funcao: Primógena Toreador
+- Dominio: Moema/Paraíso | Idade aparente: 33
+- Abraco: 1999 | Sire: Luiza Salles | Acima do sire: -
 - Disciplinas (top 3): -
-- Assinatura/estilo: -
+- Assinatura/estilo: presença contida, leitura rápida da sala, resposta medida
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Corte do Elysium (Camarilla)
@@ -16,6 +16,7 @@ Clara Montenegro domina sala e narrativa. Em cena: um elogio vira rotulo, um boa
 
 Historia (costurada, sem resumo seco):
 Clara Montenegro nasceu em 1966. O Abraco veio em 1999 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao de Clara Montenegro e defender o interesse do clã em Moema/Paraíso sem romper o pacto de cidade. Clara trabalha para que o clã continue útil, temido e cobrado nos termos certos. O medo principal e virar peça de reposição numa crise de Corte e carregar culpa de erro que veio de cima. No territorio de Moema/Paraíso, isso torna cada acordo mais tenso e cada erro mais caro. Quando esse cheiro aparece, a pessoa trabalha primeiro para controlar dano.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Arte e midia (curadoria, eventos, reputacao e narrativas).
@@ -23,17 +24,21 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Intermediacao social (listas, convites, portas que abrem e fecham).
 
 Segredo (objetivamente jogavel):
-- (Nao definido)
+- Clara sustenta uma pequena rede de alimentação e deslocamento para neonatos Toreador fora da agenda da Corte. Ela chama isso de proteção; Artur chamaria de estrutura paralela. Se vier à tona, vira disputa de autoridade com Luiza e cobrança pesada de boon.
 
 Rumor e verdade (municao social):
-- (Nao definido)
+- Rumor (falso): vendem a imagem de que é só burocrata de clã; cola porque o trabalho sujo quase nunca aparece no nome certo.
+- Verdade (perigosa): Clara já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Luiza Salles.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [boon_due]: Luiza a elevou; Clara paga com obediencia publica e faca privada
-- Mateus Cordeiro (kindred; Responsavel por Protocolos de Elysium) [ally]: protocolo e vitrine: o mesmo controle com outra musica
+- Luiza Salles (kindred; Senescal) [boon_due]: Luiza a elevou; Clara paga com obediencia publica e faca privada
+- Mateus Cordeiro (kindred; Curador de prestígio e reputação) [ally]: protocolo e vitrine: o mesmo controle com outra musica
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Sonia "Atelie": Retentora (figurinista e disfarces) (area: Moema/Paraiso)
+- Sonia "Atelie": Retentora (area: Moema/Paraíso)
 
 Cenas prontas (para jogar hoje):
-- Cena: Moema/Paraiso (galerias, hospitais e patronato). Um encontro pequeno vira custo grande.
+- Cena: Moema/Paraíso. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local. Entrada: Moema/Paraíso; custo provável: boon, cobertura ou silêncio.
+- Cena: Moema/Paraíso. Clara chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Moema/Paraíso; custo provável: boon, cobertura ou silêncio.
+- Cena: Moema/Paraíso. Um favor antigo cobrado por Clara coloca o grupo no meio de duas versões conflitantes. Entrada: Moema/Paraíso; custo provável: boon, cobertura ou silêncio.

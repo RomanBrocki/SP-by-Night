@@ -1,7 +1,7 @@
 {
   "blood_potency": 4,
   "humanity": 6,
-  "predator_type": "Osiris (rede de doadores corporativos)",
+  "predator_type": "Osiris",
   "compulsion_hook": "Vontade de controle: exige garantias antes de agir.",
   "hunger_style": "Sangue escolhido; evita matar por principio politico.",
   "attributes": {

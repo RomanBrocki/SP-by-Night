@@ -1,26 +1,28 @@
-Nome / Alcunha: Nico "Sombra" / Corretor de informacao
+Nome / Alcunha: Nico "Sombra" / Corretor de informação
 Cla: Nosferatu | Seita: Camarilla
-Dominio / area principal: Bras/Pari + Corredores logisticos (Barra Funda/Lapa)
+Idade aparente: - | Abraco: 2001 | Potencia do Sangue 4
+Dominio / area principal: Brás/Pari + eixos logísticos (Barra Funda/Lapa)
 Disciplinas (top 3): ['Obfuscate 4', 'Animalism 2', 'Potence 2']
 Assinatura / estilo: voz em audio, encontro em lugar errado
 Coteries/associacoes (grupo e rede):
 - Correios do Subsolo (rede Nosferatu)
 - Corte do Elysium (Camarilla)
 Ghouls/servos diretos: 2
-- Jonas Santos (Correio (motoboy de rotas))
-- Rui "Barata" (Tecnico de campo (cabos e cameras))
+- Jonas Santos (Correio e entrega rápida)
+- Rui "Barata" (Técnico de campo)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'Informacao nao e crueldade'.
 - Touchstone: um abrigo de animais que ele protege.
 Ganchos de cena:
-- Vende um dado crucial com preco moral.
-- Ajuda os PJ a sumir por uma noite.
-- Entrega prova de traicao e cria guerra.
+- Vende um dado crucial com preço moral. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.
+- Ajuda os PJs a sumir por uma noite. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.
+- Entrega prova de traição e cria guerra. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
 - sumicos logisticos (entregas, galpoes, portoes, horarios).
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 Servos/contatos notaveis (entrada rapida):
-- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: neutralidade comprada por informacao
+- Artur Macedo (kindred; Príncipe de São Paulo) [ally]: neutralidade comprada por informacao
 - Samira al-Haddad (kindred; Xerife) [boon_due]: Trivial; acesso a cameras
-- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: guerra de narrativa
+- Luiza Salles (kindred; Senescal) [rival]: guerra de narrativa
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

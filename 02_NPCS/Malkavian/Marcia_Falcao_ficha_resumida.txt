@@ -1,21 +1,24 @@
-Nome / Alcunha: Marcia Falcao / Primogena Malkavian (ouvinte do padrao)
+Nome / Alcunha: Marcia Falcao / Primógena Malkavian
 Cla: Malkavian | Seita: Camarilla
 Idade aparente: 40 | Abraco: 1971 | Potencia do Sangue 3
-Dominio / area principal: Consolacao/Higienopolis (consultorios, jornais e bastidores)
+Dominio / area principal: Consolação/Higienópolis
 Disciplinas (top 3): -
-Assinatura / estilo: -
+Assinatura / estilo: frase calma, detalhe impossível, desvio que acerta
 Coteries/associacoes (grupo e rede):
 - Corte do Elysium (Camarilla)
 - Os Ouvidores (Malkavian)
 Ghouls/servos diretos: 1
-- Ana "Terapeuta" Reis (Retentora (escuta, arquivo e remedio))
+- Ana "Terapeuta" Reis (Retentora e cobertura clínica)
 Touchstones/Conviccoes (resumo):
 - (Nao definido)
 Ganchos de cena:
-- (Nao definido)
+- Um encontro pequeno vira custo grande. Entrada: Consolação/Higienópolis; custo provável: boon, cobertura ou silêncio.
+- Marcia chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Consolação/Higienópolis; custo provável: boon, cobertura ou silêncio.
+- Um favor antigo cobrado por Marcia coloca o grupo no meio de duas versões conflitantes. Entrada: Consolação/Higienópolis; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rumor e previsao (padroes sociais, coincidencias, mensagens).
 - intervencoes pequenas com impacto grande (um telefonema muda tudo).
 Servos/contatos notaveis (entrada rapida):
-- Luiza Salles (kindred; Senescal e Harpia principal) [ally]: etiqueta em troca de previsao; controle por vias diferentes
-- Artur Macedo (kindred; Principe de Sao Paulo) [uneasy]: o Principe tolera, mas nao gosta de ser lido
+- Luiza Salles (kindred; Senescal) [ally]: etiqueta em troca de previsao; controle por vias diferentes
+- Artur Macedo (kindred; Príncipe de São Paulo) [uneasy]: o Principe tolera, mas nao gosta de ser lido
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

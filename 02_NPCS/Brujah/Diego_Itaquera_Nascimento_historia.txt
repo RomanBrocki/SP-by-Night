@@ -1,11 +1,11 @@
 Diego "Itaquera" Nascimento
 
 Perfil:
-- Cla: Brujah | Seita: Anarch | Funcao: Barao do Leste (Itaquera e Extremo Leste)
-- Dominio: Baronato Leste (Itaquera/Extremo Leste) | Idade aparente: 34
-- Abraco: 2012 | Sire: - | Acima do sire: -
+- Cla: Brujah | Seita: Anarch | Funcao: Barao do Leste
+- Dominio: Baronato Leste | Idade aparente: 34
+- Abraco: 2012 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): -
-- Assinatura/estilo: -
+- Assinatura/estilo: presença contida, leitura rápida da sala, resposta medida
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Leste de Aco (Itaquera/Extremo Leste)
@@ -15,6 +15,7 @@ Diego "Itaquera" Nascimento e presenca. Em cena: as conversas mudam de assunto, 
 
 Historia (costurada, sem resumo seco):
 Diego "Itaquera" Nascimento nasceu em 1978. O Abraco veio em 2012 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao de Diego "Itaquera" Nascimento e segurar território e autonomia sem entregar o bairro para outra facção. Na pratica, isso orienta decisoes no eixo de Leste de Aco, com foco em discricao, tempo de resposta e controle de danos. O medo principal e perder território para guerra interna ou represália mortal. Quando esse risco aparece, Diego "Itaquera" Nascimento reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Movimento de rua e protecao informal (bairro, torcida, sindicato, igreja local).
@@ -23,18 +24,22 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 
 Segredo (objetivamente jogavel):
-- (Nao definido)
+- Diego entregou um cargueiro e um nome para evitar uma guerra aberta no Leste, e até hoje só duas pessoas sabem o preço disso. Ele vende como pragmatismo; os Anarquistas mais novos chamariam de traição. Se esse acerto reaparecer, ele perde rua antes de perder território.
 
 Rumor e verdade (municao social):
-- (Nao definido)
+- Rumor (falso): espalham que já foi comprado pela Camarilla; cola porque negocia demais para quem sobreviveu tanto tempo na rua.
+- Verdade (perigosa): Diego já fechou acordo curto com rival para segurar uma noite de guerra e nunca admitiu isso em público. Hoje, quem está mais perto de descobrir isso é Rafa "Ferro".
 
 Conexoes (com motivo e custo):
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: paz entre baronatos enquanto a Camarilla observa
 - Maru "Vento" (kindred; Scout de baronia) [employer]: mensagens e rotas; paga com protecao
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Paula "Olheira" Nascimento: Olheira de rua (aviso, filmagem, fuga a pe) (area: Baronato Leste (Itaquera/Extremo Leste))
-- Rafaela Novais: Socorro e triagem (Itaquera) (area: Baronato Leste (Itaquera/Extremo Leste))
+- Paula "Olheira" Nascimento: Olheira de rua (area: Baronato Leste)
+- Rafaela Novais: Socorro e triagem (area: Baronato Leste)
 
 Cenas prontas (para jogar hoje):
-- Cena: Baronato Leste (Itaquera/Extremo Leste). Um encontro pequeno vira custo grande.
+- Cena: Baronato Leste. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local. Entrada: Baronato Leste; custo provável: boon, cobertura ou silêncio.
+- Cena: Baronato Leste. Diego chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Baronato Leste; custo provável: boon, cobertura ou silêncio.
+- Cena: Baronato Leste. Um favor antigo cobrado por Diego coloca o grupo no meio de duas versões conflitantes. Entrada: Baronato Leste; custo provável: boon, cobertura ou silêncio.

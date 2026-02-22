@@ -1,8 +1,8 @@
 Dante "Fumo"
 
 Perfil:
-- Cla: Thin Blood | Seita: Independentes | Funcao: Correio e sumico
-- Dominio: Corredores (entregas) | Idade aparente: 19
+- Cla: Thin Blood | Seita: Independentes | Funcao: Entregador de risco e sumiço
+- Dominio: eixos de entrega, pensões e pontos de passagem | Idade aparente: 19
 - Abraco: 2033 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Thin-blood Alchemy 1', 'Celerity 1', 'Obfuscate 1']
 - Assinatura/estilo: some em esquina iluminada
@@ -15,7 +15,7 @@ Dante "Fumo" e sobrevivencia em publico. Em cena: tudo e improviso, cadeia curta
 
 Historia (costurada, sem resumo seco):
 Dante "Fumo" nasceu em 2014. O Abraco veio em 2033 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Sobreviver mais um mes. O medo e igualmente pratico: Ser usado como isca por qualquer lado.
+A ambicao de Dante "Fumo" e Sobreviver mais um mes. O medo principal e Ser usado como isca por qualquer lado. No territorio de eixos de entrega, pensões e pontos de passagem, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -30,14 +30,15 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ele sabe um caminho de fuga usado pela SI.
 
 Conexoes (com motivo e custo):
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [protector]: o velho o protege por principio
-- Cecilia "Linha-Dois" (kindred; Mensageira de pressagios) [friend]: mensagens e pressagios
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: faz entregas para ele
+- Joao do Trem (kindred; Fixador de circulação noturna) [protector]: o velho o protege por principio
+- Cecilia "Linha-Dois" (kindred; Leitora de padrão e mensageira de crise) [friend]: mensagens e pressagios
+- Nico "Sombra" (kindred; Corretor de informação) [client]: faz entregas para ele
+- Joao do Trem (kindred; Fixador de circulação noturna) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Corredores (entregas). Entrega aos PJ algo que ele nao devia ter.
-- Cena: Corredores (entregas). Vira testemunha de um ataque mortal.
-- Cena: Corredores (entregas). Pede abrigo na baronia de Renata.
+- Cena: eixos de entrega, pensões e pontos de passagem. Entrega aos PJ algo que ele nao devia ter.
+- Cena: eixos de entrega, pensões e pontos de passagem. Vira testemunha de um ataque mortal.
+- Cena: eixos de entrega, pensões e pontos de passagem. Pede abrigo na baronia de Renata.

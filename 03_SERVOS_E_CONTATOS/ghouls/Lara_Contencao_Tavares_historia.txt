@@ -1,7 +1,7 @@
 Lara "Contencao" Tavares
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Seguranca de Elysium (contencao sem sangue, camera sem prova)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Segurança de Elysium
 - Area: Liberdade/Paulista
 - Assinatura/estilo: Corte militar, jaqueta tatica sem insignia, olhar seco; fala pouco e move gente.
 
@@ -10,10 +10,10 @@ Coteries/associacoes:
 - Salao de Pinheiros (Toreador)
 
 Tom (para narrar):
-Lara "Contencao" Tavares e porta e permissao. Em cena: ele(a) decide quem entra, quem espera, qual elevador funciona, e qual justificativa o predio aceita. Area operacional: Liberdade/Paulista.
+Lara "Contencao" Tavares e etiqueta aplicada. Em cena: ele(a) controla lista, convite e desculpa; sabe quem pode ficar e quem precisa ir embora sem escandalo. Area operacional: Liberdade/Paulista.
 
 Historia (costurada, sem resumo seco):
-Lara "Contencao" Tavares vive no ponto em que o mundo mortal toca o tabuleiro cainita: Seguranca de Elysium (contencao sem sangue, camera sem prova). A area operacional e Liberdade/Paulista. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Lara "Contencao" Tavares vive no ponto em que o mundo mortal toca o tabuleiro cainita: Segurança de Elysium. A area operacional e Liberdade/Paulista. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -25,7 +25,8 @@ Segredo (objetivamente jogavel):
 
 Conexoes (com motivo e custo):
 - Samira al-Haddad (kindred; Xerife) [ally]: Samira a usa como mao limpa fora da cadeia oficial
-- Helena Vasconcelos (kindred; Guardia de Elysium (curadora)) [servant]: Helena confia nela para proteger eventos sem virar escandalo
+- Helena Vasconcelos (kindred; Guardia de Elysium) [servant]: Helena confia nela para proteger eventos sem virar escandalo
+- Samira al-Haddad (kindred; Xerife) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

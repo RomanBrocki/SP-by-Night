@@ -1,19 +1,19 @@
 Douglas Ferraz
 
 Perfil:
-- Tipo: ghoul | Vinculo: Anarch | Papel: Logistica e carros (Baronato da Mooca)
-- Area: Tatuape/Mooca
+- Tipo: ghoul | Vinculo: Anarch | Papel: Logistica e carros
+- Area: Tatuapé/Mooca
 - Assinatura/estilo: moletom escuro, luvas de mecanico no bolso, cheiro de combustivel
 
 Coteries/associacoes:
 - Ferrugem
 
 Tom (para narrar):
-Douglas Ferraz e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Tatuape/Mooca.
+Douglas Ferraz e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Tatuapé/Mooca.
 
 Historia (costurada, sem resumo seco):
-Douglas Ferraz vive no ponto em que o mundo mortal toca o tabuleiro cainita: Logistica e carros (Baronato da Mooca). A area operacional e Tatuape/Mooca. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: virar 'dono de rota' sem precisar pedir permissao a ninguem. O medo e: ser pego por camera e virar moeda de chantagem contra a Baronesa.
+Douglas Ferraz vive no ponto em que o mundo mortal toca o tabuleiro cainita: Logistica e carros. A area operacional e Tatuapé/Mooca. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Douglas Ferraz e virar 'dono de rota' sem precisar pedir permissao a ninguem. O medo central e ser pego por camera e virar moeda de chantagem contra a Baronesa. Em Tatuapé/Mooca, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -26,9 +26,10 @@ Segredo (objetivamente jogavel):
 
 Conexoes (com motivo e custo):
 - Renata Ferraz (kindred; Baronesa da Mooca) [servant]: logistica, roubos e carros para o Baronato da Mooca
-- Beto "Mecanico" (ghoul; Mantenedor de rotas (garagem)) [ally]: oficina e pecas; parceria tensa
+- Beto "Mecanico" (ghoul; Dono de oficina e operador de fuga) [ally]: oficina e pecas; parceria tensa
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
-- Cena: Tatuape/Mooca. Uma carga desaparece; Douglas aponta um suspeito e pede que os PJs provem antes de executar.
-- Cena: Tatuape/Mooca. Ele oferece um carro 'limpo' para fuga, mas exige um favor imediato.
-- Cena: Tatuape/Mooca. Douglas precisa de documentos falsos para um comboio e pressiona os PJs a conseguir.
+- Cena: Tatuapé/Mooca. Uma carga desaparece; Douglas aponta um suspeito e pede que os PJs provem antes de executar.
+- Cena: Tatuapé/Mooca. Ele oferece um carro 'limpo' para fuga, mas exige um favor imediato.
+- Cena: Tatuapé/Mooca. Douglas precisa de documentos falsos para um comboio e pressiona os PJs a conseguir.

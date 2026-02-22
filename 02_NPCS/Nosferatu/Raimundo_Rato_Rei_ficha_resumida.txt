@@ -1,21 +1,25 @@
-Nome / Alcunha: Raimundo "Rato-Rei" / Primogeno Nosferatu (cartografo do subsolo)
+Nome / Alcunha: Raimundo "Rato-Rei" / Primógeno Nosferatu
 Cla: Nosferatu | Seita: Camarilla
-Dominio / area principal: Perdizes/Barra Funda (dutos e rotas de fuga)
+Idade aparente: - | Abraco: 1964 | Potencia do Sangue 3
+Dominio / area principal: Perdizes/Barra Funda
 Disciplinas (top 3): -
-Assinatura / estilo: -
+Assinatura / estilo: humor curto, leitura de padrão, presença de túnel
 Coteries/associacoes (grupo e rede):
 - Correios do Subsolo (rede Nosferatu)
 - Corte do Elysium (Camarilla)
 Ghouls/servos diretos: 1
-- Pedro "Manutencao" Lins (Retentor (chaves, dutos e horarios))
+- Pedro "Manutencao" Lins (Retentor)
 Touchstones/Conviccoes (resumo):
 - (Nao definido)
 Ganchos de cena:
-- (Nao definido)
+- Perdizes/Barra Funda. Um encontro pequeno vira custo grande. Entrada: Perdizes/Barra Funda; custo provável: boon, cobertura ou silêncio.
+- Raimundo chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Perdizes/Barra Funda; custo provável: boon, cobertura ou silêncio.
+- Um favor antigo cobrado por Raimundo coloca o grupo no meio de duas versões conflitantes. Entrada: Perdizes/Barra Funda; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
 - sumicos logisticos (entregas, galpoes, portoes, horarios).
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 Servos/contatos notaveis (entrada rapida):
-- Nico "Sombra" (kindred; Corretor de informacao) [rival]: informacao vs infraestrutura: dois reis no mesmo subsolo
-- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: rotas discretas por favores pesados
+- Nico "Sombra" (kindred; Corretor de informação) [rival]: informacao vs infraestrutura: dois reis no mesmo subsolo
+- Artur Macedo (kindred; Príncipe de São Paulo) [ally]: rotas discretas por favores pesados
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

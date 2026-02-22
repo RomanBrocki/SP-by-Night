@@ -1,8 +1,8 @@
 Luan "Patch"
 
 Perfil:
-- Cla: Thin Blood | Seita: Anarch | Funcao: Medico de rua (limpa estrago)
-- Dominio: Oeste/Sul (bordas) | Idade aparente: 28
+- Cla: Thin Blood | Seita: Anarch | Funcao: Médico de rua
+- Dominio: Oeste/Sul | Idade aparente: 28
 - Abraco: 2032 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Thin-blood Alchemy 2', 'Fortitude 1', 'Auspex 1']
 - Assinatura/estilo: primeiros socorros; promessas quebradas
@@ -15,7 +15,7 @@ Luan "Patch" e sobrevivencia em publico. Em cena: tudo e improviso, cadeia curta
 
 Historia (costurada, sem resumo seco):
 Luan "Patch" nasceu em 2007. O Abraco veio em 2032 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Criar um protocolo para evitar Frenesi em grupo. O medo e igualmente pratico: Que a cidade vire um abatedouro e ele seja inutil.
+A ambicao de Luan "Patch" e Criar um protocolo para evitar Frenesi em grupo. O medo principal e Que a cidade vire um abatedouro e ele seja inutil. No territorio de Oeste/Sul, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -32,13 +32,14 @@ Rumor e verdade (municao social):
 
 Conexoes (com motivo e custo):
 - Irene da Luz (kindred; Curandeira escondida) [mentor]: aprendeu etica de sangue
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [ally]: socorro nas bordas
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [client]: paga pedagio em servico
+- Bia "Matilha" (kindred; Baronesa da borda sul) [ally]: socorro nas bordas
+- Donato Lazzari (kindred; Cobrador de travessia) [client]: paga pedagio em servico
+- Irene da Luz (kindred; Curandeira escondida) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Oeste/Sul (bordas). Pode tratar um PJ (ou um inimigo) sem perguntas.
-- Cena: Oeste/Sul (bordas). E cobrado por um Hecata por usar material errado.
-- Cena: Oeste/Sul (bordas). Pede protecao para uma rota de atendimento.
+- Cena: Oeste/Sul. Pode tratar um PJ (ou um inimigo) sem perguntas.
+- Cena: Oeste/Sul. E cobrado por um Hecata por usar material errado.
+- Cena: Oeste/Sul. Pede protecao para uma rota de atendimento.

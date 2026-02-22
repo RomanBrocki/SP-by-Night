@@ -1,7 +1,7 @@
-Nome / Alcunha: Katia "Zero" / Tecnica de sumico digital
+Nome / Alcunha: Katia "Zero" / Técnica de sumiço digital
 Cla: Thin Blood | Seita: Anarch
 Idade aparente: 24 | Abraco: 2030 | Potencia do Sangue 0
-Dominio / area principal: Centro/Pinheiros (rede)
+Dominio / area principal: Centro/Pinheiros
 Disciplinas (top 3): ['Thin-blood Alchemy 2', 'Obfuscate 1', 'Auspex 1']
 Assinatura / estilo: apagao de dados; identidades descartaveis
 Coteries/associacoes (grupo e rede):
@@ -20,6 +20,7 @@ Atuacao mortal (explicita):
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Nico "Sombra" (kindred; Corretor de informacao) [uneasy]: parceria e guerra fria
+- Nico "Sombra" (kindred; Corretor de informação) [uneasy]: parceria e guerra fria
 - Samira al-Haddad (kindred; Xerife) [target]: o Xerife quer seu dump
 - Bianca Saramago (kindred; Arquivista de campo) [friend]: arquivos por rituais pequenos
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

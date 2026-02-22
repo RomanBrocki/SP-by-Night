@@ -1,18 +1,18 @@
 Rodrigo "Fiel" Santana
 
 Perfil:
-- Tipo: ghoul | Vinculo: Anarch | Papel: Capanga (cobranca e 'resolucao')
-- Area: Baronato Mooca/Tatuape
+- Tipo: ghoul | Vinculo: Anarch | Papel: Capanga
+- Area: Baronato Mooca/Tatuapé
 - Assinatura/estilo: Jaqueta de torcida, corrente simples, nariz quebrado; ri quando devia ficar quieto.
 
 Coteries/associacoes:
 - Coterie Ferrugem (Mooca/Tatuape)
 
 Tom (para narrar):
-Rodrigo "Fiel" Santana e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Mooca/Tatuape.
+Rodrigo "Fiel" Santana e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Mooca/Tatuapé.
 
 Historia (costurada, sem resumo seco):
-Rodrigo "Fiel" Santana vive no ponto em que o mundo mortal toca o tabuleiro cainita: Capanga (cobranca e 'resolucao'). A area operacional e Baronato Mooca/Tatuape. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Rodrigo "Fiel" Santana vive no ponto em que o mundo mortal toca o tabuleiro cainita: Capanga. A area operacional e Baronato Mooca/Tatuapé. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -25,7 +25,8 @@ Segredo (objetivamente jogavel):
 
 Conexoes (com motivo e custo):
 - Renata Ferraz (kindred; Baronesa da Mooca) [servant]: faz cobranca e protege a imagem da baronia
-- Tiago "Tranca" (ghoul; Chefe de seguranca da baronia) [ally]: Tiago manda; Rodrigo executa (e exagera)
+- Tiago "Tranca" (ghoul; Chefe de segurança da baronia) [ally]: Tiago manda; Rodrigo executa (e exagera)
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

@@ -1,7 +1,7 @@
 Daniel Sato
 
 Perfil:
-- Cla: Toreador | Seita: Camarilla | Funcao: Harpia junior (fofoca de campo)
+- Cla: Toreador | Seita: Camarilla | Funcao: Harpia
 - Dominio: Liberdade/Paulista | Idade aparente: 26
 - Abraco: 2018 | Sire: toreador_luiza_salles | Acima do sire: -
 - Disciplinas (top 3): ['Auspex 2', 'Presence 2', 'Celerity 1']
@@ -15,7 +15,7 @@ Daniel Sato domina sala e narrativa. Em cena: um elogio vira rotulo, um boato vi
 
 Historia (costurada, sem resumo seco):
 Daniel Sato nasceu em 1992. O Abraco veio em 2018 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Virar indispensavel para Luiza. O medo e igualmente pratico: Ser descartado quando souber demais.
+A ambicao de Daniel Sato e Virar indispensavel para Luiza. O medo principal e Ser descartado quando souber demais. No territorio de Liberdade/Paulista, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Arte e midia (curadoria, eventos, reputacao e narrativas).
@@ -30,9 +30,10 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ele ja apagou um video de alimentacao em troca de sangue.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [childe]: dependencia afetiva e politica
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [ally]: troca favores por anonimato digital
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: compra boatos com boatos
+- Luiza Salles (kindred; Senescal) [childe]: dependencia afetiva e politica
+- Ana "Carbono" (kindred; Alquimista) [ally]: troca favores por anonimato digital
+- Nico "Sombra" (kindred; Corretor de informação) [client]: compra boatos com boatos
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)

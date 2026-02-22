@@ -1,9 +1,9 @@
-Talita "Serpente"
+﻿Talita "Serpente"
 
 Perfil:
-- Cla: Ministry | Seita: Independentes | Funcao: Pregadora do Vicio (culto urbano)
-- Dominio: Pinheiros/baixa Augusta (celulas) | Idade aparente: 31
-- Abraco: 2010 | Sire: - | Acima do sire: -
+- Cla: Ministry | Seita: Independentes | Funcao: Pregadora do Vicio
+- Dominio: Pinheiros/baixa Augusta | Idade aparente: 31
+- Abraco: 2010 | Sire: â€” (sem registro formal no projeto; origem mantida em silÃªncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Presence 3', 'Obfuscate 2', 'Protean 2']
 - Assinatura/estilo: promessa de alivio; custo escondido
 
@@ -15,7 +15,7 @@ Talita "Serpente" e isca e culto. Em cena: a oferta parece escolha, o vicio pare
 
 Historia (costurada, sem resumo seco):
 Talita "Serpente" nasceu em 1982. O Abraco veio em 2010 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Transformar boons em fe: divida como devocao. O medo e igualmente pratico: Que o Padre Lasombra a silencie como 'herege'.
+A ambicao de Talita "Serpente" e transformar divida em devocao, para que favor politico vire compromisso pessoal irreversivel. Na pratica, ela combina culto, prazer e dependencia para manter seguidores funcionais. O medo principal e ser silenciada por Lasombra que tratam seu metodo como heresia util e descartavel. Em Pinheiros e Baixa Augusta, Talita reduz exposicao direta, terceiriza recados e controla acesso por intermediarios testados.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Cultos urbanos e recrutamento (influencia, vicio, promessa).
@@ -23,24 +23,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - extorsao suave (a pessoa acha que escolheu).
 
 Segredo (objetivamente jogavel):
-- Ela tem um contato mortal dentro da Operacao Lumen. [CANON-ADJACENT / HOME BREW]
+- Ela tem um contato mortal dentro da OperaÃ§Ã£o Lumen. Isso encosta diretamente em Luiza Salles e Padre Miguel Aranha (rivalidade; guerra de fÃ© e controle). Se vier Ã  tona, vira acerto de contas e perda de territÃ³rio ou rede.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ela e na verdade Toreador brincando de culto.
-- Verdade (perigosa): Ela ja usou thin-blood alquimia como 'milagre' para recrutar.
+- Verdade (perigosa): Ela jÃ¡ usou thin-blood alquimia como 'milagre' para recrutar. Hoje, quem estÃ¡ mais perto de descobrir isso Ã© Luiza Salles.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [pressure]: tenta infiltrar a corte
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [rival]: guerra de fe e controle
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [supplier]: compra 'milagres' alquimicos
+- Luiza Salles (kindred; Senescal) [pressure]: tenta infiltrar a corte
+- Padre Miguel Aranha (kindred; GuardiÃ£o de confissÃµes) [rival]: guerra de fe e controle
+- Ana "Carbono" (kindred; Alquimista) [supplier]: compra 'milagres' alquimicos
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- ministry_elias_sal
+- Elias "Sal"
 
 Cenas prontas (para jogar hoje):
-- Cena: Pinheiros/baixa Augusta (celulas). Oferece aos PJ um abrigo contra SI (com preco).
-- Cena: Pinheiros/baixa Augusta (celulas). Tenta seduzir um PJ para uma celula do culto.
-- Cena: Pinheiros/baixa Augusta (celulas). Entrega um boato verdadeiro para causar caos no Elysium.
+- Cena: Pinheiros/baixa Augusta. Oferece aos PJs um abrigo contra SI. Entrada: Pinheiros/baixa Augusta; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Pinheiros/baixa Augusta. Tenta seduzir um PJs para uma celula do culto. Entrada: Pinheiros/baixa Augusta; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Pinheiros/baixa Augusta. Entrega um boato verdadeiro para causar caos no Elysium. Entrada: Pinheiros/baixa Augusta; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+

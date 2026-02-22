@@ -1,147 +1,60 @@
-# Tramas em Andamento (Narrador)
+# Tramas em Andamento (Canon DOCX)
 
-Cada trama tem:
-- o que parece ser (publico)
-- o que e (verdade)
-- quem lucra / quem perde
-- como a SI poderia notar
+## 1.7 - Tramas em andamento
+Use estas linhas como botões de cena. Cada uma funciona melhor quando você amarra a um NPC e a uma consequência concreta.
+- Favores “fantasmas”: alguém está cobrando boons em nome da Corte, com testemunhas compradas e promessas antigas fora de contexto. As Harpias precisam decidir se expõem o golpe - ou se usam o golpe.
+- O olho mortal que enxerga demais: um gestor de segurança com acesso a muitos prédios percebe padrões noturnos e começa a vender alertas. Ele não sabe o que você é. Só sabe que você aparece sempre que algo dá errado.
+- Confissão vazada: segredos de fiéis começam a circular como moeda. Lasombra querem controlar a fonte; Ministry quer transformar culpa em vício; a Corte quer que isso pare antes que vire escândalo.
+- Cemitério contestado: um Barão decide quebrar a influência Hecata em um ponto sensível. A Corte quer que a briga não vaze. Os Hecata não aceitam “perda” sem resposta.
+- Rebanho corporativo em crise: uma rede de doadores some ou muda comportamento. Pode ser predador interno, pode ser investigação mortal, pode ser armadilha política.
+- Sangue adulterado: surge um lote que passa por teste e engana sensor. Isso vale ouro para quem precisa atravessar áreas vigiadas - e vale guerra para quem quer monopolizar.
+- Grimório sem dono: Tremere disputam um artefato recuperado após a queda do chantry. Quem ficar com ele fica com o problema - e com a perseguição.
+- Trégua lupina ruindo: uma caça mal feita na borda vira retaliação. Ninguém quer assumir a culpa, então alguém vai precisar assumir o trabalho.
 
-Se uma trama ficar "intelectual demais", faca uma coisa simples:
-coloque um mortal no meio dela. Alguem com nome, rosto e um problema que um PJ entende.
+## 2.9 - A Corte em cena (seis entradas rápidas)
+Use as cenas abaixo como moldes. Troque NPCs conforme sua crônica, mas mantenha a lógica: fachada, segredo e consequência.
+- Audiência curta: Luiza agenda cinco minutos com o Príncipe. O favor pedido parece simples - e vem com um custo que ninguém diz em voz alta.
+- Elysium cheio: no MASP, um mortal importante aparece de surpresa. Todo mundo sorri. Samira observa como quem conta erros futuros.
+- Punição elegante: Aiko apaga alguém da lista de convidados em público. Não  há grito. Só silêncio e mensagens  cancelando  convite.
+- Trabalho sem assinatura: Raul conduz os PJs por um caminho de serviço para recuperar uma prova antes que ela chegue em mão mortal.
+- Rumor comprado: Daniel oferece uma informação que ainda não virou notícia. Se os PJs usarem, alguém vai notar a origem - e cobrar.
+- Crise de Máscara: um vídeo surge. A Corte não pergunta “o que aconteceu”. Pergunta “quem viu” e “quem guarda”. E o culpado quase nunca é quem filmou.
 
-## 1) O Apagao Perfeito (o crime que cria a cronica)
-Parece: um apagao seletivo "acidental" usado para um ataque.
+## 3.9 - Em cena: seis entradas para baronatos
+Use estas entradas para jogar baronatos sem preparação pesada:
+- O corpo que não pode aparecer - Um mortal some em território barão; a família faz barulho. A baronia quer resolver antes que vire investigação e usa os PJs como mão externa.
+- O Abraço errado - Um recém-criado aparece faminto e sem sire. A baronia quer achar o responsável antes que a Corte use isso como pretexto.
+- A dívida invisível - Um favor antigo é cobrado em público e alguém recusa. A recusa vira desafio; o desafio vira sangue se ninguém mediar.
+- A fronteira fecha - rumor de lupino ou SI faz o Sul fechar a saída. Os PJs ficam presos e precisam negociar com Bia ou Sabrina.
+- O culto cresce - Vivi oferece alívio para fome e culpa; quer os PJs como rosto útil. Se recusam, viram  obstáculo.
+- A visita do Xerife - Samira aparece 'em rotina' no limite do baronato. Na prática, veio  cobrar um silêncio  quebrado.
+Fechando: baronato é o lugar onde a cidade sangra sem alarde. Para mostrar isso em mesa, troque ‘estrutura’ por custo: o pacto que protege uma rua e condena outra; o aliado que salva você hoje e cobra amanhã; o barão que segura o bairro e, por isso, vira alvo.
+No próximo capítulo (Independentes), muita coisa vai fazer mais sentido: boa parte deles sobrevive porque atravessa fronteiras - e porque sabe exatamente onde a Corte não pisa.
 
-E: uma demonstracao de capacidade. Alguem quer provar que consegue criar noites sem registro.
+## 4.8 - Em cena: seis contratos que parecem pequenos (e não são)
+- O corpo certo, no lugar errado - Um cadáver aparece em área de elite. A Torre quer silêncio; o baronato quer vingança. O Enclave cobra um nome em troca de sumiço.
+- A sentença do juiz - Dois cainitas disputam um território de caça ‘neutro’. Yusuf aceita julgar, mas exige que os PJs escoltem o culpado até a execução do veredito.
+- A cura que cobra depois - Nina salva alguém importante. Dias depois, pede ‘um pedaço’ em troca: acesso a um nome que só a Corte deveria conhecer.
+- A malha fecha - João do Trem avisa que um trecho importante vai fechar por algumas noites. A razão: caça humana e operação policial. Se os PJs ignorarem, viram isca.
+- O culto acolhe - Talita oferece caçada fácil e um lugar para dormir. Depois pede rosto e presença: ‘vocês são a prova de que aqui funciona’.
+- O trajeto do Sul - Hector oferece saída segura pelo limite. O preço é simples: alguém do baronato de Bia está chamando atenção demais, e isso vai acordar coisa pior.
 
-Lucra: quem vende protecao e alibi.
-Perde: quem depende de etiqueta e arquivo (Camarilla), e quem depende de rotas (Anarchs).
-SI nota: padrao repetido. Se acontecer de novo, vira prioridade maxima.
+## 6.5 - Em mesa: como criar uma coterie de jogadores que pertence a São Paulo
+Para a coterie de jogadores funcionar em São Paulo, ela precisa nascer com um lugar e um problema. Escolha um bairro (ou um eixo), um tipo de caça plausível e uma coisa que vocês resolvem melhor do que qualquer outra pessoa.
+Três  perguntas  costumam  bastar:
+- Quem tolera vocês? (um barão, um primógeno, um prestador, um enclave - alguém que prefira vocês vivos a vocês mortos).
+- Que tipo de bagunça vocês limpam? (Máscarada, dívida, violência, investigação, proteção).
+- Qual é a tentação que pode rachar o grupo? (poder, fome, fé, vingança, amor, medo).
+Uma boa coterie de São Paulo não precisa de ‘destino épico’. Precisa de dilema recorrente. E a cidade faz o resto.
 
-Uso: a primeira sessao pode ser:
-- PJ encontrando a cena do crime e sendo vistos
-- PJ recebendo um pedido "simples": recuperar um item perdido naquela janela
-
-Escalacao (relogio):
-- 1: boatos sobre "falha tecnica" (Harpia testa narrativa)
-- 2: Lumen pede logs a hospitais/abrigos (pressao mortal)
-- 3: um ghoul e capturado (alavanca)
-- 4: tentativa de queimar um refugio (campo)
-- 5: segunda janela de apagao (a cidade entende que e intencional)
-
-## 2) A Lista da Lumen (nome como municao)
-Parece: rumor de que a SI tem uma lista de vampiros.
-
-E: uma lista parcial, cheia de erros, mas com o suficiente para matar gente real. Pior: esta sendo vendida
-no submundo mortal.
-
-Lucra: corretores de dado; quem quer chantagear.
-Perde: qualquer vampiro com habitos repetidos.
-SI nota: toda vez que a lista e usada, ela aprende o que funciona.
-
-Uso: coloque um nome dos PJ (ou aliado) na lista cedo demais.
-
-Como colocar em cena:
-- um PJ recebe print anonimo com seu proprio apelido
-- um inimigo compra um nome e "some" com um incendio tecnico
-- um contato mortal pede ajuda porque "tem gente perguntando por voce"
-
-## 3) Guerra de Boons (divida como arma)
-Parece: politica normal de Elysium.
-
-E: uma tentativa de quebrar a cadeia do Principe. Se Artur cair, a cidade vira disputa aberta.
-
-Lucra: quem quer uma sucessao; quem quer Anarch sobre a vitrine.
-Perde: quem depende de estabilidade para predar.
-SI nota: guerra gera incidentes. Incidente gera dado. Dado gera fogo.
-
-Uso: um boon "trivial" vira a chave que falta para prender alguem.
-
-Como colocar em cena:
-- a Harpia "pede" um favor que e, na verdade, uma armadilha de reputacao
-- um registro falso reaparece e obriga alguem a escolher um bode expiatorio
-- um boon vira extorsao moral: "voce faz isso, ou eu digo aquilo"
-
-## 4) O Buraco do Centro (promessa quebrada vira voz)
-Parece: lenda urbana de tuneis assombrados.
-
-E: um foco espectral que reage a traicao e promessas quebradas. Ele pode denunciar e punir sem entender
-politica.
-
-Lucra: Hecata (monopolio de silencio), oraculos (Malkavian), qualquer um que queira chantagem.
-Perde: quem tem pecado antigo enterrado no Centro.
-SI nota: manifestacoes viram "caso" e atraem equipe.
-
-Uso: o Buraco pode:
-- falar um nome (de um vampiro) para um mortal
-- "marcar" um PJ com pesadelos e pistas
-
-Como colocar em cena:
-- um audio gravado no celular de um mortal tem uma voz dizendo um nome
-- um PJ sente cheiro de terra molhada em Elysium (sinal de eco)
-- um Hecata oferece "silencio" em troca de um nome que o PJ quer proteger
-
-## 5) Thin-blood Alquimia (milagre vendavel)
-Parece: um truque de rua.
-
-E: um produto. E produto vira cadeia de suprimento. E cadeia vira rastreio.
-
-Lucra: Ministry (culto), Nosferatu (dados), Anarchs (mercado cinza).
-Perde: Camarilla (controle), SI (se perde rastreio).
-SI nota: compra teste. Teste vira prova.
-
-Uso: ofereca aos PJ um "soro" que funciona, mas cobra humanidade.
-
-Como colocar em cena:
-- um thin-blood vende um frasco com promessa de "cegueira de camera"
-- um comprador Camarilla aparece (e quer exclusividade)
-- Lumen compra amostra e transforma em padrao
-
-## 6) Sabbat em Cargas (febre com alvo cirurgico)
-Parece: violencia aleatoria em zona logistica.
-
-E: um pack pequeno procurando um alvo especifico (nome, item, sangue). Eles nao querem a cidade; querem
-o que a cidade esconde.
-
-Lucra: quem usa o pack como desculpa para eliminar rival.
-Perde: quem mora perto de corredor de carga (mortal e vampiro).
-SI nota: violencia ritual deixa padrao. Padrao vira prioridade.
-
-Uso: o pack pode ser "terceirizado" sem saber por um Cainita.
-
-Como colocar em cena:
-- um galpao queimado com simbolo improvisado
-- um thin-blood desaparecido vira "oferta"
-- um Nosferatu vende uma rota que era segura ontem e mortal hoje
-
-## 7) Chantry Quebrado (Tremere como celulas)
-Parece: disputa interna.
-
-E: sobrevivencia. Quem controlar paginas e retentores controla o futuro do cla.
-
-Lucra: Dario, qualquer rival que venda "protecoes".
-Perde: Tremere jovens usados como isca.
-SI nota: movimentacao de reagentes e padroes de encontro.
-
-Uso: paginas arrancadas viram recompensa e maldicao.
-
-Como colocar em cena:
-- um retentor Tremere pede protecao (e e seguido)
-- uma pagina resolve um problema e cria dependencia
-- um rival oferece comprar a pagina com boons demais para recusar
-
-## 8) Fronteira Verde (tregua quebrando)
-Parece: lobisomens "longe".
-
-E: uma linha de limite. Se quebrar, guerra de territorio vira guerra de especie.
-
-Lucra: ninguem. Talvez a SI (quando monstros lutam, sobram provas).
-Perde: qualquer um que precise sair da cidade sem camera.
-SI nota: corpos em borda. Borda vira zona de operacao.
-
-Uso: uma cacada errada (feita por um PJ ou atribuida a ele) e o estopim.
-
-Como colocar em cena:
-- um corpo aparece na borda com marcas de algo que nao e humano
-- um Gangrel exige reparacao antes que vire massacre
-- a Lumen entra em area verde e some (e alguem culpa os PJ)
+## 7.7 - Cultos: fé, vício e comunidade que denuncia
+Cultos são antagonistas silenciosos porque oferecem abrigo. Eles salvam gente - um pouco - e cobram o resto em obediência, segredo e dívida.
+### Tipos  comuns
+- Culto cainita do Ministry: liberdade como discurso, vício como sacramento, dívida como devoção. Eles recrutam  onde a cidade  quebrou  alguém.
+- Cultos mortais paranoicos: vizinhança que vira milícia moral. Eles começam protegendo crianças e terminam caçando ‘predadores’ sem saber o nome certo.
+- Culto do Buraco: pequenos, intensos, obcecados por ‘verdades’ que só aparecem em noites ruins. Eles alimentam  ecos e viram motor de horror social.
+Cultos geram antagonismo porque se metem no lugar onde a Camarilla e os barões preferem operar em silêncio: significado. Quando um culto explica a noite para um mortal, esse mortal começa a olhar.
+### Ganchos
+- Um culto oferece esconderijo ‘seguro’ contra a Lumen. O preço é moral: entregar alguém, aceitar uma marca, participar de um rito.
+- Uma célula de caçadores nasce dentro de um culto mortal - e nem o culto percebe até ser tarde.
+- Um culto do Ministry disputa espaço com as confissões Lasombra e com o monopólio Hecata do silêncio: a cidade vira um tabuleiro de culpa.

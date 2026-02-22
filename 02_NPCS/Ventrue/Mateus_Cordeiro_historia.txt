@@ -1,8 +1,8 @@
 Mateus Cordeiro
 
 Perfil:
-- Cla: Ventrue | Seita: Camarilla | Funcao: Responsavel por Protocolos de Elysium
-- Dominio: Paulista | Idade aparente: 28
+- Cla: Ventrue | Seita: Camarilla | Funcao: Curador de prestígio e reputação
+- Dominio: Jardins e circuito de influência | Idade aparente: 28
 - Abraco: 2009 | Sire: ventrue_artur_macedo | Acima do sire: -
 - Disciplinas (top 3): ['Presence 3', 'Dominate 2', 'Fortitude 1']
 - Assinatura/estilo: cordial demais; registra tudo o que pode
@@ -15,7 +15,7 @@ Mateus Cordeiro pressiona por acesso e protocolo. Em cena isso e concreto: a por
 
 Historia (costurada, sem resumo seco):
 Mateus Cordeiro nasceu em 1981. O Abraco veio em 2009 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Virar Senescal quando a cadeira abrir. O medo e igualmente pratico: Ser exposto como incompetente.
+A ambicao de Mateus Cordeiro e Virar Senescal quando a cadeira abrir. O medo principal e Ser exposto como incompetente. No territorio de Jardins e circuito de influência, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Financas e imobiliario (fundos, holdings, locacoes estrategicas).
@@ -31,14 +31,15 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ele tem uma lista de refugios e pode vender.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: disputa narrativa em Elysium
+- Luiza Salles (kindred; Senescal) [rival]: disputa narrativa em Elysium
 - Samira al-Haddad (kindred; Xerife) [uneasy]: tem medo do Xerife
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: compra informacao barata
+- Nico "Sombra" (kindred; Corretor de informação) [client]: compra informacao barata
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Ricardo "Protocolos" Nery: Maitre de Elysium (lista, convite, humilhacao elegante) (area: Paulista/Jardins)
+- Ricardo "Protocolos" Nery: Maitre de Elysium (area: Paulista/Jardins)
 
 Cenas prontas (para jogar hoje):
-- Cena: Paulista. Enquadra os PJ por quebra de etiqueta para testar reacao.
-- Cena: Paulista. Ajuda a conseguir convite para Elysium por um preco.
-- Cena: Paulista. Vira bode expiatorio em uma crise.
+- Cena: Jardins e circuito de influência. Enquadra os PJ por quebra de etiqueta para testar reacao.
+- Cena: Jardins e circuito de influência. Ajuda a conseguir convite para Elysium por um preco.
+- Cena: Jardins e circuito de influência. Vira bode expiatorio em uma crise.

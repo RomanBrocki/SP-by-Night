@@ -1,7 +1,7 @@
 Pedro "Manutencao" Lins
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Retentor (chaves, dutos e horarios)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Retentor
 - Area: Perdizes/Barra Funda
 
 Coteries/associacoes:
@@ -11,7 +11,7 @@ Tom (para narrar):
 Pedro "Manutencao" Lins e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Perdizes/Barra Funda.
 
 Historia (costurada, sem resumo seco):
-Pedro "Manutencao" Lins vive no ponto em que o mundo mortal toca o tabuleiro cainita: Retentor (chaves, dutos e horarios). A area operacional e Perdizes/Barra Funda. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Pedro "Manutencao" Lins vive no ponto em que o mundo mortal toca o tabuleiro cainita: Retentor. A area operacional e Perdizes/Barra Funda. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -22,7 +22,8 @@ Segredo (objetivamente jogavel):
 - (Nao definido)
 
 Conexoes (com motivo e custo):
-- Raimundo "Rato-Rei" (kindred; Primogeno Nosferatu (cartografo do subsolo)) [servant]: abre portas de manutencao e apaga trilhas no concreto
+- Raimundo "Rato-Rei" (kindred; Primógeno Nosferatu) [servant]: abre portas de manutencao e apaga trilhas no concreto
+- Raimundo "Rato-Rei" (kindred; Primógeno Nosferatu) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

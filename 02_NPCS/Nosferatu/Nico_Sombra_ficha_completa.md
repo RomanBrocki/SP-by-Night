@@ -1,7 +1,7 @@
 {
   "blood_potency": 2,
   "humanity": 6,
-  "predator_type": "Bagger (quando precisa desaparecer)",
+  "predator_type": "Bagger",
   "compulsion_hook": "Paranoia: ve padroes em tudo.",
   "hunger_style": "Evita risco; alimenta-se em rotas discretas.",
   "attributes": {

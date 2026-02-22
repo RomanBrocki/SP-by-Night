@@ -1,9 +1,9 @@
-Irene da Luz
+﻿Irene da Luz
 
 Perfil:
 - Cla: Salubri | Seita: Autarquicos | Funcao: Curandeira escondida
-- Dominio: Oeste (refugio discreto) | Idade aparente: 32
-- Abraco: 1971 | Sire: - | Acima do sire: -
+- Dominio: Oeste | Idade aparente: 32
+- Abraco: 1971 | Sire: â€” (sem registro formal no projeto; origem mantida em silÃªncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Auspex 3', 'Dominate 2', 'Fortitude 2']
 - Assinatura/estilo: voz baixa; presenca que acalma frenesi
 
@@ -15,7 +15,7 @@ Irene da Luz e presenca. Em cena: as conversas mudam de assunto, celulares somem
 
 Historia (costurada, sem resumo seco):
 Irene da Luz nasceu em 1938. O Abraco veio em 1971 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Manter-se viva sem virar arma de ninguem. O medo e igualmente pratico: Ser descoberta pelo Principe e vir propriedade.
+A ambicao dela e manter-se viva sem virar arma de nenhuma faccao. Em jogo, isso significa aceitar apenas casos cirurgicos: cura de dano de cacada, contencao de Frenesi e estabilizacao de feridos em troca de protecao discreta. O medo central e ser descoberta pelo Principe e convertida em \"ativo\" da Corte. Quando o assunto encosta nesse risco, Irene encurta a conversa, muda o local do encontro e nunca deixa duas testemunhas da mesma versao.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,21 +23,23 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 
 Segredo (objetivamente jogavel):
-- Ela curou um vampiro do Xerife no passado e ele deve silencio.
+- Ela curou um vampiro do Xerife no passado e ele deve silÃªncio. Isso encosta diretamente em Paulo "O Vidente" e Luan "Patch" (mentoria; ensinou Ã©tica de sangue). Se vier Ã  tona, vira acerto de contas e perda de territÃ³rio ou rede.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ela e uma impostora thin-blood.
-- Verdade (perigosa): Ela consegue sentir Vinculos de Sangue em uma sala.
+- Verdade (perigosa): Ela consegue sentir Vinculos de Sangue em uma sala. Hoje, quem estÃ¡ mais perto de descobrir isso Ã© Paulo "O Vidente".
 
 Conexoes (com motivo e custo):
-- Paulo "O Vidente" (kindred; Oraculo de tunel) [friend]: pressagios e cura
-- Luan "Patch" (kindred; Medico de rua (limpa estrago)) [mentor]: ensinou etica de sangue
+- Paulo "O Vidente" (kindred; Leitor de padrÃµes das galerias) [friend]: pressagios e cura
+- Luan "Patch" (kindred; MÃ©dico de rua) [mentor]: ensinou etica de sangue
 - Samira al-Haddad (kindred; Xerife) [uneasy]: acordo de silencio antigo
+- Paulo "O Vidente" (kindred; Leitor de padrÃµes das galerias) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Oeste (refugio discreto). Pode salvar um NPC importante (e gerar divida).
-- Cena: Oeste (refugio discreto). E cacada por rumores e precisa de protecao.
-- Cena: Oeste (refugio discreto). Pede aos PJ que destruam um culto que sequestra doadores.
+- Cena: Oeste. Pode salvar um NPC importante. Entrada: Oeste; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Oeste. E caÃ§ada por rumores e precisa de proteÃ§Ã£o. Entrada: Oeste; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Oeste. Pede aos PJs que destruam um culto que sequestra doadores. Entrada: Oeste; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+

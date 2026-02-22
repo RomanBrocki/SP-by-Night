@@ -1,9 +1,9 @@
 Soraia Nunes
 
 Perfil:
-- Cla: Hecata | Seita: Autarquicos | Funcao: Interprete de ecos (mediunica)
-- Dominio: Centro Velho (consultas) | Idade aparente: 34
-- Abraco: 2005 | Sire: hecata_donato_lazzari | Acima do sire: -
+- Cla: Hecata | Seita: Autarquicos | Funcao: Intérprete de ecos
+- Dominio: Centro Velho | Idade aparente: 34
+- Abraco: 2005 | Sire: Donato Lazzari | Acima do sire: -
 - Disciplinas (top 3): ['Oblivion 2', 'Auspex 2', 'Fortitude 1']
 - Assinatura/estilo: fala com mortos como quem negocia com vivos
 
@@ -15,7 +15,7 @@ Soraia Nunes e taxa e passagem. Em cena: portas se abrem, mas cada abertura vem 
 
 Historia (costurada, sem resumo seco):
 Soraia Nunes nasceu em 1978. O Abraco veio em 2005 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Fazer o Buraco responder perguntas em vez de gritar nomes. O medo e igualmente pratico: Que Donato a use como ferramenta descartavel.
+A ambicao de Soraia Nunes e Fazer o Buraco responder perguntas em vez de gritar nomes. Na pratica, isso orienta decisoes no eixo de Enclave dos Cemitérios, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que Donato a use como ferramenta descartavel. Quando esse risco aparece, Soraia Nunes reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Funerarias, cemiterios e logistica de corpo (o que some, some direito).
@@ -23,21 +23,22 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Intermediacao de dividas (boons como tabela, cobranca como ritual).
 
 Segredo (objetivamente jogavel):
-- Ela ja apagou um fantasma ligado a um crime Camarilla.
+- Ela já apagou um fantasma ligado a um crime Camarilla. Isso encosta diretamente em Donato Lazzari (relação de cria; dependência e proteção) e Bianca Saramago. Se vier à tona, vira acerto de contas e perda de território ou rede.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ela e na verdade uma Salubri.
-- Verdade (perigosa): Ela consegue puxar uma lembranca de sangue de um vampiro em torpor.
+- Verdade (perigosa): Ela consegue puxar uma lembranca de sangue de um vampiro em torpor. Hoje, quem está mais perto de descobrir isso é Donato Lazzari (relação de cria; dependência e proteção).
 
 Conexoes (com motivo e custo):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [childe]: dependencia e protecao
+- Donato Lazzari (kindred; Cobrador de travessia) [childe]: dependencia e protecao
 - Bianca Saramago (kindred; Arquivista de campo) [client]: silencio de mortos por paginas
-- Paulo "O Vidente" (kindred; Oraculo de tunel) [ally]: pressagios e ecos se cruzam
+- Paulo "O Vidente" (kindred; Leitor de padrões das galerias) [ally]: pressagios e ecos se cruzam
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Centro Velho (consultas). Oferece aos PJ uma conversa com um morto que cobra um preco.
-- Cena: Centro Velho (consultas). Pede ajuda para conter um eco agressivo do Buraco.
-- Cena: Centro Velho (consultas). Vira a unica testemunha de um crime de Mascara.
+- Cena: Centro Velho. Oferece aos PJs uma conversa com um morto que cobra um preco. Entrada: Centro Velho; custo provável: boon, cobertura ou silêncio.
+- Cena: Centro Velho. Pede ajuda para conter um eco agressivo do Buraco. Entrada: Centro Velho; custo provável: boon, cobertura ou silêncio.
+- Cena: Centro Velho. Vira a unica testemunha de um crime de Mascara. Entrada: Centro Velho; custo provável: boon, cobertura ou silêncio.

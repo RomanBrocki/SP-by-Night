@@ -1,8 +1,8 @@
 Nome: Douglas Ferraz
 Tipo: ghoul
 Vinculo: Anarch
-Papel: Logistica e carros (Baronato da Mooca)
-Area: Tatuape/Mooca
+Papel: Logistica e carros
+Area: Tatuapé/Mooca
 Assinatura / estilo: moletom escuro, luvas de mecanico no bolso, cheiro de combustivel
 Coteries/associacoes:
 - Ferrugem

@@ -1,4 +1,4 @@
-Nome / Alcunha: Nina "Costura" / Cirurgia e favores (carne e segredos)
+Nome / Alcunha: Nina "Costura" / Cirurgia e favores
 Cla: Tzimisce | Seita: Autarquicos
 Idade aparente: 40 | Abraco: 1959 | Potencia do Sangue 3
 Dominio / area principal: Centro/clinicas clandestinas
@@ -11,14 +11,15 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'Tudo tem forma'.
 - Touchstone: um caderno de anatomia com nomes riscados.
 Ganchos de cena:
-- Pode consertar alguem (com custo).
-- Pede aos PJ um corpo sem perguntas.
-- Oferece disfarce corporal para fugir da SI.
+- Pode consertar alguem. Entrada: Centro/clinicas clandestinas; custo provável: boon, cobertura ou silêncio.
+- Pede aos PJs um corpo sem perguntas. Entrada: Centro/clinicas clandestinas; custo provável: boon, cobertura ou silêncio.
+- Oferece disfarce corporal para fugir da SI. Entrada: Centro/clinicas clandestinas; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
 - Mercado cinza e documentos (identidades descartaveis, sumico digital).
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 Servos/contatos notaveis (entrada rapida):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: mortos e carne se odeiam
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [rival]: magia vs forma
-- Camila "Noite-Funda" (kindred; Dissidente (ex-Camarilla)) [client]: disfarces por boons
+- Donato Lazzari (kindred; Cobrador de travessia) [uneasy]: mortos e carne se odeiam
+- Dario Kron (kindred; Primógeno Tremere) [rival]: magia vs forma
+- Camila "Noite-Funda" (kindred; Dissidente) [client]: disfarces por boons
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

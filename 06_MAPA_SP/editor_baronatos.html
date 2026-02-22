@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Editor de Baronatos - Sao Paulo by Night</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <style>
+    :root {
+      --bg: #0b0a0f;
+      --panel: #171118;
+      --text: #efe9e6;
+      --muted: #b6a8a2;
+      --border: rgba(198,166,155,0.26);
+      --accent: #d4b06a;
+      --ferrugem: #ff7f50;
+      --leste: #ff9800;
+      --sul: #e67e22;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font: 14px/1.4 "Palatino Linotype", "Book Antiqua", Garamond, serif;
+      background:
+        radial-gradient(1200px 800px at 15% 8%, rgba(122,31,43,0.16), transparent 60%),
+        radial-gradient(980px 680px at 82% -2%, rgba(54,21,28,0.38), transparent 55%),
+        repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 14px),
+        var(--bg);
+    }
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(24,17,24,0.96), rgba(20,16,23,0.96));
+    }
+    .title h1 {
+      margin: 0;
+      font-size: 21px;
+      color: var(--accent);
+      font-family: "Trajan Pro", "Cinzel", "Palatino Linotype", serif;
+    }
+    .title p { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
+    .top-nav { display: flex; gap: 8px; }
+    .top-nav a {
+      display: inline-block;
+      padding: 7px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(122,31,43,0.20);
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 380px 1fr 420px;
+      height: calc(100vh - 72px);
+    }
+    .side, .right {
+      overflow: auto;
+      padding: 10px;
+      background: linear-gradient(180deg, rgba(20,16,23,0.96), rgba(14,12,17,0.96));
+    }
+    .side { border-right: 1px solid var(--border); }
+    .right { border-left: 1px solid var(--border); }
+    .main { min-width: 0; }
+    #map { width: 100%; height: 100%; }
+    .sec {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px;
+      margin: 8px 0;
+      background: rgba(0,0,0,0.20);
+    }
+    .sec h2 {
+      margin: 0 0 6px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: var(--accent);
+      letter-spacing: 0.02em;
+    }
+    .hint { color: var(--muted); margin: 0 0 8px; font-size: 12px; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; }
+    button {
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(122,31,43,0.26);
+      color: var(--text);
+      cursor: pointer;
+      font: inherit;
+      font-size: 12px;
+    }
+    button:hover { background: rgba(122,31,43,0.36); }
+    .choice {
+      display: block;
+      padding: 6px 8px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin: 6px 0;
+      background: rgba(0,0,0,0.18);
+      font-size: 12px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-size: 11px;
+      margin-left: 6px;
+    }
+    .district-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 12px;
+      display: grid;
+      gap: 4px;
+      max-height: 160px;
+      overflow: auto;
+    }
+    .district-list li {
+      border: 1px solid rgba(198,166,155,0.14);
+      border-radius: 8px;
+      padding: 4px 6px;
+      background: rgba(0,0,0,0.18);
+    }
+    textarea {
+      width: 100%;
+      min-height: 300px;
+      resize: vertical;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(0,0,0,0.24);
+      color: var(--text);
+      padding: 8px;
+      font: 12px/1.4 Consolas, monospace;
+    }
+    .status { color: var(--muted); font-size: 12px; margin-top: 8px; }
+    .leaflet-container { background: #101117; }
+    @media (max-width: 1300px) {
+      .layout { grid-template-columns: 340px 1fr; }
+      .right { display: none; }
+    }
+    @media (max-width: 920px) {
+      .layout { grid-template-columns: 1fr; height: auto; }
+      .main { min-height: 70vh; }
+      .side { border-right: 0; border-bottom: 1px solid var(--border); }
+      .right { display: block; border-left: 0; border-top: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="title">
+      <h1>Editor de Baronatos (Distritos Clicaveis)</h1>
+      <p>Selecione o baronato ativo, clique nos distritos e clique em Aplicar para gerar JSON.</p>
+    </div>
+    <div class="top-nav">
+      <a href="./mapa_sp_dominios.html">Mapa</a>
+      <a href="../book/index.html">Livro</a>
+      <a href="../teia/teia_de_conexoes_mapa.html">Teia</a>
+    </div>
+  </div>
+
+  <div class="layout">
+    <aside class="side">
+      <div class="sec">
+        <h2>Baronato Ativo</h2>
+        <label class="choice"><input type="radio" name="baronato" value="ferrugem" checked /> Ferrugem (Mooca/Belem/Tatuape) <span class="badge" style="background: rgba(255,127,80,0.2)">Ferrugem</span></label>
+        <label class="choice"><input type="radio" name="baronato" value="leste_aco" /> Leste de Aco (Itaquera) <span class="badge" style="background: rgba(255,152,0,0.2)">Leste</span></label>
+        <label class="choice"><input type="radio" name="baronato" value="sul" /> Matilha do Sul <span class="badge" style="background: rgba(230,126,34,0.2)">Sul</span></label>
+      </div>
+
+      <div class="sec">
+        <h2>Acoes</h2>
+        <p class="hint">Clique em distritos no mapa para adicionar/remover do baronato ativo.</p>
+        <div class="row">
+          <button id="btnApply">Aplicar</button>
+          <button id="btnCopy">Copiar JSON</button>
+          <button id="btnDownload">Baixar JSON</button>
+        </div>
+        <div class="row" style="margin-top:8px">
+          <button id="btnClearActive">Limpar baronato ativo</button>
+          <button id="btnClearAll">Limpar tudo</button>
+          <button id="btnReset">Reset padrao</button>
+        </div>
+        <div class="status" id="status">Carregando...</div>
+      </div>
+
+      <div class="sec">
+        <h2>Distritos por Baronato</h2>
+        <p class="hint">Atualiza em tempo real ao clicar no mapa.</p>
+        <h3 style="margin:6px 0 4px;font-size:12px;color:#ffb08a">Ferrugem</h3>
+        <ul id="listFerrugem" class="district-list"></ul>
+        <h3 style="margin:8px 0 4px;font-size:12px;color:#ffd08a">Leste de Aco</h3>
+        <ul id="listLeste" class="district-list"></ul>
+        <h3 style="margin:8px 0 4px;font-size:12px;color:#ffd8a8">Matilha do Sul</h3>
+        <ul id="listSul" class="district-list"></ul>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div id="map"></div>
+    </main>
+
+    <aside class="right">
+      <div class="sec">
+        <h2>JSON Gerado</h2>
+        <p class="hint">Use esse JSON para atualizar o mapa principal.</p>
+        <textarea id="output"></textarea>
+      </div>
+    </aside>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="data/distritos-sp.geojson.js"></script>
+  <script>
+    function dk(s) {
+      return String(s || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toUpperCase()
+        .replace(/[^A-Z0-9]+/g, '_')
+        .replace(/^_+|_+$/g, '');
+    }
+
+    const STORAGE_KEY = 'spbn_baronatos_editor_v1';
+    const DEFAULTS = {
+      ferrugem: ['BELEM', 'MOOCA', 'TATUAPE'],
+      leste_aco: ['CIDADE_LIDER', 'ITAQUERA', 'JOSE_BONIFACIO', 'PARQUE_DO_CARMO', 'VILA_JACUI'],
+      sul: ['CAMPO_LIMPO', 'CAPAO_REDONDO', 'CIDADE_DUTRA', 'GRAJAU', 'JARDIM_ANGELA', 'JARDIM_SAO_LUIS', 'SOCORRO'],
+    };
+    const COLORS = {
+      ferrugem: '#ff7f50',
+      leste_aco: '#ff9800',
+      sul: '#e67e22',
+    };
+
+    const map = L.map('map', {
+      preferCanvas: true,
+      zoomControl: true,
+      minZoom: 10,
+      maxZoom: 17,
+    }).setView([-23.55, -46.64], 11);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 19,
+    }).addTo(map);
+
+    const statusEl = document.getElementById('status');
+    const outputEl = document.getElementById('output');
+    const listFerrugem = document.getElementById('listFerrugem');
+    const listLeste = document.getElementById('listLeste');
+    const listSul = document.getElementById('listSul');
+
+    function setStatus(msg) { statusEl.textContent = msg; }
+    function activeBaronato() {
+      const el = document.querySelector('input[name="baronato"]:checked');
+      return el ? el.value : 'ferrugem';
+    }
+
+    function loadState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return {
+          ferrugem: new Set(DEFAULTS.ferrugem),
+          leste_aco: new Set(DEFAULTS.leste_aco),
+          sul: new Set(DEFAULTS.sul),
+        };
+        const j = JSON.parse(raw);
+        return {
+          ferrugem: new Set((j.ferrugem || DEFAULTS.ferrugem).map(dk)),
+          leste_aco: new Set((j.leste_aco || DEFAULTS.leste_aco).map(dk)),
+          sul: new Set((j.sul || DEFAULTS.sul).map(dk)),
+        };
+      } catch (e) {
+        return {
+          ferrugem: new Set(DEFAULTS.ferrugem),
+          leste_aco: new Set(DEFAULTS.leste_aco),
+          sul: new Set(DEFAULTS.sul),
+        };
+      }
+    }
+
+    function saveState(state) {
+      const plain = {
+        ferrugem: Array.from(state.ferrugem),
+        leste_aco: Array.from(state.leste_aco),
+        sul: Array.from(state.sul),
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(plain));
+    }
+
+    const state = loadState();
+    const districtLayers = new Map();
+
+    function districtOwner(dkey) {
+      if (state.ferrugem.has(dkey)) return 'ferrugem';
+      if (state.leste_aco.has(dkey)) return 'leste_aco';
+      if (state.sul.has(dkey)) return 'sul';
+      return '';
+    }
+
+    function styleForDistrict(dkey) {
+      const owner = districtOwner(dkey);
+      if (!owner) {
+        return {
+          color: '#10131a',
+          weight: 1,
+          fillColor: '#d9c28a',
+          fillOpacity: 0.14,
+        };
+      }
+      const active = activeBaronato() === owner;
+      return {
+        color: active ? '#000000' : '#10131a',
+        weight: active ? 2.0 : 1.1,
+        fillColor: COLORS[owner],
+        fillOpacity: active ? 0.46 : 0.36,
+      };
+    }
+
+    function refreshLayers() {
+      districtLayers.forEach((layer, dkey) => {
+        try { layer.setStyle(styleForDistrict(dkey)); } catch (e) {}
+      });
+      refreshLists();
+      buildOutput(false);
+    }
+
+    function removeFromAll(dkey) {
+      state.ferrugem.delete(dkey);
+      state.leste_aco.delete(dkey);
+      state.sul.delete(dkey);
+    }
+
+    function toggleDistrict(dkey) {
+      const target = activeBaronato();
+      const inTarget = state[target].has(dkey);
+      if (inTarget) {
+        state[target].delete(dkey);
+      } else {
+        removeFromAll(dkey);
+        state[target].add(dkey);
+      }
+      saveState(state);
+      refreshLayers();
+    }
+
+    function renderList(el, arr) {
+      el.innerHTML = '';
+      if (!arr.length) {
+        const li = document.createElement('li');
+        li.textContent = '(vazio)';
+        el.appendChild(li);
+        return;
+      }
+      arr.forEach(d => {
+        const li = document.createElement('li');
+        li.textContent = d;
+        el.appendChild(li);
+      });
+    }
+
+    function refreshLists() {
+      renderList(listFerrugem, Array.from(state.ferrugem).sort());
+      renderList(listLeste, Array.from(state.leste_aco).sort());
+      renderList(listSul, Array.from(state.sul).sort());
+    }
+
+    function buildOutput(withStatus) {
+      const anarchDistricts = Array.from(new Set([
+        ...state.ferrugem,
+        ...state.leste_aco,
+        ...state.sul,
+      ])).sort();
+      const payload = {
+        baronatos: {
+          ferrugem: Array.from(state.ferrugem).sort(),
+          leste_aco: Array.from(state.leste_aco).sort(),
+          sul: Array.from(state.sul).sort(),
+        },
+        anarch_districts: anarchDistricts,
+        updated_at: new Date().toISOString(),
+      };
+      outputEl.value = JSON.stringify(payload, null, 2);
+      if (withStatus) {
+        setStatus(`Aplicado. Distritos anarquistas: ${anarchDistricts.length}`);
+      }
+      return payload;
+    }
+
+    function downloadJson(obj) {
+      const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'baronatos_overlay_editor.json';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function loadGeo() {
+      if (window.__SPBN_DISTRICTS_GEOJSON__) return Promise.resolve(window.__SPBN_DISTRICTS_GEOJSON__);
+      return fetch('data/distritos-sp.geojson', { cache: 'no-store' }).then(r => r.json());
+    }
+
+    loadGeo().then(geo => {
+      const layer = L.geoJSON(geo, {
+        style: (ft) => {
+          const dname = ft?.properties?.ds_nome || ft?.properties?.name || '';
+          return styleForDistrict(dk(dname));
+        },
+        onEachFeature: (ft, l) => {
+          const dname = ft?.properties?.ds_nome || ft?.properties?.name || 'Distrito';
+          const dkey = dk(dname);
+          districtLayers.set(dkey, l);
+          l.bindTooltip(dname, { sticky: true, opacity: 0.95 });
+          l.on('click', () => {
+            toggleDistrict(dkey);
+            l.bindPopup(`<b>${dname}</b><br>Baronato ativo: ${activeBaronato()}`).openPopup();
+          });
+        },
+      }).addTo(map);
+
+      const b = layer.getBounds();
+      if (b && b.isValid()) map.fitBounds(b.pad(0.03));
+      refreshLayers();
+      setStatus('Pronto. Selecione o baronato e clique nos distritos.');
+    }).catch(err => {
+      console.error(err);
+      setStatus('Erro ao carregar distritos: ' + (err?.message || err));
+    });
+
+    document.querySelectorAll('input[name="baronato"]').forEach(el => {
+      el.addEventListener('change', () => refreshLayers());
+    });
+
+    document.getElementById('btnApply').addEventListener('click', () => {
+      buildOutput(true);
+    });
+
+    document.getElementById('btnCopy').addEventListener('click', async () => {
+      const payload = buildOutput(false);
+      try {
+        await navigator.clipboard.writeText(JSON.stringify(payload, null, 2));
+        setStatus('JSON copiado para a area de transferencia.');
+      } catch (e) {
+        setStatus('Nao foi possivel copiar automaticamente. Use o campo JSON.');
+      }
+    });
+
+    document.getElementById('btnDownload').addEventListener('click', () => {
+      const payload = buildOutput(false);
+      downloadJson(payload);
+      setStatus('Arquivo baronatos_overlay_editor.json baixado.');
+    });
+
+    document.getElementById('btnClearActive').addEventListener('click', () => {
+      const t = activeBaronato();
+      state[t].clear();
+      saveState(state);
+      refreshLayers();
+      setStatus('Baronato ativo limpo.');
+    });
+
+    document.getElementById('btnClearAll').addEventListener('click', () => {
+      state.ferrugem.clear();
+      state.leste_aco.clear();
+      state.sul.clear();
+      saveState(state);
+      refreshLayers();
+      setStatus('Todos os baronatos limpos.');
+    });
+
+    document.getElementById('btnReset').addEventListener('click', () => {
+      state.ferrugem = new Set(DEFAULTS.ferrugem);
+      state.leste_aco = new Set(DEFAULTS.leste_aco);
+      state.sul = new Set(DEFAULTS.sul);
+      saveState(state);
+      refreshLayers();
+      setStatus('Padrao restaurado.');
+    });
+  </script>
+</body>
+</html>

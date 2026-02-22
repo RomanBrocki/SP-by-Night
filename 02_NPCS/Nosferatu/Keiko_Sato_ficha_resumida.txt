@@ -1,5 +1,6 @@
-Nome / Alcunha: Keiko Sato / Sombra de entrega (correio)
+Nome / Alcunha: Keiko Sato / Sombra de entrega
 Cla: Nosferatu | Seita: Camarilla
+Idade aparente: - | Abraco: 2010 | Potencia do Sangue 2
 Dominio / area principal: Bras/Pari
 Disciplinas (top 3): -
 Assinatura / estilo: -
@@ -15,4 +16,5 @@ Atuacao mortal (explicita):
 - sumicos logisticos (entregas, galpoes, portoes, horarios).
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 Servos/contatos notaveis (entrada rapida):
-- Nico "Sombra" (kindred; Corretor de informacao) [contact]: ponte para a politica local
+- Nico "Sombra" (kindred; Corretor de informação) [contact]: ponte para a politica local
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

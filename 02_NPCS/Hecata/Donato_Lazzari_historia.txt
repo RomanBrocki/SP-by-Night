@@ -1,11 +1,11 @@
 Donato Lazzari
 
 Perfil:
-- Cla: Hecata | Seita: Autarquicos | Funcao: Coletor do pedagio (cemiterios e galerias)
-- Dominio: Centro Velho / cemiterios | Idade aparente: 39
-- Abraco: 1936 | Sire: - | Acima do sire: -
-- Disciplinas (top 3): ['Oblivion 4', 'Fortitude 2', 'Auspex 2']
-- Assinatura/estilo: educado, implacavel; fala com mortos como quem liga para um amigo
+- Cla: Hecata | Seita: Autarquicos | Funcao: Cobrador de travessia
+- Dominio: Centro Velho / cemitérios | Idade aparente: 39
+- Abraco: 1936 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
+- Disciplinas (top 3): ['Oblivion 4', 'Auspex 2', 'Fortitude 2']
+- Assinatura/estilo: educado, implacável; fala com mortos como quem liga para um amigo
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Enclave dos Cemiterios (Hecata)
@@ -15,7 +15,7 @@ Donato Lazzari e taxa e passagem. Em cena: portas se abrem, mas cada abertura ve
 
 Historia (costurada, sem resumo seco):
 Donato Lazzari nasceu em 1897. O Abraco veio em 1936 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Transformar o Buraco do Centro em moeda politica. O medo e igualmente pratico: Que o Buraco se abra e arraste a cidade para uma guerra espiritual.
+A ambicao de Donato Lazzari e Transformar o Buraco do Centro em moeda política. Na pratica, isso orienta decisoes no eixo de Enclave dos Cemitérios, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que o Buraco se abra e arraste a cidade para uma guerra espiritual. Quando esse risco aparece, Donato Lazzari reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Funerarias, cemiterios e logistica de corpo (o que some, some direito).
@@ -23,25 +23,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Intermediacao de dividas (boons como tabela, cobranca como ritual).
 
 Segredo (objetivamente jogavel):
-- Ele alimenta o Buraco com promessas quebradas (boons sabotados). [CANON-ADJACENT / HOME BREW]
+- Ele alimenta o Buraco com promessas quebradas. Isso encosta diretamente em Dario Kron dívida de boon: Minor; intermediação com mortos e Yusuf Rahman. Se vier à tona, vira acerto de contas e perda de território ou rede.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ele e aliado do Principe.
-- Verdade (perigosa): Ele sabe como aprisionar a alma de um vampiro em um objeto.
+- Rumor (falso): Ele e aliado do Príncipe.
+- Verdade (perigosa): Ele sabe como aprisionar a alma de um vampiro em um objeto. Hoje, quem está mais perto de descobrir isso é Dario Kron dívida de boon: Minor; intermediação com mortos.
 
 Conexoes (com motivo e custo):
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [boon_due]: Minor; intermediacao com mortos
+- Dario Kron (kindred; Primógeno Tremere) [boon_due]: Minor; intermediacao com mortos
 - Yusuf Rahman (kindred; Juiz itinerante) [uneasy]: juiz odeia seus negocios
-- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [uneasy]: subsolo dividido
+- Vovo Zilda (kindred; Anciã subterranea) [uneasy]: subsolo dividido
+- Dario Kron (kindred; Primógeno Tremere) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Lia Morais: Necroassistente (funeraria) (area: Centro Velho/cemiterios)
-- Silvia "Funebre" Prado: Diretora de funeraria (agenda, sala, 'preparo') (area: Consolacao (cemiterios/funerarias))
+- Lia Morais: Necroassistente (area: Centro Velho/cemitérios)
+- Silvia "Funebre" Prado: Diretora de funerária (area: Consolação)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- hecata_iago_siqueira
+- Iago Siqueira
 
 Cenas prontas (para jogar hoje):
-- Cena: Centro Velho / cemiterios. Cobra pedagio de passagem aos PJ e oferece desconto por um favor.
-- Cena: Centro Velho / cemiterios. Pede que os PJ calem um fantasma inconveniente.
-- Cena: Centro Velho / cemiterios. Oferece informacao de mortos sobre a SI.
+- Cena: Centro Velho / cemitérios. Cobra taxa para cruzar seu território e oferece desconto por um favor. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
+- Cena: Centro Velho / cemitérios. Pede que os PJs calem um fantasma inconveniente. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
+- Cena: Centro Velho / cemitérios. Oferece informação de mortos sobre a SI. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.

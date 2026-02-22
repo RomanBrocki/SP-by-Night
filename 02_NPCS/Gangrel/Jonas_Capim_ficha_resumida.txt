@@ -1,7 +1,7 @@
-Nome / Alcunha: Jonas "Capim" / Batedor (Sul)
+Nome / Alcunha: Jonas "Capim" / Batedor
 Cla: Gangrel | Seita: Anarch
 Idade aparente: 35 | Abraco: 2014 | Potencia do Sangue 1
-Dominio / area principal: Baronato Sul (Capao/Grajau)
+Dominio / area principal: Baronato Sul
 Disciplinas (top 3): -
 Assinatura / estilo: -
 Coteries/associacoes (grupo e rede):
@@ -16,4 +16,5 @@ Atuacao mortal (explicita):
 - protecao de borda (onde a cidade vira mata, alguem manda).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [contact]: ponte para a politica local
+- Bia "Matilha" (kindred; Baronesa da borda sul) [contact]: ponte para a politica local
+- Bia "Matilha" (kindred; Baronesa da borda sul) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

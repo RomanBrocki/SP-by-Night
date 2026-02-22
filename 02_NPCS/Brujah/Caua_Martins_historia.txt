@@ -1,8 +1,8 @@
 Caua Martins
 
 Perfil:
-- Cla: Brujah | Seita: Anarch | Funcao: Executor da Baronesa (linha dura)
-- Dominio: Mooca (ruas) | Idade aparente: 29
+- Cla: Brujah | Seita: Anarch | Funcao: Executor da Baronesa
+- Dominio: Mooca | Idade aparente: 29
 - Abraco: 2016 | Sire: brujah_renata_ferraz | Acima do sire: -
 - Disciplinas (top 3): ['Potence 2', 'Celerity 2', 'Presence 1']
 - Assinatura/estilo: sorriso curto; punho rapido; lealdade feroz
@@ -15,7 +15,7 @@ Caua Martins e presenca. Em cena: as conversas mudam de assunto, celulares somem
 
 Historia (costurada, sem resumo seco):
 Caua Martins nasceu em 1987. O Abraco veio em 2016 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ser o proximo Barao quando Renata cair. O medo e igualmente pratico: Ser visto como mero capanga.
+A ambicao de Caua Martins e Ser o proximo Barao quando Renata cair. O medo principal e Ser visto como mero capanga. No territorio de Mooca, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Movimento de rua e protecao informal (bairro, torcida, sindicato, igreja local).
@@ -33,12 +33,13 @@ Rumor e verdade (municao social):
 Conexoes (com motivo e custo):
 - Renata Ferraz (kindred; Baronesa da Mooca) [childe]: lealdade e ambicao
 - Elias "Sal" (kindred; Agitador de celula (cobrador)) [boon_owed]: favor sujo por dinheiro e culto
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [uneasy]: nao confia em 'animais' na politica
+- Bia "Matilha" (kindred; Baronesa da borda sul) [uneasy]: nao confia em 'animais' na politica
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Mooca (ruas). Protege os PJ se eles provarem utilidade.
-- Cena: Mooca (ruas). Ameaça os PJ por pisarem no territorio errado.
-- Cena: Mooca (ruas). E acusado de um crime que nao cometeu.
+- Cena: Mooca. Protege os PJ se eles provarem utilidade.
+- Cena: Mooca. Ameaça os PJ por pisarem no territorio errado.
+- Cena: Mooca. E acusado de um crime que nao cometeu.

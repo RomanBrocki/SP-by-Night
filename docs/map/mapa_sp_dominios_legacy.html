@@ -1,0 +1,1302 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapa Territorial - Sao Paulo by Night</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <style>
+    :root {
+      --bg: #0b0a0f;
+      --panel: #171118;
+      --text: #efe9e6;
+      --muted: #b6a8a2;
+      --border: rgba(198,166,155,0.26);
+      --accent: #d4b06a;
+
+      --cam: #c6a34a;
+      --anarch: #ff6b00;
+      --indep: #6f42c1;
+      --lupino: #2f9e44;
+      --poi: #00bcd4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      font: 14px/1.5 "Palatino Linotype", "Book Antiqua", Garamond, serif;
+      background:
+        radial-gradient(1200px 800px at 15% 8%, rgba(122,31,43,0.16), transparent 60%),
+        radial-gradient(980px 680px at 82% -2%, rgba(54,21,28,0.38), transparent 55%),
+        repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 14px),
+        var(--bg);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 10px;
+      pointer-events: none;
+      border: 1px solid rgba(198,166,155,0.26);
+      box-shadow: inset 0 0 0 2px rgba(198,166,155,0.08);
+      z-index: 0;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1.5fr auto 1fr;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(24,17,24,0.96), rgba(20,16,23,0.96));
+      position: relative;
+      z-index: 3;
+    }
+
+    .legend {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: rgba(0,0,0,0.20);
+      color: var(--text);
+      font-size: 12px;
+      cursor: pointer;
+      user-select: none;
+      transition: opacity 120ms ease, background 120ms ease;
+    }
+
+    .legend-item:hover {
+      background: rgba(122,31,43,0.26);
+    }
+
+    .legend-item.is-off {
+      opacity: 0.46;
+      background: rgba(0,0,0,0.34);
+      text-decoration: line-through;
+    }
+
+    .swatch {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.35);
+      display: inline-block;
+    }
+
+    .title-wrap { text-align: center; }
+    .title-wrap h1 {
+      margin: 0;
+      font-size: 22px;
+      font-family: "Trajan Pro", "Cinzel", "Palatino Linotype", serif;
+      letter-spacing: 0.03em;
+    }
+
+    .title-wrap p { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
+
+    .top-nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .top-nav a {
+      display: inline-block;
+      padding: 7px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(122,31,43,0.18);
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .top-nav a:hover {
+      background: rgba(122,31,43,0.30);
+      text-decoration: none;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 340px 1fr 360px;
+      height: calc(100vh - 84px);
+      position: relative;
+      z-index: 1;
+    }
+
+    .side, .detail {
+      overflow: auto;
+      padding: 10px;
+      background: linear-gradient(180deg, rgba(20,16,23,0.96), rgba(14,12,17,0.96));
+    }
+
+    .side { border-right: 1px solid var(--border); }
+    .detail { border-left: 1px solid var(--border); }
+
+    .main { min-width: 0; position: relative; }
+    #map { width: 100%; height: 100%; }
+
+    .sec {
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(20,16,23,0.96), rgba(14,12,17,0.96));
+      border-radius: 10px;
+      padding: 8px;
+      margin: 8px 0;
+    }
+
+    .sec h2 {
+      margin: 0 0 6px;
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .hint { color: var(--muted); font-size: 12px; margin: 0 0 8px; }
+
+    .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+    button {
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(122,31,43,0.24);
+      color: var(--text);
+      cursor: pointer;
+      font: inherit;
+      font-size: 12px;
+    }
+
+    button:hover { background: rgba(122,31,43,0.35); }
+
+    label.chip {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      padding: 4px 6px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(0,0,0,0.20);
+      font-size: 11px;
+      line-height: 1.2;
+      min-height: 24px;
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+
+    .chips {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(86px, 1fr));
+      gap: 6px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(0,0,0,0.25);
+      color: var(--text);
+      font: inherit;
+      font-size: 13px;
+    }
+
+    .results {
+      margin: 8px 0 0;
+      padding: 0;
+      list-style: none;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      max-height: 220px;
+      overflow: auto;
+      background: rgba(0,0,0,0.20);
+    }
+
+    .results li {
+      padding: 6px 8px;
+      border-bottom: 1px solid rgba(198,166,155,0.12);
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .results li:last-child { border-bottom: 0; }
+    .results li:hover { background: rgba(122,31,43,0.26); }
+
+    .status { color: var(--muted); font-size: 12px; margin-top: 6px; }
+
+    .card-title { margin: 0 0 6px; font-size: 18px; }
+    .card-sub { margin: 0 0 10px; color: var(--muted); font-size: 12px; }
+
+    .portrait {
+      width: 100%;
+      max-width: 300px;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      background: rgba(0,0,0,0.25);
+      display: none;
+    }
+
+    .details-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 6px;
+      font-size: 13px;
+    }
+
+    .details-list li {
+      border: 1px solid rgba(198,166,155,0.14);
+      border-radius: 8px;
+      background: rgba(0,0,0,0.16);
+      padding: 6px 8px;
+      white-space: pre-wrap;
+    }
+
+    .leaflet-container {
+      background: #101117;
+      font: inherit;
+    }
+
+    @media (max-width: 1250px) {
+      .layout { grid-template-columns: 320px 1fr; }
+      .detail { display: none; }
+      .topbar { grid-template-columns: 1fr; }
+      .title-wrap { text-align: left; }
+      .top-nav { justify-content: flex-start; }
+    }
+
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; height: auto; min-height: calc(100vh - 84px); }
+      .side { border-right: 0; border-bottom: 1px solid var(--border); }
+      .main { min-height: 72vh; }
+      .detail { display: block; border-left: 0; border-top: 1px solid var(--border); }
+      .chips { grid-template-columns: repeat(2, minmax(90px, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="legend">
+      <button type="button" class="legend-item" data-overlay="camarilla" aria-pressed="true"><span class="swatch" style="background: var(--cam)"></span>Camarilla</button>
+      <button type="button" class="legend-item" data-overlay="anarquistas" aria-pressed="true"><span class="swatch" style="background: var(--anarch)"></span>Anarquistas</button>
+      <button type="button" class="legend-item" data-overlay="independentes" aria-pressed="true"><span class="swatch" style="background: var(--indep)"></span>Independentes</button>
+      <button type="button" class="legend-item" data-overlay="lupino" aria-pressed="true"><span class="swatch" style="background: var(--lupino)"></span>Risco lupino</button>
+    </div>
+    <div class="title-wrap">
+      <h1>Mapa Territorial - Sao Paulo by Night</h1>
+      <p>Territorios fixos (canon) e filtros apenas para pins</p>
+    </div>
+    <div class="top-nav">
+      <a id="lnkBook" href="#">Livro</a>
+      <a id="lnkTeia" href="#">Teia</a>
+      <a id="lnkEditor" href="./editor_baronatos.html">Editor Baronatos</a>
+    </div>
+  </div>
+
+  <div class="layout">
+    <aside class="side">
+      <div class="sec">
+        <h2>Filtros de Pins</h2>
+        <p class="hint">Use os filtros e clique em <b>Aplicar filtros</b>.</p>
+        <div class="row">
+          <button id="btnSelectAll">Selecionar tudo</button>
+          <button id="btnClearAll">Limpar tudo</button>
+          <button id="btnApply">Aplicar filtros</button>
+        </div>
+      </div>
+
+      <div class="sec">
+        <h2>Pins Visiveis</h2>
+        <div class="chips" id="pinsChips"></div>
+      </div>
+
+      <div class="sec">
+        <h2>Faccao (NPCs)</h2>
+        <div class="chips" id="factionChips"></div>
+      </div>
+
+      <div class="sec">
+        <h2>Cla (NPCs)</h2>
+        <div class="chips" id="clanChips"></div>
+      </div>
+
+      <div class="sec">
+        <h2>Tipo de NPC</h2>
+        <div class="chips" id="typeChips"></div>
+      </div>
+
+      <div class="status" id="leftStatus">Carregando dados canonicos...</div>
+    </aside>
+
+    <main class="main">
+      <div id="map"></div>
+    </main>
+
+    <aside class="detail">
+      <div class="sec">
+        <h2>Busca por Pin</h2>
+        <p class="hint">Busca por nome de NPC e ponto de interesse. Clique no resultado para focar.</p>
+        <input type="text" id="searchInput" placeholder="Digite parte do nome..." />
+        <ul class="results" id="searchResults"></ul>
+      </div>
+
+      <div class="sec">
+        <h2>Detalhes</h2>
+        <h3 class="card-title" id="detailTitle">Selecione um pin ou territorio</h3>
+        <p class="card-sub" id="detailSub">Clique no mapa para ver informacoes.</p>
+        <img id="detailPortrait" class="portrait" alt="Retrato" />
+        <ul class="details-list" id="detailLines"></ul>
+      </div>
+    </aside>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="data/distritos-sp.geojson.js"></script>
+  <script src="data/canon_map_data.json.js"></script>
+  <script src="data/baronatos_overlay_editor.json.js"></script>
+  <script>
+    const COLORS = {
+      Camarilla: '#c6a34a',
+      Anarquistas: '#ff6b00',
+      Independentes: '#6f42c1',
+      'Risco lupino': '#2f9e44',
+      Mortal: '#7f8c8d',
+      'Segunda Inquisicao': '#d90429',
+      Outro: '#8d99ae',
+      POI: '#00bcd4',
+    };
+
+    const map = L.map('map', {
+      preferCanvas: true,
+      zoomControl: true,
+      minZoom: 10,
+      maxZoom: 17,
+      attributionControl: true,
+    }).setView([-23.55, -46.64], 11);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors',
+    }).addTo(map);
+
+    const panes = {
+      macro: map.createPane('macro'),
+      lupino: map.createPane('lupino'),
+      pins: map.createPane('pins'),
+      selected: map.createPane('selected'),
+    };
+    panes.macro.style.zIndex = 320;
+    panes.lupino.style.zIndex = 330;
+    panes.pins.style.zIndex = 500;
+    panes.selected.style.zIndex = 520;
+    panes.selected.style.pointerEvents = 'none';
+
+    const leftStatus = document.getElementById('leftStatus');
+    const detailTitle = document.getElementById('detailTitle');
+    const detailSub = document.getElementById('detailSub');
+    const detailPortrait = document.getElementById('detailPortrait');
+    const detailLines = document.getElementById('detailLines');
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    const legendButtons = Array.from(document.querySelectorAll('.legend-item[data-overlay]'));
+
+    const overlayState = {
+      camarilla: true,
+      anarquistas: true,
+      independentes: true,
+      lupino: true,
+    };
+    const overlayLayers = {};
+
+    function setStatus(msg) {
+      leftStatus.textContent = msg;
+    }
+
+    function dk(name) {
+      return String(name || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toUpperCase()
+        .trim();
+    }
+
+    function hasText(v) {
+      return v !== null && v !== undefined && String(v).trim() !== '';
+    }
+
+    function syncLegendButtons() {
+      legendButtons.forEach(btn => {
+        const key = String(btn.dataset.overlay || '');
+        const on = !!overlayState[key];
+        btn.classList.toggle('is-off', !on);
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+    }
+
+    function toggleOverlay(key) {
+      if (!Object.prototype.hasOwnProperty.call(overlayState, key)) return;
+      overlayState[key] = !overlayState[key];
+      const layer = overlayLayers[key];
+      if (layer) {
+        if (overlayState[key]) {
+          if (!map.hasLayer(layer)) layer.addTo(map);
+        } else if (map.hasLayer(layer)) {
+          map.removeLayer(layer);
+        }
+      }
+      syncLegendButtons();
+    }
+
+    function setDetails(title, subtitle, lines, portraitStem) {
+      detailTitle.textContent = title || '-';
+      detailSub.textContent = subtitle || '';
+      detailLines.innerHTML = '';
+      (lines || []).forEach(line => {
+        const li = document.createElement('li');
+        li.textContent = String(line);
+        detailLines.appendChild(li);
+      });
+      setPortraitFromStem(portraitStem || '');
+    }
+
+    function mapModeInfo() {
+      const p = String(location.pathname || '').toLowerCase();
+      const rootMode = p.includes('/06_mapa_sp/');
+      return {
+        rootMode,
+        portraitBases: rootMode
+          ? ['../docs/assets/portraits/', '../05_ASSETS/portraits/']
+          : ['../assets/portraits/', '../05_ASSETS/portraits/', '../docs/assets/portraits/'],
+        bookHref: rootMode ? '../07_LIVRO_BY_NIGHT/index.html' : '../book/index.html',
+        teiaHref: rootMode ? '../01_BACKGROUND_NARRADOR/teia_de_conexoes_mapa.html' : '../teia/teia_de_conexoes_mapa.html',
+        editorHref: './editor_baronatos.html',
+      };
+    }
+
+    const MODE = mapModeInfo();
+    document.getElementById('lnkBook').href = MODE.bookHref;
+    document.getElementById('lnkTeia').href = MODE.teiaHref;
+    document.getElementById('lnkEditor').href = MODE.editorHref;
+
+    const FALLBACK_IMG =
+      'data:image/svg+xml;utf8,' +
+      encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400"><rect width="300" height="400" fill="#1b1c24"/><circle cx="150" cy="140" r="64" fill="#6b6f80"/><rect x="64" y="230" width="172" height="120" rx="56" fill="#6b6f80"/></svg>');
+
+    function setPortraitFromStem(stem) {
+      detailPortrait.style.display = 'none';
+      detailPortrait.removeAttribute('src');
+      if (!stem) return;
+
+      const exts = ['jpg', 'jpeg', 'png', 'webp'];
+      const candidates = [];
+      MODE.portraitBases.forEach(base => {
+        exts.forEach(ext => candidates.push(base + stem + '.' + ext));
+      });
+      candidates.push(FALLBACK_IMG);
+
+      const tryIdx = (i) => {
+        if (i >= candidates.length) return;
+        const src = candidates[i];
+        detailPortrait.onload = () => {
+          detailPortrait.style.display = 'block';
+        };
+        detailPortrait.onerror = () => tryIdx(i + 1);
+        detailPortrait.src = src;
+      };
+
+      tryIdx(0);
+    }
+
+    function mkChip(container, id, label, checked) {
+      const l = document.createElement('label');
+      l.className = 'chip';
+      const c = document.createElement('input');
+      c.type = 'checkbox';
+      c.id = id;
+      c.checked = !!checked;
+      l.appendChild(c);
+      l.appendChild(document.createTextNode(label));
+      container.appendChild(l);
+      return c;
+    }
+
+    function iconColorForNpcFaction(faction) {
+      return COLORS[faction] || COLORS.Outro;
+    }
+
+    function pinStyle(pin) {
+      if (pin.pin_kind === 'poi') {
+        return {
+          pane: 'pins',
+          radius: 6,
+          color: '#081119',
+          weight: 2,
+          fillColor: COLORS.POI,
+          fillOpacity: 0.92,
+        };
+      }
+      return {
+        pane: 'pins',
+        radius: 6,
+        color: '#081119',
+        weight: 2,
+        fillColor: iconColorForNpcFaction(pin.faction),
+        fillOpacity: 0.92,
+      };
+    }
+
+    let selectedHalo = null;
+    function highlightLatLng(lat, lon) {
+      if (selectedHalo) {
+        try { map.removeLayer(selectedHalo); } catch (e) {}
+        selectedHalo = null;
+      }
+      selectedHalo = L.circleMarker([lat, lon], {
+        pane: 'selected',
+        interactive: false,
+        radius: 11,
+        color: '#ffffff',
+        weight: 2,
+        fillColor: '#ffffff',
+        fillOpacity: 0.06,
+      }).addTo(map);
+    }
+
+    function territoryFaction(districtName, rules) {
+      const d = dk(districtName);
+      if (rules.anarchSet.has(d)) return 'Anarquistas';
+      if (rules.indepSet.has(d)) return 'Independentes';
+      return 'Camarilla';
+    }
+
+    function normText(s) {
+      return String(s || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+    }
+
+    function tierScore(tier) {
+      const t = String(tier || '').trim().toUpperCase();
+      if (t === 'S') return 40;
+      if (t === 'A') return 30;
+      if (t === 'B') return 20;
+      if (t === 'C') return 10;
+      return 0;
+    }
+
+    function ownerPriorityForCamarilla(npc) {
+      const name = String(npc?.name || '');
+      const role = normText(npc?.role || '');
+      let score = tierScore(npc?.tier);
+
+      if (name === 'Artur Macedo') score += 1200;
+      if (name === 'Isabel do Amaral') score += 1150;
+      if (name === 'Mateus Cordeiro') score += 1120;
+
+      if (role.includes('principe')) score += 1000;
+      if (role.includes('xerife')) score += 900;
+      if (role.includes('senescal')) score += 860;
+      if (role.includes('primog')) score += 840;
+      if (role.includes('harpia')) score += 780;
+      if (role.includes('guardia')) score += 760;
+
+      return score;
+    }
+
+    let BARONATO_MOOCA = new Set();
+    let BARONATO_LESTE = new Set();
+    let BARONATO_SUL = new Set();
+
+    function ownerForDistrict(dkey, fac, residents) {
+      if (fac === 'Anarquistas') {
+        if (BARONATO_MOOCA.has(dkey)) return 'Baronia da Ferrugem (Renata Ferraz)';
+        if (BARONATO_LESTE.has(dkey)) return 'Leste de Aco (Diego "Itaquera" Nascimento)';
+        if (BARONATO_SUL.has(dkey)) return 'Matilha do Sul (Bia "Matilha")';
+        return 'Rede Anarquista local';
+      }
+      if (fac === 'Independentes') {
+        if (dkey === 'SE' || dkey === 'REPUBLICA') return 'Nucleo Hecata do Centro Velho (Donato Lazzari / Soraia Nunes)';
+        if (dkey === 'CONSOLACAO') return 'Nucleo Hecata da Consolacao (Celia Moura / Iago Siqueira)';
+        return 'Rede Independente local';
+      }
+      const cam = (residents?.cainitas || []).filter(n => String(n.faction || 'Outro') === 'Camarilla');
+      if (!cam.length) return 'Corte Camarilla (Principe Artur Macedo)';
+      cam.sort((a, b) => {
+        const diff = ownerPriorityForCamarilla(b) - ownerPriorityForCamarilla(a);
+        if (diff !== 0) return diff;
+        return String(a.name || '').localeCompare(String(b.name || ''));
+      });
+      const best = cam[0];
+      const role = String(best.role || '').trim();
+      return role ? (best.name + ' (' + role + ')') : best.name;
+    }
+
+    function districtNameFromFeature(ft) {
+      return ft?.properties?.ds_nome || ft?.properties?.name || 'Distrito';
+    }
+
+    function normalizeDistrictList(list) {
+      return Array.from(new Set((Array.isArray(list) ? list : []).map(dk))).filter(Boolean);
+    }
+
+    function normalizeBaronatosOverlay(raw) {
+      const b = raw?.baronatos || {};
+      const ferr = normalizeDistrictList(b.ferrugem);
+      const leste = normalizeDistrictList(b.leste_aco);
+      const sul = normalizeDistrictList(b.sul);
+      const union = Array.from(new Set([...ferr, ...leste, ...sul]));
+      return {
+        ferrugem: ferr,
+        leste_aco: leste,
+        sul: sul,
+        anarch_districts: union,
+      };
+    }
+
+    async function loadBaronatosOverlay() {
+      if (window.__SPBN_BARONATOS_OVERLAY__) {
+        return normalizeBaronatosOverlay(window.__SPBN_BARONATOS_OVERLAY__);
+      }
+
+      const bust = 'v=spbn_2035_baronatos_overlay_1';
+      const candidates = [
+        `data/baronatos_overlay_editor.json?${bust}`,
+        `./data/baronatos_overlay_editor.json?${bust}`,
+        'data/baronatos_overlay_editor.json',
+        './data/baronatos_overlay_editor.json',
+      ];
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url, { cache: 'no-store' });
+          if (!res.ok) continue;
+          const j = await res.json();
+          return normalizeBaronatosOverlay(j);
+        } catch (e) {}
+      }
+
+      throw new Error('Falha ao carregar data/baronatos_overlay_editor.json');
+    }
+
+    function groupLabel(g) {
+      if (!g) return '-';
+      return g;
+    }
+
+    function buildSearchIndex(filteredPins, allPins) {
+      const term = String(searchInput.value || '').trim().toLowerCase();
+      const source = filteredPins.length ? filteredPins : allPins;
+      const result = !term
+        ? source.slice(0, 120)
+        : source.filter(p => String(p.name || '').toLowerCase().includes(term)).slice(0, 120);
+      return result;
+    }
+
+    function clearSearchResults() {
+      searchResults.innerHTML = '';
+    }
+
+    function globalsMapData() {
+      const geo = window.__SPBN_DISTRICTS_GEOJSON__;
+      const canon = window.__SPBN_CANON_MAP_DATA__;
+      if (geo && canon) return { geo, canon };
+      return null;
+    }
+
+    async function loadMapData() {
+      // Prefer data bundled with this HTML first (avoids stale fetch cache).
+      const bundled = globalsMapData();
+      if (bundled) return bundled;
+
+      const bust = 'v=spbn_2035_canon_territorios_3';
+      const candidates = [
+        [`data/distritos-sp.geojson?${bust}`, `data/canon_map_data.json?${bust}`],
+        [`./data/distritos-sp.geojson?${bust}`, `./data/canon_map_data.json?${bust}`],
+        ['data/distritos-sp.geojson', 'data/canon_map_data.json'],
+        ['./data/distritos-sp.geojson', './data/canon_map_data.json'],
+      ];
+
+      for (const [geoUrl, canonUrl] of candidates) {
+        try {
+          const [geoRes, canonRes] = await Promise.all([
+            fetch(geoUrl, { cache: 'no-store' }),
+            fetch(canonUrl, { cache: 'no-store' }),
+          ]);
+          if (!geoRes.ok || !canonRes.ok) continue;
+          return {
+            geo: await geoRes.json(),
+            canon: await canonRes.json(),
+          };
+        } catch (e) {
+          // fallback below
+        }
+      }
+
+      throw new Error(
+        'Falha ao carregar dados do mapa (fetch e fallback local).'
+      );
+    }
+
+    (async function init() {
+      try {
+        const { geo, canon } = await loadMapData();
+        const baronatosOverlay = await loadBaronatosOverlay();
+
+        BARONATO_MOOCA = new Set(baronatosOverlay.ferrugem);
+        BARONATO_LESTE = new Set(baronatosOverlay.leste_aco);
+        BARONATO_SUL = new Set(baronatosOverlay.sul);
+
+        const rules = {
+          anarchSet: new Set((baronatosOverlay.anarch_districts || []).map(dk)),
+          indepSet: new Set((canon.territories?.dominant_rules?.independent_districts || []).map(dk)),
+          lupinoSet: new Set((canon.territories?.dominant_rules?.lupino_risk_districts || []).map(dk)),
+        };
+
+        const npcs = Array.isArray(canon.npcs) ? canon.npcs.slice() : [];
+        const pois = Array.isArray(canon.points_of_interest) ? canon.points_of_interest.slice() : [];
+
+        const factionCount = npcs.reduce((acc, n) => {
+          const f = String(n.faction || 'Outro');
+          acc[f] = (acc[f] || 0) + 1;
+          return acc;
+        }, {});
+
+        const residentsByDistrict = new Map();
+        npcs.forEach(n => {
+          const dkey = dk(n.district_key || n.district || '');
+          if (!dkey) return;
+          if (!residentsByDistrict.has(dkey)) {
+            residentsByDistrict.set(dkey, {
+              all: [],
+              cainitas: [],
+              byFaction: {},
+            });
+          }
+          const slot = residentsByDistrict.get(dkey);
+          slot.all.push(n);
+          if (String(n.npc_type || '') === 'Vampiro') slot.cainitas.push(n);
+          const f = String(n.faction || 'Outro');
+          slot.byFaction[f] = (slot.byFaction[f] || 0) + 1;
+        });
+
+        function collectResidentsByDistrictKeys(districtKeys) {
+          const keys = Array.isArray(districtKeys) ? districtKeys : Array.from(districtKeys || []);
+          const allMap = new Map();
+          const cainitasMap = new Map();
+          const byFaction = {};
+
+          keys.forEach(k => {
+            const dkKey = dk(k);
+            const slot = residentsByDistrict.get(dkKey);
+            if (!slot) return;
+            (slot.all || []).forEach(n => {
+              if (!allMap.has(n.id)) allMap.set(n.id, n);
+            });
+            (slot.cainitas || []).forEach(n => {
+              if (!cainitasMap.has(n.id)) cainitasMap.set(n.id, n);
+            });
+            Object.entries(slot.byFaction || {}).forEach(([f, c]) => {
+              byFaction[f] = (byFaction[f] || 0) + Number(c || 0);
+            });
+          });
+
+          return {
+            all: Array.from(allMap.values()),
+            cainitas: Array.from(cainitasMap.values()),
+            byFaction,
+          };
+        }
+
+        function openTerritoryDetails(opts) {
+          const fac = opts.faction || 'Outro';
+          const name = opts.name || 'Territorio';
+          const owner = opts.owner || '-';
+          const districtKeys = opts.districtKeys || [];
+          const lupino = !!opts.lupino;
+          const subtitle = opts.subtitle || 'Territorio';
+
+          const residents = collectResidentsByDistrictKeys(districtKeys);
+          const facCainitas = residents.cainitas.filter(n => String(n.faction || 'Outro') === fac);
+          const nonCainitas = residents.all.filter(n => String(n.npc_type || '') !== 'Vampiro');
+          const otherFactions = Object.keys(residents.byFaction)
+            .filter(f => f !== fac && residents.byFaction[f] > 0)
+            .map(f => f + ': ' + residents.byFaction[f]);
+
+          const lines = [
+            'Territorio: ' + name,
+            'Dominio principal: ' + fac,
+            'Dono vampirico do territorio: ' + owner,
+            'Faccao do dono: ' + fac,
+            'Distritos associados: ' + districtKeys.join(', '),
+            'Risco lupino: ' + (lupino ? 'Sim (zona de perigo)' : 'Nao marcado'),
+            '',
+            'Cainitas da faccao dominante neste territorio: ' + facCainitas.length,
+            'Cainitas totais neste territorio: ' + residents.cainitas.length,
+            'Membros totais mapeados (vampiros/ghouls/mortais): ' + residents.all.length,
+            'Membros da faccao no projeto inteiro: ' + (factionCount[fac] || 0),
+          ];
+          if (facCainitas.length > 0) {
+            lines.push('');
+            lines.push('Cainitas residentes da faccao dominante: ' + facCainitas.map(n => n.name).join(', '));
+          } else {
+            lines.push('');
+            lines.push('Cainitas residentes da faccao dominante: nenhum listado.');
+          }
+          if (residents.cainitas.length > 0) {
+            lines.push('Cainitas residentes (todos): ' + residents.cainitas.map(n => n.name).join(', '));
+          }
+          if (nonCainitas.length > 0) {
+            lines.push('Outros residentes (ghouls/mortais): ' + nonCainitas.map(n => n.name).join(', '));
+          }
+          if (otherFactions.length > 0) {
+            lines.push('Outras faccoes presentes: ' + otherFactions.join(' | '));
+          }
+
+          setDetails(name, subtitle, lines, '');
+          return {
+            cainitas: residents.cainitas.length,
+          };
+        }
+
+        function onEachDistrictFeature(ft, layer, forcedFac) {
+          const name = districtNameFromFeature(ft);
+          const districtKey = dk(name);
+          const fac = forcedFac || territoryFaction(name, rules);
+          const lup = rules.lupinoSet.has(dk(name));
+          layer.on('click', () => {
+            const residents = collectResidentsByDistrictKeys([districtKey]);
+            const owner = ownerForDistrict(districtKey, fac, residents);
+            const out = openTerritoryDetails({
+              name: 'Distrito ' + name,
+              faction: fac,
+              owner: owner,
+              districtKeys: [districtKey],
+              lupino: lup,
+              subtitle: 'Camada macro territorial canonica',
+            });
+            const popupHtml = [
+              '<b>' + name + '</b>',
+              'Dominio: ' + fac,
+              'Dono: ' + owner,
+              'Cainitas: ' + out.cainitas,
+            ].join('<br>');
+            try {
+              layer.bindPopup(popupHtml).openPopup();
+            } catch (e) {}
+          });
+          layer.bindTooltip(name + ' - ' + fac, { sticky: true, opacity: 0.95 });
+        }
+
+        overlayLayers.camarilla = L.geoJSON(geo, {
+          pane: 'macro',
+          filter: (ft) => {
+            const name = districtNameFromFeature(ft);
+            const d = dk(name);
+            return !rules.indepSet.has(d);
+          },
+          style: {
+            color: '#0b0e13',
+            weight: 1,
+            fillColor: COLORS.Camarilla,
+            fillOpacity: 0.34,
+          },
+          onEachFeature: (ft, layer) => onEachDistrictFeature(ft, layer, 'Camarilla'),
+        }).addTo(map);
+
+        overlayLayers.anarquistas = L.layerGroup().addTo(map);
+
+        function addBaronatoDistrictOverlay(cfg) {
+          const dset = new Set((cfg.districtKeys || []).map(dk));
+          const layer = L.geoJSON(geo, {
+            pane: 'macro',
+            filter: (ft) => {
+              const dname = districtNameFromFeature(ft);
+              return dset.has(dk(dname));
+            },
+            style: {
+              color: '#0b0e13',
+              weight: 0.6,
+              fillColor: COLORS.Anarquistas,
+              fillOpacity: 0.36,
+            },
+            onEachFeature: (ft, districtLayer) => {
+              const dname = districtNameFromFeature(ft);
+              districtLayer.bindTooltip(cfg.name + ' - ' + dname, { sticky: true, opacity: 0.95 });
+              districtLayer.on('click', () => {
+                const out = openTerritoryDetails({
+                  name: cfg.name,
+                  faction: 'Anarquistas',
+                  owner: cfg.owner,
+                  districtKeys: cfg.districtKeys,
+                  lupino: false,
+                  subtitle: 'Baronato Anarquista (distritos reais)',
+                });
+                const popupHtml = [
+                  '<b>' + cfg.name + '</b>',
+                  'Dominio: Anarquistas',
+                  'Dono: ' + cfg.owner,
+                  'Distritos: ' + cfg.districtKeys.join(', '),
+                  'Cainitas: ' + out.cainitas,
+                ].join('<br>');
+                try { districtLayer.bindPopup(popupHtml).openPopup(); } catch (e) {}
+              });
+            },
+          });
+          layer.addTo(overlayLayers.anarquistas);
+        }
+
+        addBaronatoDistrictOverlay({
+          name: 'Baronia da Ferrugem (Mooca/Tatuape)',
+          owner: 'Renata Ferraz (Barao)',
+          districtKeys: Array.from(BARONATO_MOOCA),
+        });
+        addBaronatoDistrictOverlay({
+          name: 'Leste de Aco (Itaquera)',
+          owner: 'Diego \"Itaquera\" Nascimento (Barao)',
+          districtKeys: Array.from(BARONATO_LESTE),
+        });
+        addBaronatoDistrictOverlay({
+          name: 'Matilha do Sul',
+          owner: 'Bia \"Matilha\" (Bara)',
+          districtKeys: Array.from(BARONATO_SUL),
+        });
+
+        overlayLayers.independentes = L.geoJSON(geo, {
+          pane: 'macro',
+          filter: (ft) => {
+            const name = districtNameFromFeature(ft);
+            return rules.indepSet.has(dk(name));
+          },
+          style: {
+            color: '#0b0e13',
+            weight: 1,
+            fillColor: COLORS.Independentes,
+            fillOpacity: 0.34,
+          },
+          onEachFeature: (ft, layer) => onEachDistrictFeature(ft, layer, 'Independentes'),
+        }).addTo(map);
+
+        overlayLayers.lupino = L.geoJSON(geo, {
+          pane: 'lupino',
+          filter: (ft) => {
+            const name = districtNameFromFeature(ft);
+            return rules.lupinoSet.has(dk(name));
+          },
+          style: {
+            color: '#0e1a12',
+            weight: 2,
+            dashArray: '6 6',
+            fillColor: COLORS['Risco lupino'],
+            fillOpacity: 0.22,
+          },
+        }).addTo(map);
+
+        syncLegendButtons();
+        legendButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const key = String(btn.dataset.overlay || '');
+            toggleOverlay(key);
+          });
+        });
+
+        const pinsLayer = L.layerGroup().addTo(map);
+        const markerById = new Map();
+
+        const allPins = [];
+        npcs.forEach(n => {
+          if (!Number.isFinite(n.lat) || !Number.isFinite(n.lon)) return;
+          allPins.push({
+            id: n.id,
+            pin_kind: 'npc',
+            name: n.name,
+            lat: n.lat,
+            lon: n.lon,
+            faction: n.faction,
+            clan: n.clan,
+            npc_type: n.npc_type,
+            tier: n.tier,
+            role: n.role,
+            domain_text: n.domain_text,
+            group: n.group,
+            subgroup: n.subgroup,
+            region: n.region,
+            district: n.district,
+            district_key: n.district_key,
+            territory_bucket: n.territory_bucket,
+            cluster_territorial: n.cluster_territorial,
+            portrait_stem: n.portrait_stem,
+          });
+        });
+
+        pois.forEach(p => {
+          if (!Number.isFinite(p.lat) || !Number.isFinite(p.lon)) return;
+          allPins.push({
+            id: p.id,
+            pin_kind: 'poi',
+            name: p.name,
+            lat: p.lat,
+            lon: p.lon,
+            faction: p.faction,
+            poi_kind: p.kind,
+            region: p.region,
+            district: p.district,
+            district_key: p.district_key,
+            actors: p.actors,
+            notes: p.notes,
+            map_anchor: p.map_anchor,
+            address: p.address,
+            query: p.query,
+            map_ref_type: p.map_ref_type,
+          });
+        });
+
+        const factions = Array.from(new Set(npcs.map(n => String(n.faction || 'Outro')))).sort((a, b) => a.localeCompare(b));
+        const clans = Array.from(new Set(npcs.map(n => String(n.clan || '-')))).sort((a, b) => a.localeCompare(b));
+        const types = Array.from(new Set(npcs.map(n => String(n.npc_type || '-')))).sort((a, b) => a.localeCompare(b));
+
+        const pinChecks = {};
+        const factionChecks = {};
+        const clanChecks = {};
+        const typeChecks = {};
+
+        pinChecks.poi = mkChip(document.getElementById('pinsChips'), 'chk_pin_poi', 'Pontos de interesse', true);
+        pinChecks.npc = mkChip(document.getElementById('pinsChips'), 'chk_pin_npc', 'NPCs', true);
+
+        const factionContainer = document.getElementById('factionChips');
+        factions.forEach(f => {
+          factionChecks[f] = mkChip(factionContainer, 'chk_fac_' + f.replace(/\W+/g, '_'), f, true);
+        });
+
+        const clanContainer = document.getElementById('clanChips');
+        clans.forEach(c => {
+          clanChecks[c] = mkChip(clanContainer, 'chk_cla_' + c.replace(/\W+/g, '_'), c, true);
+        });
+
+        const typeContainer = document.getElementById('typeChips');
+        types.forEach(t => {
+          typeChecks[t] = mkChip(typeContainer, 'chk_typ_' + t.replace(/\W+/g, '_'), t, true);
+        });
+
+        function selectedKeys(checkDict) {
+          return new Set(Object.keys(checkDict).filter(k => checkDict[k] && checkDict[k].checked));
+        }
+
+        function clearPins() {
+          pinsLayer.clearLayers();
+          markerById.clear();
+        }
+
+        function openPin(pin, focus, displayLat, displayLon) {
+          const lat = Number.isFinite(displayLat) ? displayLat : pin.lat;
+          const lon = Number.isFinite(displayLon) ? displayLon : pin.lon;
+          if (focus) {
+            try { map.setView([lat, lon], Math.max(13, map.getZoom()), { animate: true }); } catch (e) {}
+          }
+          highlightLatLng(lat, lon);
+
+          if (pin.pin_kind === 'poi') {
+            const lines = [
+              'Tipo: ' + (pin.poi_kind || '-'),
+              'Faccao principal: ' + (pin.faction || '-'),
+              'Regiao de referencia: ' + (pin.region || '-'),
+            ];
+            if (hasText(pin.actors)) lines.push('Quem atua: ' + pin.actors);
+            if (hasText(pin.notes)) lines.push('Observacoes: ' + pin.notes);
+            if (hasText(pin.map_anchor)) lines.push('Ponto ancora: ' + pin.map_anchor);
+            if (hasText(pin.address)) lines.push('Endereco ancora: ' + pin.address);
+            setDetails(pin.name, 'Ponto de interesse canonico', lines, '');
+            return;
+          }
+
+          const lines = [
+            'Faccao: ' + groupLabel(pin.faction),
+            'Grupo (planilha): ' + groupLabel(pin.group),
+            'Subgrupo: ' + groupLabel(pin.subgroup),
+            'Cla: ' + (pin.clan || '-'),
+            'Tipo de NPC: ' + (pin.npc_type || '-'),
+            'Funcao/role: ' + groupLabel(pin.role),
+            'Tier: ' + (pin.tier || '-'),
+            'Regiao canonica: ' + (pin.region || '-'),
+            'Distrito: ' + (pin.district || '-'),
+            'Bucket territorial: ' + (pin.territory_bucket || '-'),
+          ];
+          if (hasText(pin.domain_text)) lines.push('Dominio (texto canonico): ' + pin.domain_text);
+          if (hasText(pin.cluster_territorial)) lines.push('Cluster territorial: ' + pin.cluster_territorial);
+          if ((pin.faction === 'Anarquistas' || pin.faction === 'Independentes') && hasText(pin.region)) {
+            lines.push(
+              'Tambem atua em: ' + pin.region + ' (atuacao externa de missao conforme canon).'
+            );
+          }
+          setDetails(pin.name, 'NPC canonico (tabela da raiz)', lines, pin.portrait_stem || '');
+        }
+
+        function applyFilters() {
+          const showPoi = !!pinChecks.poi.checked;
+          const showNpc = !!pinChecks.npc.checked;
+          const sf = selectedKeys(factionChecks);
+          const sc = selectedKeys(clanChecks);
+          const st = selectedKeys(typeChecks);
+
+          const filtered = allPins.filter(p => {
+            if (p.pin_kind === 'poi') return showPoi;
+            if (p.pin_kind !== 'npc') return false;
+            if (!showNpc) return false;
+            if (!sf.has(String(p.faction || 'Outro'))) return false;
+            if (!sc.has(String(p.clan || '-'))) return false;
+            if (!st.has(String(p.npc_type || '-'))) return false;
+            return true;
+          });
+
+          // De-overlap markers that share (or nearly share) the same anchor.
+          const overlapGroups = new Map();
+          filtered.forEach(pin => {
+            const key = pin.lat.toFixed(5) + '|' + pin.lon.toFixed(5);
+            if (!overlapGroups.has(key)) overlapGroups.set(key, []);
+            overlapGroups.get(key).push(pin);
+          });
+          const positioned = [];
+          overlapGroups.forEach(group => {
+            if (group.length === 1) {
+              const p = group[0];
+              positioned.push({ pin: p, lat: p.lat, lon: p.lon });
+              return;
+            }
+            const golden = Math.PI * (3 - Math.sqrt(5));
+            const baseLat = group[0].lat;
+            const baseLon = group[0].lon;
+            const cosLat = Math.max(0.25, Math.cos((baseLat * Math.PI) / 180));
+            const stepKm = 0.18;
+            group.forEach((p, i) => {
+              const rKm = stepKm * (1 + Math.floor(i / 6));
+              const t = i * golden;
+              const dLat = (rKm / 111.0) * Math.sin(t);
+              const dLon = (rKm / (111.0 * cosLat)) * Math.cos(t);
+              positioned.push({ pin: p, lat: +(baseLat + dLat).toFixed(6), lon: +(baseLon + dLon).toFixed(6) });
+            });
+          });
+
+          clearPins();
+          positioned.forEach(entry => {
+            const pin = entry.pin;
+            const m = L.circleMarker([entry.lat, entry.lon], pinStyle(pin));
+            m.bindTooltip(pin.name, { sticky: true, opacity: 0.94 });
+            m.on('click', () => {
+              const ll = m.getLatLng();
+              openPin(pin, false, ll.lat, ll.lng);
+            });
+            m.addTo(pinsLayer);
+            markerById.set(pin.id, { marker: m, pin });
+          });
+
+          setStatus(
+            'Territorios visiveis: Camarilla/Anarquistas/Independentes + risco lupino. ' +
+            `Pins exibidos: ${filtered.length} (NPCs: ${filtered.filter(p => p.pin_kind === 'npc').length}, POIs: ${filtered.filter(p => p.pin_kind === 'poi').length}).`
+          );
+
+          const searchItems = buildSearchIndex(filtered, allPins);
+          clearSearchResults();
+          searchItems.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item.name + ' - ' + (item.pin_kind === 'poi' ? 'POI' : 'NPC');
+            li.addEventListener('click', () => {
+              const ref = markerById.get(item.id);
+              if (ref) {
+                const ll = ref.marker.getLatLng();
+                openPin(ref.pin, true, ll.lat, ll.lng);
+              } else {
+                // Item existe mas nao esta visivel por filtro: foco sem pin.
+                try { map.setView([item.lat, item.lon], Math.max(13, map.getZoom()), { animate: true }); } catch (e) {}
+                openPin(item, false);
+              }
+            });
+            searchResults.appendChild(li);
+          });
+
+          return filtered;
+        }
+
+        const btnApply = document.getElementById('btnApply');
+        const btnSelectAll = document.getElementById('btnSelectAll');
+        const btnClearAll = document.getElementById('btnClearAll');
+
+        btnApply.addEventListener('click', () => {
+          applyFilters();
+        });
+
+        btnSelectAll.addEventListener('click', () => {
+          Object.values(pinChecks).forEach(c => c.checked = true);
+          Object.values(factionChecks).forEach(c => c.checked = true);
+          Object.values(clanChecks).forEach(c => c.checked = true);
+          Object.values(typeChecks).forEach(c => c.checked = true);
+        });
+
+        btnClearAll.addEventListener('click', () => {
+          Object.values(pinChecks).forEach(c => c.checked = false);
+          Object.values(factionChecks).forEach(c => c.checked = false);
+          Object.values(clanChecks).forEach(c => c.checked = false);
+          Object.values(typeChecks).forEach(c => c.checked = false);
+          clearSearchResults();
+        });
+
+        let searchTimer = null;
+        searchInput.addEventListener('input', () => {
+          if (searchTimer) clearTimeout(searchTimer);
+          searchTimer = setTimeout(() => applyFilters(), 120);
+        });
+
+        const bounds = L.geoJSON(geo).getBounds();
+        if (bounds && bounds.isValid()) {
+          try { map.fitBounds(bounds.pad(0.03), { animate: true }); } catch (e) {}
+        }
+
+        applyFilters();
+        setDetails(
+          'Mapa pronto',
+          'Canon da tabela da raiz aplicado',
+          [
+            'Clique em um territorio para ver o dominio macro por distrito.',
+            'Clique em um pin para ver detalhes de NPC ou ponto de interesse.',
+            'Use busca para localizar qualquer nome de pin.',
+          ],
+          ''
+        );
+
+        setTimeout(() => { try { map.invalidateSize(); } catch (e) {} }, 50);
+        setTimeout(() => { try { map.invalidateSize(); } catch (e) {} }, 260);
+        window.addEventListener('resize', () => {
+          try { map.invalidateSize(false); } catch (e) {}
+        });
+      } catch (err) {
+        console.error(err);
+        setStatus('Erro ao carregar o mapa: ' + (err && err.message ? err.message : err));
+        setDetails('Erro de carregamento', 'Nao foi possivel montar o mapa.', [String(err)], '');
+      }
+    })();
+  </script>
+</body>
+</html>

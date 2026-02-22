@@ -1,18 +1,18 @@
 Wesley "Corredor" Dias
 
 Perfil:
-- Tipo: ghoul | Vinculo: Anarch | Papel: Motoqueiro de rota (sangue, arma, gente)
-- Area: Baronato Sul (Capao/Grajau)
+- Tipo: ghoul | Vinculo: Anarch | Papel: Motoqueiro de entrega
+- Area: Baronato Sul
 - Assinatura/estilo: Jaqueta de moto com fita refletiva, capacete gasto, luvas.
 
 Coteries/associacoes:
 - Matilha do Sul (Capao/Grajau)
 
 Tom (para narrar):
-Wesley "Corredor" Dias e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Sul (Capao/Grajau).
+Wesley "Corredor" Dias e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Sul.
 
 Historia (costurada, sem resumo seco):
-Wesley "Corredor" Dias vive no ponto em que o mundo mortal toca o tabuleiro cainita: Motoqueiro de rota (sangue, arma, gente). A area operacional e Baronato Sul (Capao/Grajau). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Wesley "Corredor" Dias vive no ponto em que o mundo mortal toca o tabuleiro cainita: Motoqueiro de entrega. A area operacional e Baronato Sul. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ele tem uma rota que cruza borda verde e nunca contou para a baronia.
 
 Conexoes (com motivo e custo):
-- Marcelo "Moto" Vieira (ghoul; Courier (entregas e fuga)) [rival]: os dois disputam quem entrega primeiro e quem volta vivo
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [servant]: Bia cobra respeito; Wesley cobra gasolina
+- Marcelo "Moto" Vieira (ghoul; Courier) [rival]: os dois disputam quem entrega primeiro e quem volta vivo
+- Bia "Matilha" (kindred; Baronesa da borda sul) [servant]: Bia cobra respeito; Wesley cobra gasolina
+- Marcelo "Moto" Vieira (ghoul; Courier) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

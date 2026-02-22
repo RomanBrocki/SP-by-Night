@@ -1,7 +1,7 @@
-Nome / Alcunha: Vlado de Itapecerica / Exilado (violencia contida)
+Nome / Alcunha: Vlado de Itapecerica / Exilado
 Cla: Tzimisce | Seita: Autarquicos
 Idade aparente: 29 | Abraco: 2017 | Potencia do Sangue 2
-Dominio / area principal: Sul (bordas e sitios)
+Dominio / area principal: Sul
 Disciplinas (top 3): ['Protean 2', 'Dominate 1', 'Animalism 1']
 Assinatura / estilo: silencio; olhos que avaliam carne
 Coteries/associacoes (grupo e rede):
@@ -19,6 +19,7 @@ Atuacao mortal (explicita):
 - Mercado cinza e documentos (identidades descartaveis, sumico digital).
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 Servos/contatos notaveis (entrada rapida):
-- Nina "Costura" (kindred; Cirurgia e favores (carne e segredos)) [childe]: amor e repulsa
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [uneasy]: disputa de borda
-- Soraia Nunes (kindred; Interprete de ecos (mediunica)) [uneasy]: mortos sussurram seu nome
+- Nina "Costura" (kindred; Cirurgia e favores) [childe]: amor e repulsa
+- Bia "Matilha" (kindred; Baronesa da borda sul) [uneasy]: disputa de borda
+- Soraia Nunes (kindred; Intérprete de ecos) [uneasy]: mortos sussurram seu nome
+- Nina "Costura" (kindred; Cirurgia e favores) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

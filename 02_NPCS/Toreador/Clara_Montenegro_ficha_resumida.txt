@@ -1,22 +1,25 @@
-Nome / Alcunha: Clara Montenegro / Primogena Toreador (curadora de vitrine e faca)
+Nome / Alcunha: Clara Montenegro / Primógena Toreador
 Cla: Toreador | Seita: Camarilla
 Idade aparente: 33 | Abraco: 1999 | Potencia do Sangue 3
-Dominio / area principal: Moema/Paraiso (galerias, hospitais e patronato)
+Dominio / area principal: Moema/Paraíso
 Disciplinas (top 3): -
-Assinatura / estilo: -
+Assinatura / estilo: presença contida, leitura rápida da sala, resposta medida
 Coteries/associacoes (grupo e rede):
 - Corte do Elysium (Camarilla)
 - Salao de Pinheiros (Toreador)
 Ghouls/servos diretos: 1
-- Sonia "Atelie" (Retentora (figurinista e disfarces))
+- Sonia "Atelie" (Retentora)
 Touchstones/Conviccoes (resumo):
 - (Nao definido)
 Ganchos de cena:
-- (Nao definido)
+- Moema/Paraíso. Um encontro pequeno vira custo grande. Entrada: Moema/Paraíso; custo provável: boon, cobertura ou silêncio.
+- Clara chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Moema/Paraíso; custo provável: boon, cobertura ou silêncio.
+- Um favor antigo cobrado por Clara coloca o grupo no meio de duas versões conflitantes. Entrada: Moema/Paraíso; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Arte e midia (curadoria, eventos, reputacao e narrativas).
 - Cenas noturnas (clubes, galerias, circulos VIP).
 - Intermediacao social (listas, convites, portas que abrem e fecham).
 Servos/contatos notaveis (entrada rapida):
-- Luiza Salles (kindred; Senescal e Harpia principal) [boon_due]: Luiza a elevou; Clara paga com obediencia publica e faca privada
-- Mateus Cordeiro (kindred; Responsavel por Protocolos de Elysium) [ally]: protocolo e vitrine: o mesmo controle com outra musica
+- Luiza Salles (kindred; Senescal) [boon_due]: Luiza a elevou; Clara paga com obediencia publica e faca privada
+- Mateus Cordeiro (kindred; Curador de prestígio e reputação) [ally]: protocolo e vitrine: o mesmo controle com outra musica
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

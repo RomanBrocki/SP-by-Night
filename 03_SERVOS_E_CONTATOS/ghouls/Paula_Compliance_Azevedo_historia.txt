@@ -1,7 +1,7 @@
 Paula "Compliance" Azevedo
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Advogada de crise (NDA, sumico, acordo extrajudicial)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Advogada de crise
 - Area: Morumbi/Campo Belo
 - Assinatura/estilo: Blazer claro, pasta de couro, oculos de aro fino; voz calma demais para a situacao.
 
@@ -13,7 +13,7 @@ Tom (para narrar):
 Paula "Compliance" Azevedo e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Morumbi/Campo Belo.
 
 Historia (costurada, sem resumo seco):
-Paula "Compliance" Azevedo vive no ponto em que o mundo mortal toca o tabuleiro cainita: Advogada de crise (NDA, sumico, acordo extrajudicial). A area operacional e Morumbi/Campo Belo. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Paula "Compliance" Azevedo vive no ponto em que o mundo mortal toca o tabuleiro cainita: Advogada de crise. A area operacional e Morumbi/Campo Belo. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ela sabe que uma empresa de vigilância atende sem perceber um grupo caçador; usa isso como alavanca dupla.
 
 Conexoes (com motivo e custo):
-- Henrique Valadares (kindred; Primogeno Ventrue (financas de guerra)) [servant]: tapa buracos juridicos e compra silencio em lote
-- Raul Marques (kindred; Hound do Xerife (cobrador)) [uneasy]: Raul prefere pancada; Paula prefere papel. Os dois se odeiam e se precisam
+- Henrique Valadares (kindred; Braço executivo Ventrue) [servant]: tapa buracos juridicos e compra silencio em lote
+- Raul Marques (kindred; Hound do Xerife) [uneasy]: Raul prefere pancada; Paula prefere papel. Os dois se odeiam e se precisam
+- Henrique Valadares (kindred; Braço executivo Ventrue) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

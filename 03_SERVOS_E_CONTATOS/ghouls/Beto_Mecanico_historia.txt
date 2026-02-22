@@ -1,19 +1,19 @@
 Beto "Mecanico"
 
 Perfil:
-- Tipo: ghoul | Vinculo: Independentes | Papel: Mantenedor de rotas (garagem)
-- Area: Corredores e estacoes
+- Tipo: ghoul | Vinculo: Independentes | Papel: Dono de oficina e operador de fuga
+- Area: eixos de carga e pátios de apoio
 - Assinatura/estilo: mao suja; memoria de ferro
 
 Coteries/associacoes:
 - Corredores de Sombra (conselho de corretores)
 
 Tom (para narrar):
-Beto "Mecanico" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Corredores e estacoes.
+Beto "Mecanico" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: eixos de carga e pátios de apoio.
 
 Historia (costurada, sem resumo seco):
-Beto "Mecanico" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Mantenedor de rotas (garagem). A area operacional e Corredores e estacoes. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: Manter seu senhor fora das guerras urbanas.. O medo e: Que a garagem vire alvo de incendio mortal..
+Beto "Mecanico" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Dono de oficina e operador de fuga. A area operacional e eixos de carga e pátios de apoio. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Beto "Mecanico" e Manter seu senhor fora das guerras urbanas. O medo central e Que a garagem vire alvo de incendio mortal. Em eixos de carga e pátios de apoio, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,11 +24,12 @@ Segredo (objetivamente jogavel):
 - Ele guarda um mapa de tuneis antigos em papel.
 
 Conexoes (com motivo e custo):
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [servant]: apoio e lealdade antiga
-- Paulo "O Vidente" (kindred; Oraculo de tunel) [uneasy]: o vidente pede coisas estranhas
-- Dante "Fumo" (kindred; Correio e sumico) [ally]: protege o garoto em rotas
+- Joao do Trem (kindred; Fixador de circulação noturna) [servant]: apoio e lealdade antiga
+- Paulo "O Vidente" (kindred; Leitor de padrões das galerias) [uneasy]: o vidente pede coisas estranhas
+- Dante "Fumo" (kindred; Entregador de risco e sumiço) [ally]: protege o garoto em rotas
+- Joao do Trem (kindred; Fixador de circulação noturna) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
-- Cena: Corredores e estacoes. Pode arrumar um veiculo para fugir da SI.
-- Cena: Corredores e estacoes. Entrega aos PJ uma chave que nao devia existir.
-- Cena: Corredores e estacoes. Sumiu e deixou um bilhete com pressagio.
+- Cena: eixos de carga e pátios de apoio. Pode arrumar um veiculo para fugir da SI.
+- Cena: eixos de carga e pátios de apoio. Entrega aos PJ uma chave que nao devia existir.
+- Cena: eixos de carga e pátios de apoio. Sumiu e deixou um bilhete com pressagio.

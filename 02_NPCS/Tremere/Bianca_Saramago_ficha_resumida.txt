@@ -19,6 +19,7 @@ Atuacao mortal (explicita):
 - Ocultismo de vitrine (livrarias, palestras, grupos de estudo).
 - Arquivos e burocracia (quem controla o registro controla a versao).
 Servos/contatos notaveis (entrada rapida):
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [childe]: lealdade e medo
-- Soraia Nunes (kindred; Interprete de ecos (mediunica)) [client]: paga por silencio de mortos
-- Helena Vasconcelos (kindred; Guardia de Elysium (curadora)) [ally]: acesso a eventos e bibliotecas privadas
+- Dario Kron (kindred; Primógeno Tremere) [childe]: lealdade e medo
+- Soraia Nunes (kindred; Intérprete de ecos) [client]: paga por silencio de mortos
+- Helena Vasconcelos (kindred; Guardia de Elysium) [ally]: acesso a eventos e bibliotecas privadas
+- Dario Kron (kindred; Primógeno Tremere) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

@@ -1,5 +1,6 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import json
 import shutil
 from pathlib import Path
 
@@ -88,6 +89,11 @@ def main() -> int:
     if src_readme.exists():
         shutil.copyfile(src_readme, DOCS / "README.md")
 
+    # Publish root PDF (book link in UI points to ../Sao_Paulo_by_Night.pdf from docs/book/)
+    src_pdf = ROOT / "Sao_Paulo_by_Night.pdf"
+    if src_pdf.exists():
+        shutil.copyfile(src_pdf, DOCS / "Sao_Paulo_by_Night.pdf")
+
     # Publish guide/how-to for replication
     src_guide = ROOT / "GUIA_DE_CURADORIA_E_PROMPTS.md"
     if src_guide.exists():
@@ -126,13 +132,30 @@ def main() -> int:
     patch_text(DOCS / "book" / "index.html", reps_book)
     patch_text(DOCS / "book" / "book.js", [("../05_ASSETS/portraits/", "../assets/portraits/")])
 
+    # Patch embedded data paths used by book.js links (map/teia/portraits) for docs layout.
+    book_data = DOCS / "book" / "book_data.json"
+    if book_data.exists():
+        try:
+            d = json.loads(book_data.read_text(encoding="utf-8"))
+            pths = d.setdefault("paths", {})
+            pths["portraits_base"] = "../assets/portraits/"
+            pths["map_html"] = "../map/mapa_sp_dominios.html"
+            pths["teia_html"] = "../teia/teia_de_conexoes_mapa.html"
+            book_data.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+        except Exception:
+            pass
+
     reps_map = [
         ("../05_ASSETS/portraits/", "../assets/portraits/"),
+        ("../07_LIVRO_BY_NIGHT/index.html", "../book/index.html"),
+        ("../01_BACKGROUND_NARRADOR/teia_de_conexoes_mapa.html", "../teia/teia_de_conexoes_mapa.html"),
     ]
     patch_text(DOCS / "map" / "mapa_sp_dominios.html", reps_map)
 
     reps_teia = [
         ("../05_ASSETS/portraits/", "../assets/portraits/"),
+        ("../07_LIVRO_BY_NIGHT/index.html", "../book/index.html"),
+        ("../06_MAPA_SP/mapa_sp_dominios.html", "../map/mapa_sp_dominios.html"),
     ]
     patch_text(DOCS / "teia" / "teia_de_conexoes_mapa.html", reps_teia)
 

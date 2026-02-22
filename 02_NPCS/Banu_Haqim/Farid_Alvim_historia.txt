@@ -1,7 +1,7 @@
 Farid Alvim
 
 Perfil:
-- Cla: Banu Haqim | Seita: Camarilla | Funcao: Auditor de sangue (campo)
+- Cla: Banu Haqim | Seita: Camarilla | Funcao: Auditor de sangue
 - Dominio: Ipiranga/Cursino | Idade aparente: 39
 - Abraco: 2018 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): -
@@ -29,9 +29,10 @@ Rumor e verdade (municao social):
 
 Conexoes (com motivo e custo):
 - Samira al-Haddad (kindred; Xerife) [contact]: ponte para a politica local
+- Samira al-Haddad (kindred; Xerife) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Ipiranga/Cursino. Um encontro pequeno vira custo grande.
+- Cena: Ipiranga/Cursino. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local.

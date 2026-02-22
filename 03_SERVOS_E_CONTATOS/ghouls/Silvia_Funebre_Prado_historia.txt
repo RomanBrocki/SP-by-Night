@@ -1,18 +1,18 @@
 Silvia "Funebre" Prado
 
 Perfil:
-- Tipo: ghoul | Vinculo: Autarquicos | Papel: Diretora de funeraria (agenda, sala, 'preparo')
-- Area: Consolacao (cemiterios/funerarias)
+- Tipo: ghoul | Vinculo: Autarquicos | Papel: Diretora de funerária
+- Area: Consolação
 - Assinatura/estilo: Tailleur preto, lenço cinza, perfume de formol disfarçado; olhar sem pressa.
 
 Coteries/associacoes:
 - Enclave dos Cemiterios (Hecata)
 
 Tom (para narrar):
-Silvia "Funebre" Prado e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Consolacao (cemiterios/funerarias).
+Silvia "Funebre" Prado e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Consolação.
 
 Historia (costurada, sem resumo seco):
-Silvia "Funebre" Prado vive no ponto em que o mundo mortal toca o tabuleiro cainita: Diretora de funeraria (agenda, sala, 'preparo'). A area operacional e Consolacao (cemiterios/funerarias). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Silvia "Funebre" Prado vive no ponto em que o mundo mortal toca o tabuleiro cainita: Diretora de funerária. A area operacional e Consolação. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,8 +23,9 @@ Segredo (objetivamente jogavel):
 - Ela guarda um corpo que nao pode ser enterrado nem queimado, por ordem dos Hecata.
 
 Conexoes (com motivo e custo):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [servant]: faz o enclave funcionar e apaga rastros no mundo mortal
-- Celia Moura (kindred; Agente funeraria (enclave de cemiterio)) [ally]: Celia cuida das chaves; Silvia cuida do calendario
+- Donato Lazzari (kindred; Cobrador de travessia) [servant]: faz o enclave funcionar e apaga rastros no mundo mortal
+- Celia Moura (kindred; Agente funerária) [ally]: Celia cuida das chaves; Silvia cuida do calendario
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

@@ -1,9 +1,9 @@
-Nome / Alcunha: Rafa "Ferro" / Aspirante a corte (Caitiff)
+Nome / Alcunha: Rafa "Ferro" / Aspirante a corte
 Cla: Caitiff | Seita: Anarch
 Idade aparente: 34 | Abraco: 2013 | Potencia do Sangue 3
 Dominio / area principal: Mooca e adjacencias
 Disciplinas (top 3): ['Celerity 2', 'Potence 1', 'Presence 1']
-Assinatura / estilo: carisma de rua; violencia como ultimo argumento
+Assinatura / estilo: carisma de rua; violência como ultimo argumento
 Coteries/associacoes (grupo e rede):
 - Coterie Ferrugem (Mooca/Tatuape)
 Ghouls/servos diretos: 0
@@ -11,9 +11,9 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'Os sem-cla tambem merecem lei'.
 - Touchstone: uma ONG de bairro que ele financia.
 Ganchos de cena:
-- Pede aos PJ que validem sua corte com um favor publico.
-- Oferece abrigo para Caitiff e thin-bloods.
-- Vira alvo de boato plantado por Luiza.
+- Pede aos PJs que validem sua corte com um favor publico. Entrada: Mooca e adjacencias; custo provável: boon, cobertura ou silêncio.
+- Oferece abrigo para Caitiff e thin-bloods. Entrada: Mooca e adjacencias; custo provável: boon, cobertura ou silêncio.
+- Vira alvo de boato plantado por Luiza. Entrada: Mooca e adjacencias; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
 - Mercado cinza e documentos (identidades descartaveis, sumico digital).
@@ -21,5 +21,6 @@ Atuacao mortal (explicita):
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
 - Renata Ferraz (kindred; Baronesa da Mooca) [uneasy]: disputa por legitimidade Anarch
-- Ana "Carbono" (kindred; Alquimista (mercado cinza)) [ally]: protege a rede alquimica
+- Ana "Carbono" (kindred; Alquimista) [ally]: protege a rede alquimica
 - Elias "Sal" (kindred; Agitador de celula (cobrador)) [uneasy]: culto tenta tomar sua base
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

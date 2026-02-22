@@ -1,7 +1,7 @@
 Ricardo "Protocolos" Nery
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Maitre de Elysium (lista, convite, humilhacao elegante)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Maitre de Elysium
 - Area: Paulista/Jardins
 - Assinatura/estilo: Terno preto impecavel, luvas finas, prancheta sem logo; sorriso que mede hierarquia.
 
@@ -12,7 +12,7 @@ Tom (para narrar):
 Ricardo "Protocolos" Nery e etiqueta aplicada. Em cena: ele(a) controla lista, convite e desculpa; sabe quem pode ficar e quem precisa ir embora sem escandalo. Area operacional: Paulista/Jardins.
 
 Historia (costurada, sem resumo seco):
-Ricardo "Protocolos" Nery vive no ponto em que o mundo mortal toca o tabuleiro cainita: Maitre de Elysium (lista, convite, humilhacao elegante). A area operacional e Paulista/Jardins. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Ricardo "Protocolos" Nery vive no ponto em que o mundo mortal toca o tabuleiro cainita: Maitre de Elysium. A area operacional e Paulista/Jardins. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,8 +23,9 @@ Segredo (objetivamente jogavel):
 - Ele mantem uma copia paralela da lista de entrada do Elysium com 'erros' propositais para identificar vazadores.
 
 Conexoes (com motivo e custo):
-- Mateus Cordeiro (kindred; Responsavel por Protocolos de Elysium) [servant]: executa protocolo e seleciona quem pode humilhar quem
-- Luiza Salles (kindred; Senescal e Harpia principal) [uneasy]: Luiza o usa como instrumento; Ricardo nao esquece ser usado
+- Mateus Cordeiro (kindred; Curador de prestígio e reputação) [servant]: executa protocolo e seleciona quem pode humilhar quem
+- Luiza Salles (kindred; Senescal) [uneasy]: Luiza o usa como instrumento; Ricardo nao esquece ser usado
+- Mateus Cordeiro (kindred; Curador de prestígio e reputação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

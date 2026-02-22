@@ -1,7 +1,7 @@
 Nome: Paula "Compliance" Azevedo
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Advogada de crise (NDA, sumico, acordo extrajudicial)
+Papel: Advogada de crise
 Area: Morumbi/Campo Belo
 Assinatura / estilo: Blazer claro, pasta de couro, oculos de aro fino; voz calma demais para a situacao.
 Coteries/associacoes:

@@ -1,5 +1,5 @@
 Nome: Ana "Terapeuta" Reis
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Retentora (escuta, arquivo e remedio)
-Area: Consolacao/Higienopolis
+Papel: Retentora e cobertura clínica
+Area: Consolação/Higienópolis

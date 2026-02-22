@@ -1,27 +1,28 @@
-Nome / Alcunha: Dario Kron / Primogeno Tremere (regente de fato)
+Nome / Alcunha: Dario Kron / Primógeno Tremere
 Cla: Tremere | Seita: Camarilla
 Idade aparente: 40 | Abraco: 1968 | Potencia do Sangue 4
-Dominio / area principal: Butanta/USP (Torre Tremere; refugios dispersos)
+Dominio / area principal: Butantã/USP
 Disciplinas (top 3): ['Blood Sorcery 4', 'Auspex 2', 'Dominate 2']
 Assinatura / estilo: rituais curtos; paranoia como liturgia
 Coteries/associacoes (grupo e rede):
 - Corte do Elysium (Camarilla)
 - Torre da USP (Tremere)
 Ghouls/servos diretos: 2
-- Leonardo "Aprendiz" (Assistente de laboratorio (retentor))
-- Renato "Bico" Sampaio (Tecnico de laboratorio (amostras, descarte, chave de sala))
+- Leonardo "Aprendiz" (Assistente de laboratório)
+- Renato "Bico" Sampaio (Técnico de laboratório)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'Conhecimento e responsabilidade'.
 - Touchstone: um laboratorio mortal sob patrocinio.
 Ganchos de cena:
-- Pede aos PJ que recuperem um grimorio em territorio Anarch.
-- Oferece um ritual util em troca de um nome.
-- Tenta usar os PJ para expor um traidor no cla.
+- Pede aos PJs que recuperem um grimorio em território anarquista. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.
+- Oferece um ritual util em troca de um nome. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.
+- Tenta usar os PJs para expor um traidor no cla. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Academia e laboratorios (pesquisa, bolsas, comites de etica como escudo).
 - Ocultismo de vitrine (livrarias, palestras, grupos de estudo).
 - Arquivos e burocracia (quem controla o registro controla a versao).
 Servos/contatos notaveis (entrada rapida):
-- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [rival]: ela odeia o imprevisivel dos rituais
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [boon_owed]: Minor; intermediacao com mortos
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [uneasy]: nao confia em sombras na Camarilla
+- Isabel do Amaral (kindred; Primógena Ventrue) [rival]: ela odeia o imprevisivel dos rituais
+- Donato Lazzari (kindred; Cobrador de travessia) [boon_owed]: Minor; intermediacao com mortos
+- Padre Miguel Aranha (kindred; Guardião de confissões) [uneasy]: nao confia em sombras na Camarilla
+- Isabel do Amaral (kindred; Primógena Ventrue) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

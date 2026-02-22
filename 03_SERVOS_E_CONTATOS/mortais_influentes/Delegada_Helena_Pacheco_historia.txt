@@ -1,16 +1,16 @@
-Delegada Helena Pacheco
+﻿Delegada Helena Pacheco
 
 Perfil:
-- Tipo: mortal | Vinculo: Segunda Inquisicao | Papel: Coordenacao de campo
+- Tipo: mortal | Vinculo: Segunda InquisiÃ§Ã£o | Papel: CoordenaÃ§Ã£o de campo
 - Area: Centro Expandido
-- Assinatura/estilo: calma administrativa; violencia por protocolo
+- Assinatura/estilo: calma administrativa; violÃªncia por protocolo
 
 Tom (para narrar):
 Delegada Helena Pacheco e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Centro Expandido.
 
 Historia (costurada, sem resumo seco):
-Delegada Helena Pacheco vive no ponto em que o mundo mortal toca o tabuleiro cainita: Coordenacao de campo. A area operacional e Centro Expandido. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: Transformar o desconhecido em catalogo.. O medo e: Que a forca-tarefa vire bode expiatorio politico..
+Delegada Helena Pacheco vive no ponto em que o mundo mortal toca o tabuleiro cainita: CoordenaÃ§Ã£o de campo. A area operacional e Centro Expandido. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Helena e permanecer indispensavel na maquina investigativa da cidade, mantendo acesso simultaneo a delegacia, pericia e inteligencia operacional. Em cena, isso aparece em cronogramas de diligencia, pedidos de quebra de sigilo e selecao fria de alvos prioritarios. O medo e ser isolada politicamente quando a pressao subir e virar bode expiatorio de uma operacao grande. Quando percebe esse movimento, ela antecipa relatorios, redistribui responsabilidade e controla o fluxo de informacao para nao perder comando.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -18,14 +18,16 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 
 Segredo (objetivamente jogavel):
-- Ela nao acredita em 'vampiros'; acredita em padroes e fogo.
+- Ela nÃ£o acredita em 'vampiros'; acredita em padroes e fogo. Isso encosta diretamente em Artur Macedo e Nico "Sombra". Se vier Ã  tona, o dano Ã© operacional e imediato.
 
 Conexoes (com motivo e custo):
-- Artur Macedo (kindred; Principe de Sao Paulo) [enemy]: a cidade e o tabuleiro
-- Nico "Sombra" (kindred; Corretor de informacao) [target]: quer a rede
-- Katia "Zero" (kindred; Tecnica de sumico digital) [target]: quer o dump
+- Artur Macedo (kindred; PrÃ­ncipe de SÃ£o Paulo) [enemy]: a cidade e o tabuleiro
+- Nico "Sombra" (kindred; Corretor de informaÃ§Ã£o) [target]: quer a rede
+- Katia "Zero" (kindred; TÃ©cnica de sumiÃ§o digital) [target]: quer o dump
+- Artur Macedo (kindred; PrÃ­ncipe de SÃ£o Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Cenas prontas (para jogar hoje):
-- Cena: Centro Expandido. Pode oferecer acordo aos PJ (ou ao Narrador) via intermediario.
-- Cena: Centro Expandido. Vaza um nome para forcar movimento.
-- Cena: Centro Expandido. Vira antagonista recorrente em capturas discretas.
+- Cena: Centro Expandido. Pode oferecer acordo aos PJs via intermediario. Entrada: Centro Expandido; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Centro Expandido. Vaza um nome para forcar movimento. Entrada: Centro Expandido; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Centro Expandido. Vira antagonista recorrente em capturas discretas. Entrada: Centro Expandido; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+

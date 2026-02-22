@@ -1,13 +1,13 @@
-Nome / Alcunha: Celia Moura / Agente funeraria (enclave de cemiterio)
+Nome / Alcunha: Celia Moura / Agente funerária
 Cla: Hecata | Seita: Autarquicos
 Idade aparente: 40 | Abraco: 2008 | Potencia do Sangue 2
-Dominio / area principal: Consolacao (cemiterios, funerarias e chaves)
+Dominio / area principal: Consolação
 Disciplinas (top 3): -
 Assinatura / estilo: -
 Coteries/associacoes (grupo e rede):
 - Enclave dos Cemiterios (Hecata)
 Ghouls/servos diretos: 1
-- Maria Zelia Ramos (Gestora de funeraria (enclave Hecata))
+- Maria Zelia Ramos (Gestora de funerária)
 Touchstones/Conviccoes (resumo):
 - (Nao definido)
 Ganchos de cena:
@@ -17,5 +17,6 @@ Atuacao mortal (explicita):
 - Cartorios e registros (nome, documento, heranca).
 - Intermediacao de dividas (boons como tabela, cobranca como ritual).
 Servos/contatos notaveis (entrada rapida):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [servant]: operadora do enclave; ela faz o acordo valer na pratica
+- Donato Lazzari (kindred; Cobrador de travessia) [servant]: operadora do enclave; ela faz o acordo valer na pratica
 - Irene da Luz (kindred; Curandeira escondida) [ally]: cura e morte conversam no mesmo corredor
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

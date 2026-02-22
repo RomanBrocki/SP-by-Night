@@ -1,9 +1,9 @@
 Paulo "O Vidente"
 
 Perfil:
-- Cla: Malkavian | Seita: Autarquicos | Funcao: Oraculo de tunel
-- Dominio: Galerias e estacoes (rumores) | Idade aparente: 37
-- Abraco: 1993 | Sire: - | Acima do sire: -
+- Cla: Malkavian | Seita: Autarquicos | Funcao: Leitor de padrões das galerias
+- Dominio: galerias e estações | Idade aparente: 37
+- Abraco: 1993 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Auspex 4', 'Obfuscate 2', 'Dominate 1']
 - Assinatura/estilo: pressagio como conversa; verdade como piada
 
@@ -15,31 +15,32 @@ Paulo "O Vidente" e percepcao que incomoda. Em cena: padroes aparecem onde ningu
 
 Historia (costurada, sem resumo seco):
 Paulo "O Vidente" nasceu em 1960. O Abraco veio em 1993 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ver o que esta por tras do apagao perfeito. O medo e igualmente pratico: Que o Buraco coma vozes e deixe so silencio.
+A ambicao de Paulo "O Vidente" e entender o que está por trás do apagão perfeito de vozes, registros e rastros no Buraco. Na pratica, isso orienta decisoes no eixo de Os Ouvidores, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que o Buraco coma vozes e deixe so silêncio. Quando esse risco aparece, Paulo "O Vidente" reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rumor e previsao (padroes sociais, coincidencias, mensagens).
 - intervencoes pequenas com impacto grande (um telefonema muda tudo).
 
 Segredo (objetivamente jogavel):
-- Ele conhece um nome que faz ecos do Buraco obedecerem. [CANON-ADJACENT / HOME BREW]
+- Ele conhece um nome e uma cadência que acalmam os ecos do Buraco por alguns minutos. Isso encosta diretamente em Vovo Zilda (aliança; troca presságios por deslocamentos) e João do Trem (aliança; avisos e deslocamentos). Se vier à tona, vira acerto de contas e perda de território ou rede.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ele e um Nosferatu usando mascara.
-- Verdade (perigosa): Ele ja levou a SI ate um refugio para provar um ponto.
+- Verdade (perigosa): Ele já conduziu a SI até um refúgio descartável para provar um padrão e desviar uma investigação maior. Hoje, quem está mais perto de descobrir isso é Vovo Zilda (aliança; troca presságios por deslocamentos).
 
 Conexoes (com motivo e custo):
-- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [ally]: troca pressagios por rotas
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: avisos e rotas
+- Vovo Zilda (kindred; Anciã subterranea) [ally]: troca pressagios por rotas
+- Joao do Trem (kindred; Fixador de circulação noturna) [ally]: avisos e rotas
 - Irene da Luz (kindred; Curandeira escondida) [friend]: cura e visao se reconhecem
+- Vovo Zilda (kindred; Anciã subterranea) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- malkavian_cecilia_linha_dois
+- Cecília "Linha-Dois"
 
 Cenas prontas (para jogar hoje):
-- Cena: Galerias e estacoes (rumores). Diz aos PJ um nome que muda tudo (sem explicar).
-- Cena: Galerias e estacoes (rumores). Entrega um mapa de sonho do Buraco do Centro.
-- Cena: Galerias e estacoes (rumores). Se recusa a falar ate receber um boon simbolico.
+- Cena: galerias e estações. Diz aos PJs um nome que muda tudo. Entrada: Galerias e estacoes; custo provável: boon, cobertura ou silêncio.
+- Cena: galerias e estações. Entrega um croqui de padrões do Buraco do Centro (horários, ecos e pontos de risco). Entrada: Galerias e estacoes; custo provável: boon, cobertura ou silêncio.
+- Cena: galerias e estações. Se recusa a falar ate receber um boon simbolico. Entrada: Galerias e estacoes; custo provável: boon, cobertura ou silêncio.

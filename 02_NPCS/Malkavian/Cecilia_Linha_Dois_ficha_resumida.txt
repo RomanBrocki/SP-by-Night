@@ -1,7 +1,7 @@
-Nome / Alcunha: Cecilia "Linha-Dois" / Mensageira de pressagios
+Nome / Alcunha: Cecilia "Linha-Dois" / Leitora de padrão e mensageira de crise
 Cla: Malkavian | Seita: Anarch
 Idade aparente: 22 | Abraco: 2026 | Potencia do Sangue 2
-Dominio / area principal: Tatuape/Centro (deslocamentos)
+Dominio / area principal: Tatuapé/Centro
 Disciplinas (top 3): ['Auspex 2', 'Obfuscate 1', 'Dominate 1 (Dementation)']
 Assinatura / estilo: mensagens em audio; poesia como senha
 Coteries/associacoes (grupo e rede):
@@ -20,6 +20,7 @@ Atuacao mortal (explicita):
 - intervencoes pequenas com impacto grande (um telefonema muda tudo).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: protege suas rotas
-- Dante "Fumo" (kindred; Correio e sumico) [friend]: mensagens e sumicos
-- Hector "Rodoanel" (kindred; Batedor de rotas (cargas)) [uneasy]: ele segue rastros demais
+- Joao do Trem (kindred; Fixador de circulação noturna) [ally]: protege suas rotas
+- Dante "Fumo" (kindred; Entregador de risco e sumiço) [friend]: mensagens e sumicos
+- Hector "Rodoanel" (kindred; Batedor de borda e carga) [uneasy]: ele segue rastros demais
+- Joao do Trem (kindred; Fixador de circulação noturna) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

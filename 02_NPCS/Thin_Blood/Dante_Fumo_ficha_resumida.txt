@@ -1,7 +1,7 @@
-Nome / Alcunha: Dante "Fumo" / Correio e sumico
+Nome / Alcunha: Dante "Fumo" / Entregador de risco e sumiço
 Cla: Thin Blood | Seita: Independentes
 Idade aparente: 19 | Abraco: 2033 | Potencia do Sangue 0
-Dominio / area principal: Corredores (entregas)
+Dominio / area principal: eixos de entrega, pensões e pontos de passagem
 Disciplinas (top 3): ['Thin-blood Alchemy 1', 'Celerity 1', 'Obfuscate 1']
 Assinatura / estilo: some em esquina iluminada
 Coteries/associacoes (grupo e rede):
@@ -19,6 +19,7 @@ Atuacao mortal (explicita):
 - Mercado cinza e documentos (identidades descartaveis, sumico digital).
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 Servos/contatos notaveis (entrada rapida):
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [protector]: o velho o protege por principio
-- Cecilia "Linha-Dois" (kindred; Mensageira de pressagios) [friend]: mensagens e pressagios
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: faz entregas para ele
+- Joao do Trem (kindred; Fixador de circulação noturna) [protector]: o velho o protege por principio
+- Cecilia "Linha-Dois" (kindred; Leitora de padrão e mensageira de crise) [friend]: mensagens e pressagios
+- Nico "Sombra" (kindred; Corretor de informação) [client]: faz entregas para ele
+- Joao do Trem (kindred; Fixador de circulação noturna) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

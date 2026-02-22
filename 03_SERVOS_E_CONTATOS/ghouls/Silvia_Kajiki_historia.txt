@@ -1,7 +1,7 @@
 Silvia Kajiki
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Recepcao e lista (Elysium de Pinheiros)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Recepção e lista
 - Area: Pinheiros/Vila Madalena
 - Assinatura/estilo: elegancia minimalista; sorriso de recepcao que some quando ninguem ve
 
@@ -12,8 +12,8 @@ Tom (para narrar):
 Silvia Kajiki e etiqueta aplicada. Em cena: ele(a) controla lista, convite e desculpa; sabe quem pode ficar e quem precisa ir embora sem escandalo. Area operacional: Pinheiros/Vila Madalena.
 
 Historia (costurada, sem resumo seco):
-Silvia Kajiki vive no ponto em que o mundo mortal toca o tabuleiro cainita: Recepcao e lista (Elysium de Pinheiros). A area operacional e Pinheiros/Vila Madalena. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: ser indispensavel para que ninguem aponte arma para ela. O medo e: ser gravada dizendo a frase errada (e virar prova).
+Silvia Kajiki vive no ponto em que o mundo mortal toca o tabuleiro cainita: Recepção e lista. A area operacional e Pinheiros/Vila Madalena. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Silvia Kajiki e ser indispensavel para que ninguem aponte arma para ela. O medo central e ser gravada dizendo a frase errada (e virar prova). Em Pinheiros/Vila Madalena, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ela mantem uma lista de 'convidados' que nunca deveriam ter entrado no Elysium.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [servant]: recepcao, lista e controle social para a Senescal/Harpia
-- Helena Vasconcelos (kindred; Guardia de Elysium (curadora)) [ally]: trabalham juntas para manter o Elysium limpo
+- Luiza Salles (kindred; Senescal) [servant]: recepcao, lista e controle social para a Senescal/Harpia
+- Helena Vasconcelos (kindred; Guardia de Elysium) [ally]: trabalham juntas para manter o Elysium limpo
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: Pinheiros/Vila Madalena. Um PJ tenta entrar no Elysium sem convite; Silvia negocia a entrada por um favor claro e mensuravel.

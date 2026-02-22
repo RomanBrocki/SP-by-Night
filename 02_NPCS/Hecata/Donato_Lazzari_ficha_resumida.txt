@@ -1,26 +1,27 @@
-Nome / Alcunha: Donato Lazzari / Coletor do pedagio (cemiterios e galerias)
+Nome / Alcunha: Donato Lazzari / Cobrador de travessia
 Cla: Hecata | Seita: Autarquicos
 Idade aparente: 39 | Abraco: 1936 | Potencia do Sangue 4
-Dominio / area principal: Centro Velho / cemiterios
-Disciplinas (top 3): ['Oblivion 4', 'Fortitude 2', 'Auspex 2']
-Assinatura / estilo: educado, implacavel; fala com mortos como quem liga para um amigo
+Dominio / area principal: Centro Velho / cemitérios
+Disciplinas (top 3): ['Oblivion 4', 'Auspex 2', 'Fortitude 2']
+Assinatura / estilo: educado, implacável; fala com mortos como quem liga para um amigo
 Coteries/associacoes (grupo e rede):
 - Enclave dos Cemiterios (Hecata)
 Ghouls/servos diretos: 2
-- Lia Morais (Necroassistente (funeraria))
-- Silvia "Funebre" Prado (Diretora de funeraria (agenda, sala, 'preparo'))
+- Lia Morais (Necroassistente)
+- Silvia "Funebre" Prado (Diretora de funerária)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'Toda promessa tem eco'.
 - Touchstone: um jazigo familiar que ele nunca abandona.
 Ganchos de cena:
-- Cobra pedagio de passagem aos PJ e oferece desconto por um favor.
-- Pede que os PJ calem um fantasma inconveniente.
-- Oferece informacao de mortos sobre a SI.
+- Cobra taxa para cruzar seu território e oferece desconto por um favor. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
+- Pede que os PJs calem um fantasma inconveniente. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
+- Oferece informação de mortos sobre a SI. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Funerarias, cemiterios e logistica de corpo (o que some, some direito).
 - Cartorios e registros (nome, documento, heranca).
 - Intermediacao de dividas (boons como tabela, cobranca como ritual).
 Servos/contatos notaveis (entrada rapida):
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [boon_due]: Minor; intermediacao com mortos
+- Dario Kron (kindred; Primógeno Tremere) [boon_due]: Minor; intermediacao com mortos
 - Yusuf Rahman (kindred; Juiz itinerante) [uneasy]: juiz odeia seus negocios
-- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [uneasy]: subsolo dividido
+- Vovo Zilda (kindred; Anciã subterranea) [uneasy]: subsolo dividido
+- Dario Kron (kindred; Primógeno Tremere) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

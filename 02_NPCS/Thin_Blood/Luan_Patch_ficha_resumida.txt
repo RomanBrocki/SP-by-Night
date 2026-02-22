@@ -1,7 +1,7 @@
-Nome / Alcunha: Luan "Patch" / Medico de rua (limpa estrago)
+Nome / Alcunha: Luan "Patch" / Médico de rua
 Cla: Thin Blood | Seita: Anarch
 Idade aparente: 28 | Abraco: 2032 | Potencia do Sangue 0
-Dominio / area principal: Oeste/Sul (bordas)
+Dominio / area principal: Oeste/Sul
 Disciplinas (top 3): ['Thin-blood Alchemy 2', 'Fortitude 1', 'Auspex 1']
 Assinatura / estilo: primeiros socorros; promessas quebradas
 Coteries/associacoes (grupo e rede):
@@ -21,5 +21,6 @@ Atuacao mortal (explicita):
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
 - Irene da Luz (kindred; Curandeira escondida) [mentor]: aprendeu etica de sangue
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [ally]: socorro nas bordas
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [client]: paga pedagio em servico
+- Bia "Matilha" (kindred; Baronesa da borda sul) [ally]: socorro nas bordas
+- Donato Lazzari (kindred; Cobrador de travessia) [client]: paga pedagio em servico
+- Irene da Luz (kindred; Curandeira escondida) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

@@ -20,6 +20,6 @@ Atuacao mortal (explicita):
 - extorsao suave (a pessoa acha que escolheu).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [childe]: devocao e ressentimento
-- Caua Martins (kindred; Executor da Baronesa (linha dura)) [creditor]: favor sujo em aberto
+- Talita "Serpente" (kindred; Pregadora do Vicio) [childe]: devocao e ressentimento
+- Caua Martins (kindred; Executor da Baronesa) [creditor]: favor sujo em aberto
 - Renata Ferraz (kindred; Baronesa da Mooca) [uneasy]: usa a baronia como zona cinza

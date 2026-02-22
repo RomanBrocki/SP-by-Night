@@ -1,7 +1,7 @@
 Camila "Flash" Siqueira
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Fotografa de evento (imagem, corte, prova)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Fotografa de evento
 - Area: Pinheiros/Moema
 - Assinatura/estilo: Camera pendurada, jaqueta jeans, brincos pequenos; sorriso facil e memoria perfeita.
 
@@ -13,7 +13,7 @@ Tom (para narrar):
 Camila "Flash" Siqueira e imagem e prova. Em cena: ele(a) sabe o que cortar, o que guardar, e o que vazar para destruir reputacao. Area operacional: Pinheiros/Moema.
 
 Historia (costurada, sem resumo seco):
-Camila "Flash" Siqueira vive no ponto em que o mundo mortal toca o tabuleiro cainita: Fotografa de evento (imagem, corte, prova). A area operacional e Pinheiros/Moema. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Camila "Flash" Siqueira vive no ponto em que o mundo mortal toca o tabuleiro cainita: Fotografa de evento. A area operacional e Pinheiros/Moema. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ela tem fotos que podem derrubar um Primogeno, mas ainda nao decidiu por quem vender.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [servant]: transforma politica em imagem e imagem em arma
-- Clara Montenegro (kindred; Primogena Toreador (curadora de vitrine e faca)) [ally]: hospitalidade e vitrine: Clara a protege quando convem
+- Luiza Salles (kindred; Senescal) [servant]: transforma politica em imagem e imagem em arma
+- Clara Montenegro (kindred; Primógena Toreador) [ally]: hospitalidade e vitrine: Clara a protege quando convem
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

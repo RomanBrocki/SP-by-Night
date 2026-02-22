@@ -1,27 +1,28 @@
 Nome / Alcunha: Samira al-Haddad / Xerife
 Cla: Banu Haqim | Seita: Camarilla
 Idade aparente: 38 | Abraco: 1979 | Potencia do Sangue 4
-Dominio / area principal: Santana/Tucuruvi (Xerifado; base de pressao e resposta)
-Disciplinas (top 3): ['Blood Sorcery 3', 'Celerity 3', 'Obfuscate 2']
+Dominio / area principal: Santana/Tucuruvi
+Disciplinas (top 3): ['Celerity 3', 'Obfuscate 2', 'Blood Sorcery 3']
 Assinatura / estilo: cirurgica; ela fala pouco e some mais
 Coteries/associacoes (grupo e rede):
 - Corte do Elysium (Camarilla)
 - Sangue e Selo (Banu Haqim)
 Ghouls/servos diretos: 1
-- Vitor Kallas (Motorista e apoio tatico)
+- Vitor Kallas (Motorista e apoio tático)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'Punicao deve ser precisa'.
 - Touchstone: um juramento antigo guardado em papel.
 Ganchos de cena:
-- Recruta os PJ para uma captura discreta.
-- Oferece anistia por um favor sangrento.
-- Testa os PJ com uma ordem ambigua.
+- Samira convoca os PJs para confirmar uma versão antes que a Corte transforme o caso em punição pública. Entrada: Santana/Tucuruvi; custo provável: boon, cobertura ou silêncio.
+- Ela oferece cobertura oficial se o grupo resolver um vazamento sem virar manchete. Entrada: Santana/Tucuruvi; custo provável: boon, cobertura ou silêncio.
+- Um aliado do antigo xerife reaparece e força Samira a escolher entre lealdade ao príncipe e estabilidade. Entrada: Santana/Tucuruvi; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rede juridica e de investigacao (advocacia, auditoria, pressao oficial).
 - seguranca e resposta (pessoas que chegam rapido demais).
 - Controle de risco e rastros (apagar evidencia, reescrever narrativa).
 - Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
 Servos/contatos notaveis (entrada rapida):
-- Artur Macedo (kindred; Principe de Sao Paulo) [liege]: executa a lei do Principe
-- Nico "Sombra" (kindred; Corretor de informacao) [boon_owed]: Trivial; acesso a cameras
+- Artur Macedo (kindred; Príncipe de São Paulo) [liege]: executa a lei do Principe
+- Nico "Sombra" (kindred; Corretor de informação) [boon_owed]: Trivial; acesso a cameras
 - Renata Ferraz (kindred; Baronesa da Mooca) [rival]: baronia anarch e resistencia armada
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

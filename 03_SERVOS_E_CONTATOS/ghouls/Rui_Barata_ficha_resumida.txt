@@ -1,6 +1,6 @@
 Nome: Rui "Barata"
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Tecnico de campo (cabos e cameras)
+Papel: Técnico de campo
 Area: Barra Funda/Lapa
 Assinatura / estilo: sujo de graxa; rapido em sumir

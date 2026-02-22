@@ -1,0 +1,24 @@
+{
+  "base": "chapter_images/",
+  "chapters": {
+    "1": [
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    "2": [
+      "image4.jpg"
+    ],
+    "3": [
+      "image5.jpg"
+    ],
+    "4": [
+      "image6.jpg"
+    ],
+    "6": [
+      "chapter6.jpg"
+    ],
+    "7": [
+      "image9.jpg"
+    ]
+  }
+}

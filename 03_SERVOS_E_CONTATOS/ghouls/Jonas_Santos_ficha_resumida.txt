@@ -1,8 +1,8 @@
 Nome: Jonas Santos
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Correio (motoboy de rotas)
-Area: Corredores (Zona Cinza de carga e sumico)
+Papel: Correio e entrega rápida
+Area: eixos de carga (Zona Cinza de carga e sumiço)
 Assinatura / estilo: jaqueta de motoboy sem logo, capacete sempre por perto, olhar que mede camera
 Coteries/associacoes:
 - Corredores de Sombra

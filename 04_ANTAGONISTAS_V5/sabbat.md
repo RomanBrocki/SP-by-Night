@@ -1,61 +1,24 @@
-# Sabbat (V5) - Febre Itinerante
+# Sabbat (Canon DOCX)
 
-Em V5, o Sabbat funciona melhor como **tempestade** do que como "facao governando cidade". Em Sao Paulo,
-eles aparecem como surtos: entram, executam um ritual, deixam um rastro horrivel, e somem antes de
-qualquer resposta limpa.
+## 7.5 - Sabbat: febre itinerante
+Em V5, o Sabbat funciona melhor como tempestade do que como governo. Em São Paulo, ele aparece como surto: entra, marca território com horror, executa uma intenção e some antes que a resposta ‘limpa’ chegue.
+O Sabbat não quer dominar o tabuleiro; quer quebrar o tabuleiro por um minuto - tempo suficiente para arrancar o que veio buscar.
+### Sinais
+- Violência que parece recado, não briga: corpos expostos, símbolos improvisados, crueldade com intenção.
+- Sobreviventes errados: alguém vive, mas não lembra direito, não fala certo, ou volta com a fé quebrada.
+- Incêndios e apagões ‘cirúrgicos’: o tipo de caos que abre uma janela e fecha em seguida.
+- Thin-bloods somem primeiro. Sempre.
+O pack mais citado nos boatos do seu material antigo é a Mão de Cinza. Se você usar, trate como célula móvel: pouca gente, muita certeza, nenhuma piedade.
+### Uso em crônica
+Três jeitos de usar o Sabbat sem transformar sua crônica em sequência de batalhas:
+- Como faca: uma única noite muda alianças e obriga rivais a cooperarem.
+- Como desculpa: Camarilla e barões tentam usar o ‘pânico Sabbat’ para justificar execução política.
+- Como espelho: eles mostram o que a noite vira quando perde qualquer vergonha - e o quanto os personagens ainda são humanos (ou não).
+E um detalhe que combina com o que você já estabeleceu: a existência de Vlado como sobrevivente do Sabbat é um ímã. Se o Sabbat volta, ele é pista, isca, suspeita e ferramenta - tudo ao mesmo tempo.
+### Fichas rápidas - Sabbat (SPCs)
+Sabbat como tempestade: use SPCs rápidos com Disciplines claras. Eles lutam  sujo e deixam  recado.
+#### Batedor (Sabbat)
 
-## Assinatura (como o Narrador descreve sem dizer "Sabbat")
-- Violencia que parece mensagem, nao briga.
-- Simbolos improvisados com cinza, sal, unha, sangue seco.
-- Corredor logistico escolhido como altar: galpao vazio, caminhao parado, luz de emergencia.
-- Gente que some antes da policia chegar, como se tivesse treino.
+#### Fanático (Sabbat)
 
-## O que o Sabbat quer aqui (escolha 1 como verdade da sua cronica)
-- Um **nome** (um anciao escondido; um legado; um traidor antigo).
-- Um **item** (pagina, reliquia, arquivo) que aponta para algo maior.
-- Um **lugar** (um foco do Buraco do Centro; um refugio antigo) para ritual.
-
-## Pack notavel (homebrew): "Mao de Cinza"
-Tamanho: 4 a 7.
-
-Assinatura:
-- violencia ritual com simbolos improvisados (cinza, sal, marcas de unha)
-- uso de corredor logistico como terreno (cargas, galpoes, rotas)
-
-Metodo:
-1. observar uma rota por 2 noites
-2. atacar uma peca pequena (ghoul, contato, thin-blood)
-3. usar o alvo como oferta / isca
-4. sumir
-
-Fraqueza:
-- falta de apoio local. Se a cidade fechar rotas e informacao, o pack sangra.
-
-## O que o pack deixa para tras
-Use sempre um "residuo" que vira gancho:
-- um simbolo repetido (cinza no formato errado)
-- um sobrevivente (mortal ou thin-blood) com memoria quebrada
-- um item roubado que volta para o lugar errado
-
-## Como usar em mesa
-- Como faca: 1 cena de terror que muda o tabuleiro.
-- Como desculpa: Camarilla ou Anarchs tentam usar o Sabbat como justificativa para execucao politica.
-- Como espelho: mostra aos PJ o que eles podem virar se perderem humanidade.
-
-## Sinais e foreshadow
-- corpos drenados e exibidos como "mensagem"
-- incendios em galpoes sem motivo
-- sumico de thin-bloods (recrutamento forcado)
-- simbolos repetidos em lugares que nao se conectam (ate conectar)
-
-## Encontros (rapidos)
-- 1 scout do pack: segue, marca, foge. Nao luta ate ter vantagem.
-- 2 fanaticos: briga suja, faca, fogo improvisado.
-- 1 lider (ductus): fala como se fosse oracao, e so entao mata.
-
-## Dica de ritmo (pra nao virar "combate todo episodio")
-Sabbat e melhor em pulsos:
-- aparece em 1 noite
-- some em 2
-- deixa consequencia em 3
-E, quando volta, volta para cobrar o que voce achou que era so susto.
+#### Ductus (Sabbat)

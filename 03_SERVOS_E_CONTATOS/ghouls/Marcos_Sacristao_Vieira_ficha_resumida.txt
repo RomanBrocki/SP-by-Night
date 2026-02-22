@@ -1,7 +1,7 @@
 Nome: Marcos "Sacristao" Vieira
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Sacristao e logistica (chaves, horarios, sala dos fundos)
+Papel: Sacristão e logística
 Area: Bela Vista/Bixiga
 Assinatura / estilo: Camisa branca simples, terco no bolso, maos manchadas de cera; olhar que evita camera.
 Coteries/associacoes:

@@ -1,7 +1,7 @@
-Nome / Alcunha: Vivi "Fenda" Lacerda / Recrutadora (Sul)
+Nome / Alcunha: Vivi "Fenda" Lacerda / Recrutadora
 Cla: Ministry | Seita: Anarch
 Idade aparente: 34 | Abraco: 2013 | Potencia do Sangue 1
-Dominio / area principal: Baronato Sul (Capao/Grajau)
+Dominio / area principal: Baronato Sul
 Disciplinas (top 3): -
 Assinatura / estilo: -
 Coteries/associacoes (grupo e rede):
@@ -17,4 +17,5 @@ Atuacao mortal (explicita):
 - extorsao suave (a pessoa acha que escolheu).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [contact]: ponte para a politica local
+- Talita "Serpente" (kindred; Pregadora do Vicio) [contact]: ponte para a politica local
+- Talita "Serpente" (kindred; Pregadora do Vicio) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

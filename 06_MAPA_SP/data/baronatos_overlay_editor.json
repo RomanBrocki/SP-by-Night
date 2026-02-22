@@ -1,0 +1,43 @@
+{
+  "baronatos": {
+    "ferrugem": [
+      "BELEM",
+      "MOOCA",
+      "TATUAPE"
+    ],
+    "leste_aco": [
+      "CIDADE_LIDER",
+      "ITAQUERA",
+      "JOSE_BONIFACIO",
+      "PARQUE_DO_CARMO",
+      "VILA_JACUI"
+    ],
+    "sul": [
+      "CAMPO_LIMPO",
+      "CAPAO_REDONDO",
+      "CIDADE_DUTRA",
+      "GRAJAU",
+      "JARDIM_ANGELA",
+      "JARDIM_SAO_LUIS",
+      "SOCORRO"
+    ]
+  },
+  "anarch_districts": [
+    "BELEM",
+    "CAMPO_LIMPO",
+    "CAPAO_REDONDO",
+    "CIDADE_DUTRA",
+    "CIDADE_LIDER",
+    "GRAJAU",
+    "ITAQUERA",
+    "JARDIM_ANGELA",
+    "JARDIM_SAO_LUIS",
+    "JOSE_BONIFACIO",
+    "MOOCA",
+    "PARQUE_DO_CARMO",
+    "SOCORRO",
+    "TATUAPE",
+    "VILA_JACUI"
+  ],
+  "updated_at": "2026-02-21T20:51:28.228Z"
+}

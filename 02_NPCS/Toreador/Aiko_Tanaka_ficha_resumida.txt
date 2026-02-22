@@ -1,4 +1,4 @@
-Nome / Alcunha: Aiko Tanaka / Harpia de bairro (Pinheiros)
+Nome / Alcunha: Aiko Tanaka / Harpia de bairro
 Cla: Toreador | Seita: Camarilla
 Idade aparente: 27 | Abraco: 2006 | Potencia do Sangue 1
 Dominio / area principal: Pinheiros/Vila Madalena
@@ -16,4 +16,5 @@ Atuacao mortal (explicita):
 - Cenas noturnas (clubes, galerias, circulos VIP).
 - Intermediacao social (listas, convites, portas que abrem e fecham).
 Servos/contatos notaveis (entrada rapida):
-- Luiza Salles (kindred; Senescal e Harpia principal) [contact]: ponte para a politica local
+- Luiza Salles (kindred; Senescal) [contact]: ponte para a politica local
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

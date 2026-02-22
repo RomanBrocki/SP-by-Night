@@ -1,7 +1,7 @@
-Nome / Alcunha: Sabrina Siqueira / Organizadora de ocupacao (Sul)
+Nome / Alcunha: Sabrina Siqueira / Organizadora de ocupacao
 Cla: Brujah | Seita: Anarch
 Idade aparente: 37 | Abraco: 2016 | Potencia do Sangue 1
-Dominio / area principal: Baronato Sul (Capao/Grajau)
+Dominio / area principal: Baronato Sul
 Disciplinas (top 3): -
 Assinatura / estilo: -
 Coteries/associacoes (grupo e rede):
@@ -18,3 +18,4 @@ Atuacao mortal (explicita):
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
 - Renata Ferraz (kindred; Baronesa da Mooca) [contact]: ponte para a politica local
+- Renata Ferraz (kindred; Baronesa da Mooca) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

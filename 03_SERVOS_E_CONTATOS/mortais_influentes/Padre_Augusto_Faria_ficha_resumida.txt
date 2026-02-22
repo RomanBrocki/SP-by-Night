@@ -1,6 +1,6 @@
 Nome: Padre Augusto Faria
 Tipo: mortal
 Vinculo: Mortal
-Papel: Administracao de abrigo/ong
+Papel: Administração de abrigo/ong
 Area: Centro
 Assinatura / estilo: caridade cansada; fe teimosa

@@ -1,613 +1,509 @@
 {
   "meta": {
-    "note": "Geopolitica por distritos (HOME BREW) para o mapa real. Nomes batem com distritos-sp.geojson (ds_nome, uppercase).",
-    "source_geojson": "06_MAPA_SP/data/distritos-sp.geojson"
+    "note": "Claims macro derivados do canon atual do mapa.",
+    "source_geojson": "06_MAPA_SP/data/distritos-sp.geojson",
+    "source_canon": "docs/map/data/canon_map_data.json",
+    "source_overlay": "docs/map/data/baronatos_overlay_editor.json"
   },
   "dominant": {
-    "AGUA RASA": "Camarilla",
-    "ALTO DE PINHEIROS": "Camarilla",
-    "ANHANGUERA": "Camarilla",
-    "ARICANDUVA": "Camarilla",
-    "ARTUR ALVIM": "Camarilla",
-    "BARRA FUNDA": "Zona cinza",
-    "BELA VISTA": "Camarilla",
-    "BELEM": "Camarilla",
-    "BOM RETIRO": "Autarquicos",
-    "BRAS": "Camarilla",
-    "BRASILANDIA": "Camarilla",
-    "BUTANTA": "Camarilla",
-    "CACHOEIRINHA": "Camarilla",
-    "CAMBUCI": "Autarquicos",
-    "CAMPO BELO": "Camarilla",
-    "CAMPO GRANDE": "Camarilla",
-    "CAMPO LIMPO": "Anarch",
-    "CANGAIBA": "Camarilla",
-    "CAPAO REDONDO": "Anarch",
-    "CARRAO": "Camarilla",
-    "CASA VERDE": "Camarilla",
-    "CIDADE ADEMAR": "Camarilla",
-    "CIDADE DUTRA": "Camarilla",
-    "CIDADE LIDER": "Camarilla",
-    "CIDADE TIRADENTES": "Anarch",
-    "CONSOLACAO": "Camarilla",
-    "CURSINO": "Camarilla",
-    "ERMELINO MATARAZZO": "Camarilla",
-    "FREGUESIA DO O": "Camarilla",
-    "GRAJAU": "Anarch",
-    "GUAIANASES": "Anarch",
-    "IGUATEMI": "Camarilla",
-    "IPIRANGA": "Camarilla",
-    "ITAIM BIBI": "Camarilla",
-    "ITAIM PAULISTA": "Camarilla",
-    "ITAQUERA": "Anarch",
-    "JABAQUARA": "Camarilla",
-    "JACANA": "Camarilla",
-    "JAGUARA": "Zona cinza",
-    "JAGUARE": "Zona cinza",
-    "JARAGUA": "Camarilla",
-    "JARDIM ANGELA": "Anarch",
-    "JARDIM HELENA": "Camarilla",
-    "JARDIM PAULISTA": "Camarilla",
-    "JARDIM SAO LUIS": "Anarch",
-    "JOSE BONIFACIO": "Camarilla",
-    "LAJEADO": "Camarilla",
-    "LAPA": "Zona cinza",
-    "LIBERDADE": "Camarilla",
-    "LIMAO": "Camarilla",
-    "MANDAQUI": "Camarilla",
-    "MARSILAC": "Camarilla",
-    "MOEMA": "Camarilla",
-    "MOOCA": "Anarch",
-    "MORUMBI": "Camarilla",
-    "PARELHEIROS": "Camarilla",
-    "PARI": "Camarilla",
-    "PARQUE DO CARMO": "Camarilla",
-    "PEDREIRA": "Camarilla",
-    "PENHA": "Camarilla",
-    "PERDIZES": "Camarilla",
-    "PERUS": "Camarilla",
-    "PINHEIROS": "Camarilla",
     "PIRITUBA": "Camarilla",
-    "PONTE RASA": "Camarilla",
-    "RAPOSO TAVARES": "Camarilla",
-    "REPUBLICA": "Autarquicos",
-    "RIO PEQUENO": "Zona cinza",
-    "SACOMA": "Camarilla",
-    "SANTA CECILIA": "Autarquicos",
-    "SANTANA": "Camarilla",
-    "SANTO AMARO": "Camarilla",
     "SAO DOMINGOS": "Camarilla",
-    "SAO LUCAS": "Camarilla",
-    "SAO MATEUS": "Anarch",
-    "SAO MIGUEL": "Camarilla",
-    "SAO RAFAEL": "Camarilla",
-    "SAPOPEMBA": "Anarch",
-    "SAUDE": "Camarilla",
-    "SE": "Autarquicos",
-    "SOCORRO": "Camarilla",
-    "TATUAPE": "Anarch",
-    "TREMEMBE": "Camarilla",
-    "TUCURUVI": "Camarilla",
-    "VILA ANDRADE": "Camarilla",
-    "VILA CURUCA": "Camarilla",
-    "VILA FORMOSA": "Camarilla",
+    "JARAGUA": "Camarilla",
+    "BRASILANDIA": "Camarilla",
+    "FREGUESIA DO O": "Camarilla",
+    "CASA VERDE": "Camarilla",
+    "CACHOEIRINHA": "Camarilla",
+    "LIMAO": "Camarilla",
     "VILA GUILHERME": "Camarilla",
-    "VILA JACUI": "Camarilla",
-    "VILA LEOPOLDINA": "Zona cinza",
     "VILA MARIA": "Camarilla",
-    "VILA MARIANA": "Camarilla",
-    "VILA MATILDE": "Camarilla",
     "VILA MEDEIROS": "Camarilla",
+    "ARTUR ALVIM": "Camarilla",
+    "PENHA": "Camarilla",
+    "CANGAIBA": "Camarilla",
+    "VILA MATILDE": "Camarilla",
+    "PONTE RASA": "Camarilla",
+    "ERMELINO MATARAZZO": "Camarilla",
+    "VILA CURUCA": "Camarilla",
+    "ITAIM PAULISTA": "Camarilla",
+    "GUAIANASES": "Camarilla",
+    "LAJEADO": "Camarilla",
+    "BARRA FUNDA": "Camarilla",
+    "PERDIZES": "Camarilla",
+    "VILA LEOPOLDINA": "Camarilla",
+    "JAGUARA": "Camarilla",
+    "LAPA": "Camarilla",
+    "JAGUARE": "Camarilla",
+    "REPUBLICA": "Independentes",
+    "SANTA CECILIA": "Camarilla",
+    "SE": "Independentes",
+    "BELA VISTA": "Camarilla",
+    "BOM RETIRO": "Camarilla",
+    "CAMBUCI": "Camarilla",
+    "CONSOLACAO": "Independentes",
+    "LIBERDADE": "Camarilla",
+    "MOOCA": "Anarch",
+    "PARI": "Camarilla",
+    "TATUAPE": "Anarch",
+    "AGUA RASA": "Camarilla",
+    "BELEM": "Anarch",
+    "BRAS": "Camarilla",
+    "CARRAO": "Camarilla",
+    "VILA FORMOSA": "Camarilla",
+    "ARICANDUVA": "Camarilla",
+    "SAO MATEUS": "Camarilla",
+    "SAO RAFAEL": "Camarilla",
+    "IGUATEMI": "Camarilla",
     "VILA PRUDENTE": "Camarilla",
-    "VILA SONIA": "Camarilla"
+    "SAO LUCAS": "Camarilla",
+    "MORUMBI": "Camarilla",
+    "RIO PEQUENO": "Camarilla",
+    "VILA SONIA": "Camarilla",
+    "BUTANTA": "Camarilla",
+    "RAPOSO TAVARES": "Camarilla",
+    "PINHEIROS": "Camarilla",
+    "ALTO DE PINHEIROS": "Camarilla",
+    "ITAIM BIBI": "Camarilla",
+    "JARDIM PAULISTA": "Camarilla",
+    "CAMPO LIMPO": "Anarch",
+    "CAPAO REDONDO": "Anarch",
+    "VILA ANDRADE": "Camarilla",
+    "JARDIM ANGELA": "Anarch",
+    "JARDIM SAO LUIS": "Anarch",
+    "SOCORRO": "Anarch",
+    "CIDADE DUTRA": "Anarch",
+    "GRAJAU": "Anarch",
+    "MARSILAC": "Camarilla",
+    "PARELHEIROS": "Camarilla",
+    "CIDADE TIRADENTES": "Camarilla",
+    "PERUS": "Camarilla",
+    "ANHANGUERA": "Camarilla",
+    "SAPOPEMBA": "Camarilla",
+    "SACOMA": "Camarilla",
+    "CURSINO": "Camarilla",
+    "IPIRANGA": "Camarilla",
+    "MOEMA": "Camarilla",
+    "SAUDE": "Camarilla",
+    "VILA MARIANA": "Camarilla",
+    "PEDREIRA": "Camarilla",
+    "CIDADE ADEMAR": "Camarilla",
+    "JACANA": "Camarilla",
+    "TREMEMBE": "Camarilla",
+    "MANDAQUI": "Camarilla",
+    "SANTANA": "Camarilla",
+    "TUCURUVI": "Camarilla",
+    "SANTO AMARO": "Camarilla",
+    "CAMPO GRANDE": "Camarilla",
+    "CAMPO BELO": "Camarilla",
+    "JABAQUARA": "Camarilla",
+    "VILA JACUI": "Anarch",
+    "SAO MIGUEL": "Camarilla",
+    "JARDIM HELENA": "Camarilla",
+    "CIDADE LIDER": "Anarch",
+    "PARQUE DO CARMO": "Anarch",
+    "JOSE BONIFACIO": "Anarch",
+    "ITAQUERA": "Anarch"
   },
   "claims": {
-    "AGUA RASA": [
-      "Camarilla"
-    ],
-    "ALTO DE PINHEIROS": [
-      "Camarilla"
-    ],
-    "ANHANGUERA": [
-      "Camarilla"
-    ],
-    "ARICANDUVA": [
-      "Camarilla"
-    ],
-    "ARTUR ALVIM": [
-      "Camarilla"
-    ],
-    "BARRA FUNDA": [
-      "Camarilla",
-      "Zona cinza"
-    ],
-    "BELA VISTA": [
-      "Camarilla"
-    ],
-    "BELEM": [
-      "Camarilla"
-    ],
-    "BOM RETIRO": [
-      "Camarilla",
-      "Autarquicos"
-    ],
-    "BRAS": [
-      "Camarilla",
-      "Autarquicos"
-    ],
-    "BRASILANDIA": [
-      "Camarilla"
-    ],
-    "BUTANTA": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "CACHOEIRINHA": [
-      "Camarilla"
-    ],
-    "CAMBUCI": [
-      "Camarilla",
-      "Autarquicos"
-    ],
-    "CAMPO BELO": [
-      "Camarilla"
-    ],
-    "CAMPO GRANDE": [
-      "Camarilla"
-    ],
-    "CAMPO LIMPO": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "CANGAIBA": [
-      "Camarilla"
-    ],
-    "CAPAO REDONDO": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "CARRAO": [
-      "Camarilla"
-    ],
-    "CASA VERDE": [
-      "Camarilla"
-    ],
-    "CIDADE ADEMAR": [
-      "Camarilla"
-    ],
-    "CIDADE DUTRA": [
-      "Camarilla"
-    ],
-    "CIDADE LIDER": [
-      "Camarilla"
-    ],
-    "CIDADE TIRADENTES": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "CONSOLACAO": [
-      "Camarilla"
-    ],
-    "CURSINO": [
-      "Camarilla"
-    ],
-    "ERMELINO MATARAZZO": [
-      "Camarilla"
-    ],
-    "FREGUESIA DO O": [
-      "Camarilla"
-    ],
-    "GRAJAU": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "GUAIANASES": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "IGUATEMI": [
-      "Camarilla"
-    ],
-    "IPIRANGA": [
-      "Camarilla",
-      "Autarquicos",
-      "Anarch"
-    ],
-    "ITAIM BIBI": [
-      "Camarilla"
-    ],
-    "ITAIM PAULISTA": [
-      "Camarilla"
-    ],
-    "ITAQUERA": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "JABAQUARA": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "JACANA": [
-      "Camarilla"
-    ],
-    "JAGUARA": [
-      "Camarilla",
-      "Zona cinza"
-    ],
-    "JAGUARE": [
-      "Camarilla",
-      "Zona cinza"
-    ],
-    "JARAGUA": [
-      "Camarilla"
-    ],
-    "JARDIM ANGELA": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "JARDIM HELENA": [
-      "Camarilla"
-    ],
-    "JARDIM PAULISTA": [
-      "Camarilla"
-    ],
-    "JARDIM SAO LUIS": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "JOSE BONIFACIO": [
-      "Camarilla"
-    ],
-    "LAJEADO": [
-      "Camarilla"
-    ],
-    "LAPA": [
-      "Camarilla",
-      "Zona cinza"
-    ],
-    "LIBERDADE": [
-      "Camarilla"
-    ],
-    "LIMAO": [
-      "Camarilla"
-    ],
-    "MANDAQUI": [
-      "Camarilla"
-    ],
-    "MARSILAC": [
-      "Camarilla"
-    ],
-    "MOEMA": [
-      "Camarilla"
-    ],
-    "MOOCA": [
-      "Camarilla",
-      "Anarch",
-      "Autarquicos"
-    ],
-    "MORUMBI": [
-      "Camarilla"
-    ],
-    "PARELHEIROS": [
-      "Camarilla"
-    ],
-    "PARI": [
-      "Camarilla"
-    ],
-    "PARQUE DO CARMO": [
-      "Camarilla"
-    ],
-    "PEDREIRA": [
-      "Camarilla"
-    ],
-    "PENHA": [
-      "Camarilla"
-    ],
-    "PERDIZES": [
-      "Camarilla"
-    ],
-    "PERUS": [
-      "Camarilla"
-    ],
-    "PINHEIROS": [
-      "Camarilla"
-    ],
     "PIRITUBA": [
-      "Camarilla"
-    ],
-    "PONTE RASA": [
-      "Camarilla"
-    ],
-    "RAPOSO TAVARES": [
-      "Camarilla"
-    ],
-    "REPUBLICA": [
-      "Camarilla",
-      "Autarquicos"
-    ],
-    "RIO PEQUENO": [
-      "Camarilla",
-      "Zona cinza"
-    ],
-    "SACOMA": [
-      "Camarilla"
-    ],
-    "SANTA CECILIA": [
-      "Camarilla",
-      "Autarquicos"
-    ],
-    "SANTANA": [
-      "Camarilla"
-    ],
-    "SANTO AMARO": [
       "Camarilla"
     ],
     "SAO DOMINGOS": [
       "Camarilla"
     ],
-    "SAO LUCAS": [
+    "JARAGUA": [
       "Camarilla"
     ],
-    "SAO MATEUS": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "SAO MIGUEL": [
+    "BRASILANDIA": [
       "Camarilla"
     ],
-    "SAO RAFAEL": [
+    "FREGUESIA DO O": [
       "Camarilla"
     ],
-    "SAPOPEMBA": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "SAUDE": [
+    "CASA VERDE": [
       "Camarilla"
     ],
-    "SE": [
-      "Camarilla",
-      "Autarquicos"
-    ],
-    "SOCORRO": [
+    "CACHOEIRINHA": [
       "Camarilla"
     ],
-    "TATUAPE": [
-      "Camarilla",
-      "Anarch"
-    ],
-    "TREMEMBE": [
-      "Camarilla"
-    ],
-    "TUCURUVI": [
-      "Camarilla"
-    ],
-    "VILA ANDRADE": [
-      "Camarilla"
-    ],
-    "VILA CURUCA": [
-      "Camarilla"
-    ],
-    "VILA FORMOSA": [
+    "LIMAO": [
       "Camarilla"
     ],
     "VILA GUILHERME": [
       "Camarilla"
     ],
-    "VILA JACUI": [
-      "Camarilla"
-    ],
-    "VILA LEOPOLDINA": [
-      "Camarilla",
-      "Zona cinza"
-    ],
     "VILA MARIA": [
-      "Camarilla"
-    ],
-    "VILA MARIANA": [
-      "Camarilla"
-    ],
-    "VILA MATILDE": [
       "Camarilla"
     ],
     "VILA MEDEIROS": [
       "Camarilla"
     ],
-    "VILA PRUDENTE": [
-      "Camarilla",
-      "Autarquicos",
+    "ARTUR ALVIM": [
+      "Camarilla"
+    ],
+    "PENHA": [
+      "Camarilla"
+    ],
+    "CANGAIBA": [
+      "Camarilla"
+    ],
+    "VILA MATILDE": [
+      "Camarilla"
+    ],
+    "PONTE RASA": [
+      "Camarilla"
+    ],
+    "ERMELINO MATARAZZO": [
+      "Camarilla"
+    ],
+    "VILA CURUCA": [
+      "Camarilla"
+    ],
+    "ITAIM PAULISTA": [
+      "Camarilla"
+    ],
+    "GUAIANASES": [
+      "Camarilla"
+    ],
+    "LAJEADO": [
+      "Camarilla"
+    ],
+    "BARRA FUNDA": [
+      "Camarilla"
+    ],
+    "PERDIZES": [
+      "Camarilla"
+    ],
+    "VILA LEOPOLDINA": [
+      "Camarilla"
+    ],
+    "JAGUARA": [
+      "Camarilla"
+    ],
+    "LAPA": [
+      "Camarilla"
+    ],
+    "JAGUARE": [
+      "Camarilla"
+    ],
+    "REPUBLICA": [
+      "Independentes"
+    ],
+    "SANTA CECILIA": [
+      "Camarilla"
+    ],
+    "SE": [
+      "Independentes"
+    ],
+    "BELA VISTA": [
+      "Camarilla"
+    ],
+    "BOM RETIRO": [
+      "Camarilla"
+    ],
+    "CAMBUCI": [
+      "Camarilla"
+    ],
+    "CONSOLACAO": [
+      "Independentes"
+    ],
+    "LIBERDADE": [
+      "Camarilla"
+    ],
+    "MOOCA": [
       "Anarch"
+    ],
+    "PARI": [
+      "Camarilla"
+    ],
+    "TATUAPE": [
+      "Anarch"
+    ],
+    "AGUA RASA": [
+      "Camarilla"
+    ],
+    "BELEM": [
+      "Anarch"
+    ],
+    "BRAS": [
+      "Camarilla"
+    ],
+    "CARRAO": [
+      "Camarilla"
+    ],
+    "VILA FORMOSA": [
+      "Camarilla"
+    ],
+    "ARICANDUVA": [
+      "Camarilla"
+    ],
+    "SAO MATEUS": [
+      "Camarilla"
+    ],
+    "SAO RAFAEL": [
+      "Camarilla"
+    ],
+    "IGUATEMI": [
+      "Camarilla"
+    ],
+    "VILA PRUDENTE": [
+      "Camarilla"
+    ],
+    "SAO LUCAS": [
+      "Camarilla"
+    ],
+    "MORUMBI": [
+      "Camarilla"
+    ],
+    "RIO PEQUENO": [
+      "Camarilla"
     ],
     "VILA SONIA": [
       "Camarilla"
+    ],
+    "BUTANTA": [
+      "Camarilla"
+    ],
+    "RAPOSO TAVARES": [
+      "Camarilla"
+    ],
+    "PINHEIROS": [
+      "Camarilla"
+    ],
+    "ALTO DE PINHEIROS": [
+      "Camarilla"
+    ],
+    "ITAIM BIBI": [
+      "Camarilla"
+    ],
+    "JARDIM PAULISTA": [
+      "Camarilla"
+    ],
+    "CAMPO LIMPO": [
+      "Anarch"
+    ],
+    "CAPAO REDONDO": [
+      "Anarch"
+    ],
+    "VILA ANDRADE": [
+      "Camarilla"
+    ],
+    "JARDIM ANGELA": [
+      "Anarch"
+    ],
+    "JARDIM SAO LUIS": [
+      "Anarch"
+    ],
+    "SOCORRO": [
+      "Anarch"
+    ],
+    "CIDADE DUTRA": [
+      "Anarch"
+    ],
+    "GRAJAU": [
+      "Anarch"
+    ],
+    "MARSILAC": [
+      "Camarilla"
+    ],
+    "PARELHEIROS": [
+      "Camarilla"
+    ],
+    "CIDADE TIRADENTES": [
+      "Camarilla"
+    ],
+    "PERUS": [
+      "Camarilla"
+    ],
+    "ANHANGUERA": [
+      "Camarilla"
+    ],
+    "SAPOPEMBA": [
+      "Camarilla"
+    ],
+    "SACOMA": [
+      "Camarilla"
+    ],
+    "CURSINO": [
+      "Camarilla"
+    ],
+    "IPIRANGA": [
+      "Camarilla"
+    ],
+    "MOEMA": [
+      "Camarilla"
+    ],
+    "SAUDE": [
+      "Camarilla"
+    ],
+    "VILA MARIANA": [
+      "Camarilla"
+    ],
+    "PEDREIRA": [
+      "Camarilla"
+    ],
+    "CIDADE ADEMAR": [
+      "Camarilla"
+    ],
+    "JACANA": [
+      "Camarilla"
+    ],
+    "TREMEMBE": [
+      "Camarilla"
+    ],
+    "MANDAQUI": [
+      "Camarilla"
+    ],
+    "SANTANA": [
+      "Camarilla"
+    ],
+    "TUCURUVI": [
+      "Camarilla"
+    ],
+    "SANTO AMARO": [
+      "Camarilla"
+    ],
+    "CAMPO GRANDE": [
+      "Camarilla"
+    ],
+    "CAMPO BELO": [
+      "Camarilla"
+    ],
+    "JABAQUARA": [
+      "Camarilla"
+    ],
+    "VILA JACUI": [
+      "Anarch"
+    ],
+    "SAO MIGUEL": [
+      "Camarilla"
+    ],
+    "JARDIM HELENA": [
+      "Camarilla"
+    ],
+    "CIDADE LIDER": [
+      "Anarch"
+    ],
+    "PARQUE DO CARMO": [
+      "Anarch"
+    ],
+    "JOSE BONIFACIO": [
+      "Anarch"
+    ],
+    "ITAQUERA": [
+      "Anarch"
     ]
   },
-  "disputes": {
-    "BRAS": {
-      "between": [
-        "Autarquicos",
-        "Camarilla"
-      ],
-      "note": "O Bras e corredor de carga e gente. Autarquicos cobram 'passagem' nas galerias; Camarilla tenta comprar portas e impor 'ordem'. Quando os dois cobram na mesma noite, sobra sangue no asfalto."
-    },
-    "MOOCA": {
-      "between": [
-        "Anarch",
-        "Autarquicos"
-      ],
-      "note": "A Mooca e disputa por rotas e abrigo: Anarch controlam quarteiroes; Autarquicos controlam portas (cartorios, arquivos, poroes). Quem nao tem guia, se perde."
-    },
-    "TATUAPE": {
-      "between": [
-        "Anarch",
-        "Camarilla"
-      ],
-      "note": "Tatuape e vitrine de consumo com periferia ao redor. Camarilla quer etiqueta e 'ordem'; Anarch querem rua e autonomia. A guerra aqui e de reputacao e desaparecimentos."
-    },
-    "BUTANTA": {
-      "between": [
-        "Camarilla",
-        "Anarch"
-      ],
-      "note": "Butanta mistura campus, pesquisa e bolsoes populares. Camarilla quer a fachada academica; Anarch querem as rotas e os corpos. Segredos de laboratorio viram moeda."
-    },
-    "JABAQUARA": {
-      "between": [
-        "Camarilla",
-        "Anarch"
-      ],
-      "note": "Jabaquara e no de transito, hotel e contrabando. Camarilla compra portas; Anarch controlam quem entra e sai. O que some aqui raramente reaparece inteiro."
-    },
-    "IPIRANGA": {
-      "between": [
-        "Autarquicos",
-        "Anarch"
-      ],
-      "note": "No Ipiranga a historia vira arma. Autarquicos manipulam memoria e patrimonio; Anarch inflamam rua e torcida. Qualquer ritual antigo aqui chama atencao errada."
-    },
-    "VILA PRUDENTE": {
-      "between": [
-        "Autarquicos",
-        "Anarch"
-      ],
-      "note": "Vila Prudente e fronteira viva. O lado que controla a estacao controla a noite. Quando muda, muda rapido e com testemunhas mortais demais."
-    },
-    "LAPA": {
-      "between": [
-        "Camarilla",
-        "Zona cinza"
-      ],
-      "note": "A Lapa e dinheiro e logistica. Camarilla quer estabilidade e contratos; a Zona cinza vende sumico e acesso. A disputa e silenciosa: auditoria, chantagem, incendio 'acidental'."
-    }
-  },
+  "disputes": {},
   "pressures": {
-    "AGUA RASA": [],
-    "ALTO DE PINHEIROS": [],
-    "ANHANGUERA": [
-      "Risco lupino"
-    ],
-    "ARICANDUVA": [],
-    "ARTUR ALVIM": [],
-    "BARRA FUNDA": [
-      "Sabbat"
-    ],
-    "BELA VISTA": [
-      "Segunda Inquisicao"
-    ],
-    "BELEM": [],
-    "BOM RETIRO": [],
-    "BRAS": [],
-    "BRASILANDIA": [],
-    "BUTANTA": [],
-    "CACHOEIRINHA": [],
-    "CAMBUCI": [],
-    "CAMPO BELO": [
-      "Segunda Inquisicao"
-    ],
-    "CAMPO GRANDE": [],
-    "CAMPO LIMPO": [],
-    "CANGAIBA": [],
-    "CAPAO REDONDO": [],
-    "CARRAO": [],
-    "CASA VERDE": [],
-    "CIDADE ADEMAR": [],
-    "CIDADE DUTRA": [],
-    "CIDADE LIDER": [],
-    "CIDADE TIRADENTES": [],
-    "CONSOLACAO": [
-      "Segunda Inquisicao"
-    ],
-    "CURSINO": [],
-    "ERMELINO MATARAZZO": [],
-    "FREGUESIA DO O": [],
-    "GRAJAU": [],
-    "GUAIANASES": [],
-    "IGUATEMI": [],
-    "IPIRANGA": [],
-    "ITAIM BIBI": [],
-    "ITAIM PAULISTA": [],
-    "ITAQUERA": [],
-    "JABAQUARA": [],
-    "JACANA": [
-      "Risco lupino"
-    ],
-    "JAGUARA": [],
-    "JAGUARE": [
-      "Sabbat"
-    ],
+    "PIRITUBA": [],
+    "SAO DOMINGOS": [],
     "JARAGUA": [
       "Risco lupino"
     ],
-    "JARDIM ANGELA": [],
-    "JARDIM HELENA": [],
-    "JARDIM PAULISTA": [],
-    "JARDIM SAO LUIS": [],
-    "JOSE BONIFACIO": [],
-    "LAJEADO": [],
-    "LAPA": [],
-    "LIBERDADE": [],
+    "BRASILANDIA": [],
+    "FREGUESIA DO O": [],
+    "CASA VERDE": [],
+    "CACHOEIRINHA": [],
     "LIMAO": [],
-    "MANDAQUI": [],
+    "VILA GUILHERME": [],
+    "VILA MARIA": [],
+    "VILA MEDEIROS": [],
+    "ARTUR ALVIM": [],
+    "PENHA": [],
+    "CANGAIBA": [],
+    "VILA MATILDE": [],
+    "PONTE RASA": [],
+    "ERMELINO MATARAZZO": [],
+    "VILA CURUCA": [],
+    "ITAIM PAULISTA": [],
+    "GUAIANASES": [],
+    "LAJEADO": [],
+    "BARRA FUNDA": [],
+    "PERDIZES": [],
+    "VILA LEOPOLDINA": [],
+    "JAGUARA": [],
+    "LAPA": [],
+    "JAGUARE": [],
+    "REPUBLICA": [],
+    "SANTA CECILIA": [],
+    "SE": [],
+    "BELA VISTA": [],
+    "BOM RETIRO": [],
+    "CAMBUCI": [],
+    "CONSOLACAO": [],
+    "LIBERDADE": [],
+    "MOOCA": [],
+    "PARI": [],
+    "TATUAPE": [],
+    "AGUA RASA": [],
+    "BELEM": [],
+    "BRAS": [],
+    "CARRAO": [],
+    "VILA FORMOSA": [],
+    "ARICANDUVA": [],
+    "SAO MATEUS": [],
+    "SAO RAFAEL": [],
+    "IGUATEMI": [],
+    "VILA PRUDENTE": [],
+    "SAO LUCAS": [],
+    "MORUMBI": [],
+    "RIO PEQUENO": [],
+    "VILA SONIA": [],
+    "BUTANTA": [],
+    "RAPOSO TAVARES": [],
+    "PINHEIROS": [],
+    "ALTO DE PINHEIROS": [],
+    "ITAIM BIBI": [],
+    "JARDIM PAULISTA": [],
+    "CAMPO LIMPO": [],
+    "CAPAO REDONDO": [],
+    "VILA ANDRADE": [],
+    "JARDIM ANGELA": [],
+    "JARDIM SAO LUIS": [],
+    "SOCORRO": [],
+    "CIDADE DUTRA": [],
+    "GRAJAU": [],
     "MARSILAC": [
       "Risco lupino"
     ],
-    "MOEMA": [],
-    "MOOCA": [],
-    "MORUMBI": [],
     "PARELHEIROS": [
       "Risco lupino"
     ],
-    "PARI": [],
-    "PARQUE DO CARMO": [],
-    "PEDREIRA": [],
-    "PENHA": [],
-    "PERDIZES": [],
+    "CIDADE TIRADENTES": [],
     "PERUS": [
       "Risco lupino"
     ],
-    "PINHEIROS": [],
-    "PIRITUBA": [],
-    "PONTE RASA": [],
-    "RAPOSO TAVARES": [],
-    "REPUBLICA": [
-      "Segunda Inquisicao"
+    "ANHANGUERA": [
+      "Risco lupino"
     ],
-    "RIO PEQUENO": [],
-    "SACOMA": [],
-    "SANTA CECILIA": [],
-    "SANTANA": [],
-    "SANTO AMARO": [
-      "Segunda Inquisicao"
-    ],
-    "SAO DOMINGOS": [],
-    "SAO LUCAS": [],
-    "SAO MATEUS": [],
-    "SAO MIGUEL": [],
-    "SAO RAFAEL": [],
     "SAPOPEMBA": [],
+    "SACOMA": [],
+    "CURSINO": [],
+    "IPIRANGA": [],
+    "MOEMA": [],
     "SAUDE": [],
-    "SE": [
-      "Segunda Inquisicao"
+    "VILA MARIANA": [],
+    "PEDREIRA": [],
+    "CIDADE ADEMAR": [],
+    "JACANA": [
+      "Risco lupino"
     ],
-    "SOCORRO": [],
-    "TATUAPE": [],
     "TREMEMBE": [
       "Risco lupino"
     ],
+    "MANDAQUI": [],
+    "SANTANA": [],
     "TUCURUVI": [],
-    "VILA ANDRADE": [],
-    "VILA CURUCA": [],
-    "VILA FORMOSA": [],
-    "VILA GUILHERME": [],
+    "SANTO AMARO": [],
+    "CAMPO GRANDE": [],
+    "CAMPO BELO": [],
+    "JABAQUARA": [],
     "VILA JACUI": [],
-    "VILA LEOPOLDINA": [
-      "Sabbat"
-    ],
-    "VILA MARIA": [],
-    "VILA MARIANA": [],
-    "VILA MATILDE": [],
-    "VILA MEDEIROS": [],
-    "VILA PRUDENTE": [],
-    "VILA SONIA": []
+    "SAO MIGUEL": [],
+    "JARDIM HELENA": [],
+    "CIDADE LIDER": [],
+    "PARQUE DO CARMO": [],
+    "JOSE BONIFACIO": [],
+    "ITAQUERA": []
   }
 }

@@ -2,7 +2,7 @@ Ravi "Truque"
 
 Perfil:
 - Cla: Ravnos | Seita: Independentes | Funcao: Ilusionista de esquina
-- Dominio: Centro/Barra Funda (itinerante) | Idade aparente: 36
+- Dominio: Centro/Barra Funda | Idade aparente: 36
 - Abraco: 2002 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): ['Obfuscate 2', 'Presence 2', 'Animalism 1']
 - Assinatura/estilo: truques curtos; sumicos longos
@@ -15,7 +15,7 @@ Ravi "Truque" e deslocamento e golpe. Em cena: verdade vira truque, truque vira 
 
 Historia (costurada, sem resumo seco):
 Ravi "Truque" nasceu em 1972. O Abraco veio em 2002 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ficar vivo num mundo que quer padroes. O medo e igualmente pratico: Ser preso em uma historia que nao controla.
+A ambicao de Ravi "Truque" e Ficar vivo num mundo que quer padroes. O medo principal e Ser preso em uma historia que nao controla. No territorio de Centro/Barra Funda, isso torna cada acordo mais tenso e cada erro mais caro.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -30,9 +30,10 @@ Rumor e verdade (municao social):
 - Verdade (perigosa): Ele ja roubou um item de um Tremere e sobreviveu.
 
 Conexoes (com motivo e custo):
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: troca de rotas por dados
-- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: ela odeia o imprevisivel
+- Nico "Sombra" (kindred; Corretor de informação) [client]: troca de rotas por dados
+- Luiza Salles (kindred; Senescal) [rival]: ela odeia o imprevisivel
 - Samira al-Haddad (kindred; Xerife) [uneasy]: ela quer controle sobre ele
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
@@ -41,6 +42,6 @@ Linhagem (quem carrega seu sangue e seu problema):
 - ravnos_maru_vento
 
 Cenas prontas (para jogar hoje):
-- Cena: Centro/Barra Funda (itinerante). Oferece um disfarce perfeito por uma noite.
-- Cena: Centro/Barra Funda (itinerante). Vende uma rota invisivel para cameras.
-- Cena: Centro/Barra Funda (itinerante). E acusado de um roubo que na verdade foi SI.
+- Cena: Centro/Barra Funda. Oferece um disfarce perfeito por uma noite.
+- Cena: Centro/Barra Funda. Vende uma rota invisivel para cameras.
+- Cena: Centro/Barra Funda. E acusado de um roubo que na verdade foi SI.

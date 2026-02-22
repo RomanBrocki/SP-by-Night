@@ -1,7 +1,7 @@
 Nome: Jonas "Coro"
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Coordenador de abrigo e coral (facilitador)
+Papel: Coordenador de abrigo e coral
 Area: Centro
 Assinatura / estilo: voz calma; organiza pessoas como quem organiza caixas
 Coteries/associacoes:

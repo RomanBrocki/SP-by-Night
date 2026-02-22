@@ -1,6 +1,6 @@
 Nome: Dra. Aline Moretti
 Tipo: mortal
 Vinculo: Mortal
-Papel: Gestao hospitalar
+Papel: Gestão hospitalar
 Area: Oeste
 Assinatura / estilo: profissional; olha demais para feridas

@@ -1,4 +1,4 @@
-Nome / Alcunha: Caio "Papel" / Portador de recados (util)
+Nome / Alcunha: Caio "Papel" / Portador de recados
 Cla: Caitiff | Seita: Camarilla
 Idade aparente: 40 | Abraco: 2021 | Potencia do Sangue 1
 Dominio / area principal: Centro Expandido
@@ -16,4 +16,5 @@ Atuacao mortal (explicita):
 - Mercado cinza e documentos (identidades descartaveis, sumico digital).
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 Servos/contatos notaveis (entrada rapida):
-- Rafa "Ferro" (kindred; Aspirante a corte (Caitiff)) [contact]: ponte para a politica local
+- Rafa "Ferro" (kindred; Aspirante a corte) [contact]: ponte para a politica local
+- Rafa "Ferro" (kindred; Aspirante a corte) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

@@ -1,18 +1,18 @@
 Jessica "Biqueira" Ramos
 
 Perfil:
-- Tipo: ghoul | Vinculo: Anarch | Papel: Gerente de esquina (boca, aviso, caixa)
-- Area: Baronato Sul (Capao/Grajau)
+- Tipo: ghoul | Vinculo: Anarch | Papel: Gerente de esquina
+- Area: Baronato Sul
 - Assinatura/estilo: Unhas longas pintadas, moletom largo, olhar rapido; sempre com dois celulares.
 
 Coteries/associacoes:
 - Matilha do Sul (Capao/Grajau)
 
 Tom (para narrar):
-Jessica "Biqueira" Ramos e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Sul (Capao/Grajau).
+Jessica "Biqueira" Ramos e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Sul.
 
 Historia (costurada, sem resumo seco):
-Jessica "Biqueira" Ramos vive no ponto em que o mundo mortal toca o tabuleiro cainita: Gerente de esquina (boca, aviso, caixa). A area operacional e Baronato Sul (Capao/Grajau). O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Jessica "Biqueira" Ramos vive no ponto em que o mundo mortal toca o tabuleiro cainita: Gerente de esquina. A area operacional e Baronato Sul. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ela paga taxa dupla (baronato e policia) e usa os recibos como chantagem.
 
 Conexoes (com motivo e custo):
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [ally]: a rua sustenta a matilha; a matilha protege a rua
-- Vivi "Fenda" Lacerda (kindred; Recrutadora (Sul)) [uneasy]: culto quer tomar a esquina; Jessica nao aceita perder caixa
+- Bia "Matilha" (kindred; Baronesa da borda sul) [ally]: a rua sustenta a matilha; a matilha protege a rua
+- Vivi "Fenda" Lacerda (kindred; Recrutadora) [uneasy]: culto quer tomar a esquina; Jessica nao aceita perder caixa
+- Bia "Matilha" (kindred; Baronesa da borda sul) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

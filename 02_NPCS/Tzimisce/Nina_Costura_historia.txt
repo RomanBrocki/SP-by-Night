@@ -1,9 +1,9 @@
-Nina "Costura"
+﻿Nina "Costura"
 
 Perfil:
-- Cla: Tzimisce | Seita: Autarquicos | Funcao: Cirurgia e favores (carne e segredos)
-- Dominio: Centro/clinicas clandestinas | Idade aparente: 40
-- Abraco: 1959 | Sire: - | Acima do sire: -
+- Cla: Tzimisce | Seita: Autarquicos | Funcao: Cirurgia e favores
+- Dominio: Centro/clínicas clandestinas | Idade aparente: 40
+- Abraco: 1959 | Sire: â€” (sem registro formal no projeto; origem mantida em silÃªncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Protean 3', 'Dominate 2', 'Animalism 1']
 - Assinatura/estilo: gentileza clinica; horror artesanal
 
@@ -15,7 +15,7 @@ Nina "Costura" e hospitalidade predatoria. Em cena: abrigo vem com clausula, e a
 
 Historia (costurada, sem resumo seco):
 Nina "Costura" nasceu em 1918. O Abraco veio em 1959 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ser invisivel para politica e indispensavel para sobrevivencia. O medo e igualmente pratico: Que o Sabbat traga guerra ate sua porta.
+A ambicao de Nina e ser invisivel para a politica formal e indispensavel para a sobrevivencia de quem tem poder. Em cena, isso aparece na sua clinica clandestina: ela aceita casos que ninguem quer assumir, exige pagamento em favor verificavel e nunca atende sem uma contrapartida de seguranca. O medo concreto e um surto Sabbat transformar sua rede medica em frente de guerra. Quando esse tema surge, ela prioriza evacuar equipe, queimar rastros clinicos e cortar contato com clientes instaveis.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -23,24 +23,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 
 Segredo (objetivamente jogavel):
-- Ela ja fez uma obra para um Lasombra Camarilla.
+- Ela jÃ¡ fez uma obra para um Lasombra Camarilla. Isso encosta diretamente em Donato Lazzari (relaÃ§Ã£o tensa; mortos e carne se odeiam) e Dario Kron (rivalidade; magia vs forma). Se vier Ã  tona, vira acerto de contas e perda de territÃ³rio ou rede.
 
 Rumor e verdade (municao social):
 - Rumor (falso): Ela esta em torpor.
-- Verdade (perigosa): Ela sabe como apagar uma identidade fisica.
+- Verdade (perigosa): Ela sabe como apagar uma identidade fisica. Hoje, quem estÃ¡ mais perto de descobrir isso Ã© Donato Lazzari (relaÃ§Ã£o tensa; mortos e carne se odeiam).
 
 Conexoes (com motivo e custo):
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [uneasy]: mortos e carne se odeiam
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [rival]: magia vs forma
-- Camila "Noite-Funda" (kindred; Dissidente (ex-Camarilla)) [client]: disfarces por boons
+- Donato Lazzari (kindred; Cobrador de travessia) [uneasy]: mortos e carne se odeiam
+- Dario Kron (kindred; PrimÃ³geno Tremere) [rival]: magia vs forma
+- Camila "Noite-Funda" (kindred; Dissidente) [client]: disfarces por boons
+- Donato Lazzari (kindred; Cobrador de travessia) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- tzimisce_vlado_itapecerica
+- Vlado de Itapecerica
 
 Cenas prontas (para jogar hoje):
-- Cena: Centro/clinicas clandestinas. Pode consertar alguem (com custo).
-- Cena: Centro/clinicas clandestinas. Pede aos PJ um corpo sem perguntas.
-- Cena: Centro/clinicas clandestinas. Oferece disfarce corporal para fugir da SI.
+- Cena: Centro/clínicas clandestinas. Pode consertar alguem. Entrada: Centro/clínicas clandestinas; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Centro/clínicas clandestinas. Pede aos PJs um corpo sem perguntas. Entrada: Centro/clínicas clandestinas; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+- Cena: Centro/clínicas clandestinas. Oferece disfarce corporal para fugir da SI. Entrada: Centro/clínicas clandestinas; custo provÃ¡vel: boon, cobertura ou silÃªncio.
+

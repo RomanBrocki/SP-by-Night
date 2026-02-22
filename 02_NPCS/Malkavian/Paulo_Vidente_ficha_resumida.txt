@@ -1,7 +1,7 @@
-Nome / Alcunha: Paulo "O Vidente" / Oraculo de tunel
+Nome / Alcunha: Paulo "O Vidente" / Leitor de padrões das galerias
 Cla: Malkavian | Seita: Autarquicos
 Idade aparente: 37 | Abraco: 1993 | Potencia do Sangue 3
-Dominio / area principal: Galerias e estacoes (rumores)
+Dominio / area principal: galerias e estações
 Disciplinas (top 3): ['Auspex 4', 'Obfuscate 2', 'Dominate 1']
 Assinatura / estilo: pressagio como conversa; verdade como piada
 Coteries/associacoes (grupo e rede):
@@ -11,13 +11,14 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'Diga a verdade certa, no momento errado'.
 - Touchstone: um grafite antigo que ele nunca deixa apagar.
 Ganchos de cena:
-- Diz aos PJ um nome que muda tudo (sem explicar).
-- Entrega um mapa de sonho do Buraco do Centro.
-- Se recusa a falar ate receber um boon simbolico.
+- Diz aos PJs um nome que muda tudo. Entrada: Galerias e estacoes; custo provável: boon, cobertura ou silêncio.
+- Entrega um croqui de padrões do Buraco do Centro (horários, ecos e pontos de risco). Entrada: Galerias e estacoes; custo provável: boon, cobertura ou silêncio.
+- Se recusa a falar ate receber um boon simbolico. Entrada: Galerias e estacoes; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Rumor e previsao (padroes sociais, coincidencias, mensagens).
 - intervencoes pequenas com impacto grande (um telefonema muda tudo).
 Servos/contatos notaveis (entrada rapida):
-- Vovo Zilda (kindred; Ancia subterranea (matriarca)) [ally]: troca pressagios por rotas
-- Joao do Trem (kindred; Lenda de trilhos (ancao de periferia)) [ally]: avisos e rotas
+- Vovo Zilda (kindred; Anciã subterranea) [ally]: troca pressagios por rotas
+- Joao do Trem (kindred; Fixador de circulação noturna) [ally]: avisos e rotas
 - Irene da Luz (kindred; Curandeira escondida) [friend]: cura e visao se reconhecem
+- Vovo Zilda (kindred; Anciã subterranea) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

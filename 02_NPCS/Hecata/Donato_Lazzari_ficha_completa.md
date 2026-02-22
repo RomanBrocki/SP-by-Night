@@ -1,7 +1,7 @@
 {
   "blood_potency": 3,
   "humanity": 5,
-  "predator_type": "Bagger (cadaveres e doacoes)",
+  "predator_type": "Bagger",
   "compulsion_hook": "Morbidez: precisa transformar tudo em legado.",
   "hunger_style": "Sangue frio; nao se importa com repulsa.",
   "attributes": {

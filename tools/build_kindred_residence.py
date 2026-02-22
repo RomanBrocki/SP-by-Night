@@ -1,5 +1,9 @@
 import json
+import re
+import unicodedata
 from pathlib import Path
+
+import openpyxl
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -8,7 +12,64 @@ OUT = ROOT / "tools" / "sp_kindred_residence.json"
 
 
 def _norm(s: str) -> str:
-    return (s or "").strip().lower()
+    s = str(s or "").strip().lower()
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _region_to_residence_id(region: str, sect: str) -> tuple[str, str]:
+    r = _norm(region)
+    if re.search(r"mooca|tatuape|baronato mooca", r):
+        return "baronato_mooca_tatuape", "Baronato Mooca/Tatuape"
+    if re.search(r"itaquera|leste|guaianases|sapopemba|sao mateus|cidade tiradentes", r):
+        return "baronato_leste", "Baronato Leste (Itaquera/Extremo Leste)"
+    if re.search(r"capao|grajau|baronato sul|extremo sul|bordas verdes|jardim angela|campo limpo|jardim sao luis", r):
+        return "baronato_sul", "Baronato Sul (Capao/Grajau)"
+    if re.search(r"centro velho|se republica|\bse\b|republica", r):
+        return "indep_centro_velho", "Independentes: Centro Velho"
+    if re.search(r"cemiterio|consolacao", r):
+        return "indep_cemiterios", "Independentes: Cemiterios/Funerarias (enclave)"
+    if re.search(r"barra funda|lapa|rodovia|rodoanel|trajeto|zona cinza|corredor|eixo", r):
+        return "indep_corredores", "Independentes: Corredores"
+
+    s = _norm(sect)
+    if "anarch" in s or "anarqu" in s:
+        return "baronato_mooca_tatuape", "Baronato Mooca/Tatuape"
+    if "independ" in s:
+        return "indep_centro_velho", "Independentes: Centro Velho"
+    return "camarilla_macro", "Camarilla (macro)"
+
+
+def _load_canon_sheet() -> dict[str, dict]:
+    xlsx = next(ROOT.glob("*local*.xlsx"), None)
+    if not xlsx:
+        raise SystemExit("missing referencia_localizacao.xlsx")
+    wb = openpyxl.load_workbook(xlsx, data_only=True)
+    if "npcs" not in wb.sheetnames:
+        raise SystemExit("sheet 'npcs' not found in referencia_localizacao.xlsx")
+    ws = wb["npcs"]
+    headers = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]
+    idx = {str(h): i + 1 for i, h in enumerate(headers)}
+    required = {"nome", "regiao", "grupo"}
+    if not required.issubset(idx.keys()):
+        raise SystemExit("sheet 'npcs' missing required columns: nome, regiao, grupo")
+
+    by_name: dict[str, dict] = {}
+    for r in range(2, ws.max_row + 1):
+        nome = ws.cell(r, idx["nome"]).value
+        if not nome:
+            continue
+        regiao = ws.cell(r, idx["regiao"]).value or ""
+        grupo = ws.cell(r, idx["grupo"]).value or ""
+        cla = ws.cell(r, idx.get("cla_ou_tipo", 0)).value if idx.get("cla_ou_tipo") else ""
+        by_name[_norm(str(nome))] = {
+            "nome": str(nome),
+            "regiao": str(regiao),
+            "grupo": str(grupo),
+            "cla_ou_tipo": str(cla or ""),
+        }
+    return by_name
 
 
 def main() -> int:
@@ -17,94 +78,52 @@ def main() -> int:
     data = json.loads(SRC.read_text(encoding="utf-8"))
     entities = [e for e in (data.get("entities") or []) if isinstance(e, dict)]
     kindred = [e for e in entities if e.get("kind") == "kindred"]
-
-    # Manual overrides to keep the chronicle coherent and explicit.
-    # Keys are Kindred ids from tools/sp_by_night_source.json.
-    overrides: dict[str, dict] = {
-        # Camarilla "lordes"
-        "ventrue_artur_macedo": {"id": "paulista_jardins", "label": "Paulista/Jardins"},
-        "ventrue_isabel_amaral": {"id": "itaim_berrini", "label": "Itaim/Berrini"},
-        "toreador_luiza_salles": {"id": "pinheiros_vila_madalena", "label": "Pinheiros/Vila Madalena"},
-        "toreador_helena_vasconcelos": {"id": "liberdade", "label": "Liberdade"},
-        "tremere_dario_kron": {"id": "butanta_usp", "label": "Butanta/USP (Torre Tremere)"},
-        "banuhaqim_samira_al_haddad": {"id": "santana_tucuruvi", "label": "Santana/Tucuruvi (Xerifado)"},
-        "lasombra_padre_miguel_aranha": {"id": "bela_vista_bixiga", "label": "Bela Vista/Bixiga (Confissao)"},
-        "nosferatu_nico_sombra": {"id": "bras_pari", "label": "Bras/Pari (Mercado de Sombras)"},
-        # Anarch: baronatos (macro)
-        "brujah_renata_ferraz": {"id": "baronato_mooca_tatuape", "label": "Baronato Mooca/Tatuape"},
-        "brujah_caua_martins": {"id": "baronato_mooca_tatuape", "label": "Baronato Mooca/Tatuape"},
-        "ministry_elias_sal": {"id": "baronato_mooca_tatuape", "label": "Baronato Mooca/Tatuape"},
-        "malkavian_cecilia_linha_dois": {"id": "baronato_mooca_tatuape", "label": "Baronato Mooca/Tatuape"},
-        "caitiff_rafa_ferro": {"id": "baronato_mooca_tatuape", "label": "Baronato Mooca/Tatuape"},
-        "nosferatu_ester_gato_preto": {"id": "baronato_mooca_tatuape", "label": "Baronato Mooca/Tatuape"},
-        "ravnos_maru_vento": {"id": "baronato_leste", "label": "Baronato Leste (Itaquera/Extremo Leste)"},
-        "gangrel_bia_matilha": {"id": "baronato_sul", "label": "Baronato Sul (Capao/Grajau)"},
-        "brujah_diego_itaquera": {"id": "baronato_leste", "label": "Baronato Leste (Itaquera/Extremo Leste)"},
-        "brujah_novo_11_sabrina_siqueira": {"id": "baronato_sul", "label": "Baronato Sul (Capao/Grajau)"},
-        "gangrel_novo_09_jonas_capim": {"id": "baronato_sul", "label": "Baronato Sul (Capao/Grajau)"},
-        "ministry_novo_08_vivi_fenda_lacerda": {"id": "baronato_sul", "label": "Baronato Sul (Capao/Grajau)"},
-        "thinblood_novo_10_bruna_sinais": {"id": "baronato_sul", "label": "Baronato Sul (Capao/Grajau)"},
-        "thinblood_luan_patch": {"id": "baronato_sul", "label": "Baronato Sul (Capao/Grajau)"},
-        "thinblood_katia_zero": {"id": "baronato_mooca_tatuape", "label": "Baronato Mooca/Tatuape"},
-        "thinblood_ana_carbono": {"id": "baronato_leste", "label": "Baronato Leste (Itaquera/Extremo Leste)"},
-        "lasombra_camila_noite_funda": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        # Independentes (macro)
-        # Donato controla Centro Velho e o enclave de cemiterios; na pratica ele dorme onde o acordo e mais sensivel.
-        "hecata_donato_lazzari": {"id": "indep_cemiterios", "label": "Independentes: Cemiterios/Funerarias (enclave)"},
-        "hecata_soraia_nunes": {"id": "indep_cemiterios", "label": "Independentes: Cemiterios/Funerarias (enclave)"},
-        "hecata_iago_siqueira": {"id": "indep_centro_velho", "label": "Independentes: Centro Velho"},
-        "malkavian_paulo_vidente": {"id": "indep_centro_velho", "label": "Independentes: Centro Velho"},
-        "tzimisce_nina_costura": {"id": "indep_centro_velho", "label": "Independentes: Centro Velho"},
-        "brujah_joao_do_trem": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        "gangrel_hector_rodoanel": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        "thinblood_dante_fumo": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        "ravnos_ravi_truque": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        "salubri_irene_da_luz": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        "tzimisce_vlado_itapecerica": {"id": "baronato_sul", "label": "Baronato Sul (Capao/Grajau)"},
-        "ministry_talita_serpente": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        "banuhaqim_yusuf_rahman": {"id": "indep_corredores", "label": "Independentes: Corredores"},
-        # Novo: preencher o enclave explicitamente no mapa.
-        "hecata_celia_moura": {"id": "indep_cemiterios", "label": "Independentes: Cemiterios/Funerarias (enclave)"},
-    }
+    canon_by_name = _load_canon_sheet()
 
     out = {
         "meta": {
-            "note": "Fonte de verdade para 'onde este Cainita habita' em termos de camadas macro/domínios expressivos do mapa. Ajuste manualmente se quiser.",
+            "note": "Residencia canonica dos Cainitas. Fonte unica: referencia_localizacao.xlsx (aba npcs).",
         },
         "residence": {},
     }
 
+    matched = 0
     for e in kindred:
-        eid = e.get("id") or ""
+        eid = str(e.get("id") or "").strip()
         if not eid:
             continue
-        name = e.get("display_name") or ""
-        sect = e.get("sect") or ""
-        domain_raw = e.get("domain") or ""
-
-        if eid in overrides:
+        name = str(e.get("display_name") or e.get("name") or "").strip()
+        sect = str(e.get("sect") or "").strip()
+        domain_raw = str(e.get("domain") or "").strip()
+        canon = canon_by_name.get(_norm(name))
+        if canon:
+            rid, rlabel = _region_to_residence_id(canon.get("regiao") or "", sect or canon.get("grupo") or "")
             out["residence"][eid] = {
                 "name": name,
                 "sect": sect,
-                "residence_id": overrides[eid]["id"],
-                "residence_label": overrides[eid]["label"],
-                "source": "override",
+                "residence_id": rid,
+                "residence_label": rlabel,
+                "source": "referencia_localizacao.xlsx:npcs",
                 "domain_raw": domain_raw,
+                "canon_region": canon.get("regiao") or "",
+                "canon_group": canon.get("grupo") or "",
             }
-            continue
-
-        # Default: if nothing explicit, assume the Kindred is "na Camarilla" mas sem territorio expressivo registrado.
-        out["residence"][eid] = {
-            "name": name,
-            "sect": sect,
-            "residence_id": "camarilla_macro" if _norm(sect) == "camarilla" else "desconhecido",
-            "residence_label": "Camarilla (sem territorio expressivo)" if _norm(sect) == "camarilla" else "Nao definido",
-            "source": "default",
-            "domain_raw": domain_raw,
-        }
+            matched += 1
+        else:
+            rid, rlabel = _region_to_residence_id("", sect)
+            out["residence"][eid] = {
+                "name": name,
+                "sect": sect,
+                "residence_id": rid,
+                "residence_label": rlabel,
+                "source": "fallback_by_sect",
+                "domain_raw": domain_raw,
+                "canon_region": "",
+                "canon_group": "",
+            }
 
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"wrote {OUT}")
+    print(f"wrote {OUT} (matched {matched}/{len(kindred)})")
     return 0
 
 

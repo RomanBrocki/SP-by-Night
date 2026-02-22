@@ -1,8 +1,8 @@
 Nome: Lia Morais
 Tipo: ghoul
 Vinculo: Autarquicos
-Papel: Necroassistente (funeraria)
-Area: Centro Velho/cemiterios
+Papel: Necroassistente
+Area: Centro Velho/cemitérios
 Assinatura / estilo: educacao fria; trabalho sem nojo
 Coteries/associacoes:
 - Enclave dos Cemiterios (Hecata)

@@ -1,7 +1,7 @@
 Nome: Samir "Escrivao" Haddad
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Retentor (cartorio, selo e copia)
+Papel: Escrivão e papelada discreta
 Area: Ipiranga/Cursino
 Coteries/associacoes:
 - Sangue e Selo (Banu Haqim)

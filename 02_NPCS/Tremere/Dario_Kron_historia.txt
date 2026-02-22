@@ -1,9 +1,9 @@
 Dario Kron
 
 Perfil:
-- Cla: Tremere | Seita: Camarilla | Funcao: Primogeno Tremere (regente de fato)
-- Dominio: Butanta/USP (Torre Tremere; refugios dispersos) | Idade aparente: 40
-- Abraco: 1968 | Sire: - | Acima do sire: -
+- Cla: Tremere | Seita: Camarilla | Funcao: Primógeno Tremere
+- Dominio: Butantã/USP | Idade aparente: 40
+- Abraco: 1968 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Blood Sorcery 4', 'Auspex 2', 'Dominate 2']
 - Assinatura/estilo: rituais curtos; paranoia como liturgia
 
@@ -16,7 +16,7 @@ Dario Kron e metodo e contingencia. Em cena: tudo vira procedimento (selos, veri
 
 Historia (costurada, sem resumo seco):
 Dario Kron nasceu em 1925. O Abraco veio em 1968 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Reconstruir um chantry sem virar alvo facil. O medo e igualmente pratico: Que a SI esteja mais proxima do que ele admite.
+A ambicao de Dario Kron e Reconstruir um chantry sem virar alvo facil. Na pratica, isso orienta decisoes no eixo de Corte do Elysium e Torre da USP, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que a SI esteja mais proxima do que ele admite. Quando esse risco aparece, Dario Kron reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Academia e laboratorios (pesquisa, bolsas, comites de etica como escudo).
@@ -24,25 +24,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Arquivos e burocracia (quem controla o registro controla a versao).
 
 Segredo (objetivamente jogavel):
-- Ele mantem um acordo de silencio com um Hecata para varrer rastros (corpos, nomes e horarios). O acordo tem contrapartida e prova material (mensagens, recibos, intermediarios).
+- Ele mantém um acordo de silêncio com um Hecata para varrer rastros. O acordo tem contrapartida e prova material. Isso encosta diretamente em Isabel do Amaral (rivalidade; ela odeia o imprevisível dos rituais) e Donato Lazzari (boon pendente; Minor, intermediação com mortos). Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ele nao e Tremere; e um impostor de outro cla.
-- Verdade (perigosa): Ele tem um metodo de rastrear sangue pela rede de boons.
+- Rumor (falso): Ele não e Tremere; e um impostor de outro cla (cola porque a superfície da cidade mostra só um pedaço do trabalho real).
+- Verdade (perigosa): Ele tem um método de rastrear sangue pela rede de boons. Hoje, quem está mais perto de descobrir isso é Isabel do Amaral (rivalidade; ela odeia o imprevisível dos rituais).
 
 Conexoes (com motivo e custo):
-- Isabel do Amaral (kindred; Primogena Ventrue (em retiro)) [rival]: ela odeia o imprevisivel dos rituais
-- Donato Lazzari (kindred; Coletor do pedagio (cemiterios e galerias)) [boon_owed]: Minor; intermediacao com mortos
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [uneasy]: nao confia em sombras na Camarilla
+- Isabel do Amaral (kindred; Primógena Ventrue) [rival]: ela odeia o imprevisivel dos rituais
+- Donato Lazzari (kindred; Cobrador de travessia) [boon_owed]: Minor; intermediacao com mortos
+- Padre Miguel Aranha (kindred; Guardião de confissões) [uneasy]: nao confia em sombras na Camarilla
+- Isabel do Amaral (kindred; Primógena Ventrue) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Leonardo "Aprendiz": Assistente de laboratorio (retentor) (area: Centro Expandido)
-- Renato "Bico" Sampaio: Tecnico de laboratorio (amostras, descarte, chave de sala) (area: Butanta/USP)
+- Leonardo "Aprendiz": Assistente de laboratório (area: Centro Expandido)
+- Renato "Bico" Sampaio: Técnico de laboratório (area: Butantã/USP)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- tremere_bianca_saramago
+- Bianca Saramago
 
 Cenas prontas (para jogar hoje):
-- Cena: Butanta/USP (Torre Tremere; refugios dispersos). Pede aos PJ que recuperem um grimorio em territorio Anarch.
-- Cena: Butanta/USP (Torre Tremere; refugios dispersos). Oferece um ritual util em troca de um nome.
-- Cena: Butanta/USP (Torre Tremere; refugios dispersos). Tenta usar os PJ para expor um traidor no cla.
+- Cena: Butantã/USP. Pede aos PJs que recuperem um grimorio em território anarquista. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.
+- Cena: Butantã/USP. Oferece um ritual util em troca de um nome. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.
+- Cena: Butantã/USP. Tenta usar os PJs para expor um traidor no cla. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.

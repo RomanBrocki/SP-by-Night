@@ -1,7 +1,7 @@
-Nome / Alcunha: Caio Menezes / Analista de risco (oculto)
+Nome / Alcunha: Caio Menezes / Analista de risco
 Cla: Tremere | Seita: Camarilla
 Idade aparente: 38 | Abraco: 2017 | Potencia do Sangue 1
-Dominio / area principal: Butanta/USP
+Dominio / area principal: Butantã/USP
 Disciplinas (top 3): -
 Assinatura / estilo: -
 Coteries/associacoes (grupo e rede):
@@ -16,4 +16,5 @@ Atuacao mortal (explicita):
 - Ocultismo de vitrine (livrarias, palestras, grupos de estudo).
 - Arquivos e burocracia (quem controla o registro controla a versao).
 Servos/contatos notaveis (entrada rapida):
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [contact]: ponte para a politica local
+- Dario Kron (kindred; Primógeno Tremere) [contact]: ponte para a politica local
+- Dario Kron (kindred; Primógeno Tremere) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

@@ -2,9 +2,9 @@ Samira al-Haddad
 
 Perfil:
 - Cla: Banu Haqim | Seita: Camarilla | Funcao: Xerife
-- Dominio: Santana/Tucuruvi (Xerifado; base de pressao e resposta) | Idade aparente: 38
-- Abraco: 1979 | Sire: banuhaqim_yusuf_rahman | Acima do sire: -
-- Disciplinas (top 3): ['Blood Sorcery 3', 'Celerity 3', 'Obfuscate 2']
+- Dominio: Santana/Tucuruvi | Idade aparente: 38
+- Abraco: 1979 | Sire: Yusuf Rahman | Acima do sire: -
+- Disciplinas (top 3): ['Celerity 3', 'Obfuscate 2', 'Blood Sorcery 3']
 - Assinatura/estilo: cirurgica; ela fala pouco e some mais
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
@@ -16,7 +16,7 @@ Samira al-Haddad faz a conversa virar procedimento. Em cena: perguntas parecem c
 
 Historia (costurada, sem resumo seco):
 Samira al-Haddad nasceu em 1941. O Abraco veio em 1979 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Transformar Sao Paulo numa cidade onde quebrar a Mascara e suicidio. O medo e igualmente pratico: Que a Camarilla a use como bode expiatorio.
+A ambicao de Samira al-Haddad e manter a Corte previsível e útil ao príncipe, punindo rápido o bastante para evitar cascata de erro. Na pratica, isso orienta decisoes no eixo de Corte do Elysium e Sangue e Selo, com foco em discricao, tempo de resposta e controle de danos. O medo principal e ser usada como lâmina política e depois descartada quando a culpa pública precisar de nome. Quando esse risco aparece, Samira al-Haddad reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede juridica e de investigacao (advocacia, auditoria, pressao oficial).
@@ -25,21 +25,22 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
 
 Segredo (objetivamente jogavel):
-- Ela mantem um arquivo de pecados do Principe: datas, nomes e provas (prints, audios, relatorios). O arquivo esta duplicado em dois lugares e a existencia dele e o que a mantem viva.
+- conhece dossiês do antigo xerife e do período da transição; parte desse material explica por que Artur a escolheu e por que alguns veteranos nunca confiaram nela. Isso encosta diretamente em Artur Macedo, Nadia Nasser e Yusuf Rahman. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ela mata por prazer.
-- Verdade (perigosa): Ela ja negociou com Anarchs para evitar um banho de sangue.
+- Rumor (falso): circula o boato de que ela quer virar xerife permanente de guerra e empurrar a cidade para estado de exceção (cola porque a superfície da cidade mostra só um pedaço do trabalho real).
+- Verdade (perigosa): assumiu a Xerifia porque demonstrou mais lealdade operacional ao príncipe do que o xerife anterior, é a troca foi vendida como mera 'reorganização'. Hoje, quem está mais perto de descobrir isso é Yusuf Rahman.
 
 Conexoes (com motivo e custo):
-- Artur Macedo (kindred; Principe de Sao Paulo) [liege]: executa a lei do Principe
-- Nico "Sombra" (kindred; Corretor de informacao) [boon_owed]: Trivial; acesso a cameras
+- Artur Macedo (kindred; Príncipe de São Paulo) [liege]: executa a lei do Principe
+- Nico "Sombra" (kindred; Corretor de informação) [boon_owed]: Trivial; acesso a cameras
 - Renata Ferraz (kindred; Baronesa da Mooca) [rival]: baronia anarch e resistencia armada
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Vitor Kallas: Motorista e apoio tatico (area: Centro Expandido)
+- Vitor Kallas: Motorista e apoio tático (area: Centro Expandido)
 
 Cenas prontas (para jogar hoje):
-- Cena: Santana/Tucuruvi (Xerifado; base de pressao e resposta). Recruta os PJ para uma captura discreta.
-- Cena: Santana/Tucuruvi (Xerifado; base de pressao e resposta). Oferece anistia por um favor sangrento.
-- Cena: Santana/Tucuruvi (Xerifado; base de pressao e resposta). Testa os PJ com uma ordem ambigua.
+- Cena: Santana/Tucuruvi. Samira convoca os PJs para confirmar uma versão antes que a Corte transforme o caso em punição pública. Entrada: Santana/Tucuruvi; custo provável: boon, cobertura ou silêncio.
+- Cena: Santana/Tucuruvi. Ela oferece cobertura oficial se o grupo resolver um vazamento sem virar manchete. Entrada: Santana/Tucuruvi; custo provável: boon, cobertura ou silêncio.
+- Cena: Santana/Tucuruvi. Um aliado do antigo xerife reaparece e força Samira a escolher entre lealdade ao príncipe e estabilidade. Entrada: Santana/Tucuruvi; custo provável: boon, cobertura ou silêncio.

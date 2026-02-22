@@ -1,7 +1,7 @@
 Leonardo "Aprendiz"
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Assistente de laboratorio (retentor)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Assistente de laboratório
 - Area: Centro Expandido
 - Assinatura/estilo: olhos vermelhos de cansaco; fala em termos tecnicos
 
@@ -9,8 +9,8 @@ Tom (para narrar):
 Leonardo "Aprendiz" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Centro Expandido.
 
 Historia (costurada, sem resumo seco):
-Leonardo "Aprendiz" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Assistente de laboratorio (retentor). A area operacional e Centro Expandido. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
-A ambicao e: Sobreviver e aprender o suficiente para nao ser descartado.. O medo e: Ser queimado como prova..
+Leonardo "Aprendiz" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Assistente de laboratório. A area operacional e Centro Expandido. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+A ambicao de Leonardo "Aprendiz" e Sobreviver e aprender o suficiente para nao ser descartado. O medo central e Ser queimado como prova. Em Centro Expandido, essa tensao define como a pessoa negocia, recua ou ataca.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -21,9 +21,10 @@ Segredo (objetivamente jogavel):
 - Ele tem backups de notas do regente que ele nunca devia ter copiado.
 
 Conexoes (com motivo e custo):
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [servant]: retentor e caixa de ferramentas
+- Dario Kron (kindred; Primógeno Tremere) [servant]: retentor e caixa de ferramentas
 - Bianca Saramago (kindred; Arquivista de campo) [uneasy]: ela o usa como fonte
-- Delegada Helena Pacheco (mortal; Coordenacao de campo) [target]: possivel ponto de pressao
+- Delegada Helena Pacheco (mortal; Coordenação de campo) [target]: possivel ponto de pressao
+- Dario Kron (kindred; Primógeno Tremere) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: Centro Expandido. Pode fabricar um documento de pesquisa para encobrir rituais.

@@ -1,11 +1,11 @@
 Raimundo "Rato-Rei"
 
 Perfil:
-- Cla: Nosferatu | Seita: Camarilla | Funcao: Primogeno Nosferatu (cartografo do subsolo)
-- Dominio: Perdizes/Barra Funda (dutos e rotas de fuga)
-- Abraco: 1964 | Sire: nosferatu_vovo_zilda | Acima do sire: -
+- Cla: Nosferatu | Seita: Camarilla | Funcao: Primógeno Nosferatu
+- Dominio: Perdizes/Barra Funda | Idade aparente: -
+- Abraco: 1964 | Sire: Vovo Zilda | Acima do sire: -
 - Disciplinas (top 3): -
-- Assinatura/estilo: -
+- Assinatura/estilo: humor curto, leitura de padrão, presença de túnel
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Correios do Subsolo (rede Nosferatu)
@@ -16,6 +16,7 @@ Raimundo "Rato-Rei" opera por infraestrutura e informacao. Em cena: uma camera c
 
 Historia (costurada, sem resumo seco):
 Raimundo "Rato-Rei" nasceu em 1903. O Abraco veio em 1964 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao de Raimundo "Rato-Rei" e defender o interesse do clã em Perdizes/Barra Funda sem romper o pacto de cidade. Raimundo trabalha para que o clã continue útil, temido e cobrado nos termos certos. O medo principal e virar peça de reposição numa crise de Corte e carregar culpa de erro que veio de cima. No territorio de Perdizes/Barra Funda, isso torna cada acordo mais tenso e cada erro mais caro. Quando esse cheiro aparece, a pessoa trabalha primeiro para controlar dano.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Infra, dados e rotas (camadas de acesso, 'quem sabe o caminho').
@@ -23,17 +24,21 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Mercado de informacao (dossies, chantagem, OSINT, vazamentos).
 
 Segredo (objetivamente jogavel):
-- (Nao definido)
+- Raimundo já vendeu trajeto de contrabando para dois lados no mesmo mês e deixou um terceiro grupo cair em emboscada para manter a própria rede viva. Ele chama isso de equilíbrio de rua; quem perdeu gente chama de sentença. Se um sobrevivente provar a conexão, o subsolo fecha para ele.
 
 Rumor e verdade (municao social):
-- (Nao definido)
+- Rumor (falso): vendem a imagem de que é só burocrata de clã; cola porque o trabalho sujo quase nunca aparece no nome certo.
+- Verdade (perigosa): Raimundo já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Nico "Sombra".
 
 Conexoes (com motivo e custo):
-- Nico "Sombra" (kindred; Corretor de informacao) [rival]: informacao vs infraestrutura: dois reis no mesmo subsolo
-- Artur Macedo (kindred; Principe de Sao Paulo) [ally]: rotas discretas por favores pesados
+- Nico "Sombra" (kindred; Corretor de informação) [rival]: informacao vs infraestrutura: dois reis no mesmo subsolo
+- Artur Macedo (kindred; Príncipe de São Paulo) [ally]: rotas discretas por favores pesados
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Pedro "Manutencao" Lins: Retentor (chaves, dutos e horarios) (area: Perdizes/Barra Funda)
+- Pedro "Manutencao" Lins: Retentor (area: Perdizes/Barra Funda)
 
 Cenas prontas (para jogar hoje):
-- Cena: Perdizes/Barra Funda (dutos e rotas de fuga). Um encontro pequeno vira custo grande.
+- Cena: Perdizes/Barra Funda. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local. Entrada: Perdizes/Barra Funda; custo provável: boon, cobertura ou silêncio.
+- Cena: Perdizes/Barra Funda. Raimundo chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Perdizes/Barra Funda; custo provável: boon, cobertura ou silêncio.
+- Cena: Perdizes/Barra Funda. Um favor antigo cobrado por Raimundo coloca o grupo no meio de duas versões conflitantes. Entrada: Perdizes/Barra Funda; custo provável: boon, cobertura ou silêncio.

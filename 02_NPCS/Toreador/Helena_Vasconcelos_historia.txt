@@ -1,11 +1,11 @@
 Helena Vasconcelos
 
 Perfil:
-- Cla: Toreador | Seita: Camarilla | Funcao: Guardia de Elysium (curadora)
-- Dominio: Liberdade (Elysium satelite) | Idade aparente: 40
-- Abraco: 1956 | Sire: - | Acima do sire: -
+- Cla: Toreador | Seita: Camarilla | Funcao: Guardia de Elysium
+- Dominio: Liberdade | Idade aparente: 40
+- Abraco: 1956 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): ['Auspex 3', 'Presence 2', 'Celerity 2']
-- Assinatura/estilo: cultura como arma; silencio como castigo
+- Assinatura/estilo: cultura como arma; silêncio como castigo
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Salao de Pinheiros (Toreador)
@@ -15,7 +15,7 @@ Helena Vasconcelos domina sala e narrativa. Em cena: um elogio vira rotulo, um b
 
 Historia (costurada, sem resumo seco):
 Helena Vasconcelos nasceu em 1911. O Abraco veio em 1956 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Manter Elysium intacto, custe o que custar. O medo e igualmente pratico: Que o Elysium vire alvo da SI.
+A ambicao de Helena Vasconcelos e Manter Elysium intacto, custe o que custar. Na pratica, isso orienta decisoes no eixo de Salão de Pinheiros, com foco em discricao, tempo de resposta e controle de danos. O medo principal e Que o Elysium vire alvo da SI. Quando esse risco aparece, Helena Vasconcelos reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Arte e midia (curadoria, eventos, reputacao e narrativas).
@@ -23,25 +23,26 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Intermediacao social (listas, convites, portas que abrem e fecham).
 
 Segredo (objetivamente jogavel):
-- Guarda uma sala escondida para interrogatorios sociais.
+- Guarda uma sala escondida para interrogatorios sociais. Isso encosta diretamente em Luiza Salles e Samira al-Haddad. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ela e uma simpatizante Anarch.
-- Verdade (perigosa): Ela ja entregou um vampiro para o Xerife dentro de Elysium.
+- Rumor (falso): Ela e uma simpatizante dos Anarquistas.
+- Verdade (perigosa): Ela já entregou um vampiro para o Xerife dentro de Elysium. Hoje, quem está mais perto de descobrir isso é Luiza Salles.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [mentor]: sire e aliada
+- Luiza Salles (kindred; Senescal) [mentor]: sire e aliada
 - Samira al-Haddad (kindred; Xerife) [ally]: seguranca discreta em eventos
-- Artur Macedo (kindred; Principe de Sao Paulo) [client]: vende paz em troca de influencia
+- Artur Macedo (kindred; Príncipe de São Paulo) [client]: vende paz em troca de influencia
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Lara "Contencao" Tavares: Seguranca de Elysium (contencao sem sangue, camera sem prova) (area: Liberdade/Paulista)
-- Yuri "Curador" Sato: Equipe de Elysium (cenografia, alcool, saida de emergencia) (area: Liberdade)
+- Lara "Contencao" Tavares: Segurança de Elysium (area: Liberdade/Paulista)
+- Yuri "Curador" Sato: Equipe de Elysium (area: Liberdade)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- toreador_luiza_salles
+- Luiza Salles
 
 Cenas prontas (para jogar hoje):
-- Cena: Liberdade (Elysium satelite). Oferece refugio temporario em Elysium por um favor.
-- Cena: Liberdade (Elysium satelite). Pede que os PJ recuperem uma obra roubada.
-- Cena: Liberdade (Elysium satelite). Avista um vampiro proibido e testa a lealdade dos PJ.
+- Cena: Liberdade. Oferece refugio temporário em Elysium por um favor. Entrada: Liberdade; custo provável: boon, cobertura ou silêncio.
+- Cena: Liberdade. Pede que os PJs recuperem uma obra roubada. Entrada: Liberdade; custo provável: boon, cobertura ou silêncio.
+- Cena: Liberdade. Avista um vampiro proibido e testa a lealdade dos PJs. Entrada: Liberdade; custo provável: boon, cobertura ou silêncio.

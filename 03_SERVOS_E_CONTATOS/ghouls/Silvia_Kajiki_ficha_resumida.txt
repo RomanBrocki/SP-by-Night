@@ -1,7 +1,7 @@
 Nome: Silvia Kajiki
 Tipo: ghoul
 Vinculo: Camarilla
-Papel: Recepcao e lista (Elysium de Pinheiros)
+Papel: Recepção e lista
 Area: Pinheiros/Vila Madalena
 Assinatura / estilo: elegancia minimalista; sorriso de recepcao que some quando ninguem ve
 Coteries/associacoes:

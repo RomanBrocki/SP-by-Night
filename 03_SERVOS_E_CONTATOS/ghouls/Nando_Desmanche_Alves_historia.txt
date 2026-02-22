@@ -1,18 +1,18 @@
 Nando "Desmanche" Alves
 
 Perfil:
-- Tipo: ghoul | Vinculo: Anarch | Papel: Desmanche e documento (carro quente, placa fria)
-- Area: Baronato Mooca/Tatuape
+- Tipo: ghoul | Vinculo: Anarch | Papel: Desmanche e fuga limpa
+- Area: Baronato Mooca/Tatuapé
 - Assinatura/estilo: Macacao manchado de graxa, chave inglesa, tatuagem no antebraco.
 
 Coteries/associacoes:
 - Coterie Ferrugem (Mooca/Tatuape)
 
 Tom (para narrar):
-Nando "Desmanche" Alves e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Mooca/Tatuape.
+Nando "Desmanche" Alves e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Baronato Mooca/Tatuapé.
 
 Historia (costurada, sem resumo seco):
-Nando "Desmanche" Alves vive no ponto em que o mundo mortal toca o tabuleiro cainita: Desmanche e documento (carro quente, placa fria). A area operacional e Baronato Mooca/Tatuape. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Nando "Desmanche" Alves vive no ponto em que o mundo mortal toca o tabuleiro cainita: Desmanche e fuga limpa. A area operacional e Baronato Mooca/Tatuapé. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ele ja desmontou um carro de viatura descaracterizada; guardou o rastreador.
 
 Conexoes (com motivo e custo):
-- Rafa "Ferro" (kindred; Aspirante a corte (Caitiff)) [ally]: Rafa protege; Nando fornece fuga
+- Rafa "Ferro" (kindred; Aspirante a corte) [ally]: Rafa protege; Nando fornece fuga
 - Renata Ferraz (kindred; Baronesa da Mooca) [servant]: taxa em pecas e silencio
+- Rafa "Ferro" (kindred; Aspirante a corte) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

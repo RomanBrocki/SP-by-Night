@@ -1,11 +1,11 @@
 Marcia Falcao
 
 Perfil:
-- Cla: Malkavian | Seita: Camarilla | Funcao: Primogena Malkavian (ouvinte do padrao)
-- Dominio: Consolacao/Higienopolis (consultorios, jornais e bastidores) | Idade aparente: 40
-- Abraco: 1971 | Sire: - | Acima do sire: -
+- Cla: Malkavian | Seita: Camarilla | Funcao: Primógena Malkavian
+- Dominio: Consolação/Higienópolis | Idade aparente: 40
+- Abraco: 1971 | Sire: — (sem registro formal no projeto; origem mantida em silêncio ou irrelevante em cena) | Acima do sire: -
 - Disciplinas (top 3): -
-- Assinatura/estilo: -
+- Assinatura/estilo: frase calma, detalhe impossível, desvio que acerta
 
 Coteries/associacoes (com quem ele(a) anda, e quanto isso custa):
 - Corte do Elysium (Camarilla)
@@ -16,23 +16,28 @@ Marcia Falcao e percepcao que incomoda. Em cena: padroes aparecem onde ninguem q
 
 Historia (costurada, sem resumo seco):
 Marcia Falcao nasceu em 1929. O Abraco veio em 1971 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
+A ambicao de Marcia Falcao e defender o interesse do clã em Consolação/Higienópolis sem romper o pacto de cidade. Marcia trabalha para que o clã continue útil, temido e cobrado nos termos certos. O medo principal e virar peça de reposição numa crise de Corte e carregar culpa de erro que veio de cima. No territorio de Consolação/Higienópolis, isso torna cada acordo mais tenso e cada erro mais caro. Quando esse cheiro aparece, a pessoa trabalha primeiro para controlar dano.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rumor e previsao (padroes sociais, coincidencias, mensagens).
 - intervencoes pequenas com impacto grande (um telefonema muda tudo).
 
 Segredo (objetivamente jogavel):
-- (Nao definido)
+- Márcia já desviou duas pessoas de um surto para uma clínica “amiga” antes de registrar o caso na Corte. Ela jura que evitou exposição; os Hecata dizem que ela apagou rastros demais. Se aparecer prontuário ou gravação, o salão inteiro passa a desconfiar de quem ela protegeu.
 
 Rumor e verdade (municao social):
-- (Nao definido)
+- Rumor (falso): vendem a imagem de que é só burocrata de clã; cola porque o trabalho sujo quase nunca aparece no nome certo.
+- Verdade (perigosa): Marcia já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Luiza Salles.
 
 Conexoes (com motivo e custo):
-- Luiza Salles (kindred; Senescal e Harpia principal) [ally]: etiqueta em troca de previsao; controle por vias diferentes
-- Artur Macedo (kindred; Principe de Sao Paulo) [uneasy]: o Principe tolera, mas nao gosta de ser lido
+- Luiza Salles (kindred; Senescal) [ally]: etiqueta em troca de previsao; controle por vias diferentes
+- Artur Macedo (kindred; Príncipe de São Paulo) [uneasy]: o Principe tolera, mas nao gosta de ser lido
+- Luiza Salles (kindred; Senescal) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Ana "Terapeuta" Reis: Retentora (escuta, arquivo e remedio) (area: Consolacao/Higienopolis)
+- Ana "Terapeuta" Reis: Retentora e cobertura clínica (area: Consolação/Higienópolis)
 
 Cenas prontas (para jogar hoje):
-- Cena: Consolacao/Higienopolis (consultorios, jornais e bastidores). Um encontro pequeno vira custo grande.
+- Cena: Consolação/Higienópolis. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local. Entrada: Consolação/Higienópolis; custo provável: boon, cobertura ou silêncio.
+- Cena: Consolação/Higienópolis. Marcia chama os PJs para resolver uma crise de bastidor antes que ela vire caso público. Entrada: Consolação/Higienópolis; custo provável: boon, cobertura ou silêncio.
+- Cena: Consolação/Higienópolis. Um favor antigo cobrado por Marcia coloca o grupo no meio de duas versões conflitantes. Entrada: Consolação/Higienópolis; custo provável: boon, cobertura ou silêncio.

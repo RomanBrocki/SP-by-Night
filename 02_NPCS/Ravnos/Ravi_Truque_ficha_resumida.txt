@@ -1,7 +1,7 @@
 Nome / Alcunha: Ravi "Truque" / Ilusionista de esquina
 Cla: Ravnos | Seita: Independentes
 Idade aparente: 36 | Abraco: 2002 | Potencia do Sangue 2
-Dominio / area principal: Centro/Barra Funda (itinerante)
+Dominio / area principal: Centro/Barra Funda
 Disciplinas (top 3): ['Obfuscate 2', 'Presence 2', 'Animalism 1']
 Assinatura / estilo: truques curtos; sumicos longos
 Coteries/associacoes (grupo e rede):
@@ -19,6 +19,7 @@ Atuacao mortal (explicita):
 - Mercado cinza e documentos (identidades descartaveis, sumico digital).
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 Servos/contatos notaveis (entrada rapida):
-- Nico "Sombra" (kindred; Corretor de informacao) [client]: troca de rotas por dados
-- Luiza Salles (kindred; Senescal e Harpia principal) [rival]: ela odeia o imprevisivel
+- Nico "Sombra" (kindred; Corretor de informação) [client]: troca de rotas por dados
+- Luiza Salles (kindred; Senescal) [rival]: ela odeia o imprevisivel
 - Samira al-Haddad (kindred; Xerife) [uneasy]: ela quer controle sobre ele
+- Nico "Sombra" (kindred; Corretor de informação) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

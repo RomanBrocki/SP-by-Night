@@ -1,4 +1,4 @@
-Nome / Alcunha: Isabel do Amaral / Primogena Ventrue (em retiro)
+Nome / Alcunha: Isabel do Amaral / Primógena Ventrue
 Cla: Ventrue | Seita: Camarilla
 Idade aparente: 40 | Abraco: 1872 | Potencia do Sangue 3
 Dominio / area principal: Itaim/Berrini
@@ -7,20 +7,21 @@ Assinatura / estilo: caridade calculada; ela manda sem aparecer
 Coteries/associacoes (grupo e rede):
 - (Sem grupo formal registrado)
 Ghouls/servos diretos: 1
-- Marcela "Cartorio" Guimaraes (Escritura e apagamento (cartorio, procuração, 'segunda via'))
+- Marcela "Cartorio" Guimaraes (Escritura e regularização discreta)
 Touchstones/Conviccoes (resumo):
 - Conviccao: 'Proteja a linhagem'.
 - Touchstone: uma fundacao beneficente como mascara.
 Ganchos de cena:
-- Oferece um conselho que e um comando.
-- Testa os PJ com uma tarefa moralmente cinzenta.
-- Entrega um segredo e cobra um futuro.
+- Itaim/Berrini. Oferece um conselho que e um comando. Entrada: Itaim/Berrini; custo provável: boon, cobertura ou silêncio.
+- Itaim/Berrini. Testa os PJs com uma tarefa moralmente cinzenta. Entrada: Itaim/Berrini; custo provável: boon, cobertura ou silêncio.
+- Itaim/Berrini. Entrega um segredo e cobra um futuro. Entrada: Itaim/Berrini; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Financas e imobiliario (fundos, holdings, locacoes estrategicas).
 - Influencia em seguranca privada e compliance (controle de acesso, camadas de permissao).
 - Intermediacao via advogados, consultorias e fixers (apagamento de incidentes).
 - Relacoes com elites corporativas (eventos, conselhos, patrocinios).
 Servos/contatos notaveis (entrada rapida):
-- Artur Macedo (kindred; Principe de Sao Paulo) [mentor]: sire e conselheira
-- Dario Kron (kindred; Primogeno Tremere (regente de fato)) [rival]: nao confia em magia fora de controle
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [ally]: acordo de integracao discreta
+- Artur Macedo (kindred; Príncipe de São Paulo) [mentor]: sire e conselheira
+- Dario Kron (kindred; Primógeno Tremere) [rival]: nao confia em magia fora de controle
+- Padre Miguel Aranha (kindred; Guardião de confissões) [ally]: acordo de integracao discreta
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

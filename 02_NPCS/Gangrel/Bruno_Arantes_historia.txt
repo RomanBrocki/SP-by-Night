@@ -1,8 +1,8 @@
 Bruno Arantes
 
 Perfil:
-- Cla: Gangrel | Seita: Camarilla | Funcao: Batedor de borda (parques)
-- Dominio: Alto de Pinheiros/Butanta | Idade aparente: 33
+- Cla: Gangrel | Seita: Camarilla | Funcao: Batedor de borda
+- Dominio: Alto de Pinheiros/Butantã | Idade aparente: 33
 - Abraco: 2012 | Sire: - | Acima do sire: -
 - Disciplinas (top 3): -
 - Assinatura/estilo: -
@@ -27,10 +27,11 @@ Rumor e verdade (municao social):
 - (Nao definido)
 
 Conexoes (com motivo e custo):
-- Bia "Matilha" (kindred; Patrulheira de fronteira (cinturao)) [contact]: ponte para a politica local
+- Bia "Matilha" (kindred; Baronesa da borda sul) [contact]: ponte para a politica local
+- Bia "Matilha" (kindred; Baronesa da borda sul) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
 - (Nenhum servo direto registrado)
 
 Cenas prontas (para jogar hoje):
-- Cena: Alto de Pinheiros/Butanta. Um encontro pequeno vira custo grande.
+- Cena: Alto de Pinheiros/Butantã. Uma reuniao aparentemente simples revela uma cobranca antiga e coloca os PJs sob avaliacao local.

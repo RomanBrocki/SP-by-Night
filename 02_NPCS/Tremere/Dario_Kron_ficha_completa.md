@@ -1,7 +1,7 @@
 {
   "blood_potency": 3,
   "humanity": 6,
-  "predator_type": "Scene Queen (confrarias ocultistas)",
+  "predator_type": "Scene Queen",
   "compulsion_hook": "Controle: precisa selar tudo em termos e sigilos.",
   "hunger_style": "Doadores escolhidos; nao gosta de improviso.",
   "attributes": {

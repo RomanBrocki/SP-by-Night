@@ -1,7 +1,7 @@
-Nome / Alcunha: Bruna "Sinais" / Correio e drone (Sul)
+Nome / Alcunha: Bruna "Sinais" / Correio e drone
 Cla: Thin Blood | Seita: Anarch
 Idade aparente: 36 | Abraco: 2015 | Potencia do Sangue 0
-Dominio / area principal: Baronato Sul (Capao/Grajau)
+Dominio / area principal: Baronato Sul
 Disciplinas (top 3): -
 Assinatura / estilo: -
 Coteries/associacoes (grupo e rede):
@@ -17,4 +17,5 @@ Atuacao mortal (explicita):
 - Acesso informal a rotas e portas (segurancas, porteiros, motoristas).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Katia "Zero" (kindred; Tecnica de sumico digital) [contact]: ponte para a politica local
+- Katia "Zero" (kindred; Técnica de sumiço digital) [contact]: ponte para a politica local
+- Katia "Zero" (kindred; Técnica de sumiço digital) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

@@ -1,7 +1,7 @@
 Marcos "Sacristao" Vieira
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Sacristao e logistica (chaves, horarios, sala dos fundos)
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Sacristão e logística
 - Area: Bela Vista/Bixiga
 - Assinatura/estilo: Camisa branca simples, terco no bolso, maos manchadas de cera; olhar que evita camera.
 
@@ -13,7 +13,7 @@ Tom (para narrar):
 Marcos "Sacristao" Vieira e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Bela Vista/Bixiga.
 
 Historia (costurada, sem resumo seco):
-Marcos "Sacristao" Vieira vive no ponto em que o mundo mortal toca o tabuleiro cainita: Sacristao e logistica (chaves, horarios, sala dos fundos). A area operacional e Bela Vista/Bixiga. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Marcos "Sacristao" Vieira vive no ponto em que o mundo mortal toca o tabuleiro cainita: Sacristão e logística. A area operacional e Bela Vista/Bixiga. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -24,8 +24,9 @@ Segredo (objetivamente jogavel):
 - Ele sabe onde um confessor escondeu provas fisicas de uma quebra de Mascarada.
 
 Conexoes (com motivo e custo):
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [servant]: abre portas e fecha bocas na mesma noite
-- Irma Beatriz Lemos (kindred; Confessora auxiliar (Bixiga)) [ally]: ela cuida da culpa; ele cuida do corredor
+- Padre Miguel Aranha (kindred; Guardião de confissões) [servant]: abre portas e fecha bocas na mesma noite
+- Irma Beatriz Lemos (kindred; Confessora auxiliar) [ally]: ela cuida da culpa; ele cuida do corredor
+- Padre Miguel Aranha (kindred; Guardião de confissões) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

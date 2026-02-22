@@ -1,14 +1,14 @@
 Sonia "Atelie"
 
 Perfil:
-- Tipo: ghoul | Vinculo: Camarilla | Papel: Retentora (figurinista e disfarces)
-- Area: Moema/Paraiso
+- Tipo: ghoul | Vinculo: Camarilla | Papel: Retentora
+- Area: Moema/Paraíso
 
 Tom (para narrar):
-Sonia "Atelie" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Moema/Paraiso.
+Sonia "Atelie" e a ponte pratica entre o tabuleiro cainita e o mundo mortal. Em cena: ele(a) tem acesso a um lugar, uma pessoa ou um documento que vira moeda de favor. Area operacional: Moema/Paraíso.
 
 Historia (costurada, sem resumo seco):
-Sonia "Atelie" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Retentora (figurinista e disfarces). A area operacional e Moema/Paraiso. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
+Sonia "Atelie" vive no ponto em que o mundo mortal toca o tabuleiro cainita: Retentora. A area operacional e Moema/Paraíso. O que importa em cena: um pedido 'pequeno' aqui vira cadeia de favores.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Rede comunitaria e de bairro (associacoes, coletivos, liderancas locais).
@@ -19,7 +19,8 @@ Segredo (objetivamente jogavel):
 - (Nao definido)
 
 Conexoes (com motivo e custo):
-- Clara Montenegro (kindred; Primogena Toreador (curadora de vitrine e faca)) [servant]: disfarces, figurino, identidades de evento
+- Clara Montenegro (kindred; Primógena Toreador) [servant]: disfarces, figurino, identidades de evento
+- Clara Montenegro (kindred; Primógena Toreador) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.3)
 
 Cenas prontas (para jogar hoje):
 - Cena: um contato some e vira alavanca politica.

@@ -1,8 +1,8 @@
 Nome: Teresa "Balanca" Pacheco
 Tipo: ghoul
 Vinculo: Independentes
-Papel: Controle de doca (fila, balanca, camera 'cego')
-Area: Corredores (Barra Funda/Lapa)
+Papel: Conferente de doca e triagem de carga
+Area: eixos de carga (Barra Funda/Lapa)
 Assinatura / estilo: Colete refletivo, prancheta, olhar de quem manda sem parecer.
 Coteries/associacoes:
 - Corredores de Sombra (conselho de corretores)

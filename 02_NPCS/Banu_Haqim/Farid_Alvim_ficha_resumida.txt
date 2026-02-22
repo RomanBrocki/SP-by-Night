@@ -1,4 +1,4 @@
-Nome / Alcunha: Farid Alvim / Auditor de sangue (campo)
+Nome / Alcunha: Farid Alvim / Auditor de sangue
 Cla: Banu Haqim | Seita: Camarilla
 Idade aparente: 39 | Abraco: 2018 | Potencia do Sangue 1
 Dominio / area principal: Ipiranga/Cursino
@@ -17,3 +17,4 @@ Atuacao mortal (explicita):
 - Controle de risco e rastros (apagar evidencia, reescrever narrativa).
 Servos/contatos notaveis (entrada rapida):
 - Samira al-Haddad (kindred; Xerife) [contact]: ponte para a politica local
+- Samira al-Haddad (kindred; Xerife) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)

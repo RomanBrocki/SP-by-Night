@@ -1,9 +1,9 @@
 Luiza Salles
 
 Perfil:
-- Cla: Toreador | Seita: Camarilla | Funcao: Senescal e Harpia principal
+- Cla: Toreador | Seita: Camarilla | Funcao: Senescal
 - Dominio: Pinheiros/Vila Madalena | Idade aparente: 33
-- Abraco: 1987 | Sire: toreador_helena_vasconcelos | Acima do sire: -
+- Abraco: 1987 | Sire: Helena Vasconcelos | Acima do sire: -
 - Disciplinas (top 3): ['Presence 4', 'Auspex 3', 'Celerity 2']
 - Assinatura/estilo: elogio que corta, sorriso que condena
 
@@ -16,7 +16,7 @@ Luiza Salles domina sala e narrativa. Em cena: um elogio vira rotulo, um boato v
 
 Historia (costurada, sem resumo seco):
 Luiza Salles nasceu em 1954. O Abraco veio em 1987 e nao foi um 'presente': foi uma decisao politica. Desde entao, a vida virou contabilidade de fome, nome e divida.
-A ambicao e direta: Ser o poder por tras do Principe sem tomar o trono. O medo e igualmente pratico: Que alguem prove que ela quase quebrou a Mascara em 2034.
+A ambicao de Luiza Salles e continuar sendo o filtro indispensável da Corte e decidir quem ganha legitimidade antes que Artur precise se expor. Na pratica, isso orienta decisoes no eixo de Corte do Elysium e Salão de Pinheiros, com foco em discricao, tempo de resposta e controle de danos. O medo principal e que uma falha pública de Elysium prove que seu controle é cenografia e abra espaço para rival interno. Quando esse risco aparece, Luiza Salles reduz exposicao, limita testemunhas e muda o plano para preservar a rede.
 
 Atuacao na sociedade mortal (explicita, pratica):
 - Arte e midia (curadoria, eventos, reputacao e narrativas).
@@ -25,26 +25,27 @@ Atuacao na sociedade mortal (explicita, pratica):
 - Influencia em politica e protocolo (cadeia de comando, etiqueta, punicao).
 
 Segredo (objetivamente jogavel):
-- No incidente de 2034, Luiza testou um arranjo (droga, arte e Presenca) para medir reacoes da corte; um mortal desmaiou, foi levado para fora e voltou 'diferente'. Existe um video bruto e um nome de enfermaria que ela apagou do circuito.
+- mantém registros informais de humilhações, favores e erros de etiqueta que valem mais que qualquer ata oficial. Isso encosta diretamente em Artur Macedo e Nico "Sombra". Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
 
 Rumor e verdade (municao social):
-- Rumor (falso): Ela e amante do Principe.
-- Verdade (perigosa): Ela tem uma rede mortal de influenciadores usada como isca.
+- Rumor (falso): alguns dizem que Luiza governa no lugar do príncipe; ela não corrige, só mede quem repete (cola porque a superfície da cidade mostra só um pedaço do trabalho real).
+- Verdade (perigosa): já segurou crise de Máscara no braço, reescrevendo a versão pública antes mesmo da polícia entender o caso. Hoje, quem está mais perto de descobrir isso é Artur Macedo.
 
 Conexoes (com motivo e custo):
-- Artur Macedo (kindred; Principe de Sao Paulo) [boon_owed]: Major; ele comprou o silencio
-- Nico "Sombra" (kindred; Corretor de informacao) [rival]: odeia depender de informacao feia
-- Talita "Serpente" (kindred; Pregadora do Vicio (culto urbano)) [uneasy]: culto tentando seduzir sua corte
+- Artur Macedo (kindred; Príncipe de São Paulo) [boon_owed]: Major; ele comprou o silencio
+- Nico "Sombra" (kindred; Corretor de informação) [rival]: odeia depender de informacao feia
+- Talita "Serpente" (kindred; Pregadora do Vicio) [uneasy]: culto tentando seduzir sua corte
+- Artur Macedo (kindred; Príncipe de São Paulo) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
 
 Ghouls/servos diretos (quem carrega recados, chaves e risco por voce):
-- Camila "Flash" Siqueira: Fotografa de evento (imagem, corte, prova) (area: Pinheiros/Moema)
-- Carla Nogueira: Assistente de curadoria (Elysium) (area: Paulista/Pinheiros)
-- Silvia Kajiki: Recepcao e lista (Elysium de Pinheiros) (area: Pinheiros/Vila Madalena)
+- Camila "Flash" Siqueira: Fotografa de evento (area: Pinheiros/Moema)
+- Carla Nogueira: Assistente de curadoria de Elysium (area: Paulista/Pinheiros)
+- Silvia Kajiki: Recepção e lista (area: Pinheiros/Vila Madalena)
 
 Linhagem (quem carrega seu sangue e seu problema):
-- toreador_daniel_sato
+- Daniel Sato
 
 Cenas prontas (para jogar hoje):
-- Cena: Pinheiros/Vila Madalena. Oferece status aos PJ em troca de um segredo.
-- Cena: Pinheiros/Vila Madalena. Faz um PJ virar assunto para medir reacoes.
-- Cena: Pinheiros/Vila Madalena. Entrega um boon pequeno que vira algema.
+- Cena: Pinheiros/Vila Madalena. Oferece status aos PJs em troca de um segredo. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.
+- Cena: Pinheiros/Vila Madalena. Faz um PJs virar assunto para medir reações. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.
+- Cena: Pinheiros/Vila Madalena. Entrega um boon pequeno que vira algema. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.

@@ -1,4 +1,4 @@
-Nome / Alcunha: Camila "Noite-Funda" / Dissidente (ex-Camarilla)
+Nome / Alcunha: Camila "Noite-Funda" / Dissidente
 Cla: Lasombra | Seita: Anarch
 Idade aparente: 32 | Abraco: 2011 | Potencia do Sangue 3
 Dominio / area principal: Lapa/Barra Funda
@@ -11,15 +11,16 @@ Touchstones/Conviccoes (resumo):
 - Conviccao: 'Nenhum trono merece minha garganta'.
 - Touchstone: uma irma mortal que ela ainda protege.
 Ganchos de cena:
-- Oferece aos PJ um abrigo sem cameras.
-- Tenta provar que o Padre ainda serve a si mesmo.
-- E perseguida por uma celula mortal apos um erro pequeno.
+- Oferece aos PJs um abrigo sem câmeras. Entrada: Lapa/Barra Funda; custo provável: boon, cobertura ou silêncio.
+- Tenta provar que o Padre ainda serve a si mesmo. Entrada: Lapa/Barra Funda; custo provável: boon, cobertura ou silêncio.
+- E perseguida por uma celula mortal apos um erro pequeno. Entrada: Lapa/Barra Funda; custo provável: boon, cobertura ou silêncio.
 Atuacao mortal (explicita):
 - Igrejas, filantropia e bastidores (moral como ferramenta).
 - Acordos de silencio (testemunha vira devota, nao delatora).
 - Acesso a 'fundos escuros' (quem paga, some).
 - Controle territorial por lealdade (protecao, punicao, comunidade).
 Servos/contatos notaveis (entrada rapida):
-- Padre Miguel Aranha (kindred; Guardiao de confissoes (Camarilla)) [childe]: odio e dependencia
+- Padre Miguel Aranha (kindred; Guardião de confissões) [childe]: odio e dependencia
 - Renata Ferraz (kindred; Baronesa da Mooca) [ally]: apoio mutuo na fronteira
-- Nico "Sombra" (kindred; Corretor de informacao) [uneasy]: rotas e apagao
+- Nico "Sombra" (kindred; Corretor de informação) [uneasy]: rotas e apagao
+- Padre Miguel Aranha (kindred; Guardião de confissões) [canon_anchor]: Vinculo mais usado (canon DOCX, cap. 8.2)
