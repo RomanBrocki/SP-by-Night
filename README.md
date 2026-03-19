@@ -9,7 +9,7 @@ Este teste foi conduzido em camadas:
 - O **esqueleto inicial** do projeto foi gerado com agente no VS Code (Codex/Cortex, GPT 5-2), incluindo estrutura de pastas, base de lore e primeira versao de mapa/teia/site.
 - Em seguida, foi produzido um **livro em PDF** sobre esse esqueleto, com refinamento narrativo e consolidacao de canon.
 - Esse livro foi **destilado com apoio do ChatGPT**, com curadoria iterativa.
-- Houve **criacao e edicao de conteudo por sua parte** ate o estado atual, com ajustes de coerencia, territorio, relacoes, tom narrativo e consolidacao final.
+- Houve **criacao e edicao humana de conteudo** ate o estado atual, com ajustes de coerencia, territorio, relacoes, tom narrativo e consolidacao final.
 
 Resultado: o estado atual do repo representa uma composicao entre geracao assistida por IA + curadoria humana forte + edicao autoral.
 Hoje o projeto esta mais consistente e o livro esta em um nivel mais profissional do que nas iteracoes iniciais.

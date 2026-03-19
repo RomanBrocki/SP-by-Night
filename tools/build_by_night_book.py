@@ -1,5 +1,11 @@
 from __future__ import annotations
 
+from sync_web_from_canon_mirror import main as sync_web_from_canon_mirror_main
+
+
+if __name__ == "__main__":
+    raise SystemExit(sync_web_from_canon_mirror_main())
+
 import json
 import re
 from dataclasses import dataclass

@@ -26,19 +26,45 @@ const COTERIE_ALIAS_TO_ID = {
   "coterie matilha do sul capao/grajau": "coterie_matilha_do_sul",
 };
 const SECTION_META = [
+  ["sec-home", "Início"],
+  ["sec-sao-paulo", "São Paulo by Night"],
   ["sec-macro-map", "Mapa macro"],
-  ["sec-overview", "Visao geral"],
-  ["sec-gallery", "Banco de imagens"],
-  ["sec-faccoes", "Faccoes"],
-  ["sec-clas", "Clas"],
-  ["sec-coteries", "Coteries canonicas"],
-  ["sec-npcs", "NPCs e servos"],
+  ["sec-faccoes", "Facções"],
+  ["sec-clas", "Clãs"],
+  ["sec-coteries", "Coteries"],
+  ["sec-npcs", "Personagens"],
   ["sec-antagonistas", "Antagonistas"],
   ["sec-files-jogadores", "Arquivos jogadores"],
   ["sec-files-narrador", "Arquivos narrador"],
+  ["sec-gallery", "Banco de imagens"],
 ];
 const SECTION_IDS = new Set(SECTION_META.map(x => x[0]));
-
+const PRIMARY_FACTIONS = [
+  {
+    id: 'faccao-camarilla',
+    label: 'Camarilla',
+    summary: 'Máquina de contenção, protocolo e reputação administrada.',
+    file: 'narrador/faccoes/Camarilla.md',
+    background: 'chapter_images/image4.jpg',
+    theme: 'camarilla',
+  },
+  {
+    id: 'faccao-baronatos',
+    label: 'Baronatos Anarquistas',
+    summary: 'Estruturas de sobrevivência que sustentam a rua e absorvem o impacto.',
+    file: 'narrador/faccoes/Anarquistas.md',
+    background: 'chapter_images/image5.jpg',
+    theme: 'baronatos',
+  },
+  {
+    id: 'faccao-independentes',
+    label: 'Independentes',
+    summary: 'Travessia, contrato e utilidade onde a Corte ou os baronatos preferem ignorar.',
+    file: 'narrador/faccoes/Independentes.md',
+    background: 'chapter_images/image6.jpg',
+    theme: 'independentes',
+  },
+];
 function el(id){ return document.getElementById(id); }
 
 function uniq(arr){ return Array.from(new Set(arr)); }
@@ -58,9 +84,9 @@ function canonicalCoterieId(v){
 function canonicalCoterieName(cid){
   const c = (state.data?.coteries || []).find(x => x && x.id === cid);
   if(c && c.name) return c.name;
-  if(cid === "coterie_ferrugem_mooca") return "Coterie Ferrugem (Mooca/Tatuape)";
-  if(cid === "coterie_leste_de_aco") return "Leste de Aco (Itaquera/Extremo Leste)";
-  if(cid === "coterie_matilha_do_sul") return "Matilha do Sul (Capao/Grajau)";
+  if(cid === "coterie_ferrugem_mooca") return "Coterie Ferrugem (Mooca/Tatuapé)";
+  if(cid === "coterie_leste_de_aco") return "Leste de Aço (Itaquera/Extremo Leste)";
+  if(cid === "coterie_matilha_do_sul") return "Matilha do Sul (Capão/Grajaú)";
   return cid;
 }
 
@@ -68,7 +94,7 @@ function canonicalSectName(v){
   const n = norm(v);
   if(!n) return '';
   if(n.includes('camar')) return 'Camarilla';
-  if(n.includes('anarch')) return 'Anarch';
+  if(n.includes('anarch')) return 'Anarquistas';
   if(n.includes('indep') || n.includes('autarqu') || n.includes('zona')) return 'Independentes';
   if(n.includes('segunda') || n.includes('inquis')) return 'Segunda Inquisição';
   if(n.includes('mortal')) return 'Mortal';
@@ -127,9 +153,9 @@ function sanitizeNpcTextCanon(text, entity){
     const n = norm(line);
     if(n.includes('coterie') || n.includes('associaco')){
       if(canonList.length){
-        out.push('Coteries canonicas: ' + canonList.join(', '));
+        out.push('Coteries: ' + canonList.join(', '));
       } else {
-        out.push('Coteries canonicas: -');
+        out.push('Coteries: -');
       }
       skippingOldCoterieBullets = true;
       continue;
@@ -145,7 +171,10 @@ function sanitizeNpcTextCanon(text, entity){
     }
     out.push(line);
   }
-  return out.join('\n');
+  return out.join('\n')
+    .replace(/Fonte can[oô]nica:/gi, 'Fonte do livro:')
+    .replace(/índices can[oô]nicos/gi, 'índices do livro')
+    .replace(/índice can[oô]nico/gi, 'índice do livro');
 }
 
 function getJsonPayload(id){
@@ -321,6 +350,7 @@ function cardText(e){
 
 function renderNpcCards(){
   const box = el('npcCards');
+  if(!box) return;
   const ents = (state.data?.entities || []).filter(matchesFilters);
 
   // stable sort: Kindred first, then by sect, then clan, then name
@@ -372,11 +402,170 @@ function renderNpcCards(){
     box.appendChild(card);
   });
 
-  el('npcCount').textContent = `${ents.length} entidades (mostrando ${list.length}${ents.length>max ? ' / '+max : ''})`;
+  if(el('npcCount')) el('npcCount').textContent = `${ents.length} entidades (mostrando ${list.length}${ents.length>max ? ' / '+max : ''})`;
+  if(el('npcFiltersMeta')) el('npcFiltersMeta').textContent = `Kindred: ${state.data?.counts?.kindred || 0} · Ghouls: ${state.data?.counts?.ghouls || 0} · Mortais: ${state.data?.counts?.mortals || 0}`;
+}
+
+function escapeRegExp(text){
+  return String(text || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function prettyClanName(raw){
+  const base = String(raw || '')
+    .trim()
+    .replace(/^Estrutura do cl[^:]*:\s*/i, '')
+    .split('/')
+    .pop()
+    .replace(/\.md$/i, '')
+    .replace(/_/g, ' ')
+    .trim();
+  const key = norm(base);
+  if(key === 'thin blood' || key === 'thin-blood' || key === 'thin bloods'){
+    return 'Thin-Bloods';
+  }
+  return base;
+}
+
+function parseClanMemberLine(text, sectLabel){
+  let line = String(text || '').trim().replace(/\s+/g, ' ');
+  line = line.replace(/^[A-Z]\s*\|\s*/, '');
+
+  let name = line;
+  let rest = '';
+  const dashIndex = line.indexOf(' - ');
+  if(dashIndex !== -1){
+    name = line.slice(0, dashIndex).trim();
+    rest = line.slice(dashIndex + 3).trim();
+  }
+
+  const sectPrefix = new RegExp(`^${escapeRegExp(sectLabel)}\\s+.+?\\.\\s*`, 'i');
+  rest = rest.replace(sectPrefix, '').trim();
+
+  const parts = rest
+    .split(/\.\s+/)
+    .map(part => part.replace(/\.$/, '').trim())
+    .filter(Boolean);
+
+  return {
+    name,
+    role: parts.shift() || '',
+    details: parts,
+  };
+}
+
+function renderClanArchive(files){
+  const host = el('filesClas');
+  if(!host) return;
+
+  const keys = Object.keys(files).filter(k => k.startsWith('clas/'));
+  keys.sort((a, b) => {
+    const clanA = prettyClanName(a);
+    const clanB = prettyClanName(b);
+    return clanA.localeCompare(clanB, 'pt-BR');
+  });
+
+  host.innerHTML = '';
+  if(!keys.length){
+    host.innerHTML = '<p>Sem dados de cl\u00E3 dispon\u00EDveis.</p>';
+    return;
+  }
+
+  keys.forEach(k => {
+    const source = document.createElement('div');
+    source.innerHTML = files[k] || '';
+
+    const firstHeading = source.querySelector('h1')?.textContent || k.split('/')[1] || k;
+    const clanName = prettyClanName(firstHeading);
+
+    const card = document.createElement('article');
+    card.className = 'clanRoster';
+    card.id = 'file-' + k.replace(/[^a-z0-9]+/gi, '-');
+
+    const head = document.createElement('div');
+    head.className = 'clanRosterHead';
+
+    const kicker = document.createElement('div');
+    kicker.className = 'clanRosterKicker';
+    kicker.textContent = 'Membros do cl\u00E3';
+
+    const title = document.createElement('h3');
+    title.className = 'clanRosterTitle';
+    title.textContent = clanName;
+
+    head.appendChild(kicker);
+    head.appendChild(title);
+    card.appendChild(head);
+
+    const grid = document.createElement('div');
+    grid.className = 'clanRosterGrid';
+
+    Array.from(source.querySelectorAll('h2')).forEach(h2 => {
+      const sectLabel = String(h2.textContent || '').trim();
+      const list = h2.nextElementSibling;
+      if(!sectLabel || !list || list.tagName !== 'UL') return;
+
+      const section = document.createElement('section');
+      section.className = 'clanRosterSect';
+
+      const sectionTitle = document.createElement('h4');
+      sectionTitle.className = 'clanRosterSectTitle';
+      sectionTitle.textContent = sectLabel;
+      section.appendChild(sectionTitle);
+
+      const members = document.createElement('div');
+      members.className = 'clanMemberGrid';
+
+      Array.from(list.querySelectorAll('li')).forEach(li => {
+        const parsed = parseClanMemberLine(li.textContent, sectLabel);
+        if(!parsed.name) return;
+
+        const member = document.createElement('article');
+        member.className = 'clanMember';
+
+        const name = document.createElement('div');
+        name.className = 'clanMemberName';
+        name.textContent = parsed.name;
+        member.appendChild(name);
+
+        if(parsed.role){
+          const role = document.createElement('div');
+          role.className = 'clanMemberRole';
+          role.textContent = parsed.role;
+          member.appendChild(role);
+        }
+
+        parsed.details.forEach(detail => {
+          const p = document.createElement('p');
+          p.className = 'clanMemberText';
+          p.textContent = detail;
+          member.appendChild(p);
+        });
+
+        members.appendChild(member);
+      });
+
+      if(members.children.length){
+        section.appendChild(members);
+        grid.appendChild(section);
+      }
+    });
+
+    if(grid.children.length){
+      card.appendChild(grid);
+    } else {
+      const fallback = document.createElement('div');
+      fallback.className = 'md';
+      fallback.innerHTML = source.innerHTML;
+      card.appendChild(fallback);
+    }
+
+    host.appendChild(card);
+  });
 }
 
 function mountMdSection(containerId, files, startsWith){
   const host = el(containerId);
+  if(!host) return;
   const keys = Object.keys(files).filter(k => k.startsWith(startsWith));
   keys.sort((a,b)=>a.localeCompare(b));
   host.innerHTML = '';
@@ -401,13 +590,92 @@ function setActiveSection(targetId){
     if(!sec) return;
     sec.classList.toggle('is-active', id === targetId);
   });
-  document.querySelectorAll('.toc button[data-target]').forEach(btn => {
+  const navigator = el('siteNavigator');
+  if(navigator){
+    navigator.classList.toggle('is-visible', true);
+  }
+  document.querySelectorAll('[data-target]').forEach(btn => {
     btn.classList.toggle('is-active', btn.dataset.target === targetId);
   });
 }
 
+function renderFactionPanels(files){
+  const selector = el('factionSelector');
+  const stage = el('factionStage');
+  if(!selector || !stage) return;
+
+  const available = PRIMARY_FACTIONS.filter(item => files[item.file]);
+  if(!available.length){
+    selector.innerHTML = '';
+    stage.innerHTML = '<div class="factionPanel"><div class="factionPanelBody"><p>Sem textos de facção disponíveis.</p></div></div>';
+    return;
+  }
+
+  selector.innerHTML = '';
+
+  function activate(factionId){
+    const current = available.find(item => item.id === factionId) || available[0];
+    selector.querySelectorAll('.factionTab').forEach(btn => {
+      btn.classList.toggle('is-active', btn.dataset.faction === current.id);
+    });
+    stage.innerHTML = '';
+    const source = document.createElement('div');
+    source.innerHTML = files[current.file] || '';
+    const firstHeading = source.querySelector('h1');
+    const heroTitle = (firstHeading?.textContent || current.label || '').trim();
+    if(firstHeading) firstHeading.remove();
+    const panel = document.createElement('article');
+    panel.className = `factionPanel factionPanel--${current.theme || 'camarilla'}`;
+    panel.style.setProperty('--panel-bg', `url("${current.background}")`);
+    const hero = document.createElement('div');
+    hero.className = 'factionHero';
+    const heroInner = document.createElement('div');
+    heroInner.className = 'factionHeroInner';
+    heroInner.innerHTML = `
+      <div class="factionHeroKicker">Facções de São Paulo</div>
+      <h2 class="factionHeroTitle">${heroTitle}</h2>
+      <p class="factionHeroSummary">${current.summary}</p>
+    `;
+    hero.appendChild(heroInner);
+    const bodyShell = document.createElement('div');
+    bodyShell.className = 'factionPanelBodyShell';
+    const body = document.createElement('div');
+    body.className = 'factionPanelBody md';
+    body.innerHTML = source.innerHTML;
+    panel.appendChild(hero);
+    bodyShell.appendChild(body);
+    panel.appendChild(bodyShell);
+    stage.appendChild(panel);
+  }
+
+  available.forEach(item => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'factionTab';
+    btn.dataset.faction = item.id;
+    btn.innerHTML = `<span><strong>${item.label}</strong><small>${item.summary}</small></span>`;
+    btn.addEventListener('click', () => activate(item.id));
+    selector.appendChild(btn);
+  });
+
+  activate(available[0].id);
+}
+
+function openSection(targetId, options = {}){
+  if(!SECTION_IDS.has(targetId)) return;
+  const { scroll = true, updateHash = true } = options;
+  setActiveSection(targetId);
+  if(updateHash){
+    try { history.replaceState(null, '', '#' + targetId); } catch(e) {}
+  }
+  if(scroll){
+    try { document.getElementById(targetId)?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+  }
+}
+
 function buildToc(){
   const toc = el('toc');
+  if(!toc) return;
   toc.innerHTML = '';
   SECTION_META.forEach(([id, label]) => {
     const b = document.createElement('button');
@@ -415,8 +683,7 @@ function buildToc(){
     b.dataset.target = id;
     b.textContent = label;
     b.addEventListener('click', () => {
-      setActiveSection(id);
-      try { document.getElementById(id)?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+      openSection(id);
     });
     toc.appendChild(b);
   });
@@ -478,8 +745,7 @@ async function main(){
     const btn = el('btnGallery');
     if(btn){
       btn.addEventListener('click', () => {
-        setActiveSection('sec-gallery');
-        try { document.getElementById('sec-gallery')?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+        openSection('sec-gallery');
       });
     }
   }
@@ -517,7 +783,6 @@ async function main(){
 
   buildToc();
   renderGallery(data);
-  el('kCounts').textContent = `Kindred: ${data.counts.kindred} · Ghouls: ${data.counts.ghouls} · Mortais: ${data.counts.mortals}`;
 
   // Render macro map
   if (window.MACRO_MAP_SVG) {
@@ -537,18 +802,23 @@ async function main(){
   // Mount MD sections (converted server-side).
   mountMdSection('filesJogadores', data.files_html || {}, 'jogadores/');
   mountMdSection('filesNarrador', data.files_html || {}, 'narrador/');
-  mountMdSection('filesFaccoes', data.files_html || {}, 'narrador/faccoes/');
+  renderFactionPanels(data.files_html || {});
   mountMdSection('filesAntagonistas', data.files_html || {}, 'antagonistas/');
-  mountMdSection('filesClas', data.files_html || {}, 'clas/');
-  setActiveSection('sec-macro-map');
-  document.querySelectorAll('a[href^="#sec-"]').forEach(a => {
-    a.addEventListener('click', (ev) => {
-      const raw = String(a.getAttribute('href') || '');
-      const id = raw.replace(/^#/, '');
+  renderClanArchive(data.files_html || {});
+  const initialSection = String(location.hash || '').replace(/^#/, '');
+  openSection(SECTION_IDS.has(initialSection) ? initialSection : 'sec-home', { scroll:false, updateHash:false });
+  window.addEventListener('hashchange', () => {
+    const hashSection = String(location.hash || '').replace(/^#/, '');
+    if(SECTION_IDS.has(hashSection)){
+      openSection(hashSection, { scroll:false, updateHash:false });
+    }
+  });
+  document.querySelectorAll('[data-target]').forEach(node => {
+    node.addEventListener('click', (ev) => {
+      const id = String(node.dataset.target || '');
       if(!SECTION_IDS.has(id)) return;
       ev.preventDefault();
-      setActiveSection(id);
-      try { document.getElementById(id)?.scrollIntoView({behavior:'smooth', block:'start'}); } catch(e) {}
+      openSection(id);
     });
   });
 
@@ -659,6 +929,8 @@ async function main(){
   // Links
   if(el('lnkMap')) el('lnkMap').href = data.paths.map_html;
   if(el('lnkTeia')) el('lnkTeia').href = data.paths.teia_html;
+  if(el('lnkMapInline')) el('lnkMapInline').href = data.paths.map_html;
+  if(el('lnkTeiaInline')) el('lnkTeiaInline').href = data.paths.teia_html;
   if(el('lnkMapTop')) el('lnkMapTop').href = data.paths.map_html;
   if(el('lnkTeiaTop')) el('lnkTeiaTop').href = data.paths.teia_html;
 
@@ -717,7 +989,7 @@ async function main(){
 function macroKey(s){
   s = String(s||'').toLowerCase();
   if(s.includes('camar')) return 'Camarilla';
-  if(s.includes('anarch')) return 'Anarch';
+  if(s.includes('anarch')) return 'Anarquistas';
   if(s.includes('indep') || s.includes('autarqu') || s.includes('zona')) return 'Independentes';
   if(s.includes('segunda') || s.includes('inquis')) return 'Segunda Inquisição';
   if(s.includes('mortal')) return 'Mortal';

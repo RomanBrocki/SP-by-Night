@@ -18,6 +18,9 @@ body{
     repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 14px),
     var(--bg);
 }
+html{
+  scroll-padding-top: 108px;
+}
 body::before{
   content:"";
   position:fixed;
@@ -31,14 +34,19 @@ a{ color: var(--accent); text-decoration:none; }
 a:hover{ text-decoration:underline; }
 .topbar{
   display:grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
   align-items:center;
   gap:12px;
   padding:12px 16px;
   border-bottom:1px solid var(--border);
   background: linear-gradient(180deg, rgba(24,17,24,0.96), rgba(20,16,23,0.96));
-  position:relative;
-  z-index:3;
+  position:sticky;
+  top:0;
+  z-index:18;
+  justify-items:center;
+}
+.topTitle{
+  text-align:center;
 }
 .topTitle h1{
   margin:0;
@@ -57,30 +65,39 @@ a:hover{ text-decoration:underline; }
   flex-wrap:wrap;
   justify-content:flex-end;
 }
+.topNavGroup{
+  position:absolute;
+  right:16px;
+  top:50%;
+  transform:translateY(-50%);
+}
 .topNav a{
   display:inline-block;
   padding:7px 10px;
   border-radius:10px;
   border:1px solid var(--border);
-  background: rgba(122,31,43,0.18);
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
 }
-.topNav a:hover{ background: rgba(122,31,43,0.30); text-decoration:none; }
+.topNavPrimary a{ background: rgba(11,12,16,0.48); }
+.topNavUtility a{ background: rgba(122,31,43,0.18); }
+.topNav a:hover{
+  background: rgba(122,31,43,0.30);
+  text-decoration:none;
+  transform: translateY(-1px);
+}
+.topNav a.is-active{
+  background: rgba(212,176,106,0.18);
+  border-color: rgba(212,176,106,0.56);
+}
 .wrap{
-  display:grid;
-  grid-template-columns: minmax(270px, 24vw) 1fr;
-  height: calc(100vh - 78px);
+  display:block;
+  min-height: calc(100vh - 78px);
   position:relative;
   z-index:1;
 }
-.side{
-  border-right:1px solid var(--border);
-  background: linear-gradient(180deg, rgba(122,31,43,0.14), rgba(20,16,23,0.96));
-  padding:8px;
-  overflow:auto;
-}
 .main{
   position:relative;
-  overflow:auto;
+  overflow:visible;
 }
 h1{ margin:0 0 8px; font-size:20px; }
 .hint{ color:var(--muted); margin:0 0 10px; font-size:12px; }
@@ -149,9 +166,851 @@ button.is-active{
   line-height: 1.1;
 }
 .chip input{ margin-top: 0; }
-.content{ max-width: 1200px; margin: 0 auto; padding: 10px 14px 28px; }
+.content{
+  --site-shell: 1360px;
+  --site-rail: 248px;
+  max-width: var(--site-shell);
+  margin: 0 auto;
+  padding: 16px 18px 34px calc(var(--site-rail) + 44px);
+}
 .page-section{ display:none; }
 .page-section.is-active{ display:block; }
+.page-section{
+  scroll-margin-top: 108px;
+}
+.siteNavigator{
+  display:block;
+  width: var(--site-rail);
+  margin: 0;
+  padding: 14px 16px 16px;
+  border:1px solid rgba(198,166,155,0.22);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(19,15,22,0.95), rgba(11,10,15,0.94));
+  box-shadow: 0 18px 42px rgba(0,0,0,0.28);
+  position: fixed;
+  left: max(18px, calc((100vw - var(--site-shell)) / 2 + 18px));
+  top: 92px;
+  max-height: calc(100vh - 126px);
+  overflow:auto;
+  z-index: 8;
+}
+.siteNavigator.is-visible{ display:block; }
+.siteNavigatorGrid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 12px;
+}
+.sectionJump{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  min-height: 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border:1px solid rgba(198,166,155,0.22);
+  background: linear-gradient(180deg, rgba(122,31,43,0.14), rgba(15,14,20,0.86));
+  color: var(--text);
+  text-decoration:none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 11px;
+  font-weight: 700;
+  text-align:left;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.22);
+}
+button.sectionJump{
+  font: inherit;
+  color: var(--text);
+}
+.sectionJump:hover{
+  text-decoration:none;
+  transform: translateY(-1px);
+  border-color: rgba(212,176,106,0.44);
+}
+.sectionJump.is-active{
+  border-color: rgba(212,176,106,0.62);
+  background: linear-gradient(180deg, rgba(212,176,106,0.18), rgba(15,14,20,0.88));
+}
+.sitePanel{
+  position:relative;
+  overflow:hidden;
+  border-radius: 18px;
+  min-height: 520px;
+  padding: 26px;
+  background:
+    linear-gradient(180deg, rgba(14,12,17,0.88), rgba(10,10,14,0.95)),
+    radial-gradient(1200px 700px at 18% 12%, rgba(122,31,43,0.18), transparent 62%);
+  isolation:isolate;
+}
+.sitePanel::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  filter: saturate(0.94) contrast(1.04);
+  transform: scale(1.02);
+}
+.sitePanel-project::before{
+  background-image:
+    linear-gradient(90deg, rgba(7,8,12,0.88), rgba(7,8,12,0.44)),
+    linear-gradient(180deg, rgba(7,8,12,0.12), rgba(7,8,12,0.72)),
+    url("chapter_images/image2.jpg");
+  background-position: center center, center center, 68% center;
+}
+.sitePanel-scenario::before{
+  background-image:
+    linear-gradient(90deg, rgba(8,6,8,0.88), rgba(8,6,8,0.44)),
+    linear-gradient(180deg, rgba(18,5,5,0.24), rgba(8,6,8,0.72)),
+    url("chapter_images/image3.jpg");
+  background-position: center center, center center, center 24%;
+}
+.sitePanel > *{
+  position:relative;
+  z-index:1;
+}
+.sitePanel-home{
+  display:block;
+}
+.sitePanel-story{
+  display:grid;
+  gap: 0;
+  min-height: 0;
+  padding: 0;
+}
+.siteIntro{
+  max-width: 1020px;
+  display:grid;
+  align-content:start;
+  gap: 14px;
+  padding-right: 0;
+}
+.siteEyebrow{
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.siteIntro h2,
+.storyLead h2{
+  margin:0;
+  font-size: clamp(34px, 4vw, 58px);
+  line-height: 0.95;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.02em;
+}
+.siteIntro p,
+.storyLead p,
+.storyBody p{
+  margin:0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(239,233,230,0.94);
+}
+.featureLead{
+  color: rgba(239,233,230,0.78);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.projectList{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.projectList li{
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(198,166,155,0.22);
+  background: linear-gradient(180deg, rgba(20,16,23,0.82), rgba(14,12,17,0.74));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.20);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.siteUtility{
+  display:grid;
+  align-items:start;
+}
+.siteCardGroup{
+  display:grid;
+  gap: 14px;
+}
+.siteCard{
+  border:1px solid rgba(198,166,155,0.22);
+  border-radius: 18px;
+  padding: 16px;
+  background: linear-gradient(180deg, rgba(17,18,25,0.88), rgba(11,12,17,0.86));
+  box-shadow: 0 22px 48px rgba(0,0,0,0.34);
+  backdrop-filter: blur(3px);
+}
+.navCardGrid{
+  display:grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+.navCard{
+  display:block;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border:1px solid rgba(198,166,155,0.22);
+  background: linear-gradient(180deg, rgba(122,31,43,0.18), rgba(16,15,21,0.84));
+  color: var(--text);
+  text-decoration:none;
+  box-shadow: 0 18px 38px rgba(0,0,0,0.26);
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+.navCard strong{
+  display:block;
+  font-size: 15px;
+}
+.navCard small{
+  display:block;
+  margin-top: 5px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.navCard:hover{
+  text-decoration:none;
+  transform: translateY(-2px);
+  border-color: rgba(212,176,106,0.42);
+}
+.navCard.is-active{
+  border-color: rgba(212,176,106,0.58);
+  background: linear-gradient(180deg, rgba(212,176,106,0.18), rgba(16,15,21,0.88));
+}
+.siteStatGrid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.siteStat{
+  padding: 14px;
+  border-radius: 16px;
+  border:1px solid rgba(198,166,155,0.18);
+  background: rgba(8,8,12,0.58);
+}
+.siteStat strong{
+  display:block;
+  font-size: 24px;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  color: #f6dfb2;
+}
+.siteStat span{
+  display:block;
+  margin-top: 5px;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.storyLead{
+  max-width: 760px;
+  display:grid;
+  gap: 14px;
+}
+.storyHero{
+  position:relative;
+  z-index:1;
+  min-height: 480px;
+  padding: 34px 32px 28px;
+  display:grid;
+  align-content:end;
+}
+.storyHero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background:
+    linear-gradient(180deg, rgba(7,8,12,0.12) 0%, rgba(7,8,12,0.26) 46%, rgba(7,8,12,0.82) 100%);
+}
+.storyHero > *{
+  position:relative;
+  z-index:1;
+}
+.storyContentShell{
+  position:relative;
+  z-index:1;
+  display:grid;
+  gap: 20px;
+  padding: 28px 32px 32px;
+  border-top: 1px solid rgba(198,166,155,0.16);
+  background:
+    radial-gradient(820px 340px at 10% 0%, rgba(122,31,43,0.14), transparent 56%),
+    linear-gradient(180deg, rgba(16,14,20,0.96), rgba(10,10,14,0.98));
+}
+.storySignals{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.storySignals span{
+  display:block;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border:1px solid rgba(198,166,155,0.18);
+  background: rgba(8,8,12,0.52);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(239,233,230,0.92);
+}
+.storyBody{
+  display:grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 22px;
+}
+.storyBody > div{
+  display:grid;
+  gap: 14px;
+  align-content:start;
+}
+.sitePanel-factionHub{
+  min-height: 0;
+  padding: 28px;
+}
+.sitePanel-factionHub::before{
+  background-image:
+    radial-gradient(900px 420px at 18% 6%, rgba(122,31,43,0.18), transparent 55%),
+    linear-gradient(180deg, rgba(11,10,15,0.90), rgba(10,10,14,0.96));
+}
+.factionHubHeader{
+  display:block;
+}
+.factionSelector{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.factionTab{
+  min-height: 118px;
+  padding: 18px;
+  display:flex;
+  align-items:flex-start;
+  justify-content:flex-start;
+  text-align:left;
+  border-radius: 18px;
+  border:1px solid rgba(198,166,155,0.22);
+  background: linear-gradient(180deg, rgba(14,13,18,0.82), rgba(10,10,14,0.92));
+  box-shadow: 0 20px 50px rgba(0,0,0,0.30);
+  position:relative;
+  overflow:hidden;
+}
+.factionTab:hover{
+  transform: translateY(-2px);
+  background: linear-gradient(180deg, rgba(20,16,23,0.84), rgba(10,10,14,0.94));
+}
+.factionTab::before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, rgba(212,176,106,0.94), rgba(122,31,43,0.42));
+}
+.factionTab.is-active{
+  border-color: rgba(212,176,106,0.56);
+  box-shadow: 0 24px 56px rgba(0,0,0,0.36);
+  background: linear-gradient(180deg, rgba(28,22,21,0.88), rgba(12,11,14,0.96));
+}
+.factionTab span{
+  display:block;
+  padding-left: 8px;
+}
+.factionTab strong{
+  display:block;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.factionTab small{
+  display:block;
+  margin-top: 8px;
+  color: rgba(239,233,230,0.80);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.factionStage{
+  margin-top: 16px;
+}
+.factionPanel{
+  position:relative;
+  overflow:hidden;
+  border-radius: 18px;
+  min-height: 0;
+  padding: 0;
+  border:1px solid rgba(198,166,155,0.22);
+  background: rgba(10,10,14,0.72);
+  box-shadow: 0 22px 52px rgba(0,0,0,0.34);
+  backdrop-filter: blur(4px);
+  display:grid;
+}
+.factionPanel::before{
+  display:none;
+}
+.factionHero{
+  position:relative;
+  aspect-ratio: 3 / 2;
+  min-height: 420px;
+  background:
+    linear-gradient(180deg, rgba(7,8,12,0.08), rgba(7,8,12,0.10)),
+    var(--panel-bg) center center / cover no-repeat;
+}
+.factionHero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(180deg, rgba(7,8,12,0.06) 0%, rgba(7,8,12,0.22) 42%, rgba(7,8,12,0.86) 100%);
+}
+.factionHeroInner{
+  position:absolute;
+  inset:auto 0 0 0;
+  z-index:1;
+  padding: 34px 32px 28px;
+}
+.factionHeroInner > *{
+  max-width: 760px;
+}
+.factionHeroKicker{
+  color: rgba(246,223,178,0.92);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.factionHeroTitle{
+  margin: 10px 0 0;
+  font-size: clamp(40px, 4.8vw, 66px);
+  line-height: 0.94;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.03em;
+}
+.factionHeroSummary{
+  margin: 12px 0 0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgba(239,233,230,0.94);
+}
+.factionPanelBodyShell{
+  position:relative;
+  z-index:1;
+  width: 100%;
+  padding: 30px 32px 34px;
+  border-top: 1px solid rgba(198,166,155,0.16);
+}
+.factionPanel--camarilla .factionPanelBodyShell{
+  background:
+    radial-gradient(720px 340px at 12% 0%, rgba(212,176,106,0.16), transparent 55%),
+    linear-gradient(180deg, rgba(31,20,18,0.94), rgba(15,13,18,0.96)),
+    repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 12px);
+}
+.factionPanel--baronatos .factionPanelBodyShell{
+  background:
+    radial-gradient(600px 300px at 88% 8%, rgba(201,101,38,0.18), transparent 58%),
+    radial-gradient(420px 220px at 10% 100%, rgba(122,31,43,0.18), transparent 62%),
+    linear-gradient(180deg, rgba(28,19,16,0.94), rgba(13,12,15,0.96)),
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0 1px, transparent 1px 16px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0 1px, transparent 1px 18px);
+}
+.factionPanel--independentes .factionPanelBodyShell{
+  background:
+    radial-gradient(680px 300px at 16% 0%, rgba(111,45,189,0.16), transparent 58%),
+    linear-gradient(180deg, rgba(21,18,37,0.94), rgba(12,13,19,0.96)),
+    repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 14px),
+    repeating-linear-gradient(45deg, rgba(212,176,106,0.03) 0 1px, transparent 1px 18px);
+}
+.factionPanelBody{
+  position:relative;
+  max-width: 900px;
+  margin: 0 auto 0 0;
+}
+.factionPanelBody h1,
+.factionPanelBody h2,
+.factionPanelBody h3{
+  margin: 0 0 12px;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.04em;
+}
+.factionPanelBody h1{
+  font-size: clamp(30px, 3.8vw, 46px);
+  line-height: 1;
+}
+.factionPanelBody h2{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.factionPanelBody h3{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.factionPanelBody p,
+.factionPanelBody li{
+  font-size: 15px;
+  line-height: 1.75;
+}
+.factionPanelBody p:last-child{
+  margin-bottom: 0;
+}
+.clanOverview{
+  display:grid;
+  gap: 18px;
+  margin-top: 12px;
+}
+.clanLead{
+  position:relative;
+  overflow:hidden;
+  aspect-ratio: 3 / 2;
+  min-height: 420px;
+  border-radius: 20px;
+  border:1px solid rgba(198,166,155,0.22);
+  background:
+    linear-gradient(180deg, rgba(7,8,12,0.08), rgba(7,8,12,0.10)),
+    url("chapter_images/chapter6.jpg") center center / cover no-repeat;
+  box-shadow: 0 24px 56px rgba(0,0,0,0.34);
+  isolation:isolate;
+}
+.clanLead::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background:
+    linear-gradient(180deg, rgba(7,8,12,0.08) 0%, rgba(7,8,12,0.20) 42%, rgba(7,8,12,0.86) 100%);
+}
+.clanLeadPlate{
+  position:absolute;
+  inset:auto 0 0 0;
+  z-index:1;
+  display:grid;
+  gap: 10px;
+  padding: 34px 32px 28px;
+}
+.clanLead .siteEyebrow{
+  color: rgba(246,223,178,0.92);
+}
+.clanLeadPlate > *{
+  max-width: 760px;
+}
+.clanLead h2{
+  margin:0;
+  font-size: clamp(34px, 4vw, 56px);
+  line-height: 0.96;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.03em;
+}
+.clanLead p{
+  margin:0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgba(239,233,230,0.94);
+}
+.clanGroup{
+  display:grid;
+  gap: 14px;
+}
+.clanGroupTitle{
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.clanCardGrid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.clanCardGrid-compact{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.clanCard{
+  display:grid;
+  gap: 10px;
+  align-content:start;
+  padding: 20px 20px 22px;
+  border-radius: 18px;
+  border:1px solid rgba(198,166,155,0.22);
+  background:
+    radial-gradient(420px 180px at 100% 0%, rgba(122,31,43,0.12), transparent 56%),
+    linear-gradient(180deg, rgba(18,16,21,0.94), rgba(11,11,15,0.96));
+  box-shadow: 0 18px 42px rgba(0,0,0,0.24);
+}
+.clanCard h4{
+  margin:0;
+  font-size: 24px;
+  line-height: 1;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.clanRole{
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.clanCard p{
+  margin:0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(239,233,230,0.92);
+}
+.antagonistOverview{
+  display:grid;
+  gap: 16px;
+}
+.antagonistLead{
+  position:relative;
+  overflow:hidden;
+  aspect-ratio: 3 / 2;
+  min-height: 420px;
+  border-radius: 20px;
+  border:1px solid rgba(198,166,155,0.22);
+  background:
+    linear-gradient(180deg, rgba(7,8,12,0.08), rgba(7,8,12,0.10)),
+    url("chapter_images/image9.jpg") center center / cover no-repeat;
+  box-shadow: 0 22px 48px rgba(0,0,0,0.30);
+}
+.antagonistLead::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background:
+    linear-gradient(180deg, rgba(7,8,12,0.08) 0%, rgba(7,8,12,0.18) 38%, rgba(7,8,12,0.86) 100%);
+}
+.antagonistLeadPlate{
+  position:absolute;
+  inset:auto 0 0 0;
+  z-index:1;
+  display:grid;
+  gap: 10px;
+  padding: 34px 32px 28px;
+}
+.antagonistLead .siteEyebrow{
+  color: rgba(246,223,178,0.92);
+}
+.antagonistLeadPlate > *{
+  max-width: 760px;
+}
+.antagonistLead h2{
+  margin:0;
+  font-size: clamp(34px, 4vw, 56px);
+  line-height: 0.96;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.03em;
+}
+.antagonistLead p{
+  margin:0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgba(239,233,230,0.94);
+}
+.antagonistGrid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.antagonistCard{
+  display:grid;
+  gap: 10px;
+  align-content:start;
+  padding: 20px 20px 22px;
+  border-radius: 18px;
+  border:1px solid rgba(198,166,155,0.22);
+  background:
+    radial-gradient(420px 180px at 100% 0%, rgba(235,238,255,0.07), transparent 52%),
+    radial-gradient(320px 160px at 0% 100%, rgba(122,31,43,0.10), transparent 58%),
+    linear-gradient(180deg, rgba(18,16,21,0.94), rgba(11,11,15,0.96));
+  box-shadow: 0 18px 42px rgba(0,0,0,0.24);
+}
+.antagonistCardKicker{
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.antagonistCard h4{
+  margin:0;
+  font-size: 24px;
+  line-height: 1.05;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.antagonistCard p{
+  margin:0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(239,233,230,0.92);
+}
+.antagonistUse{
+  display:grid;
+  gap: 14px;
+  padding: 22px 22px 24px;
+  border-radius: 18px;
+  border:1px solid rgba(198,166,155,0.22);
+  background:
+    radial-gradient(520px 220px at 8% 0%, rgba(212,176,106,0.10), transparent 56%),
+    linear-gradient(180deg, rgba(18,16,21,0.94), rgba(11,11,15,0.96));
+  box-shadow: 0 18px 42px rgba(0,0,0,0.24);
+}
+.antagonistUseKicker{
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.antagonistUse p{
+  margin:0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgba(239,233,230,0.92);
+}
+.antagonistSignals{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.antagonistSignals span{
+  display:block;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border:1px solid rgba(198,166,155,0.18);
+  background: rgba(8,8,12,0.52);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(239,233,230,0.92);
+}
+.clanArchive{
+  column-count: 2;
+  column-gap: 14px;
+  margin-top: 18px;
+}
+.clanArchiveLead{
+  display:grid;
+  gap: 8px;
+  margin-top: 18px;
+}
+.clanArchiveLead p{
+  margin:0;
+  max-width: 760px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(239,233,230,0.88);
+}
+.clanRoster{
+  display:inline-grid;
+  width:100%;
+  margin: 0 0 14px;
+  border-radius: 18px;
+  border:1px solid rgba(198,166,155,0.22);
+  background:
+    radial-gradient(560px 220px at 0% 0%, rgba(212,176,106,0.10), transparent 58%),
+    linear-gradient(180deg, rgba(18,16,21,0.94), rgba(11,11,15,0.96));
+  box-shadow: 0 18px 42px rgba(0,0,0,0.24);
+  padding: 18px 18px 20px;
+  break-inside: avoid;
+  gap: 14px;
+}
+.clanRosterHead{
+  display:grid;
+  gap: 8px;
+}
+.clanRosterKicker{
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.clanRosterTitle{
+  margin:0;
+  font-size: 26px;
+  line-height: 1;
+  font-family:"Trajan Pro","Cinzel","Palatino Linotype",serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.clanRosterGrid{
+  display:grid;
+  gap: 12px;
+}
+.clanRosterSect{
+  display:grid;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(198,166,155,0.14);
+}
+.clanRosterSect:first-child{
+  padding-top: 0;
+  border-top: 0;
+}
+.clanRosterSectTitle{
+  margin:0;
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.clanMemberGrid{
+  display:grid;
+  gap: 10px;
+}
+.clanMember{
+  padding: 14px;
+  border-radius: 14px;
+  border:1px solid rgba(198,166,155,0.16);
+  background: rgba(7,8,12,0.34);
+  display:grid;
+  gap: 6px;
+}
+.clanMemberName{
+  font-size: 16px;
+  font-weight: 700;
+}
+.clanMemberRole{
+  color: rgba(246,223,178,0.88);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.clanMemberText{
+  margin:0;
+  font-size: 13px;
+  line-height: 1.65;
+  color: rgba(239,233,230,0.88);
+}
+.repoDock{
+  position: fixed;
+  right: 16px;
+  bottom: 14px;
+  z-index: 60;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border:1px solid rgba(198,166,155,0.26);
+  background: rgba(12,12,16,0.94);
+  box-shadow: 0 18px 44px rgba(0,0,0,0.36);
+  color: var(--text);
+}
+.repoDock:hover{
+  text-decoration:none;
+  transform: translateY(-1px);
+}
 .hero{ display:grid; grid-template-columns: 1fr; gap: 10px; }
 .heroGrid{ display:grid; grid-template-columns: 1.35fr 1fr; gap: 12px; align-items:start; }
 .mapBox{ border:1px solid var(--border); border-radius: 14px; padding: 10px; background: rgba(0,0,0,0.22); position: relative; }
@@ -174,6 +1033,35 @@ button.is-active{
 }
 .mapTip .t{ font-weight: 700; color: var(--accent); margin-bottom: 4px; }
 .gridCards{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.npcExplorer{
+  display:grid;
+  grid-template-columns: minmax(250px, 280px) minmax(0, 1fr);
+  gap: 14px;
+  align-items:start;
+  margin-top: 10px;
+}
+.npcRail{
+  position:sticky;
+  top: 12px;
+  border:1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px;
+  background: linear-gradient(180deg, rgba(18,14,20,0.96), rgba(12,10,15,0.96));
+  box-shadow: 0 22px 48px rgba(0,0,0,0.30);
+}
+.npcStage{
+  min-width: 0;
+}
+.npcStage .gridCards{
+  margin-top: 10px;
+}
+.npcFiltersTitle{
+  margin:0 0 6px;
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 .galleryGrid{ display:grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
 .gItem{ border:1px solid var(--border); border-radius: 12px; overflow:hidden; background: rgba(0,0,0,0.22); cursor:pointer; }
 .gItem img{
@@ -199,11 +1087,11 @@ button.is-active{
 .small{ color: var(--muted); font-size: 10px; }
 
 /* Compactacao extra da coluna lateral para caber mais filtros sem scroll */
-.side .actions{ margin-top: 6px !important; }
-.side #chipsSect,
-.side #chipsClan,
-.side #chipsCoterie,
-.side #chipsKind{
+.npcRail .actions{ margin-top: 6px !important; }
+.npcRail #chipsSect,
+.npcRail #chipsClan,
+.npcRail #chipsCoterie,
+.npcRail #chipsKind{
   margin: 4px 0 6px !important;
 }
 
@@ -250,16 +1138,136 @@ button.is-active{
 .blk pre{ margin:0; white-space: pre-wrap; }
 
 @media (max-width: 1200px){
+  .topbar{
+    grid-template-columns: 1fr;
+  }
+  .topNavGroup{
+    position:static;
+    right:auto;
+    top:auto;
+    transform:none;
+  }
+  .content{
+    padding-left: 18px;
+  }
+  .siteNavigator{
+    position: sticky;
+    left: auto;
+    top: 84px;
+    width: auto;
+    max-height: none;
+    margin: 6px 0 12px;
+  }
   .gridCards{ grid-template-columns: repeat(2, 1fr); }
   .galleryGrid{ grid-template-columns: repeat(3, 1fr); }
+  .sitePanel-home,
+  .storyBody{
+    grid-template-columns: 1fr;
+  }
+  .storyLinks{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .siteNavigatorGrid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .factionSelector{
+    grid-template-columns: 1fr;
+  }
+  .clanCardGrid,
+  .clanCardGrid-compact{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .npcExplorer{
+    grid-template-columns: 1fr;
+  }
+  .npcRail{
+    position:static;
+  }
 }
 @media (max-width: 980px){
   .topbar{ grid-template-columns: 1fr; }
+  .topNavGroup{ justify-items:start; }
   .topNav{ justify-content:flex-start; }
-  .wrap{ grid-template-columns: 1fr; height:auto; min-height: calc(100vh - 78px); }
-  .side{ border-right:0; border-bottom:1px solid var(--border); }
   .heroGrid{ grid-template-columns: 1fr; }
-  .toc{ grid-template-columns: 1fr; }
+  .projectList,
+  .siteStatGrid,
+  .storySignals,
+  .storyLinks{
+    grid-template-columns: 1fr;
+  }
+  .siteNavigatorGrid{
+    grid-template-columns: 1fr;
+  }
+  .sitePanel{
+    min-height: 0;
+    padding: 20px;
+  }
+  .clanLead{
+    min-height: 360px;
+  }
+  .clanLeadPlate{
+    padding: 26px 24px 22px;
+  }
+  .factionHero{
+    min-height: 360px;
+  }
+  .factionHeroInner{
+    padding: 26px 24px 22px;
+  }
 }
 @media (max-width: 900px){ .twoCol{ grid-template-columns: 1fr; } }
-@media (max-width: 760px){ .galleryGrid{ grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px){
+  .galleryGrid{ grid-template-columns: repeat(2, 1fr); }
+  .siteIntro h2,
+  .storyLead h2{
+    font-size: 32px;
+  }
+  .siteIntro p,
+  .storyLead p,
+  .storyBody p{
+    font-size: 14px;
+  }
+  .storyHero{
+    min-height: 360px;
+    padding: 24px 20px 20px;
+  }
+  .storyContentShell{
+    padding: 22px 20px 24px;
+  }
+  .clanLead{
+    min-height: 320px;
+  }
+  .clanLeadPlate{
+    padding: 20px 18px 18px;
+  }
+  .clanLead h2{
+    font-size: 30px;
+  }
+  .factionHero{
+    min-height: 320px;
+  }
+  .factionHeroInner{
+    padding: 20px 18px 18px;
+  }
+  .factionHeroTitle{
+    font-size: 30px;
+  }
+  .clanCardGrid,
+  .clanCardGrid-compact{
+    grid-template-columns: 1fr;
+  }
+  .clanArchive{
+    column-count: 1;
+  }
+  .siteNavigator{
+    top: 76px;
+  }
+  .clanCard{
+    padding: 18px 16px 20px;
+  }
+  .repoDock{
+    right: 12px;
+    left: 12px;
+    justify-content:center;
+  }
+}

@@ -1,0 +1,749 @@
+personagens:
+  "Afonso Carmo":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha"
+  "Aiko Tanaka":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+      - "Sire: Clara Montenegro"
+      - "Childe(s): -"
+      - "Segredo: guarda cópias discretas de fotos e listas de presença de noites problemáticas, inclusive de encontros que nunca deveriam ter deixado registro. Usa esse arquivo só quando precisa encerrar uma disputa sem barulho."
+      - "Verdade perigosa: Aiko já preservou a imagem da Corte sacrificando a reputação de um aliado menor que não era o verdadeiro responsável. Hoje, quem está mais perto de perceber o padrão é Mariana Lobo."
+  "Ana \"Carbono\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Daniel Sato"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): -"
+      - "Segredo: Ela já vendeu uma fórmula para o Ministry sem entender o impacto. Isso encosta diretamente em Daniel Sato (aliança; anonimato em troca de favores) e Talita \"Serpente\" (fornecedora; \"milagres\" por boons). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ela tem uma lista de compradores Camarilla e Anarquistas. Hoje, quem está mais perto de descobrir isso é Daniel Sato (aliança; anonimato em troca de favores)."
+  "Ana \"Terapeuta\" Reis":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Marcia Falcão"
+  "Artur Macedo":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+      - "Sire: Isabel do Amaral"
+      - "Childe(s): Mateus Cordeiro"
+      - "Segredo: tolerou pactos e exceções que negaria em público, inclusive alianças de periferia que preservaram a cidade. Isso encosta diretamente em Luiza Salles e Samira al-Haddad. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: muitas 'decisões coletivas' da Camarilla foram imposições dele apresentadas como consenso. Hoje, quem está mais perto de descobrir isso é Luiza Salles."
+  "Augusto Brito":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Beatriz Pires":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Bento Carmo":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha"
+  "Beto \"Mecânico\"":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: João do Trem"
+  "Bia \"Matilha\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Gangrel"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Hector \"Rodoanel\""
+      - "Segredo: segura um pacto local de não-caça e trânsito protegido que nenhum barão formal assinaria em público. Isso encosta diretamente em Renata Ferraz, Hector \"Rodoanel\" e Luan \"Patch\". Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: já matou um vampiro que violou a trégua na borda e enterrou a crise antes de chegar à Corte. Hoje, quem está mais perto de descobrir isso é Renata Ferraz."
+  "Bianca Saramago":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Tremere"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron (relação de cria; lealdade e medo)"
+  "Bruna \"Sinais\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Katia \"Zero\""
+  "Bruno Arantes":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Gangrel"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Bia \"Matilha\""
+  "Caio \"Papel\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Caitiff"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Rafa \"Ferro\""
+  "Caio Menezes":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Tremere"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron"
+  "Camila \"Flash\" Siqueira":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Camila \"Noite-Funda\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Lasombra"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha (relação de cria; ódio e dependência)"
+      - "Sire: Padre Miguel Aranha"
+      - "Childe(s): -"
+      - "Segredo: Ela sabe um segredo do crime em Elysium do Padre. Isso encosta diretamente em Padre Miguel Aranha (relação de cria; ódio e dependência) e Renata Ferraz. Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ela já ajudou a sabotar um registro de boons do Príncipe. Hoje, quem está mais perto de descobrir isso é Padre Miguel Aranha (relação de cria; ódio e dependência)."
+  "Carla Nogueira":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Cauã Martins":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+  "Cecília \"Linha-Dois\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Malkavian"
+    relacoes_explicitas:
+      - "Vínculo mais usado: João do Trem"
+  "Celia Andrade":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Paulo \"O Vidente\""
+  "Celia Moura":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Hecata"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Donato Lazzari (servidão; operadora do enclave)"
+  "Clara Montenegro":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+      - "Sire: Luiza Salles"
+      - "Childe(s): -"
+      - "Segredo (o que apodrece por dentro): Clara sustenta uma pequena rede de alimentação e deslocamento para neonatos Toreador fora da agenda da Corte. Ela chama isso de proteção; Artur chamaria de estrutura paralela. Se vier à tona, vira disputa de autoridade com Luiza e cobrança pesada de boon."
+      - "Verdade perigosa: Clara já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Luiza Salles."
+  "Damião \"Guarita\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Henrique Valadares"
+  "Daniel Sato":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+      - "Sire: Luiza Salles"
+      - "Childe(s): -"
+      - "Segredo: Daniel mantém um canal extraoficial de troca de contexto com Nico 'Sombra' para validar rumor antes de circular na Corte. O acordo evita erro público, mas cobra favores em momentos ruins."
+      - "Verdade perigosa: em uma crise recente, Daniel atrasou um anúncio de Elysium por horas para dar tempo de limpar um rastro mortal ligado a um aliado da Corte. Se isso vier à tona, o dano recai sobre Luiza. Quem está mais perto de juntar as peças é Taina Aruana."
+  "Dante \"Fumo\"":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Thin-Blood"
+    relacoes_explicitas:
+      - "Vínculo mais usado: João do Trem (protetor; o velho o protege por princípio)"
+  "Dario Kron":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Tremere"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Isabel do Amaral"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Bianca Saramago"
+      - "Segredo: Ele mantém um acordo de silêncio com um Hecata para varrer rastros. O acordo tem contrapartida e prova material. Isso encosta diretamente em Isabel do Amaral (rivalidade; ela odeia o imprevisível dos rituais) e Donato Lazzari (boon pendente; Minor, intermediação com mortos). Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: Ele tem um método de rastrear sangue pela rede de boons. Hoje, quem está mais perto de descobrir isso é Isabel do Amaral (rivalidade; ela odeia o imprevisível dos rituais)."
+  "Delegada Helena Pacheco":
+    seita_ou_afinidade: "Segunda Inquisição"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+      - "Domitor/Patrocinador: não explicitado; operar pela rede e pela facção"
+      - "Equipe e dependentes: apoios variáveis conforme demanda"
+      - "Segredo: Helena evita qualquer linguagem sobrenatural até em privado. Para ela, o que existe são padrões de incêndio, desaparecimento, adulteração de cena e gente demais protegendo as mesmas rotinas. Esse enquadramento a torna mais perigosa, porque permite mover a máquina mortal sem disparar resistência por 'fantasia'. Isso encosta diretamente em Artur Macedo e Nico \"Sombra\". Se vier à tona, o dano é operacional e imediato."
+      - "Verdade perigosa: Delegada já ignorou uma pista útil para proteger a operação maior e evitar vazamento interno. Hoje, quem está mais perto de descobrir isso é Delegada Helena Pacheco."
+  "Diego \"Itaquera\" Nascimento":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): -"
+      - "Segredo (o que apodrece por dentro): Diego entregou um cargueiro e um nome para evitar uma guerra aberta no Leste, e até hoje só duas pessoas sabem o preço disso. Ele vende como pragmatismo; os Anarquistas mais novos chamariam de traição. Se esse acerto reaparecer, ele perde rua antes de perder território."
+      - "Verdade perigosa: Diego já fechou acordo curto com rival para segurar uma noite de guerra e nunca admitiu isso em público. Hoje, quem está mais perto de descobrir isso é Rafa \"Ferro\"."
+  "Donato Lazzari":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Hecata"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Iago Siqueira"
+      - "Segredo: Ele alimenta o Buraco com promessas quebradas. Isso encosta diretamente em Dario Kron dívida de boon: Minor; intermediação com mortos e Yusuf Rahman. Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ele sabe como aprisionar a alma de um vampiro em um objeto. Hoje, quem está mais perto de descobrir isso é Dario Kron dívida de boon: Minor; intermediação com mortos."
+  "Douglas Ferraz":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+  "Dra. Aline Moretti":
+    seita_ou_afinidade: "Mortal"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Irene da Luz"
+  "Eduardo Nogueira":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Eli \"Despacho\" Araújo":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: João do Trem"
+  "Elias \"Sal\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Ministry"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Talita \"Serpente\" (relação de cria; devoção e ressentimento)"
+  "Ester \"Gato-Preto\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Farid Alvim":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Banu Haqim"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Samira al-Haddad"
+  "Hector \"Rodoanel\"":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Gangrel"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Bia \"Matilha\" (relação de cria; lealdade e vontade de provar valor)"
+  "Helena Vasconcelos":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Luiza Salles"
+      - "Segredo: Guarda uma sala escondida para interrogatórios sociais. Isso encosta diretamente em Luiza Salles e Samira al-Haddad. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: Ela já entregou um vampiro para o Xerife dentro de Elysium. Hoje, quem está mais perto de descobrir isso é Luiza Salles."
+  "Helio Barros":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Henrique Valadares":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Isabel do Amaral; ele opera por dívida antiga, respeito e caixa"
+      - "Sire: Isabel do Amaral"
+      - "Childe(s): -"
+      - "Segredo (o que apodrece por dentro): Henrique mantém um caixa de contingência Ventrue fora do fluxo oficial da Corte, montado para segurar crise de mídia, advogado e silêncio rápido. Ele diz que é prudência; Isabel sabe que é poder acumulado. Se isso vaza, a discussão deixa de ser finança e vira sucessão."
+      - "Verdade perigosa: Henrique já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Isabel do Amaral."
+  "Hiroko Sato":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Iago Siqueira":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Hecata"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Donato Lazzari (relação de cria; aprendeu a cobrar com o sire)"
+  "Igor \"Sombra\" Camargo":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Igor Menezes":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Tremere"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron"
+  "Irene da Luz":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Salubri"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Paulo \"O Vidente\""
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): -"
+      - "Segredo: Ela curou um vampiro do Xerife no passado e ele deve silêncio. Isso encosta diretamente em Paulo \"O Vidente\" e Luan \"Patch\" (mentoria; ensinou ética de sangue). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ela consegue sentir Vínculos de Sangue em uma sala. Hoje, quem está mais perto de descobrir isso é Paulo \"O Vidente\"."
+  "Irmã Beatriz Lemos":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha"
+  "Isabel do Amaral":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Artur Macedo"
+      - "Segredo: Ela sabe o nome verdadeiro de um operador da SI e o guarda como arma. Isso encosta diretamente em Artur Macedo e Dario Kron (rivalidade; não confia em magia fora de controle). Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: Ela sacrificou um childe antigo para comprar paz. Hoje, quem está mais perto de descobrir isso é Artur Macedo."
+  "Jessica \"Biqueira\" Ramos":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Bia \"Matilha\""
+  "Jonas \"Capim\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Gangrel"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Bia \"Matilha\""
+  "Jonas \"Coro\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha"
+  "Jonas Santos":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "João do Trem":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Brujah"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+      - "Sire: Renata Ferraz"
+      - "Childe(s): -"
+      - "Segredo: guarda um acordo antigo de silêncio sobre desaparecimentos ligados à malha noturna e só abre essa memória quando precisa salvar alguém. Isso encosta diretamente em Renata Ferraz, Cecília \"Linha-Dois\" e Dante \"Fumo\". Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: sabe com antecedência quando um trecho vai fechar por pressão policial, caçada ou limpeza política, porque lê a cidade pela rotina das estações. Hoje, quem está mais perto de descobrir isso é Cecília \"Linha-Dois\"."
+  "Katia \"Zero\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Keiko Sato":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Lara \"Contenção\" Tavares":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Samira al-Haddad"
+  "Larissa Prado":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Leandro Batista":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Leonardo \"Aprendiz\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron"
+  "Lia \"Comunidad\" Souza":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Diego \"Itaquera\" Nascimento"
+  "Lia Morais":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Donato Lazzari"
+  "Livia \"Sem-Nome\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Caitiff"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Samira al-Haddad"
+  "Luan \"Patch\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Irene da Luz"
+  "Luiza Salles":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+      - "Sire: Helena Vasconcelos"
+      - "Childe(s): Daniel Sato"
+      - "Segredo: mantém registros informais de humilhações, favores e erros de etiqueta que valem mais que qualquer ata oficial. Isso encosta diretamente em Artur Macedo e Nico \"Sombra\". Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: já segurou crise de Máscara no braço, reescrevendo a versão pública antes mesmo da polícia entender o caso. Hoje, quem está mais perto de descobrir isso é Artur Macedo."
+  "Maira Koehler":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Tremere"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron"
+  "Marcela \"Cartório\" Guimarães":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Isabel do Amaral"
+  "Marcelo \"Moto\" Vieira":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Bia \"Matilha\""
+  "Marcia Falcão":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): -"
+      - "Segredo (o que apodrece por dentro): Márcia já desviou duas pessoas de um surto para uma clínica “amiga” antes de registrar o caso na Corte. Ela jura que evitou exposição; os Hecata dizem que ela apagou rastros demais. Se aparecer prontuário ou gravação, o salão inteiro passa a desconfiar de quem ela protegeu."
+      - "Verdade perigosa: Marcia já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Luiza Salles."
+  "Marcos \"Sacristão\" Vieira":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha"
+  "Maria Zélia Ramos":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Celia Moura"
+  "Mariana Lobo":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+      - "Domitor/Patrocinador: Ventrue"
+      - "Equipe e dependentes: clã servido: Ventrue"
+      - "Segredo: ela mantém um canal mortal de vigilância e alerta fora do fluxo oficial, útil para proteger Artur e antecipar crise, mas politicamente explosivo. Se esse atalho vier à tona, vira prova de favorecimento, munição para rival, motivo de auditoria interna e disputa direta dentro da Corte."
+      - "Verdade perigosa: Mariana já alterou agenda, registro ou fluxo de acesso para conter crise da Corte antes que o problema virasse notícia. Hoje, quem está mais perto de descobrir isso é Luiza Salles."
+  "Maru \"Vento\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Ravnos"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Ravi \"Truque\""
+  "Mateus Cordeiro":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Maya \"Backdoor\" Costa":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Katia \"Zero\""
+  "Miriam Kwon":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Paulo \"O Vidente\""
+  "Nadia Nasser":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Banu Haqim"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Samira al-Haddad"
+      - "Sire: Samira al-Haddad"
+      - "Childe(s): -"
+      - "Segredo (o que apodrece por dentro): Nadia segurou um julgamento interno e trocou punição formal por dívida privada para preservar a utilidade de um operador da Xerife. Foi cálculo de estabilidade, não misericórdia. Se os termos desse acordo vierem à luz, Samira perde margem e Nadia perde o discurso de pureza."
+      - "Verdade perigosa: Nadia já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Samira al-Haddad."
+  "Nando \"Desmanche\" Alves":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Rafa \"Ferro\""
+  "Nara Sato":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Nico \"Sombra\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+      - "Sire: Vovó Zilda"
+      - "Childe(s): Ester \"Gato-Preto\""
+      - "Segredo: Ele tem acesso a um espelho de câmeras e logs: um servidor clandestino com backups e timestamps. Isso tem um local físico, uma senha e um padrão de acesso. Isso encosta diretamente em Artur Macedo e Samira al-Haddad. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: Ele já entregou um vampiro para a SI para salvar sua cria. Hoje, quem está mais perto de descobrir isso é Artur Macedo."
+  "Nina \"Costura\"":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Tzimisce"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Donato Lazzari"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Vlado de Itapecerica"
+      - "Segredo: Ela já fez uma obra para um Lasombra Camarilla. Isso encosta diretamente em Donato Lazzari (relação tensa; mortos e carne se odeiam) e Dario Kron (rivalidade; magia vs forma). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ela sabe como apagar uma identidade física. Hoje, quem está mais perto de descobrir isso é Donato Lazzari (relação tensa; mortos e carne se odeiam)."
+  "Otavio Braga":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Padre Augusto Faria":
+    seita_ou_afinidade: "Mortal"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha"
+  "Padre Miguel Aranha":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Isabel do Amaral"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Camila \"Noite-Funda\""
+      - "Segredo: Ele sabe quem apagou o rastro do Abraço ilegal do Príncipe: nome, método e local do registro adulterado. O problema é que ele também participou, e existe um registro que prova isso. Isso encosta diretamente em Isabel do Amaral (aliança; acordo de integração) e Dario Kron (relação tensa; rivalidade silenciosa). Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: Ele já destruiu um ancião em Elysium sem testemunhas. Hoje, quem está mais perto de descobrir isso é Isabel do Amaral (aliança; acordo de integração)."
+  "Patricia Andrade":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Paulo \"O Vidente\""
+  "Paula \"Compliance\" Azevedo":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Henrique Valadares"
+  "Paula \"Olheira\" Nascimento":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Diego \"Itaquera\" Nascimento"
+  "Paulo \"O Vidente\"":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Malkavian"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Vovó Zilda"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Cecília \"Linha-Dois\""
+      - "Segredo: Ele conhece um nome e uma cadência que acalmam os ecos do Buraco por alguns minutos. Isso encosta diretamente em Vovó Zilda (aliança; troca presságios por deslocamentos) e João do Trem (aliança; avisos e deslocamentos). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ele já conduziu a SI até um refúgio descartável para provar um padrão e desviar uma investigação maior. Hoje, quem está mais perto de descobrir isso é Vovó Zilda (aliança; troca presságios por deslocamentos)."
+  "Pedro \"Manutenção\" Lins":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Raimundo \"Rato-Rei\""
+  "Rafa \"Ferro\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Caitiff"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): -"
+      - "Segredo: Ele sabe quem falsificou um registro de boons e guarda como arma. Isso encosta diretamente em Renata Ferraz e Ana \"Carbono\" (aliança; protege a rede alquímica). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ele tem um contato com caçadores de rua que vende informação barata. Hoje, quem está mais perto de descobrir isso é Renata Ferraz."
+  "Rafael Menezes":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Tremere"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron"
+  "Rafaela Novais":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Diego \"Itaquera\" Nascimento"
+  "Raimundo \"Rato-Rei\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+      - "Sire: Vovó Zilda"
+      - "Childe(s): -"
+      - "Segredo (o que apodrece por dentro): Raimundo já vendeu trajeto de contrabando para dois lados no mesmo mês e deixou um terceiro grupo cair em emboscada para manter a própria rede viva. Ele chama isso de equilíbrio de rua; quem perdeu gente chama de sentença. Se um sobrevivente provar a conexão, o subsolo fecha para ele."
+      - "Verdade perigosa: Raimundo já empurrou uma decisão de Corte para proteger função e território, sabendo quem pagaria o preço. Hoje, quem está mais perto de descobrir isso é Nico \"Sombra\"."
+  "Raul Marques":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Ravi \"Truque\"":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Ravnos"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Regina Andrade":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Paulo \"O Vidente\""
+  "Renata Ferraz":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Samira al-Haddad"
+      - "Sire: João do Trem"
+      - "Childe(s): Cauã Martins"
+      - "Segredo: Ela já negociou com o Xerife para evitar massacre. Isso encosta diretamente em Samira al-Haddad e Bia \"Matilha\" (aliança; deslocamentos e refúgios na borda). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ela mandou eliminar um aliado que traiu por medo. Hoje, quem está mais perto de descobrir isso é Samira al-Haddad."
+  "Renata Freire":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Renato \"Bico\" Sampaio":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Dario Kron"
+  "Renato Vianna":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Ricardo \"Protocolos\" Nery":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Mateus Cordeiro"
+  "Rodrigo \"Fiel\" Santana":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+  "Rui \"Barata\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Sabrina Siqueira":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+  "Samir \"Escrivão\" Haddad":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nadia Nasser"
+  "Samira al-Haddad":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Banu Haqim"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+      - "Sire: Yusuf Rahman"
+      - "Childe(s): -"
+      - "Segredo: conhece dossiês do antigo xerife e do período da transição; parte desse material explica por que Artur a escolheu e por que alguns veteranos nunca confiaram nela. Isso encosta diretamente em Artur Macedo, Nadia Nasser e Yusuf Rahman. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: assumiu a Xerifia porque demonstrou mais lealdade operacional ao príncipe do que o xerife anterior, é a troca foi vendida como mera 'reorganização'. Hoje, quem está mais perto de descobrir isso é Yusuf Rahman."
+  "Severino Carmo":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Padre Miguel Aranha"
+  "Silvia \"Fúnebre\" Prado":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Donato Lazzari"
+  "Silvia Kajiki":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Sofia Pires":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Toreador"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+  "Sonia \"Ateliê\"":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Clara Montenegro"
+  "Soraia Nunes":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Hecata"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Donato Lazzari (relação de cria; dependência e proteção)"
+      - "Sire: Donato Lazzari"
+      - "Childe(s): -"
+      - "Segredo: Ela já apagou um fantasma ligado a um crime Camarilla. Isso encosta diretamente em Donato Lazzari (relação de cria; dependência e proteção) e Bianca Saramago. Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ela consegue puxar uma lembrança de sangue de um vampiro em torpor. Hoje, quem está mais perto de descobrir isso é Donato Lazzari (relação de cria; dependência e proteção)."
+  "Taina Aruana":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+  "Talita \"Serpente\"":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Ministry"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Luiza Salles"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Elias \"Sal\""
+      - "Segredo: Ela tem um contato mortal dentro da Operação Lumen. Isso encosta diretamente em Luiza Salles e Padre Miguel Aranha (rivalidade; guerra de fé e controle). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ela já usou thin-blood alquimia como 'milagre' para recrutar. Hoje, quem está mais perto de descobrir isso é Luiza Salles."
+  "Teresa \"Balança\" Pacheco":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Eli \"Despacho\" Araújo"
+  "Tiago \"Tranca\"":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Renata Ferraz"
+  "Victor Pires":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Artur Macedo"
+  "Vitor Kallas":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Samira al-Haddad"
+  "Vivi \"Fenda\" Lacerda":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Ministry"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Talita \"Serpente\""
+  "Vivi Lacerda":
+    seita_ou_afinidade: "Mortal"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Talita \"Serpente\""
+  "Vlado de Itapecerica":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Tzimisce"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nina \"Costura\" (relação de cria; amor e repulsa)"
+  "Vovó Zilda":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Nico \"Sombra\""
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Nico \"Sombra\""
+      - "Segredo: Ela sabe onde esta um acesso ao Buraco do Centro. Isso encosta diretamente em Nico \"Sombra\" e Donato Lazzari (relação tensa; cobranças de travessia e segredos se cruzam). Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade."
+      - "Verdade perigosa: Ela pode chamar ratos suficientes para matar um vampiro em torpor. Hoje, quem está mais perto de descobrir isso é Nico \"Sombra\"."
+  "Wesley \"Faixa\" Dias":
+    seita_ou_afinidade: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Marcelo \"Moto\" Vieira"
+  "Yuri \"Curador\" Sato":
+    seita_ou_afinidade: "Camarilla"
+    cla_ou_tipo: "Mortal"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Helena Vasconcelos"
+  "Yusuf Rahman":
+    seita_ou_afinidade: "Independentes"
+    cla_ou_tipo: "Banu Haqim"
+    relacoes_explicitas:
+      - "Vínculo mais usado: Samira al-Haddad"
+      - "Sire: - (origem mantida em silêncio ou irrelevante em cena)"
+      - "Childe(s): Samira al-Haddad"
+      - "Segredo: Ele já julgou um ancião de outro clã e sobreviveu. Isso encosta diretamente em Samira al-Haddad e Donato Lazzari (relação tensa; detesta negócio com mortos). Se vier à tona, vira acerto de contas e perda de território ou rede."
+      - "Verdade perigosa: Ele sabe um refúgio antigo abaixo do Centro velho. Hoje, quem está mais perto de descobrir isso é Samira al-Haddad."

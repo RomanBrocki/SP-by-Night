@@ -1,0 +1,53 @@
+# Luiza Salles
+
+Fonte canônica: 8.4 - As fichas essenciais
+
+S • Camarilla • Toreador • Senescal (Kindred)
+
+Domínio: Pinheiros/Vila Madalena • Redes: Corte do Elysium e Salão de Pinheiros • Função real: Luiza organiza o fluxo da Corte. Ela define quem entra, quem espera, quem é exposto e quem sai preservado. A força dela não está em gritar mais alto, e sim em controlar a sequência da cena até a versão útil vencer.
+
+Potência de Sangue: 3 • Humanidade: 7 • Predador: Siren
+
+Disciplinas principais: Presence 4, Auspex 3, Celerity 2 • Competências: Subterfúgio 4, Persuasão 4, Performance 4
+
+Paradas de dados uteis: Etiqueta e acesso 10 • Influência social 9 • Performance e encanto 8
+
+História e comportamento:
+
+Nasc.: 1954 • Abraço: 1987 • Idade aparente: 33
+
+Sire: Helena Vasconcelos
+
+Childe(s): Daniel Sato
+
+Presença em cena: pessoa branca brasileira (pele clara); aparenta por volta de 33 anos. Assinatura social: elogio que corta, sorriso que condena
+
+Objetivo: continuar sendo o filtro indispensável da Corte e decidir quem ganha legitimidade antes que Artur precise se expor. Em cena, ela define quem entra, quem espera e quem sai menor do que chegou, sempre sem levantar a voz.
+
+Medo: que uma falha pública de Elysium prove que seu controle é cenografia e abra espaço para rival interno. Quando o tema encosta na mesa, a pessoa acelera decisão, reduz plateia e tenta controlar a versão antes da verdade circular.
+
+Segredo: mantém registros informais de humilhações, favores e erros de etiqueta que valem mais que qualquer ata oficial. Isso encosta diretamente em Artur Macedo e Nico "Sombra". Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
+
+Verdade perigosa: já segurou crise de Máscara no braço, reescrevendo a versão pública antes mesmo da polícia entender o caso. Hoje, quem está mais perto de descobrir isso é Artur Macedo.
+
+Situação de Corte: Luiza é Senescal e sustenta a engrenagem social da Camarilla, mas não ocupa cadeira de Harpia. Aiko Tanaka e Daniel Sato seguram o trabalho visível de boons, anúncios e mediação. As duas vagas abertas vieram da queda de 2025: Mirella Baptista, morta após uma operação do Lumen, e Ícaro Moretti, derrubado por exposição grotesca, quebra de Máscara e crimes contra a própria Corte. Desde então, Luiza tenta manter a casa funcional enquanto a cidade disputa quem vai herdar essas cadeiras - e se isso exige um segundo Elysium recorrente.
+
+Falso rumor que cola: alguns dizem que Luiza governa no lugar do príncipe; ela não corrige, só mede quem repete (cola porque a superfície da cidade mostra só um pedaço do trabalho real).
+
+Como interpretar em mesa:
+
+- Primeiro impacto: elogio que corta, sorriso que condena - Luiza Salles entra controlando o ritmo da conversa.
+
+- Sob pressão, ela reorganiza a ordem da cena: quem fala, quem espera e quem sai menor do salão.
+
+- Na negociação, trabalha protocolo, reputação e sequência. Em Pinheiros/Vila Madalena, a força dela é moldar a versão pública antes do boato fechar.
+
+- A postura endurece quando o assunto toca "que uma falha pública de Elysium prove que seu controle é cenografia e abra espaço para rival interno" ou "mantém registros informais de humilhações, favores e erros de etiqueta que valem mais que qualquer ata oficial".
+
+Ganchos curtos:
+
+- Oferece status aos PJs em troca de um segredo. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.
+
+- Faz um PJs virar assunto para medir reações. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.
+
+- Entrega um boon pequeno que vira algema. Entrada: Pinheiros/Vila Madalena; custo provável: boon, cobertura ou silêncio.

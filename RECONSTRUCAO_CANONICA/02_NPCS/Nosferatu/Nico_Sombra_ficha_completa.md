@@ -1,0 +1,51 @@
+# Nico "Sombra"
+
+Fonte canônica: 8.4 - As fichas essenciais
+
+S • Camarilla • Nosferatu • Corretor de informação (Kindred)
+
+Domínio: Brás/Pari + eixos logísticos (Barra Funda/Lapa) • Redes: Correios do Subsolo e Corte do Elysium • Função real: triangula informação e oportunidade. Ele(a) cruza rumor, rotina e falha humana para vender direção, não fofoca - e quase sempre cobra em favor futuro.
+
+Potência de Sangue: 2 • Humanidade: 6 • Predador: Bagger
+
+Disciplinas principais: Obfuscate 4, Animalism 2, Potence 2 • Competências: Furtividade 5, Tecnologia 4, Subterfúgio 4
+
+Paradas de dados uteis: Coleta de dados 10 • Infiltração 9 • Chantagem limpa 8
+
+História e comportamento:
+
+Nasc.: 1971 • Abraço: 2001 • Idade aparente: 34
+
+Sire: Vovó Zilda
+
+Childe(s): Ester "Gato-Preto"
+
+Presença em cena: pessoa parda brasileira (pele marrom media, traços miscigenados). Assinatura social: voz em audio, encontro em lugar errado
+
+Objetivo: Ser indispensável para todos e leal a ninguém. Em cena, ele nunca entrega tudo: oferece o bastante para se tornar necessário e guarda o resto como seguro.
+
+Medo: Que a SI aprenda a caçar por padrões de dados. Quando o tema encosta na mesa, a pessoa acelera decisão, reduz plateia e tenta controlar a versão antes da verdade circular.
+
+Segredo: Ele tem acesso a um espelho de câmeras e logs: um servidor clandestino com backups e timestamps. Isso tem um local físico, uma senha e um padrão de acesso. Isso encosta diretamente em Artur Macedo e Samira al-Haddad. Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
+
+Verdade perigosa: Ele já entregou um vampiro para a SI para salvar sua cria. Hoje, quem está mais perto de descobrir isso é Artur Macedo.
+
+Falso rumor que cola: Ele não existe; é uma rede de vários Nosferatu.
+
+Como interpretar em mesa:
+
+- Primeiro impacto: voz em audio, encontro em lugar errado - Nico "Sombra" entra controlando o ritmo da conversa.
+
+- Sob pressão, a fala encurta e o cálculo aparece; o foco vira contenção de dano.
+
+- Na negociação, trabalha por consequência prática. Em Brás/Pari + eixos logísticos (Barra Funda/Lapa), o preço real importa mais que o discurso.
+
+- A postura endurece quando o assunto toca "que a SI aprenda a caçar por padrões de dados" ou "ele tem acesso a um espelho de câmeras e logs: um servidor clandestino com backups e timestamps".
+
+Ganchos curtos:
+
+- Vende um dado crucial com preço moral. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.
+
+- Ajuda os PJs a sumir por uma noite. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.
+
+- Entrega prova de traição e cria guerra. Entrada: Brás/Pari + eixos logísticos (Barra Funda/Lapa); custo provável: boon, cobertura ou silêncio.

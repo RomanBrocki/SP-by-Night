@@ -1,0 +1,777 @@
+personagens:
+  "Afonso Carmo":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Bela Vista/Bixiga"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+  "Aiko Tanaka":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Pinheiros/Vila Madalena • Redes: produtores de evento, assessorias, listas de convidados, fotógrafos e staff de casa • Função real: medir temperatura social e decidir quem sobe, quem esfria e quem deixa de ser chamado."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Ana \"Carbono\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Pinheiros e trajetos • Redes: Leste de Aço • Função real: Ana opera no mercado cinza de sangue fraco. Ela fornece mistura, antídoto improvisado e solução suja para emergência que ninguém pode registrar em prontuário."
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+  "Ana \"Terapeuta\" Reis":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Consolação/Higienópolis"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Artur Macedo":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Jardins/Paulista. Função oficial: Príncipe. Função real: diretor de crise da cidade noturna. Artur reorganizou São Paulo com mentalidade de gestão moderna - gabinete enxuto, frentes segmentadas, responsáveis claros e revisão curta - porque acredita que um mundo monitorado exige uma Camarilla menos feudal na operação e mais precisa na execução."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Augusto Brito":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Morumbi/Campo Belo"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Beatriz Pires":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Liberdade"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Bento Carmo":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Bela Vista/Bixiga"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+  "Beto \"Mecânico\"":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "eixos de carga e pátios de apoio"
+    secao_maior: "Mortais servos de Independetes"
+    cla_ou_tipo: "Mortal"
+  "Bia \"Matilha\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Oeste/Sul • Redes: Matilha do Sul • Função real: Bia virou baronesa de fato porque entrega o que o Sul precisa para sobreviver: fronteira segura, resposta rápida e limite claro para quem quer transformar a quebrada em campo de caça. Ela coordena patrulha, abrigo e retaliação, é a autoridade dela nasce do serviço prestado, não da etiqueta."
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Gangrel"
+  "Bianca Saramago":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Pinheiros/Centro"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Tremere"
+  "Bruna \"Sinais\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Baronato Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+  "Bruno Arantes":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Alto de Pinheiros/Butantã"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Gangrel"
+  "Caio \"Papel\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Centro Expandido"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Caitiff"
+  "Caio Menezes":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Butantã/USP"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Tremere"
+  "Camila \"Flash\" Siqueira":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Pinheiros/Moema"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Camila \"Noite-Funda\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Lapa/Barra Funda • Redes: Rede de Corretores • Função real: Camila sustenta dissidente com trabalho de bastidor e presença em cena. Na prática, ela faz a notícia certa cair no ouvido certo, no momento em que isso muda uma noite inteira."
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Lasombra"
+  "Carla Nogueira":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Paulista/Pinheiros"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Cauã Martins":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Mooca"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+  "Cecília \"Linha-Dois\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Tatuapé/Centro"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Malkavian"
+  "Celia Andrade":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Paulista"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+  "Celia Moura":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Consolação"
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Hecata"
+  "Clara Montenegro":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Moema/Paraíso • Redes: Corte do Elysium e Salão de Pinheiros • Função real: representa o clã na corte. Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Damião \"Guarita\"":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Morumbi/Campo Belo"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Daniel Sato":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Liberdade/Paulista • Redes: recepções 24h, hotelaria, segurança privada, staff de eventos e ponte discreta com informantes Nosferatu • Função real: transformar ruído de bastidor em informação útil para a Corte."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Dante \"Fumo\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "eixos de entrega, pensões e pontos de passagem"
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Thin-Blood"
+  "Dario Kron":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Butantã/USP • Redes: Corte do Elysium e Torre da USP • Função real: representa o clã na corte. Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Tremere"
+  "Delegada Helena Pacheco":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Centro Expandido • Redes: sem rede fixa registrada • Função real: Helena transforma investigação em operação. Ela não caça no escuro: monta equipe, define cobertura legal e aperta o cerco em etapas até o alvo errar sozinho."
+    secao_maior: "Segunda Inquisição"
+    cla_ou_tipo: "Mortal"
+  "Diego \"Itaquera\" Nascimento":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Baronato Leste • Redes: Leste de Aço • Função real: governa território. Isso significa segurar trégua, arbitrar cobrança, cortar abuso que chama polícia e manter a própria gente alimentada e obediente o bastante para a região não implodir."
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+  "Donato Lazzari":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Centro Velho / cemitérios • Redes: Enclave dos Cemitérios • Função real: Ele é o Líder dos Hecatas. Donato sustenta uma rede de cobrança de travessia com trabalho de bastidor e presença em cena. Quando a cidade precisa cobrar sem aparecer, é por Donato que o recado circula e a conta chega."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Hecata"
+  "Douglas Ferraz":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Tatuapé/Mooca"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Dra. Aline Moretti":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Oeste"
+    secao_maior: "Segunda Inquisição"
+    cla_ou_tipo: "Mortal"
+  "Eduardo Nogueira":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Paulista"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Eli \"Despacho\" Araújo":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "eixos de carga (Barra Funda/Lapa)"
+    secao_maior: "Mortais servos de Independetes"
+    cla_ou_tipo: "Mortal"
+  "Elias \"Sal\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Mooca e em circuitos de circulação e cobrança"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Ministry"
+  "Ester \"Gato-Preto\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Zonas mistas"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Nosferatu"
+  "Farid Alvim":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Ipiranga/Cursino"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Banu Haqim"
+  "Hector \"Rodoanel\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Rodoanel e eixos de carga"
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Gangrel"
+  "Helena Vasconcelos":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Liberdade • Redes: Salão de Pinheiros • Função real: Helena sustenta guardia de elysium com trabalho de bastidor e presença em cena. Na prática, ela sustenta o verniz da Corte: decide o tom da sala e limita o dano antes que vire crise."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Helio Barros":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Morumbi/Campo Belo"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Henrique Valadares":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Morumbi/Campo Belo • Redes: Rede do Morumbi e Corte do Elysium • Função real: representa o clã na corte. Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Hiroko Sato":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Bras/Pari"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Iago Siqueira":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Centro Expandido"
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Hecata"
+  "Igor \"Sombra\" Camargo":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Paulista/Jardins"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Igor Menezes":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Butantã/USP"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Tremere"
+  "Irene da Luz":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Oeste • Redes: sem rede fixa registrada • Função real: Irene sustenta curandeira escondida com trabalho de bastidor e presença em cena. Na prática, ela existe onde o sistema falha: atende no silêncio, preserva sigilo e mantém gente útil de pé."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Salubri"
+  "Irmã Beatriz Lemos":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Bela Vista/Bixiga"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+  "Isabel do Amaral":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Itaim/Berrini • Redes: sem rede fixa registrada • Função real: representa o clã na corte (na teoria). Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Jessica \"Biqueira\" Ramos":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Jonas \"Capim\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Baronato Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Gangrel"
+  "Jonas \"Coro\"":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Centro"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Jonas Santos":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "eixos de carga (Barra Funda/Lapa)"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "João do Trem":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Eixos urbanos e estações • Redes: Linhas e Sombras • Função real: João mantém a circulação noturna funcionando quando a cidade aperta. Ele lê rotina de estação, vigia, motoboy, ambulante e segurança privada, antecipa repressão e abre caminho para quem precisa atravessar a cidade sem chamar atenção mortal."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Brujah"
+  "Katia \"Zero\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Centro/Pinheiros"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+  "Keiko Sato":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Bras/Pari"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Lara \"Contenção\" Tavares":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Liberdade/Paulista"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Larissa Prado":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Liberdade"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Leandro Batista":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Paulista/Jardins"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Leonardo \"Aprendiz\"":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Centro Expandido"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Lia \"Comunidad\" Souza":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Leste"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Lia Morais":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Centro Velho/cemitérios"
+    secao_maior: "Mortais servos dos Hecatas"
+    cla_ou_tipo: "Mortal"
+  "Livia \"Sem-Nome\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Centro Expandido"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Caitiff"
+  "Luan \"Patch\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Oeste/Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Thin-Blood"
+  "Luiza Salles":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Pinheiros/Vila Madalena • Redes: Corte do Elysium e Salão de Pinheiros • Função real: Luiza organiza o fluxo da Corte. Ela define quem entra, quem espera, quem é exposto e quem sai preservado. A força dela não está em gritar mais alto, e sim em controlar a sequência da cena até a versão útil vencer."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Maira Koehler":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Butantã/USP"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Tremere"
+  "Marcela \"Cartório\" Guimarães":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Itaim/Berrini"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Marcelo \"Moto\" Vieira":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Marcia Falcão":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Consolação/Higienópolis • Redes: Corte do Elysium e Os Ouvidores • Função real: representa o clã na corte. Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+  "Marcos \"Sacristão\" Vieira":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Bela Vista/Bixiga"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Maria Zélia Ramos":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Cemitérios"
+    secao_maior: "Mortais servos dos Hecatas"
+    cla_ou_tipo: "Mortal"
+  "Mariana Lobo":
+    fonte:
+      - "8.3 - Ghouls"
+      - "8.4 - As fichas essenciais"
+    dominio: "Paulista/Jardins • Redes: Corte do Elysium • Função real: Mariana é a engrenagem mortal da Corte. Ela organiza agenda, filtra crise e protege o entorno social do Elysium sem saber o tabuleiro completo - mas sente quando algo saiu do eixo."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Maru \"Vento\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Leste"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Ravnos"
+  "Mateus Cordeiro":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Jardins e circuito de influência"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Maya \"Backdoor\" Costa":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Mooca/Tatuapé"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Miriam Kwon":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Itaim Bibi"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+  "Nadia Nasser":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Ipiranga/Cursino • Redes: Corte do Elysium e Sangue e Selo • Função real: representa o clã na corte. Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Banu Haqim"
+  "Nando \"Desmanche\" Alves":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Mooca/Tatuapé"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Nara Sato":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Bras/Pari"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Nico \"Sombra\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Brás/Pari + eixos logísticos (Barra Funda/Lapa) • Redes: Correios do Subsolo e Corte do Elysium • Função real: triangula informação e oportunidade. Ele(a) cruza rumor, rotina e falha humana para vender direção, não fofoca - e quase sempre cobra em favor futuro."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Nina \"Costura\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Centro/clínicas clandestinas • Redes: sem rede fixa registrada • Função real: Nina sustenta cirurgia e favores com trabalho de bastidor e presença em cena. Na prática, ela segura o pós-caos: fecha carne, some vestígio e devolve funcionalidade à noite."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Tzimisce"
+  "Otavio Braga":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Morumbi/Campo Belo"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Padre Augusto Faria":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Centro"
+    secao_maior: "Segunda Inquisição"
+    cla_ou_tipo: "Mortal"
+  "Padre Miguel Aranha":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Bela Vista/Bixiga • Redes: A Confissão Preta e Corte do Elysium • Função real: Padre sustenta guardião de confissões com trabalho de bastidor e presença em cena. Na prática, ele é o ponto onde culpa, fé e política se encontram — e quase sempre alguém sai devendo."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+  "Patricia Andrade":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Paulista"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+  "Paula \"Compliance\" Azevedo":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Morumbi/Campo Belo"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Paula \"Olheira\" Nascimento":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Leste"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Paulo \"O Vidente\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Galerias e estações • Redes: Os Ouvidores • Função real: Paulo sustenta um serviço de leitura de padrão, rumor e presságio com trabalho de bastidor. Ele cruza boato, horário, sumiço e comportamento de rua para transformar ruído em decisão prática antes que a crise estoure."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Malkavian"
+  "Pedro \"Manutenção\" Lins":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Perdizes/Barra Funda"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Rafa \"Ferro\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Mooca e adjacências • Redes: Coterie Ferrugem • Função real: Rafa sustenta aspirante a corte com trabalho de bastidor e presença em cena. Na prática, ele é presença de contenção: organiza corpo, território e resposta quando a Ferrugem precisa mostrar força."
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Caitiff"
+  "Rafael Menezes":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Butantã/USP"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Tremere"
+  "Rafaela Novais":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Leste"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Raimundo \"Rato-Rei\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Perdizes/Barra Funda • Redes: Correios do Subsolo e Corte do Elysium • Função real: representa o clã na corte. Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Raul Marques":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Santana/Tucuruvi"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Ravi \"Truque\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Centro/Barra Funda"
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Ravnos"
+  "Regina Andrade":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Paulista"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Malkavian"
+  "Renata Ferraz":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Tatuapé/Mooca • Redes: Coterie Ferrugem • Função real: governa território. Isso significa segurar trégua, arbitrar cobrança, cortar abuso que chama polícia e manter a própria gente alimentada e obediente o bastante para a região não implodir."
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+  "Renata Freire":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Jardim Paulista"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Renato \"Bico\" Sampaio":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Butantã/USP"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Renato Vianna":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Morumbi/Campo Belo"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Ventrue"
+  "Ricardo \"Protocolos\" Nery":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Paulista/Jardins"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Rodrigo \"Fiel\" Santana":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Mooca/Tatuapé"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Rui \"Barata\"":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Barra Funda/Lapa"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Sabrina Siqueira":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Baronato Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Brujah"
+  "Samir \"Escrivão\" Haddad":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Ipiranga/Cursino"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Samira al-Haddad":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Santana/Tucuruvi • Redes: Corte do Elysium e Sangue e Selo • Função real: Samira não é uma xerife de espetáculo. Ela assumiu o posto depois que o antigo xerife perdeu lastro político, e Artur preferiu alguém leal, metódica e mais fácil para ele manipular. Em mesa, ela fecha vazamento, confere versão, separa culpado de bode expiatório e só deixa violência aparecer quando já está calculada."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Banu Haqim"
+  "Severino Carmo":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Bela Vista/Bixiga"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Lasombra"
+  "Silvia \"Fúnebre\" Prado":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Consolação"
+    secao_maior: "Mortais servos dos Hecatas"
+    cla_ou_tipo: "Mortal"
+  "Silvia Kajiki":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Pinheiros/Vila Madalena"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Sofia Pires":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Liberdade"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Toreador"
+  "Sonia \"Ateliê\"":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Moema/Paraíso"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Soraia Nunes":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Centro Velho • Redes: Enclave dos Cemitérios • Função real: Soraia sustenta intérprete de ecos com trabalho de bastidor e presença em cena. Na prática, ela transforma o Buraco em ferramenta de leitura política: o que sobe, sobe por escolha dela."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Hecata"
+  "Taina Aruana":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Perdizes/Barra Funda"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Talita \"Serpente\"":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Pinheiros/baixa Augusta • Redes: Rede de Corretores • Função real: Talita sustenta pregadora do vício com trabalho de bastidor e presença em cena. Na prática, ela converte desejo em dependência e dependência em influência, sem parecer que está cobrando nada."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Ministry"
+  "Teresa \"Balança\" Pacheco":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "eixos de carga (Barra Funda/Lapa)"
+    secao_maior: "Mortais servos de Independetes"
+    cla_ou_tipo: "Mortal"
+  "Tiago \"Tranca\"":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Tatuapé/Mooca"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Victor Pires":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Paulista/Jardins"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Vitor Kallas":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Centro Expandido"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Vivi \"Fenda\" Lacerda":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Baronato Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Ministry"
+  "Vivi Lacerda":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Pinheiros/baixa Augusta"
+    secao_maior: "Segunda Inquisição"
+    cla_ou_tipo: "Mortal"
+  "Vlado de Itapecerica":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+    dominio: "Sul"
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Tzimisce"
+  "Vovó Zilda":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "Galerias do Centro • Redes: Correios do Subsolo • Função real: Vovó sustenta anciã subterrânea com trabalho de bastidor e presença em cena. Na prática, ela é memória ativa do clã: conecta gente, corrige rumo e impede erro velho de voltar com nome novo."
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Nosferatu"
+  "Wesley \"Faixa\" Dias":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Baronato Sul"
+    secao_maior: "Anarquistas"
+    cla_ou_tipo: "Mortal"
+  "Yuri \"Curador\" Sato":
+    fonte:
+      - "8.3 - Ghouls"
+    dominio: "Liberdade"
+    secao_maior: "Camarilla"
+    cla_ou_tipo: "Mortal"
+  "Yusuf Rahman":
+    fonte:
+      - "8.2 - Índice completo por facção e clã"
+      - "8.4 - As fichas essenciais"
+    dominio: "trajetos (aeroporto/rodovias) • Redes: Rede de Corretores • Função real: Yusuf sustenta juiz itinerante com trabalho de bastidor e presença em cena. Na prática, Yusuf funciona como tribunal e lâmina dos independentes: arbitra disputa, cobra reparação e executa sentença quando a palavra já foi dada."
+    secao_maior: "Independentes"
+    cla_ou_tipo: "Banu Haqim"

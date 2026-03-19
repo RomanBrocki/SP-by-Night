@@ -1,0 +1,197 @@
+# Teia de Conexões
+
+Fonte canônica: 8.2, 8.3 e 8.4
+
+## Vínculos mais usados
+
+- Afonso Carmo -> Padre Miguel Aranha
+- Aiko Tanaka -> Luiza Salles
+- Ana "Carbono" -> Daniel Sato
+- Ana "Terapeuta" Reis -> Marcia Falcão
+- Artur Macedo -> Luiza Salles
+- Augusto Brito -> Artur Macedo
+- Beatriz Pires -> Luiza Salles
+- Bento Carmo -> Padre Miguel Aranha
+- Beto "Mecânico" -> João do Trem
+- Bia "Matilha" -> Renata Ferraz
+- Bianca Saramago -> Dario Kron (relação de cria; lealdade e medo)
+- Bruna "Sinais" -> Katia "Zero"
+- Bruno Arantes -> Bia "Matilha"
+- Caio "Papel" -> Rafa "Ferro"
+- Caio Menezes -> Dario Kron
+- Camila "Flash" Siqueira -> Luiza Salles
+- Camila "Noite-Funda" -> Padre Miguel Aranha (relação de cria; ódio e dependência)
+- Carla Nogueira -> Luiza Salles
+- Cauã Martins -> Renata Ferraz
+- Cecília "Linha-Dois" -> João do Trem
+- Celia Andrade -> Paulo "O Vidente"
+- Celia Moura -> Donato Lazzari (servidão; operadora do enclave)
+- Clara Montenegro -> Luiza Salles
+- Damião "Guarita" -> Henrique Valadares
+- Daniel Sato -> Luiza Salles
+- Dante "Fumo" -> João do Trem (protetor; o velho o protege por princípio)
+- Dario Kron -> Isabel do Amaral
+- Delegada Helena Pacheco -> Artur Macedo
+- Diego "Itaquera" Nascimento -> Renata Ferraz
+- Donato Lazzari -> Dario Kron
+- Douglas Ferraz -> Renata Ferraz
+- Dra. Aline Moretti -> Irene da Luz
+- Eduardo Nogueira -> Artur Macedo
+- Eli "Despacho" Araújo -> João do Trem
+- Elias "Sal" -> Talita "Serpente" (relação de cria; devoção e ressentimento)
+- Ester "Gato-Preto" -> Nico "Sombra"
+- Farid Alvim -> Samira al-Haddad
+- Hector "Rodoanel" -> Bia "Matilha" (relação de cria; lealdade e vontade de provar valor)
+- Helena Vasconcelos -> Luiza Salles
+- Helio Barros -> Artur Macedo
+- Henrique Valadares -> Isabel do Amaral; ele opera por dívida antiga, respeito e caixa
+- Hiroko Sato -> Nico "Sombra"
+- Iago Siqueira -> Donato Lazzari (relação de cria; aprendeu a cobrar com o sire)
+- Igor "Sombra" Camargo -> Artur Macedo
+- Igor Menezes -> Dario Kron
+- Irene da Luz -> Paulo "O Vidente"
+- Irmã Beatriz Lemos -> Padre Miguel Aranha
+- Isabel do Amaral -> Artur Macedo
+- Jessica "Biqueira" Ramos -> Bia "Matilha"
+- Jonas "Capim" -> Bia "Matilha"
+- Jonas "Coro" -> Padre Miguel Aranha
+- Jonas Santos -> Nico "Sombra"
+- João do Trem -> Renata Ferraz
+- Katia "Zero" -> Nico "Sombra"
+- Keiko Sato -> Nico "Sombra"
+- Lara "Contenção" Tavares -> Samira al-Haddad
+- Larissa Prado -> Luiza Salles
+- Leandro Batista -> Nico "Sombra"
+- Leonardo "Aprendiz" -> Dario Kron
+- Lia "Comunidad" Souza -> Diego "Itaquera" Nascimento
+- Lia Morais -> Donato Lazzari
+- Livia "Sem-Nome" -> Samira al-Haddad
+- Luan "Patch" -> Irene da Luz
+- Luiza Salles -> Artur Macedo
+- Maira Koehler -> Dario Kron
+- Marcela "Cartório" Guimarães -> Isabel do Amaral
+- Marcelo "Moto" Vieira -> Bia "Matilha"
+- Marcia Falcão -> Luiza Salles
+- Marcos "Sacristão" Vieira -> Padre Miguel Aranha
+- Maria Zélia Ramos -> Celia Moura
+- Mariana Lobo -> Artur Macedo
+- Maru "Vento" -> Ravi "Truque"
+- Mateus Cordeiro -> Luiza Salles
+- Maya "Backdoor" Costa -> Katia "Zero"
+- Miriam Kwon -> Paulo "O Vidente"
+- Nadia Nasser -> Samira al-Haddad
+- Nando "Desmanche" Alves -> Rafa "Ferro"
+- Nara Sato -> Nico "Sombra"
+- Nico "Sombra" -> Artur Macedo
+- Nina "Costura" -> Donato Lazzari
+- Otavio Braga -> Artur Macedo
+- Padre Augusto Faria -> Padre Miguel Aranha
+- Padre Miguel Aranha -> Isabel do Amaral
+- Patricia Andrade -> Paulo "O Vidente"
+- Paula "Compliance" Azevedo -> Henrique Valadares
+- Paula "Olheira" Nascimento -> Diego "Itaquera" Nascimento
+- Paulo "O Vidente" -> Vovó Zilda
+- Pedro "Manutenção" Lins -> Raimundo "Rato-Rei"
+- Rafa "Ferro" -> Renata Ferraz
+- Rafael Menezes -> Dario Kron
+- Rafaela Novais -> Diego "Itaquera" Nascimento
+- Raimundo "Rato-Rei" -> Nico "Sombra"
+- Raul Marques -> Artur Macedo
+- Ravi "Truque" -> Nico "Sombra"
+- Regina Andrade -> Paulo "O Vidente"
+- Renata Ferraz -> Samira al-Haddad
+- Renata Freire -> Luiza Salles
+- Renato "Bico" Sampaio -> Dario Kron
+- Renato Vianna -> Artur Macedo
+- Ricardo "Protocolos" Nery -> Mateus Cordeiro
+- Rodrigo "Fiel" Santana -> Renata Ferraz
+- Rui "Barata" -> Nico "Sombra"
+- Sabrina Siqueira -> Renata Ferraz
+- Samir "Escrivão" Haddad -> Nadia Nasser
+- Samira al-Haddad -> Artur Macedo
+- Severino Carmo -> Padre Miguel Aranha
+- Silvia "Fúnebre" Prado -> Donato Lazzari
+- Silvia Kajiki -> Luiza Salles
+- Sofia Pires -> Luiza Salles
+- Sonia "Ateliê" -> Clara Montenegro
+- Soraia Nunes -> Donato Lazzari (relação de cria; dependência e proteção)
+- Taina Aruana -> Nico "Sombra"
+- Talita "Serpente" -> Luiza Salles
+- Teresa "Balança" Pacheco -> Eli "Despacho" Araújo
+- Tiago "Tranca" -> Renata Ferraz
+- Victor Pires -> Artur Macedo
+- Vitor Kallas -> Samira al-Haddad
+- Vivi "Fenda" Lacerda -> Talita "Serpente"
+- Vivi Lacerda -> Talita "Serpente"
+- Vlado de Itapecerica -> Nina "Costura" (relação de cria; amor e repulsa)
+- Vovó Zilda -> Nico "Sombra"
+- Wesley "Faixa" Dias -> Marcelo "Moto" Vieira
+- Yuri "Curador" Sato -> Helena Vasconcelos
+- Yusuf Rahman -> Samira al-Haddad
+
+## Linhagens, patrocínios e equipes
+
+- Aiko Tanaka: Sire: Clara Montenegro
+- Aiko Tanaka: Childe(s): -
+- Ana "Carbono": Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Ana "Carbono": Childe(s): -
+- Artur Macedo: Sire: Isabel do Amaral
+- Artur Macedo: Childe(s): Mateus Cordeiro
+- Bia "Matilha": Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Bia "Matilha": Childe(s): Hector "Rodoanel"
+- Camila "Noite-Funda": Sire: Padre Miguel Aranha
+- Camila "Noite-Funda": Childe(s): -
+- Clara Montenegro: Sire: Luiza Salles
+- Clara Montenegro: Childe(s): -
+- Daniel Sato: Sire: Luiza Salles
+- Daniel Sato: Childe(s): -
+- Dario Kron: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Dario Kron: Childe(s): Bianca Saramago
+- Delegada Helena Pacheco: Domitor/Patrocinador: não explicitado; operar pela rede e pela facção
+- Delegada Helena Pacheco: Equipe e dependentes: apoios variáveis conforme demanda
+- Diego "Itaquera" Nascimento: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Diego "Itaquera" Nascimento: Childe(s): -
+- Donato Lazzari: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Donato Lazzari: Childe(s): Iago Siqueira
+- Helena Vasconcelos: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Helena Vasconcelos: Childe(s): Luiza Salles
+- Henrique Valadares: Sire: Isabel do Amaral
+- Henrique Valadares: Childe(s): -
+- Irene da Luz: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Irene da Luz: Childe(s): -
+- Isabel do Amaral: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Isabel do Amaral: Childe(s): Artur Macedo
+- João do Trem: Sire: Renata Ferraz
+- João do Trem: Childe(s): -
+- Luiza Salles: Sire: Helena Vasconcelos
+- Luiza Salles: Childe(s): Daniel Sato
+- Marcia Falcão: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Marcia Falcão: Childe(s): -
+- Mariana Lobo: Domitor/Patrocinador: Ventrue
+- Mariana Lobo: Equipe e dependentes: clã servido: Ventrue
+- Nadia Nasser: Sire: Samira al-Haddad
+- Nadia Nasser: Childe(s): -
+- Nico "Sombra": Sire: Vovó Zilda
+- Nico "Sombra": Childe(s): Ester "Gato-Preto"
+- Nina "Costura": Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Nina "Costura": Childe(s): Vlado de Itapecerica
+- Padre Miguel Aranha: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Padre Miguel Aranha: Childe(s): Camila "Noite-Funda"
+- Paulo "O Vidente": Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Paulo "O Vidente": Childe(s): Cecília "Linha-Dois"
+- Rafa "Ferro": Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Rafa "Ferro": Childe(s): -
+- Raimundo "Rato-Rei": Sire: Vovó Zilda
+- Raimundo "Rato-Rei": Childe(s): -
+- Renata Ferraz: Sire: João do Trem
+- Renata Ferraz: Childe(s): Cauã Martins
+- Samira al-Haddad: Sire: Yusuf Rahman
+- Samira al-Haddad: Childe(s): -
+- Soraia Nunes: Sire: Donato Lazzari
+- Soraia Nunes: Childe(s): -
+- Talita "Serpente": Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Talita "Serpente": Childe(s): Elias "Sal"
+- Vovó Zilda: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Vovó Zilda: Childe(s): Nico "Sombra"
+- Yusuf Rahman: Sire: - (origem mantida em silêncio ou irrelevante em cena)
+- Yusuf Rahman: Childe(s): Samira al-Haddad

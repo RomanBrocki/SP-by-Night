@@ -1,0 +1,51 @@
+# Dario Kron
+
+Fonte canônica: 8.4 - As fichas essenciais
+
+S • Camarilla • Tremere • Primógeno Tremere (Kindred)
+
+Domínio: Butantã/USP • Redes: Corte do Elysium e Torre da USP • Função real: representa o clã na corte. Administra recursos, segura crise interna e traduz interesse de facção em decisões que possam ser executadas sem quebrar a rotina mortal.
+
+Potência de Sangue: 3 • Humanidade: 6 • Predador: Scene Queen
+
+Disciplinas principais: Blood Sorcery 4, Auspex 2, Dominate 2 • Competências: Ocultismo 5, Tecnologia 3, Subterfúgio 3
+
+Paradas de dados uteis: Ritual e ocultismo 10 • Análise arcana 8 • Controle social 7
+
+História e comportamento:
+
+Nasc.: 1925 • Abraço: 1968 • Idade aparente: 40
+
+Sire: - (origem mantida em silêncio ou irrelevante em cena)
+
+Childe(s): Bianca Saramago
+
+Presença em cena: pessoa branca brasileira (descendência germânica, pele clara); aparenta por volta de 40 anos. Assinatura social: rituais curtos; paranoia como liturgia
+
+Objetivo: Reconstruir uma capela sem virar alvo fácil. Em cena, ele conduz a conversa por camadas: primeiro testa lealdade, depois mede exposição, e só então abre o jogo arcano.
+
+Medo: Que a SI esteja mais próxima do que ele admite. Quando o tema encosta na mesa, a pessoa acelera decisão, reduz plateia e tenta controlar a versão antes da verdade circular.
+
+Segredo: Ele mantém um acordo de silêncio com um Hecata para varrer rastros. O acordo tem contrapartida e prova material. Isso encosta diretamente em Isabel do Amaral (rivalidade; ela odeia o imprevisível dos rituais) e Donato Lazzari (boon pendente; Minor, intermediação com mortos). Se vier à tona, vira cobrança de boon, sanção de Corte e disputa de autoridade.
+
+Verdade perigosa: Ele tem um método de rastrear sangue pela rede de boons. Hoje, quem está mais perto de descobrir isso é Isabel do Amaral (rivalidade; ela odeia o imprevisível dos rituais).
+
+Falso rumor que cola: Ele não é Tremere; é um impostor de outro clã (cola porque a superfície da cidade mostra só um pedaço do trabalho real).
+
+Como interpretar em mesa:
+
+- Primeiro impacto: rituais curtos; paranoia como liturgia - Dario Kron entra controlando o ritmo da conversa.
+
+- Sob pressão, a fala encurta e o cálculo aparece; o foco vira contenção de dano.
+
+- Na negociação, trabalha por consequência prática. Em Butantã/USP, o preço real importa mais que o discurso.
+
+- A postura endurece quando o assunto toca "que a SI esteja mais próxima do que ele admite" ou "ele mantém um acordo de silêncio com um Hecata para varrer rastros. O acordo tem contrapartida e prova material".
+
+Ganchos curtos:
+
+- Pede aos PJs que recuperem um grimório em território anarquista. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.
+
+- Oferece um ritual útil em troca de um nome. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.
+
+- Tenta usar os PJs para expor um traidor no cla. Entrada: Butantã/USP; custo provável: boon, cobertura ou silêncio.

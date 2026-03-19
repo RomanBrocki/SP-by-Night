@@ -1,0 +1,51 @@
+# Donato Lazzari
+
+Fonte canônica: 8.4 - As fichas essenciais
+
+S • Independentes • Hecata • Cobrador de travessia (Kindred)
+
+Domínio: Centro Velho / cemitérios • Redes: Enclave dos Cemitérios • Função real: Ele é o Líder dos Hecatas. Donato sustenta uma rede de cobrança de travessia com trabalho de bastidor e presença em cena. Quando a cidade precisa cobrar sem aparecer, é por Donato que o recado circula e a conta chega.
+
+Potência de Sangue: 3 • Humanidade: 5 • Predador: Bagger
+
+Disciplinas principais: Oblivion 4, Auspex 2, Fortitude 2 • Competências: Ocultismo 5, Subterfúgio 4, Medicina 3
+
+Paradas de dados uteis: Cobrança e pressão 9 • Necromancia aplicada 9 • Leitura de mentira 8
+
+História e comportamento:
+
+Nasc.: 1897 • Abraço: 1936 • Idade aparente: 39
+
+Sire: - (origem mantida em silêncio ou irrelevante em cena)
+
+Childe(s): Iago Siqueira
+
+Presença em cena: pessoa branca brasileira (descendência italiana, pele clara); aparenta por volta de 39 anos. Assinatura social: educado, implacável; fala com mortos como quem liga para um amigo
+
+Objetivo: Transformar o Buraco do Centro em moeda política. Em cena, ele converte informação em dívida na mesma hora: cada pista vem com preço, prazo e uma cobrança futura embutida.
+
+Medo: Que o Buraco se abra e arraste a cidade para uma guerra espiritual. Quando o tema encosta na mesa, a pessoa acelera decisão, reduz plateia e tenta controlar a versão antes da verdade circular.
+
+Segredo: Ele alimenta o Buraco com promessas quebradas. Isso encosta diretamente em Dario Kron dívida de boon: Minor; intermediação com mortos e Yusuf Rahman. Se vier à tona, vira acerto de contas e perda de território ou rede.
+
+Verdade perigosa: Ele sabe como aprisionar a alma de um vampiro em um objeto. Hoje, quem está mais perto de descobrir isso é Dario Kron dívida de boon: Minor; intermediação com mortos.
+
+Falso rumor que cola: Ele é aliado do Príncipe.
+
+Como interpretar em mesa:
+
+- Primeiro impacto: educado, implacável; fala com mortos como quem liga para um amigo - Donato Lazzari entra controlando o ritmo da conversa.
+
+- Sob pressão, encarece a conversa e exige prova antes de assumir posição.
+
+- Na negociação, preserva utilidade e neutralidade. Em Centro Velho / cemitérios, cada favor vem com saída de emergência.
+
+- A postura endurece quando o assunto toca "que o Buraco se abra e arraste a cidade para uma guerra espiritual" ou "ele alimenta o Buraco com promessas quebradas".
+
+Ganchos curtos:
+
+- Cobra taxa para cruzar seu território e oferece desconto por um favor. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
+
+- Pede que os PJs calem um fantasma inconveniente. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
+
+- Oferece informação de mortos sobre a SI. Entrada: Centro Velho / cemitérios; custo provável: boon, cobertura ou silêncio.
