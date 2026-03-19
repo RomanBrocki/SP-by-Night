@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Teia de Conexoes - Sao Paulo by Night</title>
+  <title>Teia de Conexões - São Paulo by Night</title>
   <style>
     :root {
       --bg: #0b0a0f;
@@ -152,17 +152,17 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
     <div class="topbar-left">
       <button id="reset" type="button">Deselecionar tudo</button>
       <button id="applyFiltersBtn" type="button">Processar filtros selecionados</button>
-      <div id="pendingHint" class="small">Filtros: auto (sem mudancas pendentes).</div>
+      <div id="pendingHint" class="small">Filtros: auto (sem mudanças pendentes).</div>
       <div id="filterProgress" class="small progress"></div>
     </div>
     <div class="topbar-center">
-      <h1 class="topbar-title">Teia de Conexoes</h1>
-      <p class="topbar-sub">Escolha os filtros, processe e clique em um nodo para abrir detalhes.</p>
+      <h1 class="topbar-title">Teia de Conexões</h1>
+      <p class="topbar-sub">Escolha os filtros, processe e clique em um nó para abrir detalhes.</p>
     </div>
     <div class="topbar-right">
       <nav class="top-nav">
-        <a href="../07_LIVRO_BY_NIGHT/index.html">Pagina principal</a>
-        <a href="../06_MAPA_SP/mapa_sp_dominios.html">Ir para mapa territorial</a>
+        <a href="../07_LIVRO_BY_NIGHT/index.html">Página principal</a>
+        <a href="../06_MAPA_SP/mapa_sp_dominios.html">Ir para mapa interativo</a>
       </nav>
     </div>
   </header>
@@ -178,21 +178,12 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
       </div>
 
       <div class="sec">
-        <h2>Filtros de cla</h2>
+        <h2>Filtros de clã</h2>
         <div class="actions">
           <button id="clanAll" class="mini" type="button">Selecionar todos</button>
           <button id="clanNone" class="mini" type="button">Deselecionar todos</button>
         </div>
         <div id="clanChips" class="chips"></div>
-      </div>
-
-      <div class="sec">
-        <h2>Filtros de coterie</h2>
-        <div class="actions">
-          <button id="coterieAll" class="mini" type="button">Selecionar todos</button>
-          <button id="coterieNone" class="mini" type="button">Deselecionar todos</button>
-        </div>
-        <div id="coterieChips" class="chips"></div>
       </div>
 
       <div class="sec">
@@ -208,11 +199,11 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
 
     <main class="main">
       <!-- Fallback is visible by default. If JS+vis-network loads, it will be hidden. -->
-      <img id="fallbackImg" src="teia_de_conexoes_mapa.png" alt="Teia de conexoes (fallback)" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; border:0; background:#0c0c10; z-index: 1" />
+      <img id="fallbackImg" src="teia_de_conexoes_mapa.png" alt="Teia de conexões (fallback)" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; border:0; background:#0c0c10; z-index: 1" />
       <div id="net" style="z-index: 2"></div>
       <noscript>
         <div style="position:absolute; inset:0; padding:16px; color:#e9e9ef; background:#0c0c10">
-          JavaScript esta desativado. Use a imagem: teia_de_conexoes_mapa.svg / .png.
+          JavaScript está desativado. Use a imagem: teia_de_conexoes_mapa.svg / .png.
         </div>
       </noscript>
     </main>
@@ -225,7 +216,7 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
           <input id="q" type="text" placeholder="nome (ex: Artur, Luiza, Donato...)" />
         </div>
       </div>
-      <div class="hint">Clique em um nodo para abrir retrato e conexoes no painel lateral.</div>
+      <div class="hint">Clique em um nó para abrir retrato e conexões no painel lateral.</div>
       <div class="sec">
         <div id="portraitBox" style="display:none; margin: 0 0 10px 0;">
           <a id="portraitLink" href="#" target="_blank" rel="noreferrer" style="display:block">
@@ -244,8 +235,9 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
     function fixEncodingText(value) {
       if (typeof value !== "string" || !value) return value;
       let out = value;
-      // Detect common mojibake markers (UTF-8 interpreted as CP1252/Latin-1).
-      const brokenRe = /[\u00C2\u00C3\u00E2]/;
+      // Detect only actual mojibake markers. Do not touch legitimate Portuguese
+      // accents like "â" in words such as "subterrânea".
+      const brokenRe = /(?:Ã.|Â.|â€.|â„¢|\uFFFD)/;
       const td = new TextDecoder("utf-8");
       for (let i = 0; i < 3; i++) {
         if (!brokenRe.test(out)) break;
@@ -274,34 +266,23 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
     const ALL_NODES = NODES.map(normalizeNode);
     const ALL_EDGES = EDGES.map(normalizeEdge);
 
-    const CLANS = ["Banu Haqim", "Brujah", "Caitiff", "Gangrel", "Hecata", "Lasombra", "Malkavian", "Ministry", "Nosferatu", "Ravnos", "Salubri", "Thin Blood", "Toreador", "Tremere", "Tzimisce", "Ventrue"];
-    const SECTS = Array.from(new Set(ALL_NODES.filter(n => n.kind === "kindred").map(n => n.sect).filter(Boolean)))
+    const KINDS = ["kindred", "ghoul", "mortal"];
+    const CLANS = Array.from(new Set(ALL_NODES.filter(n => n.kind === "kindred").map(n => n.clan).filter(Boolean)))
       .sort((a,b)=>String(a).localeCompare(String(b)));
-    const REAL_COTERIES = [
-      "Coterie Ferrugem (Mooca/Tatuape)",
-      "Matilha do Sul (Capao/Grajau)",
-      "Leste de Aco (Itaquera/Extremo Leste)",
-    ];
-    function nodeRealCoteries(n) {
-      const cs = Array.isArray(n.coteries) ? n.coteries.map(String) : [];
-      return cs.filter(c => REAL_COTERIES.includes(c));
-    }
-    const COTERIES = (() => {
-      return REAL_COTERIES.filter(name => ALL_NODES.some(n => nodeRealCoteries(n).includes(name)));
-    })();
+    const SECTS = Array.from(new Set(ALL_NODES.map(n => n.sect).filter(Boolean)))
+      .sort((a,b)=>String(a).localeCompare(String(b)));
 
     const state = {
       clans: new Set(),
       kinds: new Set(),
       sects: new Set(),
-      coteries: new Set(),
     };
     let pendingDirty = false;
 
     function setPending(msg) {
       pendingDirty = true;
       const el = document.getElementById("pendingHint");
-      if (el) el.textContent = msg || "Mudancas pendentes. Clique em 'Processar filtros selecionados'.";
+      if (el) el.textContent = msg || "Mudanças pendentes. Clique em 'Processar filtros selecionados'.";
     }
     function clearPending(msg) {
       pendingDirty = false;
@@ -345,7 +326,7 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
     try {
     if (!window.vis || !vis.DataSet || !vis.Network) {
       showFatal(
-        "Falha ao inicializar a biblioteca do mapa (vis-network). Se voce abriu em um preview que bloqueia JavaScript, abra em um navegador (Chrome/Edge/Firefox) diretamente. A imagem .png continua disponivel.",
+        "Falha ao inicializar a biblioteca do mapa (vis-network). Se você abriu em um preview que bloqueia JavaScript, abra em um navegador (Chrome/Edge/Firefox) diretamente. A imagem .png continua disponível.",
         null
       );
     } else {
@@ -418,18 +399,19 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
       const clansSel = state.clans.size ? state.clans : null;
       const kindsSel = state.kinds.size ? state.kinds : null;
       const sectsSel = state.sects.size ? state.sects : null;
-      const coteriesSel = state.coteries.size ? state.coteries : null;
-      const coterieMode = !!(coteriesSel && (coteriesSel.size < COTERIES.length));
-      const hasAnyFilter = (state.clans.size + state.kinds.size + state.sects.size + state.coteries.size) > 0;
-      return { clansSel, kindsSel, sectsSel, coteriesSel, coterieMode, hasAnyFilter };
+      const clanMode = !!(clansSel && (clansSel.size < CLANS.length));
+      const kindMode = !!(kindsSel && (kindsSel.size < KINDS.length));
+      const sectMode = !!(sectsSel && (sectsSel.size < SECTS.length));
+      const hasAnyFilter = (state.clans.size + state.kinds.size + state.sects.size) > 0;
+      return { clansSel, kindsSel, sectsSel, clanMode, kindMode, sectMode, hasAnyFilter };
     }
 
     function isNodeVisibleByFilter(n, ctx) {
       if (!ctx.hasAnyFilter) return false;
-      const kindOk = (!ctx.kindsSel) ? true : ctx.kindsSel.has(n.kind);
+      const kindOk = (!ctx.kindMode || !ctx.kindsSel) ? true : ctx.kindsSel.has(n.kind);
 
       let clanOk = true;
-      if (ctx.clansSel) {
+      if (ctx.clanMode && ctx.clansSel) {
         if (n.kind === "kindred") {
           clanOk = ctx.clansSel.has(n.clan);
         } else {
@@ -439,15 +421,9 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
       }
 
       let sectOk = true;
-      if (ctx.sectsSel) sectOk = ctx.sectsSel.has(n.sect || "");
+      if (ctx.sectMode && ctx.sectsSel) sectOk = ctx.sectsSel.has(n.sect || "");
 
-      const cs = nodeRealCoteries(n);
-      let cotOk = true;
-      if (ctx.coteriesSel) {
-        cotOk = cs.some(cid => ctx.coteriesSel.has(cid));
-      }
-
-      return ctx.coterieMode ? (kindOk && cotOk) : (kindOk && clanOk && sectOk && cotOk);
+      return kindOk && clanOk && sectOk;
     }
 
     function applyFiltersAsync() {
@@ -503,7 +479,7 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
             progressEl.style.display = "none";
             progressEl.textContent = "";
           }
-          clearPending("Filtros aplicados. Nodos visiveis: " + visible.size + " / " + ALL_NODES.length + ".");
+          clearPending("Filtros aplicados. Nós visíveis: " + visible.size + " / " + ALL_NODES.length + ".");
           resolve();
         }
 
@@ -531,19 +507,15 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
 
     rebuildChips("clanChips", CLANS, (name, checked) => {
       if (checked) state.clans.add(name); else state.clans.delete(name);
-      setPending("Mudancas pendentes (clas). Clique em 'Processar filtros selecionados'.");
+      setPending("Mudanças pendentes (clãs). Clique em 'Processar filtros selecionados'.");
     });
-    rebuildChips("kindChips", ["kindred","ghoul","mortal"], (name, checked) => {
+    rebuildChips("kindChips", KINDS, (name, checked) => {
       if (checked) state.kinds.add(name); else state.kinds.delete(name);
-      setPending("Mudancas pendentes (tipos). Clique em 'Processar filtros selecionados'.");
+      setPending("Mudanças pendentes (tipos). Clique em 'Processar filtros selecionados'.");
     });
     rebuildChips("sectChips", SECTS, (name, checked) => {
       if (checked) state.sects.add(name); else state.sects.delete(name);
-      setPending("Mudancas pendentes (seitas). Clique em 'Processar filtros selecionados'.");
-    });
-    rebuildChips("coterieChips", COTERIES, (name, checked) => {
-      if (checked) state.coteries.add(name); else state.coteries.delete(name);
-      setPending("Mudancas pendentes (coteries). Clique em 'Processar filtros selecionados'.");
+      setPending("Mudanças pendentes (seitas). Clique em 'Processar filtros selecionados'.");
     });
 
     function setAllNone(rootId, values, stateSet, checked) {
@@ -551,7 +523,7 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
         stateSet.clear();
         if (checked) for (const v of values) stateSet.add(v);
         document.querySelectorAll(`#${rootId} input[type=checkbox]`).forEach(cb => cb.checked = checked);
-        setPending("Mudancas pendentes. Clique em 'Processar filtros selecionados'.");
+        setPending("Mudanças pendentes. Clique em 'Processar filtros selecionados'.");
       } catch (e) {}
     }
 
@@ -559,12 +531,10 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
     try {
       document.getElementById("clanAll").addEventListener("click", () => setAllNone("clanChips", CLANS, state.clans, true));
       document.getElementById("clanNone").addEventListener("click", () => setAllNone("clanChips", CLANS, state.clans, false));
-      document.getElementById("kindAll").addEventListener("click", () => setAllNone("kindChips", ["kindred","ghoul","mortal"], state.kinds, true));
-      document.getElementById("kindNone").addEventListener("click", () => setAllNone("kindChips", ["kindred","ghoul","mortal"], state.kinds, false));
+      document.getElementById("kindAll").addEventListener("click", () => setAllNone("kindChips", KINDS, state.kinds, true));
+      document.getElementById("kindNone").addEventListener("click", () => setAllNone("kindChips", KINDS, state.kinds, false));
       document.getElementById("sectAll").addEventListener("click", () => setAllNone("sectChips", SECTS, state.sects, true));
       document.getElementById("sectNone").addEventListener("click", () => setAllNone("sectChips", SECTS, state.sects, false));
-      document.getElementById("coterieAll").addEventListener("click", () => setAllNone("coterieChips", COTERIES, state.coteries, true));
-      document.getElementById("coterieNone").addEventListener("click", () => setAllNone("coterieChips", COTERIES, state.coteries, false));
     } catch (e) {}
 
     applyFiltersAsync().then(() => {
@@ -588,13 +558,13 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
       const portraitLink = document.getElementById("portraitLink");
       const portraitCaption = document.getElementById("portraitCaption");
       if (!nodeId) {
-        box.textContent = "Clique em um nodo para ver detalhes, conexoes e notas.";
+        box.textContent = "Clique em um nó para ver detalhes, conexões e notas.";
         if (portraitBox) portraitBox.style.display = "none";
         return;
       }
       const n = nodesDS.get(nodeId);
       if (!n) {
-        box.textContent = "Selecionado nao encontrado.";
+        box.textContent = "Selecionado não encontrado.";
         if (portraitBox) portraitBox.style.display = "none";
         return;
       }
@@ -672,20 +642,20 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
       lines.push("");
       lines.push("Tipo: " + (n.kind || "-"));
       if (n.kind === "kindred") {
-        lines.push("Cla: " + (n.clan || "-"));
+        lines.push("Clã: " + (n.clan || "-"));
         lines.push("Seita: " + (n.sect || "-"));
-        lines.push("Funcao: " + (n.role || "-"));
-        lines.push("Dominio: " + (n.domain || "-"));
-        const nodeCoteries = nodeRealCoteries(n);
+        lines.push("Função: " + (n.role || "-"));
+        lines.push("Domínio: " + (n.domain || "-"));
+        const nodeCoteries = Array.isArray(n.coteries) ? n.coteries.map(v => String(v)) : [];
         if (nodeCoteries.length) {
           lines.push("Coteries: " + nodeCoteries.join(", "));
         }
-        if (n.embrace_year) lines.push("Abraco: " + n.embrace_year);
+        if (n.embrace_year) lines.push("Abraço: " + n.embrace_year);
         lines.push("Tier: " + (n.tier || "-"));
       } else {
-        lines.push("Vinculo: " + (n.sect || "-"));
+        lines.push("Vínculo: " + (n.sect || "-"));
         lines.push("Papel: " + (n.role || "-"));
-        lines.push("Area: " + (n.domain || "-"));
+        lines.push("Área: " + (n.domain || "-"));
       }
 
       // Plain multiline text, no tags.
@@ -696,16 +666,14 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
       state.clans = new Set();
       state.kinds = new Set();
       state.sects = new Set();
-      state.coteries = new Set();
       document.querySelectorAll("#clanChips input[type=checkbox]").forEach(cb => cb.checked = false);
       document.querySelectorAll("#kindChips input[type=checkbox]").forEach(cb => cb.checked = false);
       document.querySelectorAll("#sectChips input[type=checkbox]").forEach(cb => cb.checked = false);
-      document.querySelectorAll("#coterieChips input[type=checkbox]").forEach(cb => cb.checked = false);
       document.getElementById("q").value = "";
       ALL_NODES.forEach(n => nodesDS.update({ id: n.id, hidden: true }));
       ALL_EDGES.forEach(e => edgesDS.update({ id: e.id, hidden: true }));
       renderSelected(null);
-      clearPending("Filtros limpos. Teia vazia ate selecionar e processar.");
+      clearPending("Filtros limpos. Teia vazia até selecionar e processar.");
     });
 
     // Apply button (filters are staged; they only affect the graph when the user clicks this).
@@ -742,7 +710,7 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
 
     } // end: vis-network available
     } catch (e) {
-      showFatal("Erro ao inicializar a teia (JS). Use a versao imagem: teia_de_conexoes_mapa.svg / .png.", e);
+      showFatal("Erro ao inicializar a teia (JS). Use a versão imagem: teia_de_conexoes_mapa.svg / .png.", e);
     }
   </script>
 </body>
